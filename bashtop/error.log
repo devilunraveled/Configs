@@ -1,0 +1,46 @@
+ 
+New instance of bashtop version: 0.9.25 Pid: 58366
+ 
+New instance of bashtop version: 0.9.25 Pid: 6440
+ 
+New instance of bashtop version: 0.9.25 Pid: 6294
+ 
+New instance of bashtop version: 0.9.25 Pid: 6380
+ 
+New instance of bashtop version: 0.9.25 Pid: 6478
+ 
+New instance of bashtop version: 0.9.25 Pid: 6795
+ 
+New instance of bashtop version: 0.9.25 Pid: 6817
+ 
+New instance of bashtop version: 0.9.25 Pid: 6838
+ 
+New instance of bashtop version: 0.9.25 Pid: 3191
+ 
+New instance of bashtop version: 0.9.25 Pid: 1159
+ 
+New instance of bashtop version: 0.9.25 Pid: 1330
+ 
+New instance of bashtop version: 0.9.25 Pid: 8590
+/usr/bin/bashtop: line 1334: ((: Pid: Program:       Arguments:                                                Threads: User:    Mem%       Cpu%: syntax error in expression (error token is ": Program:       Arguments:                                                Threads: User:    Mem%       Cpu%")
+/usr/bin/bashtop: line 1334: ((: Pid: Program:       Arguments:                                                Threads: User:    Mem%       Cpu%: syntax error in expression (error token is ": Program:       Arguments:                                                Threads: User:    Mem%       Cpu%")
+/usr/bin/bashtop: line 1465: ((: /usr/lib/firefox/firefox: syntax error: operand expected (error token is "/usr/lib/firefox/firefox")
+/usr/bin/bashtop: line 1466: ((: /usr/lib/firefox/firefox: syntax error: operand expected (error token is "/usr/lib/firefox/firefox")
+/usr/bin/bashtop: line 1468: /: syntax error: operand expected (error token is "/")
+ 
+New instance of bashtop version: 0.9.25 Pid: 1242
+ 
+New instance of bashtop version: 0.9.25 Pid: 1913
+ 
+New instance of bashtop version: 0.9.25 Pid: 13549
+ 
+New instance of bashtop version: 0.9.25 Pid: 10043
+ 
+New instance of bashtop version: 0.9.25 Pid: 5426
+ 
+New instance of bashtop version: 0.9.25 Pid: 1810
+ 
+New instance of bashtop version: 0.9.25 Pid: 28027
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+ 
+New instance of bashtop version: 0.9.25 Pid: 4083

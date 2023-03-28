@@ -1,0 +1,152 @@
+import { useEffect, useState } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { useMediaQuery, Typography } from '@mui/material';
+import { Navbar } from 'scenes/Navbar';
+import { Box } from '@mui/system';
+import CardWrapper from 'components/CardWrapper';
+import { useTheme } from '@emotion/react';
+
+export const ProfilePage = () => {
+    const [user, setUser] = useState(null);
+    const { userId } = useParams();
+    const token = useSelector((state) => state.token);
+    const isDesktop = !useMediaQuery("(min-width:1000px)");
+    const navigate = useNavigate();
+    const { palette } = useTheme();
+
+    console.log("Loading ProfilePage");
+
+    const getUser = async () => {
+        ////console.log("getUser is called");
+        const getUserResponse = await fetch(`http://localhost:3001/user/${userId}`, {
+            method: 'GET',
+            headers: { Authorization: `Bearer ${token}` },
+        }).catch(err => { console.log("Error : ", err) });
+
+        ////console.log( "Code :", getUserResponse.status );
+
+        if (getUserResponse.ok) {
+            const userData = await getUserResponse.json();
+            console.log("uData : ", userData);
+            setUser(userData);
+            //// console.log(user);
+        } else {
+            setUser(null);
+            console.log("Navigating Back To HomePage");
+            navigate("/");
+        }
+    }
+
+    //*Only run the first time page is rendered.
+    useEffect(() => {
+        getUser();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+
+    // console.log("This is the User : ", user == null);
+    if (user == null) {
+        console.log("Invalid User");
+        return null;
+    }
+
+    return (
+        <Box>
+            <Navbar />
+            <Box
+                display="flex"
+                p="2rem 3%"
+                width="90%"
+                height="50rem"
+            >
+            <Box
+                p="2rem 9%"
+                display="flex"
+                flexDirection="row"
+                justifyContent={"space-between"}
+                border={`0.5 solid ${palette.neutral.medium}`}
+                gap="1rem"
+            >
+        <CardWrapper>
+            <Box p={1}>
+                <Box 
+                display="flex" 
+                flexDirection="row"
+                justifyContent="space-between"
+                gap="1rem"
+                height={"15rem"}
+                >
+                    <Box
+                    p={0.5}
+                    display="flex"
+                    flexDirection="column"
+                    border={`0.5px solid ${palette.neutral.medium}`} 
+                    flexBasis={"20%"}
+                    gap="0.75rem"
+                    >
+                        <Box
+                        border={`0.5px solid ${palette.neutral.medium}`} 
+                        flexBasis={"50%"} 
+                        >
+                            <Typography>
+                                SubGreddiit Image.
+                            </Typography>
+                        </Box>
+                        <Box
+                        border={`0.5px solid ${palette.neutral.medium}`} 
+                        flexBasis={"50%"} 
+                        >
+                            <Typography>
+                                SubGreddiit Banned Words
+                            </Typography>
+                        </Box>
+                    </Box>
+                    <Box
+                    p={0.5}
+                    display="flex"
+                    flexDirection="column"
+                    border={`0.5px solid ${palette.neutral.medium}`} 
+                    flexBasis={"50%"}
+                    gap="0.75rem"
+                    >
+                        <Box
+                        border={`0.5px solid ${palette.neutral.medium}`} 
+                        flexBasis={"30%"} 
+                        >
+                            <Typography>
+                                SubGreddiit Name
+                            </Typography>
+                        </Box>
+                        <Box
+                        border={`0.5px solid ${palette.neutral.medium}`} 
+                        flexBasis={"70%"} 
+                        >
+                            <Typography>
+                                SubGreddiit Description
+                            </Typography>
+                        </Box>
+                    </Box>
+                    <Box
+                    border={`0.5px solid ${palette.neutral.medium}`} 
+                    flexBasis={"20%"}
+                    >
+                        <Typography>
+                           SubGreddiit Stats
+                        </Typography>
+                    </Box>
+                    <Box
+                    border={`0.5px solid ${palette.neutral.medium}`} 
+                    flexBasis={"10%"}
+                    >
+                        <Typography>
+                            RequestToJoin / Leave BUtton
+                        </Typography>
+                    </Box>
+                </Box>
+            </Box>
+        </CardWrapper>
+            </Box>
+            </Box>
+        </Box>
+    );
+}

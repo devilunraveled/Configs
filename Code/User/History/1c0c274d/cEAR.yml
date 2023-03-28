@@ -1,0 +1,26 @@
+services:
+  proxy:
+    image: nginx:latest
+    volumes:
+      - ./nginx:/etc/nginx/conf.d/
+    ports:
+      - 8080:8080
+
+  frontend:
+    image: node:19-alpine
+    command: sh -c "npm install --legacy-peer-deps & npm run start"
+    working_dir: /frontend
+    ports:
+      - 3000:3000
+    volumes:
+      - ./frontend/:/frontend
+
+  backend:
+    image: node:19-alpine
+    #Run the backend in the background.
+    command: sh -c "npm install & npm run start"
+    working_dir: /backend
+    ports:
+      - 3001:3001
+    volumes:
+      - ./backend/:/backend

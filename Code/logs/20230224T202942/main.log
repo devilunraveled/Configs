@@ -1,0 +1,15 @@
+2023-02-24 20:29:42.547 [info] update#setState idle
+2023-02-24 20:29:43.348 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-02-24 20:29:43.354 [info] [UtilityProcess id: 1, type: extensionHost, pid: 1737]: successfully created
+2023-02-24 20:30:12.550 [info] update#setState checking for updates
+2023-02-24 20:30:12.552 [info] update#setState idle
+2023-02-24 21:30:12.557 [info] update#setState checking for updates
+2023-02-24 21:30:12.562 [info] update#setState idle
+2023-02-24 22:30:12.577 [info] update#setState checking for updates
+2023-02-24 22:30:12.581 [info] update#setState idle
+2023-02-24 23:30:12.582 [info] update#setState checking for updates
+2023-02-24 23:30:12.585 [info] update#setState idle
+2023-02-24 23:36:14.729 [info] [UtilityProcess id: 1, type: extensionHost, pid: 1737]: waiting to exit...
+2023-02-24 23:36:20.421 [info] [UtilityProcess id: 1, type: extensionHost, pid: 1737]: received exit event with code 22272
+2023-02-24 23:36:20.421 [info] Extension host with pid 1737 exited with code: 22272, signal: unknown.
+2023-02-24 23:36:20.422 [error] [UtilityProcess id: 1, type: extensionHost, pid: 1737]: crashed with code 22272 and reason 'abnormal-exit'

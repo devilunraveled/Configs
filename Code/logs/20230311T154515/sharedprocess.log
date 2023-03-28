@@ -1,0 +1,44 @@
+2023-03-11 15:45:17.422 [info] Starting worker process with pid 4856 (type: fileWatcher, window: 1).
+2023-03-11 15:45:21.397 [info] Getting Manifest... donjayamanne.githistory
+2023-03-11 15:45:21.399 [info] Getting Manifest... eamodio.gitlens
+2023-03-11 15:45:21.399 [info] Getting Manifest... msjsdiag.vscode-react-native
+2023-03-11 15:45:21.401 [info] Getting Manifest... streetsidesoftware.code-spell-checker
+2023-03-11 15:45:21.403 [info] Getting Manifest... vscodevim.vim
+2023-03-11 15:45:21.606 [info] Installing extension: msjsdiag.vscode-react-native
+2023-03-11 15:45:21.607 [info] Installing extension: streetsidesoftware.code-spell-checker
+2023-03-11 15:45:21.636 [info] Installing extension: vscodevim.vim
+2023-03-11 15:45:21.659 [info] Installing extension: donjayamanne.githistory
+2023-03-11 15:45:21.673 [info] Installing extension: eamodio.gitlens
+2023-03-11 15:45:22.455 [info] Getting Manifest... ms-vscode.js-debug
+2023-03-11 15:45:24.412 [info] Extension signature verification: vscodevim.vim. Verification status: Verified.
+2023-03-11 15:45:24.435 [info] Extension signature verification: donjayamanne.githistory. Verification status: Verified.
+2023-03-11 15:45:24.485 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.be67270c-51f0-4f42-a4d7-d58c74cc28f5: vscodevim.vim
+2023-03-11 15:45:24.491 [info] Renamed to /home/devilunraveled/.vscode/extensions/vscodevim.vim-1.25.2
+2023-03-11 15:45:24.493 [info] Extracting extension completed. vscodevim.vim
+2023-03-11 15:45:24.497 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.0da73749-2ce2-4622-b12b-e15f51cba493: donjayamanne.githistory
+2023-03-11 15:45:24.502 [info] Renamed to /home/devilunraveled/.vscode/extensions/donjayamanne.githistory-0.6.20
+2023-03-11 15:45:24.504 [info] Extension installed successfully: vscodevim.vim
+2023-03-11 15:45:24.506 [info] Extracting extension completed. donjayamanne.githistory
+2023-03-11 15:45:24.507 [info] Marked extension as uninstalled vscodevim.vim-1.24.3
+2023-03-11 15:45:24.517 [info] Extension installed successfully: donjayamanne.githistory
+2023-03-11 15:45:24.519 [info] Marked extension as uninstalled donjayamanne.githistory-0.6.19
+2023-03-11 15:45:24.901 [info] Extension signature verification: streetsidesoftware.code-spell-checker. Verification status: Verified.
+2023-03-11 15:45:25.142 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.605e2c09-1762-47f9-bce9-dc0acf63b4c6: streetsidesoftware.code-spell-checker
+2023-03-11 15:45:25.148 [info] Renamed to /home/devilunraveled/.vscode/extensions/streetsidesoftware.code-spell-checker-2.19.0
+2023-03-11 15:45:25.149 [info] Extracting extension completed. streetsidesoftware.code-spell-checker
+2023-03-11 15:45:25.158 [info] Extension installed successfully: streetsidesoftware.code-spell-checker
+2023-03-11 15:45:25.160 [info] Marked extension as uninstalled streetsidesoftware.code-spell-checker-2.17.1
+2023-03-11 15:45:25.834 [info] Extension signature verification: msjsdiag.vscode-react-native. Verification status: Verified.
+2023-03-11 15:45:25.975 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.30deb82c-2b05-4b97-b912-55434e2fbfe4: msjsdiag.vscode-react-native
+2023-03-11 15:45:25.981 [info] Renamed to /home/devilunraveled/.vscode/extensions/msjsdiag.vscode-react-native-1.10.2
+2023-03-11 15:45:25.984 [info] Extracting extension completed. msjsdiag.vscode-react-native
+2023-03-11 15:45:25.992 [info] Extension installed successfully: msjsdiag.vscode-react-native
+2023-03-11 15:45:25.995 [info] Marked extension as uninstalled msjsdiag.vscode-react-native-1.10.0
+2023-03-11 15:45:26.504 [info] Extension signature verification: eamodio.gitlens. Verification status: Verified.
+2023-03-11 15:45:26.757 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.c981fe74-e4b3-44ab-aeb5-b669c5a376a9: eamodio.gitlens
+2023-03-11 15:45:26.767 [info] Renamed to /home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.3.2
+2023-03-11 15:45:26.770 [info] Extracting extension completed. eamodio.gitlens
+2023-03-11 15:45:26.782 [info] Extension installed successfully: eamodio.gitlens
+2023-03-11 15:45:26.785 [info] Marked extension as uninstalled eamodio.gitlens-13.3.1
+2023-03-11 15:45:36.902 [info] Worker process with pid 4856 terminated normally (type: fileWatcher, window: 1).
+2023-03-11 15:45:37.559 [info] Starting worker process with pid 5074 (type: fileWatcher, window: 1).

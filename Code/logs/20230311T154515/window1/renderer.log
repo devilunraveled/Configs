@@ -1,0 +1,10 @@
+2023-03-11 15:45:18.807 [error] [Extension Host] (node:4803) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2023-03-11 15:45:20.042 [info] [perf] Render performance baseline is 125ms
+2023-03-11 15:45:22.996 [error] SyntaxError: Unexpected token � in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at I.$getPassword (vscode-file://vscode-app/var/lib/snapd/snap/code/121/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:45238)
+2023-03-11 15:45:38.245 [error] SyntaxError: Unexpected token � in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at I.$getPassword (vscode-file://vscode-app/var/lib/snapd/snap/code/121/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:45238)
+2023-03-11 15:45:40.398 [info] [perf] Render performance baseline is 137ms

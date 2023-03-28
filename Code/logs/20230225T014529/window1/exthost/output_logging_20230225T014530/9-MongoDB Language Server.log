@@ -1,0 +1,7 @@
+[Error - 02:11:02] Sending request DISCONNECT_TO_SERVICE_PROVIDER failed.
+Error: Starting server failed
+    at S.$start (/home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5735098)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at S.sendRequest (/home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5720111)
+    at t.default.disconnectFromServiceProvider (/home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5556080)
+    at t.default._connectToServiceProvider (/home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-0.10.0/dist/extension.js:2:5489868)

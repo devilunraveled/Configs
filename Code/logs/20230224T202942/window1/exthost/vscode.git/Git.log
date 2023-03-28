@@ -1,0 +1,227 @@
+2023-02-24 20:29:44.741 [info] Log level: Info
+2023-02-24 20:29:44.741 [info] Validating found git in: "git"
+2023-02-24 20:29:44.741 [info] Using git "2.39.1" from "git"
+2023-02-24 20:29:44.741 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 20:29:44.741 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:44.743 [info] > git rev-parse --show-toplevel [13ms]
+2023-02-24 20:29:44.758 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-02-24 20:29:44.762 [info] Open repository: /home/devilunraveled/DASS/Assignment 1/frontend/frontend
+2023-02-24 20:29:44.933 [info] > git rev-parse --show-toplevel [164ms]
+2023-02-24 20:29:44.933 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:45.063 [info] > git rev-parse --show-toplevel [122ms]
+2023-02-24 20:29:45.063 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:45.070 [info] > git config --get commit.template [140ms]
+2023-02-24 20:29:45.115 [info] > git rev-parse --show-toplevel [45ms]
+2023-02-24 20:29:45.115 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:45.158 [info] > git rev-parse --show-toplevel [35ms]
+2023-02-24 20:29:45.158 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:45.199 [info] > git rev-parse --show-toplevel [34ms]
+2023-02-24 20:29:45.199 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:45.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [47ms]
+2023-02-24 20:29:45.234 [info] > git status -z -uall [23ms]
+2023-02-24 20:29:45.235 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2023-02-24 20:29:45.260 [info] > git config --get commit.template [5ms]
+2023-02-24 20:29:45.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2023-02-24 20:29:45.382 [info] > git status -z -uall [45ms]
+2023-02-24 20:29:45.384 [info] > git rev-parse --show-toplevel [8ms]
+2023-02-24 20:29:45.384 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:45.384 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [38ms]
+2023-02-24 20:29:45.490 [info] > git rev-parse --show-toplevel [29ms]
+2023-02-24 20:29:45.490 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:45.567 [info] > git check-ignore -v -z --stdin [97ms]
+2023-02-24 20:29:45.704 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 20:29:45.704 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:45.803 [info] > git show --textconv :src/scenes/cards/SubGreddiitCard.jsx [13ms]
+2023-02-24 20:29:45.820 [info] > git ls-files --stage -- /home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/cards/SubGreddiitCard.jsx [17ms]
+2023-02-24 20:29:45.833 [info] > git cat-file -s 86a67a534541e11c30905a82937ddeeae2faceee [1ms]
+2023-02-24 20:29:49.662 [info] > git rev-parse --show-toplevel [1ms]
+2023-02-24 20:29:49.662 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:49.710 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 20:29:49.710 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:49.942 [info] > git show --textconv :src/scenes/Navbar/index.jsx [9ms]
+2023-02-24 20:29:49.942 [info] > git ls-files --stage -- /home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Navbar/index.jsx [1ms]
+2023-02-24 20:29:49.952 [info] > git cat-file -s 71117d829b91af6ab11aff75e16c1f4a8c55bd52 [2ms]
+2023-02-24 20:29:50.185 [info] > git check-ignore -v -z --stdin [0ms]
+2023-02-24 20:29:51.240 [info] > git rev-parse --show-toplevel [1ms]
+2023-02-24 20:29:51.240 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:53.631 [info] > git rev-parse --show-toplevel [7ms]
+2023-02-24 20:29:53.631 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:29:56.870 [info] > git check-ignore -v -z --stdin [2ms]
+2023-02-24 20:30:05.393 [info] > git rev-parse --show-toplevel [7ms]
+2023-02-24 20:30:05.393 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:30:48.864 [info] > git check-ignore -v -z --stdin [2ms]
+2023-02-24 20:30:50.268 [info] > git check-ignore -v -z --stdin [2ms]
+2023-02-24 20:30:51.020 [info] > git check-ignore -v -z --stdin [1ms]
+2023-02-24 20:30:52.244 [info] > git show --textconv :src/scenes/cards/ProfileCard.jsx [11ms]
+2023-02-24 20:30:52.245 [info] > git ls-files --stage -- /home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/cards/ProfileCard.jsx [1ms]
+2023-02-24 20:30:52.259 [info] > git cat-file -s b71cb575aeb87942e789944022633f5705265e5c [5ms]
+2023-02-24 20:31:17.667 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 20:31:17.667 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:31:35.947 [info] > git rev-parse --show-toplevel [2ms]
+2023-02-24 20:31:35.947 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:32:01.762 [info] > git rev-parse --show-toplevel [7ms]
+2023-02-24 20:32:01.763 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:32:05.421 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:32:05.421 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:32:15.592 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 20:32:15.592 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:32:25.172 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:32:25.172 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:32:29.157 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:32:29.157 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:32:33.380 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:32:33.380 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:32:34.889 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 20:32:34.889 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:32:40.971 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 20:32:40.971 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:33:44.688 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 20:33:44.688 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:33:47.175 [info] > git rev-parse --show-toplevel [2ms]
+2023-02-24 20:33:47.175 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:33:53.425 [info] > git rev-parse --show-toplevel [2ms]
+2023-02-24 20:33:53.425 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:34:05.994 [info] > git check-ignore -v -z --stdin [3ms]
+2023-02-24 20:34:06.661 [info] > git check-ignore -v -z --stdin [1ms]
+2023-02-24 20:34:08.565 [info] > git check-ignore -v -z --stdin [2ms]
+2023-02-24 20:34:10.200 [info] > git check-ignore -v -z --stdin [1ms]
+2023-02-24 20:34:11.214 [info] > git check-ignore -v -z --stdin [2ms]
+2023-02-24 20:34:19.457 [info] > git show --textconv :src/scenes/HomePage/HomePage.jsx [14ms]
+2023-02-24 20:34:19.458 [info] > git ls-files --stage -- /home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/HomePage/HomePage.jsx [3ms]
+2023-02-24 20:34:19.472 [info] > git cat-file -s ff59c3d6d79350e86622ffeb0117083d5816b164 [4ms]
+2023-02-24 20:34:27.067 [info] > git show --textconv :src/scenes/Forms/SignInForm.jsx [10ms]
+2023-02-24 20:34:27.068 [info] > git ls-files --stage -- /home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignInForm.jsx [2ms]
+2023-02-24 20:34:27.079 [info] > git cat-file -s e2e7becc98e4b03cda5b897b7c7c4379d42626b1 [0ms]
+2023-02-24 20:34:27.547 [info] > git check-ignore -v -z --stdin [1ms]
+2023-02-24 20:34:49.783 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:34:49.783 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:34:52.459 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:34:52.459 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:35:47.872 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:35:47.872 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:35:48.592 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 20:35:48.592 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:35:49.254 [info] > git rev-parse --show-toplevel [7ms]
+2023-02-24 20:35:49.254 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:35:50.649 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-24 20:35:50.649 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:36:03.354 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:36:03.355 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:36:09.829 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 20:36:09.829 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:36:10.863 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 20:36:10.863 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:36:33.868 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-24 20:36:33.868 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:36:35.300 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-24 20:36:35.301 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:36:36.256 [info] > git rev-parse --show-toplevel [7ms]
+2023-02-24 20:36:36.256 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:36:37.205 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 20:36:37.205 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:36:41.860 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 20:36:41.860 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:37:19.195 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:37:19.195 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:38:01.320 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-24 20:38:01.320 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:38:02.399 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 20:38:02.399 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:38:04.487 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:38:04.487 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:38:56.696 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 20:38:56.697 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:39:14.689 [info] > git rev-parse --show-toplevel [8ms]
+2023-02-24 20:39:14.689 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:41:38.689 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:41:38.689 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:41:46.729 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:41:46.729 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:41:49.247 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-24 20:41:49.247 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:41:50.734 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-24 20:41:50.734 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:41:59.475 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:41:59.475 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:42:00.238 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:42:00.238 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:42:26.519 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 20:42:26.519 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:42:32.476 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:42:32.476 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:42:47.915 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:42:47.915 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:43:01.417 [info] > git rev-parse --show-toplevel [2ms]
+2023-02-24 20:43:01.417 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:43:17.151 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 20:43:17.152 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 20:43:19.533 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 20:43:19.533 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 21:28:08.357 [info] > git rev-parse --show-toplevel [11ms]
+2023-02-24 21:28:08.357 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 21:40:25.844 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 21:40:25.844 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 21:47:52.389 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 21:47:52.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 21:47:54.345 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-24 21:47:54.345 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 21:47:58.615 [info] > git rev-parse --show-toplevel [7ms]
+2023-02-24 21:47:58.615 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 21:48:01.269 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 21:48:01.269 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 21:48:31.597 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 21:48:31.597 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 21:49:06.804 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 21:49:06.804 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 21:49:09.244 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 21:49:09.244 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 21:49:36.668 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 21:49:36.669 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 21:49:40.324 [info] > git rev-parse --show-toplevel [2ms]
+2023-02-24 21:49:40.324 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 22:32:16.842 [info] > git show --textconv :src/scenes/Forms/SignInForm.jsx [13ms]
+2023-02-24 22:32:16.842 [info] > git ls-files --stage -- /home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignInForm.jsx [1ms]
+2023-02-24 22:32:16.863 [info] > git cat-file -s e2e7becc98e4b03cda5b897b7c7c4379d42626b1 [11ms]
+2023-02-24 22:32:28.717 [info] > git show --textconv :src/scenes/Forms/SignUpForm.jsx [9ms]
+2023-02-24 22:32:28.718 [info] > git ls-files --stage -- /home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignUpForm.jsx [2ms]
+2023-02-24 22:32:28.728 [info] > git cat-file -s 690858fb98bd58c7efb677a27be40506d54d6cd3 [1ms]
+2023-02-24 22:49:44.386 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 22:49:44.386 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 22:49:57.718 [info] > git show --textconv :Dockerfile [18ms]
+2023-02-24 22:49:57.718 [info] > git ls-files --stage -- /home/devilunraveled/DASS/Assignment 1/frontend/frontend/Dockerfile [2ms]
+2023-02-24 22:49:57.923 [info] > git check-ignore -v -z --stdin [2ms]
+2023-02-24 22:49:58.462 [info] > git config --get commit.template [4ms]
+2023-02-24 22:49:58.485 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-02-24 22:49:58.513 [info] > git status -z -uall [16ms]
+2023-02-24 22:49:58.514 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-02-24 22:50:02.082 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 22:50:02.083 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 22:51:42.712 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-24 22:51:42.712 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 22:53:10.747 [info] > git config --get commit.template [2ms]
+2023-02-24 22:53:10.770 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-02-24 22:53:10.800 [info] > git status -z -uall [15ms]
+2023-02-24 22:53:10.801 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-02-24 22:53:11.319 [info] > git rev-parse --show-toplevel [2ms]
+2023-02-24 22:53:11.319 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 22:53:23.995 [info] > git rev-parse --show-toplevel [5ms]
+2023-02-24 22:53:23.995 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 22:53:26.167 [info] > git rev-parse --show-toplevel [2ms]
+2023-02-24 22:53:26.167 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 22:53:27.114 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-24 22:53:27.114 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 22:53:29.288 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-24 22:53:29.288 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 22:53:31.021 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-24 22:53:31.021 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 22:53:36.791 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-24 22:53:36.791 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 22:53:55.256 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-24 22:53:55.256 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-24 23:07:41.095 [info] > git check-ignore -v -z --stdin [1ms]
+2023-02-24 23:07:59.186 [info] > git show --textconv :src/scenes/Forms/SignInForm.jsx [12ms]
+2023-02-24 23:07:59.188 [info] > git ls-files --stage -- /home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignInForm.jsx [1ms]
+2023-02-24 23:07:59.212 [info] > git cat-file -s e2e7becc98e4b03cda5b897b7c7c4379d42626b1 [14ms]
+2023-02-24 23:08:02.120 [info] > git show --textconv :src/scenes/Forms/SignUpForm.jsx [13ms]
+2023-02-24 23:08:02.120 [info] > git ls-files --stage -- /home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignUpForm.jsx [1ms]
+2023-02-24 23:08:02.133 [info] > git cat-file -s 690858fb98bd58c7efb677a27be40506d54d6cd3 [1ms]

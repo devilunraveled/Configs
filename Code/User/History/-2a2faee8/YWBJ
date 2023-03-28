@@ -1,0 +1,3 @@
+MONGODB_URL='mongodb+srv://devilunraveled:94dGKcAZhFMf4FGw@greddiit.wvrziow.mongodb.net/?retryWrites=true&w=majority'
+PORT=3001
+SECRET_KEY='randomStringThatWillBeUsedToCheckWhetherThisTokenHasBeenTamperedWithOrNot'

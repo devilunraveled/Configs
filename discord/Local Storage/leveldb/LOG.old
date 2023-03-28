@@ -1,0 +1,6 @@
+2023/03/23-20:36:45.182 c61 Reusing MANIFEST /home/devilunraveled/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/03/23-20:36:45.183 c61 Recovering log #225
+2023/03/23-20:36:45.183 c61 Reusing old log /home/devilunraveled/.config/discord/Local Storage/leveldb/000225.log 
+2023/03/23-20:38:46.156 c71 Level-0 table #230: started
+2023/03/23-20:38:46.175 c71 Level-0 table #230: 1479953 bytes OK
+2023/03/23-20:38:46.179 c71 Delete type=0 #225

@@ -1,0 +1,14 @@
+[2023-02-25 03:22:28.421] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 50 ms
+
+[2023-02-25 03:22:28.483] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 15 ms
+
+[2023-02-25 03:24:30.735] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 30 ms
+
+[2023-02-25 03:27:28.673] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/nginx] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 18 ms
+
+[2023-02-25 03:49:19.068] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/routes] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 15 ms
+
+[2023-02-25 03:56:12.319] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/controllers] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 27 ms
+
+[2023-02-25 04:01:03.597] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/controllers] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 20 ms
+

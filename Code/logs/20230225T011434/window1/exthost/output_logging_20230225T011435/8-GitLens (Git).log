@@ -1,0 +1,91 @@
+[2023-02-24 19:44:37.107] [     74ms] [/home/devilunraveled/DASS/Assignment 1/frontend] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+[2023-02-24 19:44:37.199] [     23ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --show-toplevel
+[2023-02-24 19:44:37.200] [     32ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms] git rev-parse --show-toplevel
+[2023-02-24 19:44:37.274] [     11ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --show-toplevel
+[2023-02-24 19:44:37.326] [     40ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git remote -v
+[2023-02-24 19:44:37.329] [     44ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --git-dir --git-common-dir
+[2023-02-24 19:44:37.462] [     41ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git ls-files -- src/scenes/Forms/SignUpForm.jsx
+[2023-02-24 19:44:37.517] [     53ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git blame --root --incremental -- src/scenes/Forms/SignUpForm.jsx
+[2023-02-24 19:44:37.525] [     78ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git remote -v
+[2023-02-24 19:44:37.536] [     18ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git config --get-regex ^user\.
+[2023-02-24 19:44:37.546] [     10ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git check-mailmap Hardik Sharma <hardiksharmah73@gmail.com>
+[2023-02-24 19:44:37.863] [     12ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git remote -v
+[2023-02-24 19:44:43.797] [     46ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 bb624c9322472c55d50c0be6b2113876701869db --
+[2023-02-24 19:44:47.608] [     11ms] [/home/devilunraveled/DASS/Assignment 1/frontend] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+[2023-02-24 19:45:04.910] [      7ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git ls-files -- Dockerfile
+[2023-02-24 19:45:05.167] [      9ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git blame --root --incremental -- Dockerfile
+[2023-02-24 19:45:05.712] [     38ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log -M -n1 --format=%H f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^ -- Dockerfile
+[2023-02-24 19:45:05.712] [     40ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 f858cabfd1447e9c14f2e357f2b3c8f16f1315f7 --
+[2023-02-24 19:45:05.716] [     17ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^:./Dockerfile
+[2023-02-24 19:45:13.395] [     12ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git blame --root --incremental --contents - -- Dockerfile
+[2023-02-24 19:45:13.578] [      8ms] [/home/devilunraveled/DASS/Assignment 1/frontend/backend] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+[2023-02-24 19:45:13.914] [     14ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3cr%x3e%x20%H -n3 -m -L 6,6:Dockerfile f858cabfd1447e9c14f2e357f2b3c8f16f1315f7
+[2023-02-24 19:45:24.445] [     38ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log -M -n1 --format=%H f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^ -- Dockerfile
+[2023-02-24 19:45:24.445] [     40ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 f858cabfd1447e9c14f2e357f2b3c8f16f1315f7 --
+[2023-02-24 19:45:24.448] [     16ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^:./Dockerfile
+[2023-02-24 19:45:25.440] [     19ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git blame --root --incremental -- Dockerfile
+[2023-02-24 19:45:26.257] [     35ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log -M -n1 --format=%H f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^ -- Dockerfile
+[2023-02-24 19:45:26.257] [     36ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 f858cabfd1447e9c14f2e357f2b3c8f16f1315f7 --
+[2023-02-24 19:45:26.273] [     24ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^:./Dockerfile
+[2023-02-24 19:45:27.048] [     18ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git for-each-ref --format=%3ch%3e%(HEAD)%3cn%3e%(refname)%3cu%3e%(upstream:short)%3ct%3e%(upstream:track)%3cr%3e%(objectname)%3cd%3e%(committerdate:iso8601) refs/heads refs/remotes
+[2023-02-24 19:45:27.068] [     17ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git tag -l --format=%3cn%3e%(refname)%3c*r%3e%(*objectname)%3cr%3e%(objectname)%3cd%3e%(creatordate:iso8601)%3cad%3e%(authordate:iso8601)%3cs%3e%(subject)
+[2023-02-24 19:46:10.780] [     15ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git blame --root --incremental -- Dockerfile
+[2023-02-24 19:46:11.581] [     15ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3cr%x3e%x20%H -n3 -m -L 6,6:Dockerfile f858cabfd1447e9c14f2e357f2b3c8f16f1315f7
+[2023-02-24 19:47:02.690] [     18ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git blame --root --incremental --contents - -- Dockerfile
+[2023-02-24 19:47:03.220] [     17ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3cr%x3e%x20%H -n3 -m -L 6,6:Dockerfile f858cabfd1447e9c14f2e357f2b3c8f16f1315f7
+[2023-02-24 19:47:05.187] [     36ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log -M -n1 --format=%H f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^ -- Dockerfile
+[2023-02-24 19:47:05.187] [     37ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 f858cabfd1447e9c14f2e357f2b3c8f16f1315f7 --
+[2023-02-24 19:47:05.189] [     14ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^:./Dockerfile
+[2023-02-24 19:47:11.796] [     13ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git blame --root --incremental -- Dockerfile
+[2023-02-24 19:47:13.627] [     35ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log -M -n1 --format=%H f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^ -- Dockerfile
+[2023-02-24 19:47:13.628] [     36ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 f858cabfd1447e9c14f2e357f2b3c8f16f1315f7 --
+[2023-02-24 19:47:13.630] [     14ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^:./Dockerfile
+[2023-02-24 19:47:48.071] [     16ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git blame --root --incremental -- Dockerfile
+[2023-02-24 19:47:48.872] [     24ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3cr%x3e%x20%H -n3 -m -L 6,6:Dockerfile f858cabfd1447e9c14f2e357f2b3c8f16f1315f7
+[2023-02-24 19:48:01.146] [     15ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git blame --root --incremental -- Dockerfile
+[2023-02-24 19:48:01.944] [     10ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3cr%x3e%x20%H -n3 -m -L 6,6:Dockerfile f858cabfd1447e9c14f2e357f2b3c8f16f1315f7
+[2023-02-24 19:48:03.534] [     26ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log -M -n1 --format=%H f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^ -- Dockerfile
+[2023-02-24 19:48:03.534] [     28ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 f858cabfd1447e9c14f2e357f2b3c8f16f1315f7 --
+[2023-02-24 19:48:03.538] [     13ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^:./Dockerfile
+[2023-02-24 20:00:13.296] [     11ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 258f176fd226^{commit}
+[2023-02-24 20:00:13.310] [      9ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 077b9569ff86^{commit}
+[2023-02-24 20:00:13.325] [      9ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 3082a16f3b61^{commit}
+[2023-02-24 20:00:13.348] [     15ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 7e9b29976cce^{commit}
+[2023-02-24 20:00:13.450] [     15ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 7e9b29976cce^{commit}
+[2023-02-24 20:00:13.525] [      8ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 3082a16f3b61^{commit}
+[2023-02-24 20:00:32.109] [      7ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 75ec85813c14^{commit}
+[2023-02-24 20:00:32.159] [      9ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options a6f48326f540^{commit}
+[2023-02-24 20:00:34.470] [      8ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 75ec85813c14^{commit}
+[2023-02-24 20:02:19.640] [     10ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 077b9569ff86^{commit}
+[2023-02-24 20:02:19.655] [     10ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 7e9b29976cce^{commit}
+[2023-02-24 20:02:19.670] [      8ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 63b65145d645^{commit}
+[2023-02-24 20:02:19.688] [      9ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 75ec85813c14^{commit}
+[2023-02-24 20:02:19.722] [     10ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options a6f48326f540^{commit}
+[2023-02-24 20:02:20.025] [     11ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options a6f48326f540^{commit}
+[2023-02-24 20:02:20.679] [      9ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 63b65145d645^{commit}
+[2023-02-24 20:02:22.296] [      8ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options a6f48326f540^{commit}
+[2023-02-24 20:02:22.336] [      8ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 75ec85813c14^{commit}
+[2023-02-24 20:02:22.427] [     13ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options d5bdfeed6dfa^{commit}
+[2023-02-24 20:02:22.511] [     13ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 63b65145d645^{commit}
+[2023-02-24 20:02:22.628] [     14ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 7e9b29976cce^{commit}
+[2023-02-24 20:02:22.657] [     11ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 3082a16f3b61^{commit}
+[2023-02-24 20:02:22.672] [      9ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 077b9569ff86^{commit}
+[2023-02-24 20:02:35.295] [     20ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git blame --root --incremental -- Dockerfile
+[2023-02-24 20:02:35.842] [     44ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log -M -n1 --format=%H f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^ -- Dockerfile
+[2023-02-24 20:02:35.842] [     45ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git log --format=%x3c%x2ff%x3e%n%x3cr%x3e%x20%H%n%x3ca%x3e%x20%aN%n%x3ce%x3e%x20%aE%n%x3cd%x3e%x20%at%n%x3cn%x3e%x20%cN%n%x3cm%x3e%x20%cE%n%x3cc%x3e%x20%ct%n%x3cp%x3e%x20%P%n%x3cs%x3e%n%B%n%x3c%x2fs%x3e%n%x3cf%x3e -M -m --name-status --full-history -n3 f858cabfd1447e9c14f2e357f2b3c8f16f1315f7 --
+[2023-02-24 20:02:35.845] [     17ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options f858cabfd1447e9c14f2e357f2b3c8f16f1315f7^:./Dockerfile
+[2023-02-24 20:04:04.355] [     13ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 3082a16f3b61^{commit}
+[2023-02-24 20:04:04.383] [      9ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options 63b65145d645^{commit}
+[2023-02-24 20:04:04.399] [      8ms] [/home/devilunraveled/DASS/Assignment 1/frontend/frontend] git rev-parse --verify --end-of-options d5bdfeed6dfa^{commit}

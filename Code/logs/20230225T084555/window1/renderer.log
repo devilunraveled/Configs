@@ -1,0 +1,36 @@
+2023-02-25 08:45:55.596 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-25 08:45:56.805 [error] [Extension Host] (node:1905) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2023-02-25 08:45:58.853 [info] [perf] Render performance baseline is 160ms
+2023-02-25 08:46:06.652 [error] SyntaxError: Unexpected token � in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at y.$getPassword (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:45049)
+2023-02-25 08:47:15.520 [error] s.tmpDir is not a function: TypeError: s.tmpDir is not a function
+    at e._sendFirstFileOnDisk (/home/devilunraveled/.vscode/extensions/msjsdiag.vscode-react-native-1.10.0/dist/rn-extension.js:1:25358)
+    at Timeout._onTimeout (/home/devilunraveled/.vscode/extensions/msjsdiag.vscode-react-native-1.10.0/dist/rn-extension.js:1:24162)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2023-02-25 08:47:44.699 [error] Error: Unable to write file '/home/devilunraveled/DASS/Assignment 1/frontend/nginx/dkr.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/devilunraveled/DASS/Assignment 1/frontend/nginx/dkr.conf')
+    at l.writeFile (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:15241)
+    at async l.createFile (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:14527)
+    at async Promise.all (index 0)
+    at async Object.G [as settled] (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:90:21326)
+    at async i.doCreateFileOrFolder (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2318:63151)
+    at async n.perform (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:18462)
+    at async s.apply (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:21502)
+    at async m.n (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:23577)
+    at async m.perform (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:23253)
+    at async f.apply (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:25170)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1579:34090
+2023-02-25 08:47:44.721 [error] Unable to write file '/home/devilunraveled/DASS/Assignment 1/frontend/nginx/dkr.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/devilunraveled/DASS/Assignment 1/frontend/nginx/dkr.conf'): Error: Unable to write file '/home/devilunraveled/DASS/Assignment 1/frontend/nginx/dkr.conf' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/devilunraveled/DASS/Assignment 1/frontend/nginx/dkr.conf')
+    at l.writeFile (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:15241)
+    at async l.createFile (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:14527)
+    at async Promise.all (index 0)
+    at async Object.G [as settled] (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:90:21326)
+    at async i.doCreateFileOrFolder (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2318:63151)
+    at async n.perform (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:18462)
+    at async s.apply (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:21502)
+    at async m.n (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:23577)
+    at async m.perform (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:23253)
+    at async f.apply (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:25170)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1579:34090

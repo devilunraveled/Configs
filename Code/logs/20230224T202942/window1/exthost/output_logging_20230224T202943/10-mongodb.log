@@ -1,0 +1,265 @@
+2023-02-24T15:12:00.015Z extension.ts INFO  activate extension called []
+
+2023-02-24T15:12:00.024Z telemetry INFO  TELEMETRY key received [ 'string' ]
+
+2023-02-24T15:12:00.025Z LanguageServerController INFO  Creating MongoDB Language Server [
+  {
+    serverOptions: { run: [Object], debug: [Object] },
+    clientOptions: {
+      documentSelector: [Array],
+      synchronize: [Object],
+      outputChannel: [Object]
+    }
+  }
+]
+
+2023-02-24T15:12:00.027Z explorer controller INFO  activate explorer controller []
+
+2023-02-24T15:12:00.027Z help and info explorer controller INFO  activate help explorer []
+
+2023-02-24T15:12:00.027Z explorer controller INFO  activate playgrounds explorer []
+
+2023-02-24T15:12:00.027Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/package-lock.json'
+]
+
+2023-02-24T15:12:00.027Z editors controller INFO  activating... []
+
+2023-02-24T15:12:00.027Z editors controller INFO  activated. []
+
+2023-02-24T15:12:00.029Z telemetry INFO  TELEMETRY identify [ { anonymousId: '74d6cac2-09d5-4d14-b710-759e25c6ca60' } ]
+
+2023-02-24T15:12:00.213Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T15:12:00.225Z playground controller INFO  Active editor path [ '/home/devilunraveled/DASS/Assignment 1/frontend/backend/index.js' ]
+
+2023-02-24T15:12:00.280Z commands INFO  Registering commands... []
+
+2023-02-24T15:12:00.282Z commands INFO  Registered commands. []
+
+2023-02-24T15:12:00.282Z extension.ts INFO  extension activated []
+
+2023-02-24T15:12:26.425Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T15:12:26.507Z playground controller INFO  Active editor path [ '/home/devilunraveled/DASS/Assignment 1/frontend/backend/.env' ]
+
+2023-02-24T15:12:32.388Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T15:12:32.463Z playground controller INFO  Active editor path [ '/home/devilunraveled/DASS/Assignment 1/frontend/backend/index.js' ]
+
+2023-02-24T15:12:47.830Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T15:12:47.904Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/models/User.js'
+]
+
+2023-02-24T15:13:01.334Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T15:13:01.406Z playground controller INFO  Active editor path [ '/home/devilunraveled/DASS/Assignment 1/frontend/backend/.env' ]
+
+2023-02-24T15:13:17.060Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T15:13:17.139Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/models/User.js'
+]
+
+2023-02-24T15:13:19.486Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T15:13:19.512Z playground controller INFO  Active editor path [ '/home/devilunraveled/DASS/Assignment 1/frontend/backend/index.js' ]
+
+2023-02-24T15:58:08.275Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T15:58:08.337Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/package.json'
+]
+
+2023-02-24T16:10:25.758Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T16:10:25.831Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/models/Comment.js'
+]
+
+2023-02-24T16:17:52.343Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T16:17:52.368Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/routes/users.js'
+]
+
+2023-02-24T16:17:54.296Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T16:17:54.321Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/models/User.js'
+]
+
+2023-02-24T16:17:58.551Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T16:17:58.596Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/controllers/users.js'
+]
+
+2023-02-24T16:18:01.222Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T16:18:01.248Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/controllers/auth.js'
+]
+
+2023-02-24T16:18:31.508Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T16:18:31.585Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/models/User.js'
+]
+
+2023-02-24T16:19:06.747Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T16:19:06.789Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/models/Post.js'
+]
+
+2023-02-24T16:19:09.153Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T16:19:09.230Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/controllers/posts.js'
+]
+
+2023-02-24T16:19:36.627Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T16:19:36.651Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/routes/auth.js'
+]
+
+2023-02-24T16:19:40.235Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T16:19:40.310Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/controllers/auth.js'
+]
+
+2023-02-24T17:02:16.533Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:02:16.595Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignInForm.jsx'
+]
+
+2023-02-24T17:02:28.449Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:02:28.494Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignUpForm.jsx'
+]
+
+2023-02-24T17:19:44.333Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:19:44.373Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/Dockerfile'
+]
+
+2023-02-24T17:19:57.371Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:19:57.415Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/frontend/Dockerfile'
+]
+
+2023-02-24T17:20:02.047Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:20:02.069Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/Dockerfile'
+]
+
+2023-02-24T17:20:27.194Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:20:27.206Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignUpForm.jsx'
+]
+
+2023-02-24T17:21:42.650Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:21:42.691Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/Dockerfile'
+]
+
+2023-02-24T17:22:57.578Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:22:57.605Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/frontend/Dockerfile'
+]
+
+2023-02-24T17:23:11.298Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:11.305Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/Dockerfile'
+]
+
+2023-02-24T17:23:19.381Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:19.413Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/frontend/Dockerfile'
+]
+
+2023-02-24T17:23:22.173Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:22.188Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignUpForm.jsx'
+]
+
+2023-02-24T17:23:23.940Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:23.969Z playground controller INFO  Active editor path [ '/home/devilunraveled/DASS/Assignment 1/frontend/backend/index.js' ]
+
+2023-02-24T17:23:24.484Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:24.514Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignUpForm.jsx'
+]
+
+2023-02-24T17:23:26.109Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:26.142Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/routes/auth.js'
+]
+
+2023-02-24T17:23:27.049Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:27.082Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/models/User.js'
+]
+
+2023-02-24T17:23:28.003Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:28.026Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/HomePage/HomePage.jsx'
+]
+
+2023-02-24T17:23:29.214Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:29.259Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/models/User.js'
+]
+
+2023-02-24T17:23:30.963Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:30.986Z playground controller INFO  Active editor path [ '/home/devilunraveled/DASS/Assignment 1/frontend/backend/.env' ]
+
+2023-02-24T17:23:31.561Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:36.758Z playground controller INFO  Active editor path [ '/home/devilunraveled/DASS/Assignment 1/frontend/dockerfile' ]
+
+2023-02-24T17:23:55.214Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:23:55.243Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/docker-compose.yml'
+]
+
+2023-02-24T17:37:58.904Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:37:58.939Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignInForm.jsx'
+]
+
+2023-02-24T17:38:01.816Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T17:38:01.887Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/frontend/src/scenes/Forms/SignUpForm.jsx'
+]
+
+2023-02-24T18:06:14.733Z connection controller INFO  Disconnect called, currently connected to: [ null ]
+
+2023-02-24T18:06:14.737Z connection controller INFO  Disconnect called, currently connected to: [ null ]
+

@@ -1,0 +1,36 @@
+[2023-02-24 14:59:45.124] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 68 ms
+
+[2023-02-24 14:59:45.199] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/controllers] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 30 ms
+
+[2023-02-24 14:59:53.721] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/routes] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 21 ms
+
+[2023-02-24 15:00:05.431] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 9 ms
+
+[2023-02-24 15:01:36.012] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/routes] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 11 ms
+
+[2023-02-24 15:02:15.648] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/controllers] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 14 ms
+
+[2023-02-24 15:03:47.212] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/routes] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 13 ms
+
+[2023-02-24 15:03:53.465] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/controllers] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 10 ms
+
+[2023-02-24 15:06:03.384] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 14 ms
+
+[2023-02-24 15:07:19.237] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/models] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 9 ms
+
+[2023-02-24 15:11:38.744] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/controllers] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 11 ms
+
+[2023-02-24 15:12:00.046] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 41 ms
+
+[2023-02-24 15:58:08.408] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 12 ms
+
+[2023-02-24 16:10:25.891] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/models] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 13 ms
+
+[2023-02-24 16:19:06.842] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend/models] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 10 ms
+
+[2023-02-24 17:19:44.425] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 11 ms
+
+[2023-02-24 17:23:36.821] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 20 ms
+
+[2023-02-24 17:23:55.294] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/frontend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 13 ms
+

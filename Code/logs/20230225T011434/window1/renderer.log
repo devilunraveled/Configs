@@ -1,0 +1,12 @@
+2023-02-25 01:14:34.814 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-25 01:14:36.320 [error] [Extension Host] (node:2697) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2023-02-25 01:14:38.150 [info] [perf] Render performance baseline is 132ms
+2023-02-25 01:14:43.212 [error] SyntaxError: Unexpected token � in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at y.$getPassword (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:45049)
+2023-02-25 01:15:55.290 [error] s.tmpDir is not a function: TypeError: s.tmpDir is not a function
+    at e._sendFirstFileOnDisk (/home/devilunraveled/.vscode/extensions/msjsdiag.vscode-react-native-1.10.0/dist/rn-extension.js:1:25358)
+    at Timeout._onTimeout (/home/devilunraveled/.vscode/extensions/msjsdiag.vscode-react-native-1.10.0/dist/rn-extension.js:1:24162)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)

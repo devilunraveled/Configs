@@ -1,0 +1,26 @@
+2023-02-25 08:52:26.417 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-25 08:52:27.857 [error] [Extension Host] (node:5363) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2023-02-25 08:52:28.514 [error] SyntaxError: Unexpected token � in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at y.$getPassword (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:45049)
+2023-02-25 08:52:29.829 [info] [perf] Render performance baseline is 127ms
+2023-02-25 08:53:47.731 [error] s.tmpDir is not a function: TypeError: s.tmpDir is not a function
+    at e._sendFirstFileOnDisk (/home/devilunraveled/.vscode/extensions/msjsdiag.vscode-react-native-1.10.0/dist/rn-extension.js:1:25358)
+    at Timeout._onTimeout (/home/devilunraveled/.vscode/extensions/msjsdiag.vscode-react-native-1.10.0/dist/rn-extension.js:1:24162)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2023-02-25 09:00:44.309 [error] Unable to read file '/home/devilunraveled/DASS/Assignment 1/frontend/nginx/proxy.conf' (Error: File not modified since): Error: Unable to read file '/home/devilunraveled/DASS/Assignment 1/frontend/nginx/proxy.conf' (Error: File not modified since)
+    at l.w (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17128)
+    at l.v (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:16960)
+    at async m.H (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:34453)
+    at async m.readStream (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:34148)
+    at async Ps.Ab (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2315:54208)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:30193
+2023-02-25 09:05:36.127 [error] Unable to read file '/home/devilunraveled/DASS/Assignment 1/frontend/nginx/proxy.conf' (Error: File not modified since): Error: Unable to read file '/home/devilunraveled/DASS/Assignment 1/frontend/nginx/proxy.conf' (Error: File not modified since)
+    at l.w (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17128)
+    at l.v (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:16960)
+    at async m.H (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:34453)
+    at async m.readStream (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:34148)
+    at async Ps.Ab (vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2315:54208)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/119/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:30193

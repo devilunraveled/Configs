@@ -1,0 +1,30 @@
+html {
+    background: #f1f128 !important;
+}
+
+._hintLabel {
+    -webkit-transform:translate(-4px,-4px);
+    position: absolute;
+    z-index: 9223372036854775806 !important;
+    font:bold .8em monospace;
+    color: #888 !important;
+    background-color: #F1F128 !important;
+    margin: 0;
+    padding: 0px 1px;
+    border: 1px solid #444 !important;
+    opacity: 0.7 !important;
+}
+._hintElem {
+  z-index: 9223372036854775805 !important;
+    background-color: rgba(255,0,0,0.15) !important;
+    color: #fff !important
+}
+._hintElem._hintFocus{
+    background-color: rgba(255,0,0,0.15) !important;
+    background-color: darkred !important;
+    box-shadow: 0px 0px 5px red !important;
+}
+._hintLabel._hintFocus{
+    z-index: 9223372036854775807 !important;
+    opacity: 1
+}

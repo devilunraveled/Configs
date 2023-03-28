@@ -1,0 +1,4 @@
+[2023-03-27 16:41:16.651] [GIT  ] [/home/devilunraveled/DASS/Assignment 1/2021101049/backend] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 16 ms
+
+[2023-03-27 16:41:16.651] [GIT  ] [/home/devilunraveled/DASS/Assignment 1] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any of the parent directories): .git • 49 ms
+

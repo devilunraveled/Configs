@@ -1,0 +1,49 @@
+2023-02-24T20:38:42.067Z extension.ts INFO  activate extension called []
+
+2023-02-24T20:38:42.077Z telemetry INFO  TELEMETRY key received [ 'string' ]
+
+2023-02-24T20:38:42.077Z LanguageServerController INFO  Creating MongoDB Language Server [
+  {
+    serverOptions: { run: [Object], debug: [Object] },
+    clientOptions: {
+      documentSelector: [Array],
+      synchronize: [Object],
+      outputChannel: [Object]
+    }
+  }
+]
+
+2023-02-24T20:38:42.079Z explorer controller INFO  activate explorer controller []
+
+2023-02-24T20:38:42.079Z help and info explorer controller INFO  activate help explorer []
+
+2023-02-24T20:38:42.079Z explorer controller INFO  activate playgrounds explorer []
+
+2023-02-24T20:38:42.079Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/backend/package.json'
+]
+
+2023-02-24T20:38:42.080Z editors controller INFO  activating... []
+
+2023-02-24T20:38:42.080Z editors controller INFO  activated. []
+
+2023-02-24T20:38:42.082Z telemetry INFO  TELEMETRY identify [ { anonymousId: '74d6cac2-09d5-4d14-b710-759e25c6ca60' } ]
+
+2023-02-24T20:38:42.374Z commands INFO  Registering commands... []
+
+2023-02-24T20:38:42.375Z commands INFO  Registered commands. []
+
+2023-02-24T20:38:42.375Z extension.ts INFO  extension activated []
+
+2023-02-24T20:40:46.911Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T20:40:48.692Z playground controller INFO  Active editor path [
+  '/home/devilunraveled/DASS/Assignment 1/frontend/docker-compose.yml'
+]
+
+2023-02-24T20:40:59.847Z playground controller INFO  Active editor path [ undefined ]
+
+2023-02-24T20:41:02.388Z connection controller INFO  Disconnect called, currently connected to: [ null ]
+
+2023-02-24T20:41:02.391Z connection controller INFO  Disconnect called, currently connected to: [ null ]
+

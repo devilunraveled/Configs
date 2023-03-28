@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.cursorStyle": "line-thin",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'JetBrains Mono'",
+    "workbench.iconTheme": "vscode-icons",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

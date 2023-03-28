@@ -1,0 +1,6 @@
+2023-03-20 15:17:51.466 [info] Starting worker process with pid 2934 (type: fileWatcher, window: 1).
+2023-03-20 15:17:51.566 [info] Deleted from disk vscodevim.vim /home/devilunraveled/.vscode/extensions/vscodevim.vim-1.24.3
+2023-03-20 15:17:51.580 [info] Deleted from disk donjayamanne.githistory /home/devilunraveled/.vscode/extensions/donjayamanne.githistory-0.6.19
+2023-03-20 15:17:51.581 [info] Deleted from disk eamodio.gitlens /home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.3.1
+2023-03-20 15:17:51.583 [info] Deleted from disk streetsidesoftware.code-spell-checker /home/devilunraveled/.vscode/extensions/streetsidesoftware.code-spell-checker-2.17.1
+2023-03-20 15:17:51.584 [info] Deleted from disk msjsdiag.vscode-react-native /home/devilunraveled/.vscode/extensions/msjsdiag.vscode-react-native-1.10.0
