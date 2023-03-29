@@ -46,3 +46,5 @@ shell-init: error retrieving current directory: getcwd: cannot access parent dir
 New instance of bashtop version: 0.9.25 Pid: 4083
  
 New instance of bashtop version: 0.9.25 Pid: 4525
+ 
+New instance of bashtop version: 0.9.25 Pid: 9926
