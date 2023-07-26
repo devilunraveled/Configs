@@ -5,11 +5,20 @@
         "folders": [
             {
                 "folderUri": "file:///home/devilunraveled/DASS/Assignment%201"
+            },
+            {
+                "folderUri": "file:///home/devilunraveled/Projects/CFParser"
+            },
+            {
+                "folderUri": "file:///home/devilunraveled/Projects/Curate"
+            },
+            {
+                "folderUri": "file:///home/devilunraveled/DASS/Assignment%201/2021101049"
             }
         ],
         "emptyWindows": [
             {
-                "backupFolder": "1679939128781"
+                "backupFolder": "1689255946967"
             }
         ]
     },
@@ -56,6 +65,39 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/devilunraveled/DASS/Assignment%201/2021101049",
+                                        "path": "/home/devilunraveled/DASS/Assignment 1/2021101049",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/DASS/Assignment 1/2021101049"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/devilunraveled/Projects/Curate",
+                                        "path": "/home/devilunraveled/Projects/Curate",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Projects/Curate"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/devilunraveled/Projects/CFParser",
+                                        "path": "/home/devilunraveled/Projects/CFParser",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Projects/CFParser"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -274,6 +316,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -609,6 +655,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -697,8 +750,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "checked": true
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -710,7 +762,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -789,45 +842,54 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3"
+                                    "label": "Group &&3",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4"
+                                    "label": "Group &&4",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5"
+                                    "label": "Group &&5",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group"
+                                    "label": "&&Next Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group"
+                                    "label": "&&Previous Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left"
+                                    "label": "Group &&Left",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right"
+                                    "label": "Group &&Right",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above"
+                                    "label": "Group &&Above",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below"
+                                    "label": "Group &&Below",
+                                    "enabled": false
                                 }
                             ]
                         }
@@ -1224,6 +1286,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1366,6 +1433,16 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
             },
+            "workbench.action.splitEditorUp": {
+                "label": "Ctrl+K Ctrl+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1379,9 +1456,8 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G G",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+shift+g g"
+                "label": "Ctrl+Shift+G",
+                "userSettingsLabel": "ctrl+shift+g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1583,10 +1659,6 @@
                 "label": "Ctrl+K Ctrl+R",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+r"
-            },
-            "workbench.action.toggleDevTools": {
-                "label": "Ctrl+Shift+I",
-                "userSettingsLabel": "ctrl+shift+i"
             }
         }
     },
@@ -1617,13 +1689,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/devilunraveled/.config/Code/Backups/1679939128781",
+            "folder": "file:///home/devilunraveled/DASS/Assignment%201/2021101049",
+            "backupPath": "/home/devilunraveled/.config/Code/Backups/fadaa3eb2eed2f26f08668b4391ee509",
             "uiState": {
                 "mode": 1,
-                "x": 640,
+                "x": -2,
                 "y": -2,
-                "width": 641,
-                "height": 1064
+                "width": 1924,
+                "height": 1061
             }
         },
         "openedWindows": []
@@ -1633,10 +1706,13 @@
         "workspaces": {
             "file:///home/devilunraveled/DASS/Assignment%201/frontend/backend": "__default__profile__",
             "file:///home/devilunraveled/DASS/Assignment%201/frontend": "__default__profile__",
-            "file:///home/devilunraveled/DASS/Assignment%201": "__default__profile__"
+            "file:///home/devilunraveled/DASS/Assignment%201": "__default__profile__",
+            "file:///home/devilunraveled/Projects/CFParser": "__default__profile__",
+            "file:///home/devilunraveled/Projects/Curate": "__default__profile__",
+            "file:///home/devilunraveled/DASS/Assignment%201/2021101049": "__default__profile__"
         },
         "emptyWindows": {
-            "1679939128781": "__default__profile__"
+            "1689255946967": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true

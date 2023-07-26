@@ -1,9 +1,0 @@
-2023-02-24 20:29:43.967 [info] Starting worker process with pid 1804 (type: fileWatcher, window: 1).
-2023-02-24 20:29:47.844 [info] Getting Manifest... eamodio.gitlens
-2023-02-24 20:29:49.342 [info] Installing extension: eamodio.gitlens
-2023-02-24 20:29:54.586 [info] Extension signature verification: eamodio.gitlens. Verification status: Verified.
-2023-02-24 20:29:54.885 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.7a4a3ab6-9b71-47de-a9dd-a7b5f43ddf52: eamodio.gitlens
-2023-02-24 20:29:54.903 [info] Renamed to /home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.3.0
-2023-02-24 20:29:54.906 [info] Extracting completed. eamodio.gitlens
-2023-02-24 20:29:54.924 [info] Extension installed successfully: eamodio.gitlens
-2023-02-24 20:29:54.943 [info] Marked extension as uninstalled eamodio.gitlens-13.2.0

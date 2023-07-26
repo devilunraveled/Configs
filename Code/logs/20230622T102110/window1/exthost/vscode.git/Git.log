@@ -1,0 +1,16 @@
+2023-06-22 10:21:12.775 [info] Log level: Info
+2023-06-22 10:21:12.775 [info] Validating found git in: "git"
+2023-06-22 10:21:12.775 [info] Using git "2.40.1" from "git"
+2023-06-22 10:21:12.775 [info] > git rev-parse --show-toplevel [11ms]
+2023-06-22 10:21:12.775 [info] > git rev-parse --git-dir --git-common-dir [45ms]
+2023-06-22 10:21:12.775 [info] Open repository: /home/devilunraveled/Projects/CFParser
+2023-06-22 10:21:12.780 [info] > git rev-parse --show-toplevel [8ms]
+2023-06-22 10:21:12.795 [info] > git rev-parse --show-toplevel [10ms]
+2023-06-22 10:21:12.800 [info] > git config --get commit.template [19ms]
+2023-06-22 10:21:13.527 [info] > git rev-parse --show-toplevel [728ms]
+2023-06-22 10:21:13.849 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [176ms]
+2023-06-22 10:21:13.878 [info] > git status -z -uall [11ms]
+2023-06-22 10:21:13.945 [info] > git config --get commit.template [35ms]
+2023-06-22 10:21:14.058 [info] > git check-ignore -v -z --stdin [4ms]
+2023-06-22 10:21:14.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2023-06-22 10:21:14.077 [info] > git status -z -uall [12ms]

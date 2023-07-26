@@ -1,0 +1,14 @@
+2023-07-13 19:15:47.443 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-07-13 19:15:48.680 [error] SyntaxError: Unexpected token '�', "���P�˰�O"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at e.$rpb.s (vscode-file://vscode-app/var/lib/snapd/snap/code/133/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:30971)
+    at async e.$rpb.r (vscode-file://vscode-app/var/lib/snapd/snap/code/133/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:29960)
+    at async e.$rpb.k (vscode-file://vscode-app/var/lib/snapd/snap/code/133/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:29216)
+2023-07-13 19:15:50.255 [info] [perf] Render performance baseline is 141ms
+2023-07-13 19:16:27.772 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-07-13 19:16:29.253 [error] SyntaxError: Unexpected token '�', "���P�˰�O"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at e.$rpb.s (vscode-file://vscode-app/var/lib/snapd/snap/code/133/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:30971)
+    at async e.$rpb.r (vscode-file://vscode-app/var/lib/snapd/snap/code/133/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:29960)
+    at async e.$rpb.k (vscode-file://vscode-app/var/lib/snapd/snap/code/133/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:29216)
+2023-07-13 19:16:30.473 [info] [perf] Render performance baseline is 128ms

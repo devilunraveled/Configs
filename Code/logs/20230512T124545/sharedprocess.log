@@ -1,0 +1,52 @@
+2023-05-12 12:45:53.047 [info] Getting Manifest... dart-code.dart-code
+2023-05-12 12:45:53.049 [info] Getting Manifest... dart-code.flutter
+2023-05-12 12:45:53.049 [info] Getting Manifest... eamodio.gitlens
+2023-05-12 12:45:53.050 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2023-05-12 12:45:53.050 [info] Getting Manifest... msjsdiag.vscode-react-native
+2023-05-12 12:45:53.051 [info] Getting Manifest... tabnine.tabnine-vscode
+2023-05-12 12:45:53.141 [info] Installing extension: dart-code.dart-code
+2023-05-12 12:45:53.152 [info] Installing extension: dart-code.flutter
+2023-05-12 12:45:53.152 [info] Installing extension: ms-vscode-remote.remote-containers
+2023-05-12 12:45:53.179 [info] Installing extension: eamodio.gitlens
+2023-05-12 12:45:53.179 [info] Installing extension: msjsdiag.vscode-react-native
+2023-05-12 12:45:53.194 [info] Installing extension: tabnine.tabnine-vscode
+2023-05-12 12:45:54.096 [info] Getting Manifest... ms-vscode.js-debug
+2023-05-12 12:45:54.113 [info] Getting Manifest... dart-code.dart-code
+2023-05-12 12:45:54.201 [info] Waiting for already requested installing extension dart-code.dart-code dart-code.flutter
+2023-05-12 12:45:55.679 [info] Extension signature is verified: tabnine.tabnine-vscode
+2023-05-12 12:45:55.703 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.6e80aec8-4fda-485a-a3b0-744c7883abf4: tabnine.tabnine-vscode
+2023-05-12 12:45:55.709 [info] Renamed to /home/devilunraveled/.vscode/extensions/tabnine.tabnine-vscode-3.6.46
+2023-05-12 12:45:55.710 [info] Extracting extension completed. tabnine.tabnine-vscode
+2023-05-12 12:45:55.724 [info] Extension signature is verified: ms-vscode-remote.remote-containers
+2023-05-12 12:45:55.728 [info] Extension installed successfully: tabnine.tabnine-vscode
+2023-05-12 12:45:55.731 [info] Marked extension as uninstalled tabnine.tabnine-vscode-3.6.45
+2023-05-12 12:45:55.844 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.25ae8397-593d-43df-8ecc-640a39486af7: ms-vscode-remote.remote-containers
+2023-05-12 12:45:55.850 [info] Renamed to /home/devilunraveled/.vscode/extensions/ms-vscode-remote.remote-containers-0.292.0
+2023-05-12 12:45:55.853 [info] Extracting extension completed. ms-vscode-remote.remote-containers
+2023-05-12 12:45:55.861 [info] Extension installed successfully: ms-vscode-remote.remote-containers
+2023-05-12 12:45:55.863 [info] Marked extension as uninstalled ms-vscode-remote.remote-containers-0.288.1
+2023-05-12 12:45:56.007 [info] Extension signature is verified: dart-code.flutter
+2023-05-12 12:45:56.018 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.69922c51-4fd0-4d1b-88a9-934a8da908dc: dart-code.flutter
+2023-05-12 12:45:56.030 [info] Renamed to /home/devilunraveled/.vscode/extensions/dart-code.flutter-3.64.0
+2023-05-12 12:45:56.031 [info] Extracting extension completed. dart-code.flutter
+2023-05-12 12:45:56.038 [info] Marked extension as uninstalled dart-code.flutter-3.62.0
+2023-05-12 12:45:56.772 [info] Extension signature is verified: msjsdiag.vscode-react-native
+2023-05-12 12:45:56.779 [info] Extension signature is verified: dart-code.dart-code
+2023-05-12 12:45:56.931 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.561c8165-dcff-4347-a571-5885ffb0c4e7: msjsdiag.vscode-react-native
+2023-05-12 12:45:56.943 [info] Renamed to /home/devilunraveled/.vscode/extensions/msjsdiag.vscode-react-native-1.11.0
+2023-05-12 12:45:56.945 [info] Extracting extension completed. msjsdiag.vscode-react-native
+2023-05-12 12:45:56.953 [info] Extension installed successfully: msjsdiag.vscode-react-native
+2023-05-12 12:45:56.957 [info] Marked extension as uninstalled msjsdiag.vscode-react-native-1.10.2
+2023-05-12 12:45:57.274 [info] Extension signature is verified: eamodio.gitlens
+2023-05-12 12:45:57.616 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.13ec0c18-8677-4172-991b-dbd93e299e2c: eamodio.gitlens
+2023-05-12 12:45:57.639 [info] Renamed to /home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.6.0
+2023-05-12 12:45:57.642 [info] Extracting extension completed. eamodio.gitlens
+2023-05-12 12:45:57.653 [info] Extension installed successfully: eamodio.gitlens
+2023-05-12 12:45:57.658 [info] Marked extension as uninstalled eamodio.gitlens-13.5.0
+2023-05-12 12:46:01.070 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.cce25501-8df5-4876-ba7c-558af0ee26c7: dart-code.dart-code
+2023-05-12 12:46:01.082 [info] Renamed to /home/devilunraveled/.vscode/extensions/dart-code.dart-code-3.64.0
+2023-05-12 12:46:01.083 [info] Extracting extension completed. dart-code.dart-code
+2023-05-12 12:46:01.092 [info] Extension installed successfully: dart-code.dart-code
+2023-05-12 12:46:01.092 [info] Finished waiting for already requested installing extension dart-code.dart-code dart-code.flutter
+2023-05-12 12:46:01.093 [info] Extension installed successfully: dart-code.flutter
+2023-05-12 12:46:01.095 [info] Marked extension as uninstalled dart-code.dart-code-3.62.0

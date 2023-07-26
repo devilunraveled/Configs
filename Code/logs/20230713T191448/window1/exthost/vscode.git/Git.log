@@ -1,0 +1,42 @@
+2023-07-13 19:14:51.741 [info] Log level: Info
+2023-07-13 19:14:51.741 [info] Validating found git in: "git"
+2023-07-13 19:14:51.741 [info] Using git "2.41.0" from "git"
+2023-07-13 19:14:51.741 [info] > git rev-parse --show-toplevel [38ms]
+2023-07-13 19:14:51.741 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2023-07-13 19:14:51.741 [info] Open repository: /home/devilunraveled/Projects/CFParser
+2023-07-13 19:14:51.741 [info] > git rev-parse --show-toplevel [22ms]
+2023-07-13 19:14:51.741 [info] > git rev-parse --show-toplevel [611ms]
+2023-07-13 19:14:51.741 [info] > git config --get commit.template [623ms]
+2023-07-13 19:14:51.783 [info] > git rev-parse --show-toplevel [222ms]
+2023-07-13 19:14:51.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2023-07-13 19:14:51.872 [info] > git status -z -uall [8ms]
+2023-07-13 19:14:51.910 [info] > git config --get commit.template [19ms]
+2023-07-13 19:14:51.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2023-07-13 19:14:51.995 [info] > git status -z -uall [5ms]
+2023-07-13 19:14:52.107 [info] > git check-ignore -v -z --stdin [31ms]
+2023-07-13 19:14:58.418 [info] > git config --get commit.template [14ms]
+2023-07-13 19:14:58.429 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2023-07-13 19:14:58.445 [info] > git status -z -uall [5ms]
+2023-07-13 19:15:18.985 [info] Log level: Info
+2023-07-13 19:15:18.985 [info] Validating found git in: "git"
+2023-07-13 19:15:18.985 [info] Using git "2.41.0" from "git"
+2023-07-13 19:15:18.985 [info] > git rev-parse --show-toplevel [12ms]
+2023-07-13 19:15:18.993 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2023-07-13 19:15:18.997 [info] Open repository: /home/devilunraveled/Projects/Curate
+2023-07-13 19:15:19.014 [info] > git config --get commit.template [4ms]
+2023-07-13 19:15:19.014 [info] > git rev-parse --show-toplevel [10ms]
+2023-07-13 19:15:19.026 [info] > git rev-parse --show-toplevel [6ms]
+2023-07-13 19:15:19.032 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2023-07-13 19:15:19.040 [info] > git rev-parse --show-toplevel [8ms]
+2023-07-13 19:15:19.041 [info] > git status -z -uall [2ms]
+2023-07-13 19:15:19.056 [info] > git config --get commit.template [6ms]
+2023-07-13 19:15:19.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-07-13 19:15:19.078 [info] > git status -z -uall [2ms]
+2023-07-13 19:15:19.648 [info] > git check-ignore -v -z --stdin [2ms]
+2023-07-13 19:15:25.402 [info] > git check-ignore -v -z --stdin [25ms]
+2023-07-13 19:15:26.460 [info] > git show --textconv :frontend/.env [33ms]
+2023-07-13 19:15:26.461 [info] > git ls-files --stage -- /home/devilunraveled/Projects/Curate/frontend/.env [18ms]
+2023-07-13 19:15:26.478 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [6ms]
+2023-07-13 19:17:19.584 [info] > git config --get commit.template [19ms]
+2023-07-13 19:17:19.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-13 19:17:19.604 [info] > git status -z -uall [5ms]

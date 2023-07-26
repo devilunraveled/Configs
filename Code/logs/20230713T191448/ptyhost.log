@@ -1,0 +1,4 @@
+2023-07-13 19:14:49.134 [info] Expanding terminal instance, old id 2 -> new id undefined
+2023-07-13 19:14:49.137 [warning] Couldn't get layout info, a terminal was probably disconnected Could not find pty on pty host
+2023-07-13 19:14:49.137 [info] Reattach to wrong terminal debug info - layout info by id {"relativeSize":1,"terminal":2}
+2023-07-13 19:14:49.138 [info] Reattach to wrong terminal debug info - _revivePtyIdMap []

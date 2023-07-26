@@ -1,0 +1,15 @@
+2023-07-13 19:14:48.059 [info] update#setState idle
+2023-07-13 19:15:17.679 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-13 19:15:17.680 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 11210]: crashed with code 15 and reason 'killed'
+2023-07-13 19:15:18.061 [info] update#setState checking for updates
+2023-07-13 19:15:18.063 [info] update#setState idle
+2023-07-13 19:15:18.184 [info] Extension host with pid 11265 exited with code: 0, signal: unknown.
+2023-07-13 19:16:27.126 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-13 19:16:27.126 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 13285]: crashed with code 15 and reason 'killed'
+2023-07-13 19:16:27.618 [info] Extension host with pid 13298 exited with code: 0, signal: unknown.
+2023-07-13 20:04:32.902 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-13 20:04:32.902 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 12495]: crashed with code 15 and reason 'killed'
+2023-07-13 20:04:33.965 [info] Extension host with pid 12505 exited with code: 0, signal: unknown.
+2023-07-13 20:04:36.445 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-13 20:04:36.446 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 13907]: crashed with code 15 and reason 'killed'
+2023-07-13 20:04:37.436 [info] Extension host with pid 13917 exited with code: 0, signal: unknown.

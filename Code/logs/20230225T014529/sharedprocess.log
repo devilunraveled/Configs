@@ -1,9 +1,0 @@
-2023-02-25 01:45:30.892 [info] Deleted from disk eamodio.gitlens /home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.3.0
-2023-02-25 01:45:31.160 [info] Starting worker process with pid 2613 (type: fileWatcher, window: 1).
-2023-02-25 01:49:13.778 [info] Getting Manifest... ms-azuretools.vscode-docker
-2023-02-25 01:49:13.785 [info] Installing extension: ms-azuretools.vscode-docker
-2023-02-25 01:49:18.575 [info] Extension signature verification: ms-azuretools.vscode-docker. Verification status: Verified.
-2023-02-25 01:49:18.744 [info] Extracted extension to /home/devilunraveled/.vscode/extensions/.18fd9e97-dbf4-4590-8136-f419372cf3c6: ms-azuretools.vscode-docker
-2023-02-25 01:49:18.752 [info] Renamed to /home/devilunraveled/.vscode/extensions/ms-azuretools.vscode-docker-1.24.0
-2023-02-25 01:49:18.757 [info] Extracting completed. ms-azuretools.vscode-docker
-2023-02-25 01:49:18.773 [info] Extension installed successfully: ms-azuretools.vscode-docker

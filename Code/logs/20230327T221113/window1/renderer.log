@@ -1,4 +1,0 @@
-2023-03-27 22:11:17.515 [info] [perf] Render performance baseline is 133ms
-2023-03-27 22:11:18.666 [error] SyntaxError: Unexpected token / in JSON at position 0
-    at JSON.parse (<anonymous>)
-    at I.$getPassword (vscode-file://vscode-app/var/lib/snapd/snap/code/122/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:45255)

@@ -1,0 +1,16 @@
+2023-05-12 12:45:46.451 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-12 12:45:47.070 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-12 12:45:50.845 [info] [perf] Render performance baseline is 123ms
+2023-05-12 12:45:51.655 [error] SyntaxError: Unexpected token 'R', "Rjt�ڠ���"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at e.MainThreadSecretState.$getPassword (vscode-file://vscode-app/var/lib/snapd/snap/code/129/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1525:48130)
+2023-05-12 12:46:00.448 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-12 12:46:00.849 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-12 12:46:01.362 [error] SyntaxError: Unexpected token 'R', "Rjt�ڠ���"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at e.MainThreadSecretState.$getPassword (vscode-file://vscode-app/var/lib/snapd/snap/code/129/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1525:48130)
+2023-05-12 12:46:03.357 [info] [perf] Render performance baseline is 132ms
+2023-05-12 12:46:04.711 [error] [Extension Host] Extension `Dart-Code.dart-code` is already registered
+2023-05-12 12:46:04.711 [error] [Extension Host] Extension `Dart-Code.flutter` is already registered
+2023-05-12 12:46:14.242 [error] [Extension Host] (node:10191) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

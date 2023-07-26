@@ -1,0 +1,255 @@
+2023-04-27 15:55:01.689 [info] Extension host with pid 41124 started
+2023-04-27 15:55:01.689 [info] Skipping acquiring lock for /home/devilunraveled/.config/Code/User/workspaceStorage/754db564ea63329aca5d9272735f1c90.
+2023-04-27 15:55:01.811 [info] ExtensionService#_doActivateExtension mongodb.mongodb-vscode, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-04-27 15:55:02.274 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-27 15:55:02.278 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:properties'
+2023-04-27 15:55:02.568 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-04-27 15:55:02.632 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-27 15:55:02.635 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2023-04-27 15:55:02.637 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2023-04-27 15:55:02.644 [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode, startup: true, activationEvent: '*'
+2023-04-27 15:55:02.661 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-04-27 15:55:02.703 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2023-04-27 15:55:02.796 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-27 15:55:02.846 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-27 15:55:02.874 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-27 15:55:02.878 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-27 15:55:02.890 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-27 15:55:02.901 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-27 15:55:02.926 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-27 15:55:02.941 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-27 15:55:03.162 [info] Eager extensions activated
+2023-04-27 15:55:03.177 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-27 15:55:03.179 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-27 15:55:03.186 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2023-04-27 15:55:03.193 [info] ExtensionService#_doActivateExtension alefragnani.Bookmarks, startup: false, activationEvent: 'onStartupFinished'
+2023-04-27 15:55:03.198 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2023-04-27 15:55:03.202 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2023-04-27 15:55:03.407 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-04-27 15:55:03.425 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-04-27 15:55:03.444 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2023-04-27 15:55:03.472 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-04-27 15:55:05.592 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-04-27 15:55:08.505 [warning] TextEditor is closed/disposed
+2023-04-27 15:55:22.176 [warning] TextEditor is closed/disposed
+2023-04-27 15:58:13.945 [warning] TextEditor is closed/disposed
+2023-04-27 15:59:21.590 [warning] TextEditor is closed/disposed
+2023-04-27 15:59:26.361 [warning] TextEditor is closed/disposed
+2023-04-27 15:59:32.255 [warning] TextEditor is closed/disposed
+2023-04-27 16:00:12.728 [warning] TextEditor is closed/disposed
+2023-04-27 16:00:16.142 [warning] TextEditor is closed/disposed
+2023-04-27 16:00:38.869 [warning] TextEditor is closed/disposed
+2023-04-27 16:01:06.516 [warning] TextEditor is closed/disposed
+2023-04-27 16:01:14.687 [warning] TextEditor is closed/disposed
+2023-04-27 16:02:00.835 [warning] TextEditor is closed/disposed
+2023-04-27 16:06:29.961 [warning] TextEditor is closed/disposed
+2023-04-27 16:08:02.660 [warning] TextEditor is closed/disposed
+2023-04-27 16:08:03.817 [warning] TextEditor is closed/disposed
+2023-04-27 16:29:57.995 [warning] TextEditor is closed/disposed
+2023-04-27 16:30:03.358 [warning] TextEditor is closed/disposed
+2023-04-27 16:31:27.025 [warning] TextEditor is closed/disposed
+2023-04-27 16:31:58.075 [warning] TextEditor is closed/disposed
+2023-04-27 16:33:47.896 [info] Extension host terminating: renderer closed the MessagePort
+2023-04-27 16:33:47.948 [warning] Canceled
+2023-04-27 16:33:47.952 [error] Canceled: Canceled
+    at new l (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+    at c.O (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+    at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at L.registerCommand.description (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+    at m.h (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at Object.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+    at g (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:868259)
+    at c (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:608698)
+    at ActionRunners._updateContextKeys (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:37566)
+    at s (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:35985)
+    at RegisteredActionRunner.unregister (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:36129)
+    at RegisteredActionRunner.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:34794)
+    at ActionRunners.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:35571)
+    at C (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+    at E.Y (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+    at /var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+    at Array.map (<anonymous>)
+    at E.R (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+    at E.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+    at d.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+    at p (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+    at MessagePortMain.<anonymous> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:14829)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-04-27 16:33:47.953 [error] Canceled: Canceled
+    at new l (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+    at c.O (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+    at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at L.registerCommand.description (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+    at m.h (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at Object.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+    at g (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:868259)
+    at c (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:608698)
+    at ActionRunners._updateContextKeys (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:37566)
+    at s (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:35985)
+    at RegisteredActionRunner.unregister (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:36129)
+    at RegisteredActionRunner.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:34794)
+    at ActionRunners.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:35571)
+    at C (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+    at E.Y (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+    at /var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+    at Array.map (<anonymous>)
+    at E.R (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+    at E.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+    at d.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+    at p (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+    at MessagePortMain.<anonymous> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:14829)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-04-27 16:33:47.953 [error] Canceled: Canceled
+    at new l (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+    at c.O (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+    at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at L.registerCommand.description (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+    at m.h (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at Object.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+    at g (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:868259)
+    at c (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:608698)
+    at ActionRunners._updateContextKeys (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:37566)
+    at s (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:35985)
+    at RegisteredActionRunner.unregister (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:36129)
+    at RegisteredActionRunner.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:34794)
+    at ActionRunners.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:35571)
+    at C (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+    at E.Y (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+    at /var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+    at Array.map (<anonymous>)
+    at E.R (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+    at E.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+    at d.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+    at p (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+    at MessagePortMain.<anonymous> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:14829)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-04-27 16:33:47.954 [error] Canceled: Canceled
+    at new l (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+    at c.O (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+    at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at L.registerCommand.description (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+    at m.h (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at Object.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+    at g (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:868259)
+    at c (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:608698)
+    at ActionRunners._updateContextKeys (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:37566)
+    at s (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:35985)
+    at RegisteredActionRunner.unregister (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:36129)
+    at RegisteredActionRunner.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:34794)
+    at Object.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:36226)
+    at C (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+    at E.Y (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+    at /var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+    at Array.map (<anonymous>)
+    at E.R (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+    at E.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+    at d.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+    at p (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+    at MessagePortMain.<anonymous> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:14829)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-04-27 16:33:47.954 [error] Canceled: Canceled
+    at new l (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+    at c.O (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+    at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at L.registerCommand.description (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+    at m.h (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at Object.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+    at g (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:868259)
+    at c (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:608698)
+    at ActionRunners._updateContextKeys (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:37566)
+    at s (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:35985)
+    at RegisteredActionRunner.unregister (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:36129)
+    at RegisteredActionRunner.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:34794)
+    at Object.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:36226)
+    at C (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+    at E.Y (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+    at /var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+    at Array.map (<anonymous>)
+    at E.R (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+    at E.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+    at d.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+    at p (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+    at MessagePortMain.<anonymous> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:14829)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-04-27 16:33:47.954 [error] Canceled: Canceled
+    at new l (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+    at c.O (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+    at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at L.registerCommand.description (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+    at m.h (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at Object.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+    at g (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:868259)
+    at c (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:608698)
+    at ActionRunners._updateContextKeys (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:37566)
+    at s (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:35985)
+    at RegisteredActionRunner.unregister (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:36129)
+    at RegisteredActionRunner.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:34794)
+    at Object.dispose (/home/devilunraveled/.vscode/extensions/eamodio.gitlens-13.5.0/dist/gitlens.js:1:36226)
+    at C (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+    at E.Y (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+    at /var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+    at Array.map (<anonymous>)
+    at E.R (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+    at E.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+    at d.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+    at p (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+    at MessagePortMain.<anonymous> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:14829)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-04-27 16:33:47.955 [error] Canceled: Canceled
+    at new l (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+    at c.O (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+    at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at L.registerCommand.description (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+    at m.h (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+    at m.g (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+    at m.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+    at Object.executeCommand (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+    at Object.dispose (/home/devilunraveled/.vscode/extensions/tabnine.tabnine-vscode-3.6.45/out/extension.js:17:101165)
+    at /home/devilunraveled/.vscode/extensions/tabnine.tabnine-vscode-3.6.45/out/extension.js:17:30354
+    at Array.forEach (<anonymous>)
+    at f (/home/devilunraveled/.vscode/extensions/tabnine.tabnine-vscode-3.6.45/out/extension.js:17:30339)
+    at Object.dispose (/home/devilunraveled/.vscode/extensions/tabnine.tabnine-vscode-3.6.45/out/extension.js:17:29757)
+    at C (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+    at E.Y (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:11147)
+    at /var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+    at Array.map (<anonymous>)
+    at E.R (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+    at E.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+    at d.terminate (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+    at p (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+    at MessagePortMain.<anonymous> (/var/lib/snapd/snap/code/126/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:14829)
+    at MessagePortMain.emit (node:events:526:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-04-27 16:33:48.951 [info] Extension host with pid 41124 exiting with code 0

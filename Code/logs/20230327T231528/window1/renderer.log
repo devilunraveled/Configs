@@ -1,6 +1,0 @@
-2023-03-27 23:15:28.862 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/devilunraveled/.config/nvim/README.md","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2023-03-27 23:15:30.159 [error] SyntaxError: Unexpected token / in JSON at position 0
-    at JSON.parse (<anonymous>)
-    at I.$getPassword (vscode-file://vscode-app/var/lib/snapd/snap/code/122/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1566:45255)
-2023-03-27 23:15:32.022 [info] [perf] Render performance baseline is 131ms
-2023-03-27 23:15:38.688 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}

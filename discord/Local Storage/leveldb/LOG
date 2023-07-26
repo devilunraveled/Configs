@@ -1,6 +1,15 @@
-2023/03/26-00:51:44.253 910 Reusing MANIFEST /home/devilunraveled/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2023/03/26-00:51:44.255 910 Recovering log #229
-2023/03/26-00:51:44.255 910 Reusing old log /home/devilunraveled/.config/discord/Local Storage/leveldb/000229.log 
-2023/03/26-00:53:45.079 900 Level-0 table #233: started
-2023/03/26-00:53:45.097 900 Level-0 table #233: 1495702 bytes OK
-2023/03/26-00:53:45.101 900 Delete type=0 #229
+2023/07/26-10:01:57.625 414e Reusing MANIFEST /home/devilunraveled/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/07/26-10:01:57.626 414e Recovering log #35
+2023/07/26-10:01:57.626 414e Reusing old log /home/devilunraveled/.config/discord/Local Storage/leveldb/000035.log 
+2023/07/26-10:04:17.500 414e Level-0 table #39: started
+2023/07/26-10:04:17.516 414e Level-0 table #39: 1775468 bytes OK
+2023/07/26-10:04:17.521 414e Delete type=0 #35
+2023/07/26-10:04:17.521 414e Compacting 4@0 + 1@1 files
+2023/07/26-10:04:17.530 414e Generated table #40@0: 74 keys, 1777417 bytes
+2023/07/26-10:04:17.530 414e Compacted 4@0 + 1@1 files => 1777417 bytes
+2023/07/26-10:04:17.535 414e compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/26-10:04:17.535 414e Delete type=2 #36
+2023/07/26-10:04:17.535 414e Delete type=2 #33
+2023/07/26-10:04:17.535 414e Delete type=2 #28
+2023/07/26-10:04:17.535 414e Delete type=2 #39
+2023/07/26-10:04:17.535 414e Delete type=2 #31
