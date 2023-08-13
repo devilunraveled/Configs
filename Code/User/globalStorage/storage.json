@@ -7,20 +7,10 @@
                 "folderUri": "file:///home/devilunraveled/DASS/Assignment%201"
             },
             {
-                "folderUri": "file:///home/devilunraveled/Projects/CFParser"
-            },
-            {
-                "folderUri": "file:///home/devilunraveled/Projects/Curate"
-            },
-            {
                 "folderUri": "file:///home/devilunraveled/DASS/Assignment%201/2021101049"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1689255946967"
-            }
-        ]
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -76,6 +66,28 @@
                                     },
                                     "enabled": true,
                                     "label": "~/DASS/Assignment 1/2021101049"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/devilunraveled/Projects/website/TheDen",
+                                        "path": "/home/devilunraveled/Projects/website/TheDen",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Projects/website/TheDen"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/devilunraveled/Projects/website",
+                                        "path": "/home/devilunraveled/Projects/website",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Projects/website"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -180,8 +192,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -534,7 +545,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1089,8 +1101,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1709,10 +1720,12 @@
             "file:///home/devilunraveled/DASS/Assignment%201": "__default__profile__",
             "file:///home/devilunraveled/Projects/CFParser": "__default__profile__",
             "file:///home/devilunraveled/Projects/Curate": "__default__profile__",
+            "file:///home/devilunraveled/Projects/website": "__default__profile__",
+            "file:///home/devilunraveled/Projects/website/TheDen": "__default__profile__",
             "file:///home/devilunraveled/DASS/Assignment%201/2021101049": "__default__profile__"
         },
         "emptyWindows": {
-            "1689255946967": "__default__profile__"
+            "1690557690899": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true

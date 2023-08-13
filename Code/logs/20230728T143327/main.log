@@ -1,0 +1,24 @@
+2023-07-28 14:33:28.028 [info] update#setState idle
+2023-07-28 14:33:58.030 [info] update#setState checking for updates
+2023-07-28 14:33:58.032 [info] update#setState idle
+2023-07-28 14:34:07.706 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-28 14:34:07.706 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 15601]: crashed with code 15 and reason 'killed'
+2023-07-28 14:34:08.106 [info] Extension host with pid 15589 exited with code: 0, signal: unknown.
+2023-07-28 14:46:32.129 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-28 14:46:32.130 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 16599]: crashed with code 15 and reason 'killed'
+2023-07-28 14:46:33.135 [info] Extension host with pid 16609 exited with code: 0, signal: unknown.
+2023-07-28 19:11:58.579 [info] update#setState checking for updates
+2023-07-28 19:11:58.580 [info] update#setState idle
+2023-07-28 20:11:58.580 [info] update#setState checking for updates
+2023-07-28 20:11:58.583 [info] update#setState idle
+2023-07-28 20:52:48.393 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-28 20:52:48.393 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 60586]: crashed with code 15 and reason 'killed'
+2023-07-28 20:52:48.818 [info] Extension host with pid 60600 exited with code: 0, signal: unknown.
+2023-07-28 21:07:50.823 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-28 21:07:50.823 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 22394]: crashed with code 15 and reason 'killed'
+2023-07-28 21:07:51.870 [info] Extension host with pid 22405 exited with code: 0, signal: unknown.
+2023-07-28 21:11:58.581 [info] update#setState checking for updates
+2023-07-28 21:11:58.586 [info] update#setState idle
+2023-07-28 21:22:06.899 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-07-28 21:22:06.899 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 61366]: crashed with code 15 and reason 'killed'
+2023-07-28 21:22:07.985 [info] Extension host with pid 61382 exited with code: 0, signal: unknown.

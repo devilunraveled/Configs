@@ -1,0 +1,43 @@
+2023-07-28T09:17:09.915Z extension INFO  Activating extension... []
+
+2023-07-28T09:17:09.917Z telemetry INFO  SegmentKey was found [ { type: 'string' } ]
+
+2023-07-28T09:17:09.918Z language server controller INFO  Create MongoDB Language Server [
+  {
+    serverOptions: { run: [Object], debug: [Object] },
+    clientOptions: {
+      documentSelector: [Array],
+      synchronize: [Object],
+      outputChannel: [Object]
+    }
+  }
+]
+
+2023-07-28T09:17:09.922Z playground controller INFO  Active editor path [ undefined ]
+
+2023-07-28T09:17:09.923Z explorer controller INFO  Activating explorer controller... []
+
+2023-07-28T09:17:09.923Z explorer controller INFO  Explorer controller activated []
+
+2023-07-28T09:17:09.923Z help and info explorer INFO  Activating help explorer... []
+
+2023-07-28T09:17:09.924Z help and info explorer INFO  Help explorer activated []
+
+2023-07-28T09:17:09.924Z playgrounds explorer INFO  Activating playgrounds explorer... []
+
+2023-07-28T09:17:09.924Z playgrounds explorer INFO  Playgrounds explorer activated []
+
+2023-07-28T09:17:09.924Z telemetry INFO  Activating segment analytics... []
+
+2023-07-28T09:17:09.925Z telemetry INFO  Segment analytics activated with properties [ { anonymousId: '74d6cac2-09d5-4d14-b710-759e25c6ca60' } ]
+
+2023-07-28T09:17:10.313Z commands INFO  Registering commands... []
+
+2023-07-28T09:17:10.316Z commands INFO  Commands registered []
+
+2023-07-28T09:17:10.317Z extension INFO  Extension activated []
+
+2023-07-28T15:37:50.814Z connection controller INFO  Disconnect called, currently connected to [ null ]
+
+2023-07-28T15:37:50.816Z connection controller INFO  Disconnect called, currently connected to [ null ]
+

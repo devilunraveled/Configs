@@ -1,0 +1,27 @@
+2023-07-28 14:33:29.722 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-07-28 14:33:30.795 [error] [Extension Host] (node:15589) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2023-07-28 14:33:32.546 [info] [perf] Render performance baseline is 130ms
+2023-07-28 14:33:33.866 [error] SyntaxError: Unexpected token '', "K�_G*7=�"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at e.$rpb.s (vscode-file://vscode-app/var/lib/snapd/snap/code/135/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:30971)
+    at async e.$rpb.r (vscode-file://vscode-app/var/lib/snapd/snap/code/135/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:29960)
+    at async e.$rpb.k (vscode-file://vscode-app/var/lib/snapd/snap/code/135/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:29216)
+2023-07-28 14:34:08.311 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-07-28 14:34:09.646 [error] SyntaxError: Unexpected token '', "K�_G*7=�"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at e.$rpb.s (vscode-file://vscode-app/var/lib/snapd/snap/code/135/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:30971)
+    at async e.$rpb.r (vscode-file://vscode-app/var/lib/snapd/snap/code/135/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:29960)
+    at async e.$rpb.k (vscode-file://vscode-app/var/lib/snapd/snap/code/135/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:29216)
+2023-07-28 14:34:10.945 [info] [perf] Render performance baseline is 130ms
+2023-07-28 14:34:59.409 [error] [Extension Host] (node:16609) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2023-07-28 14:46:32.629 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-07-28 14:46:33.444 [error] SyntaxError: Unexpected token '', "K�_G*7=�"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at e.$rpb.s (vscode-file://vscode-app/var/lib/snapd/snap/code/135/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:30971)
+    at async e.$rpb.r (vscode-file://vscode-app/var/lib/snapd/snap/code/135/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:29960)
+    at async e.$rpb.k (vscode-file://vscode-app/var/lib/snapd/snap/code/135/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1524:29216)
+2023-07-28 14:46:35.343 [info] [perf] Render performance baseline is 128ms
+2023-07-28 14:47:09.910 [error] [Extension Host] (node:22405) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

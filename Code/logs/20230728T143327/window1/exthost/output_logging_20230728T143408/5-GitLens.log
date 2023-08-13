@@ -1,0 +1,2 @@
+[2023-07-28 09:07:13.038] [GIT  ] [/home/devilunraveled/Projects/website] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • bad revision '@' [7ms]
+

@@ -1,0 +1,75 @@
+2023-07-28 14:33:32.707 [info] Log level: Info
+2023-07-28 14:33:32.707 [info] Validating found git in: "git"
+2023-07-28 14:33:32.707 [info] Using git "2.41.0" from "git"
+2023-07-28 14:33:32.707 [info] > git rev-parse --show-toplevel [17ms]
+2023-07-28 14:33:32.707 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-28 14:33:32.707 [info] > git rev-parse --show-toplevel [33ms]
+2023-07-28 14:33:32.707 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-28 14:33:32.707 [info] > git rev-parse --show-toplevel [21ms]
+2023-07-28 14:33:32.707 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-28 14:33:32.722 [info] > git rev-parse --show-toplevel [939ms]
+2023-07-28 14:33:32.722 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-28 14:33:33.117 [info] > git rev-parse --show-toplevel [385ms]
+2023-07-28 14:33:33.117 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-28 14:33:33.190 [info] > git rev-parse --show-toplevel [54ms]
+2023-07-28 14:33:33.190 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-28 14:34:08.994 [info] Log level: Info
+2023-07-28 14:34:08.994 [info] Validating found git in: "git"
+2023-07-28 14:34:08.994 [info] Using git "2.41.0" from "git"
+2023-07-28 14:34:08.994 [info] > git rev-parse --show-toplevel [21ms]
+2023-07-28 14:34:09.007 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2023-07-28 14:34:09.015 [info] Open repository: /home/devilunraveled/Projects/website
+2023-07-28 14:34:09.033 [info] No remotes found in the git config file.
+2023-07-28 14:34:09.034 [info] > git config --get commit.template [11ms]
+2023-07-28 14:34:09.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-28 14:34:09.041 [info] > git status -z -uall [2ms]
+2023-07-28 14:34:09.052 [info] > git config --get commit.template [2ms]
+2023-07-28 14:34:09.059 [info] No remotes found in the git config file.
+2023-07-28 14:34:09.061 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-07-28 14:34:09.069 [info] > git status -z -uall [2ms]
+2023-07-28 14:37:14.279 [info] No remotes found in the git config file.
+2023-07-28 14:37:14.281 [info] > git config --get commit.template [13ms]
+2023-07-28 14:37:14.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-28 14:37:14.291 [info] > git status -z -uall [1ms]
+2023-07-28 14:39:05.134 [info] No remotes found in the git config file.
+2023-07-28 14:39:05.134 [info] > git config --get commit.template [10ms]
+2023-07-28 14:39:05.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-28 14:39:05.146 [info] > git status -z -uall [1ms]
+2023-07-28 14:39:11.042 [info] > git check-ignore -v -z --stdin [2ms]
+2023-07-28 14:39:12.087 [info] > git check-ignore -v -z --stdin [1ms]
+2023-07-28 14:39:28.030 [info] > git check-ignore -v -z --stdin [3ms]
+2023-07-28 14:41:14.370 [info] > git check-ignore -v -z --stdin [3ms]
+2023-07-28 14:43:12.129 [info] > git check-ignore -v -z --stdin [2ms]
+2023-07-28 14:43:12.205 [info] No remotes found in the git config file.
+2023-07-28 14:43:12.206 [info] > git config --get commit.template [15ms]
+2023-07-28 14:43:12.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-07-28 14:43:12.223 [info] > git status -z -uall [5ms]
+2023-07-28 14:43:46.277 [info] No remotes found in the git config file.
+2023-07-28 14:43:46.278 [info] > git config --get commit.template [8ms]
+2023-07-28 14:43:46.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-28 14:43:46.293 [info] > git status -z -uall [5ms]
+2023-07-28 14:44:02.997 [info] No remotes found in the git config file.
+2023-07-28 14:44:02.997 [info] > git config --get commit.template [8ms]
+2023-07-28 14:44:02.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-07-28 14:44:03.008 [info] > git status -z -uall [1ms]
+2023-07-28 14:44:48.413 [info] > git config --get commit.template [2ms]
+2023-07-28 14:44:48.421 [info] No remotes found in the git config file.
+2023-07-28 14:44:48.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-28 14:44:48.435 [info] > git status -z -uall [2ms]
+2023-07-28 14:46:05.051 [info] > git check-ignore -v -z --stdin [1ms]
+2023-07-28 14:46:08.201 [info] > git check-ignore -v -z --stdin [2ms]
+2023-07-28 14:46:18.976 [info] No remotes found in the git config file.
+2023-07-28 14:46:18.976 [info] > git config --get commit.template [16ms]
+2023-07-28 14:46:18.977 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-07-28 14:46:18.987 [info] > git status -z -uall [2ms]
+2023-07-28 14:46:33.237 [info] Log level: Info
+2023-07-28 14:46:33.237 [info] Validating found git in: "git"
+2023-07-28 14:46:33.237 [info] Using git "2.41.0" from "git"
+2023-07-28 14:46:33.237 [info] > git rev-parse --show-toplevel [5ms]
+2023-07-28 14:46:33.251 [info] > git rev-parse --show-toplevel [22ms]
+2023-07-28 14:46:33.259 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-28 14:46:33.397 [info] > git rev-parse --show-toplevel [19ms]
+2023-07-28 14:46:33.845 [info] > git rev-parse --show-toplevel [98ms]
+2023-07-28 14:46:33.924 [info] > git rev-parse --show-toplevel [17ms]
+2023-07-28 14:46:33.984 [info] > git rev-parse --show-toplevel [45ms]
+2023-07-28 14:46:40.140 [info] > git rev-parse --show-toplevel [3ms]
