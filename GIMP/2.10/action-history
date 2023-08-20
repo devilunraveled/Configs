@@ -1,4 +1,5 @@
 # GIMP action-history
 
+(history-item "file-save" 1)
 
 # end of action-history

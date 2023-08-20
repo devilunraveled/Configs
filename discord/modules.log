@@ -7040,3 +7040,183 @@
 2023-08-11T13:03:26.693Z [Modules] Host is up to date.
 2023-08-11T13:03:26.693Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
 2023-08-11T13:03:26.907Z [Modules] No module updates available.
+2023-08-15T10:39:30.472Z [Modules] Modules initializing
+2023-08-15T10:39:30.473Z [Modules] Distribution: remote
+2023-08-15T10:39:30.473Z [Modules] Host updates: disabled
+2023-08-15T10:39:30.473Z [Modules] Module updates: enabled
+2023-08-15T10:39:30.474Z [Modules] Module install path: /home/devilunraveled/.config/discord/0.0.28/modules
+2023-08-15T10:39:30.474Z [Modules] Module installed file path: /home/devilunraveled/.config/discord/0.0.28/modules/installed.json
+2023-08-15T10:39:30.474Z [Modules] Module download path: /home/devilunraveled/.config/discord/0.0.28/modules/pending
+2023-08-15T10:39:30.652Z [Modules] No updates to install
+2023-08-15T10:39:30.653Z [Modules] Host is up to date.
+2023-08-15T10:39:30.653Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-15T10:39:30.928Z [Modules] Module update available: discord_voice@3 [installed: 2]
+2023-08-15T10:39:30.929Z [Modules] Fetching discord_voice@3 from https://discord.com/api/modules/stable/discord_voice/3
+2023-08-15T10:39:30.929Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip
+2023-08-15T10:39:31.690Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 1%
+2023-08-15T10:39:31.739Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 2%
+2023-08-15T10:39:31.775Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 3%
+2023-08-15T10:39:31.876Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 4%
+2023-08-15T10:39:31.893Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 5%
+2023-08-15T10:39:31.910Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 6%
+2023-08-15T10:39:31.926Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 7%
+2023-08-15T10:39:32.162Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 8%
+2023-08-15T10:39:32.179Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 9%
+2023-08-15T10:39:32.195Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 10%
+2023-08-15T10:39:32.359Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 11%
+2023-08-15T10:39:32.374Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 12%
+2023-08-15T10:39:32.402Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 13%
+2023-08-15T10:39:32.405Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 14%
+2023-08-15T10:39:32.407Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 15%
+2023-08-15T10:39:32.407Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 16%
+2023-08-15T10:39:32.439Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 17%
+2023-08-15T10:39:32.440Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 18%
+2023-08-15T10:39:32.441Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 19%
+2023-08-15T10:39:32.482Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 20%
+2023-08-15T10:39:32.484Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 21%
+2023-08-15T10:39:32.485Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 22%
+2023-08-15T10:39:32.627Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 23%
+2023-08-15T10:39:32.646Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 24%
+2023-08-15T10:39:32.668Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 25%
+2023-08-15T10:39:32.681Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 26%
+2023-08-15T10:39:32.691Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 27%
+2023-08-15T10:39:32.692Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 28%
+2023-08-15T10:39:32.712Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 29%
+2023-08-15T10:39:32.736Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 30%
+2023-08-15T10:39:32.768Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 31%
+2023-08-15T10:39:32.804Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 32%
+2023-08-15T10:39:32.836Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 33%
+2023-08-15T10:39:32.870Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 34%
+2023-08-15T10:39:32.916Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 35%
+2023-08-15T10:39:32.949Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 36%
+2023-08-15T10:39:33.042Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 37%
+2023-08-15T10:39:33.050Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 38%
+2023-08-15T10:39:33.051Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 39%
+2023-08-15T10:39:33.084Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 40%
+2023-08-15T10:39:33.119Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 41%
+2023-08-15T10:39:33.152Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 42%
+2023-08-15T10:39:33.185Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 43%
+2023-08-15T10:39:33.221Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 44%
+2023-08-15T10:39:33.253Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 45%
+2023-08-15T10:39:33.288Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 46%
+2023-08-15T10:39:33.322Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 47%
+2023-08-15T10:39:33.354Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 48%
+2023-08-15T10:39:33.451Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 49%
+2023-08-15T10:39:33.460Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 50%
+2023-08-15T10:39:33.462Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 51%
+2023-08-15T10:39:33.493Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 52%
+2023-08-15T10:39:33.525Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 53%
+2023-08-15T10:39:33.558Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 54%
+2023-08-15T10:39:33.593Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 55%
+2023-08-15T10:39:33.626Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 56%
+2023-08-15T10:39:33.658Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 57%
+2023-08-15T10:39:33.693Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 58%
+2023-08-15T10:39:33.727Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 59%
+2023-08-15T10:39:33.760Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 60%
+2023-08-15T10:39:33.860Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 61%
+2023-08-15T10:39:33.868Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 62%
+2023-08-15T10:39:33.870Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 63%
+2023-08-15T10:39:33.896Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 64%
+2023-08-15T10:39:33.929Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 65%
+2023-08-15T10:39:33.962Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 66%
+2023-08-15T10:39:33.997Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 67%
+2023-08-15T10:39:34.030Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 68%
+2023-08-15T10:39:34.062Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 69%
+2023-08-15T10:39:34.098Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 70%
+2023-08-15T10:39:34.130Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 71%
+2023-08-15T10:39:34.166Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 72%
+2023-08-15T10:39:34.261Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 73%
+2023-08-15T10:39:34.269Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 74%
+2023-08-15T10:39:34.270Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 75%
+2023-08-15T10:39:34.300Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 76%
+2023-08-15T10:39:34.389Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 77%
+2023-08-15T10:39:34.391Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 78%
+2023-08-15T10:39:34.402Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 79%
+2023-08-15T10:39:34.435Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 80%
+2023-08-15T10:39:34.470Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 81%
+2023-08-15T10:39:34.503Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 82%
+2023-08-15T10:39:34.535Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 83%
+2023-08-15T10:39:34.571Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 84%
+2023-08-15T10:39:34.668Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 85%
+2023-08-15T10:39:34.678Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 86%
+2023-08-15T10:39:34.680Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 87%
+2023-08-15T10:39:34.705Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 88%
+2023-08-15T10:39:34.737Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 89%
+2023-08-15T10:39:34.772Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 90%
+2023-08-15T10:39:34.806Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 91%
+2023-08-15T10:39:34.838Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 92%
+2023-08-15T10:39:34.873Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 93%
+2023-08-15T10:39:34.906Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 94%
+2023-08-15T10:39:34.939Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 95%
+2023-08-15T10:39:34.974Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 96%
+2023-08-15T10:39:35.070Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 97%
+2023-08-15T10:39:35.079Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 98%
+2023-08-15T10:39:35.081Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 99%
+2023-08-15T10:39:35.107Z [Modules] Streaming discord_voice@3 to /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip: 100%
+2023-08-15T10:39:35.109Z [Modules] Finished module downloads. [success: 1] [failure: 0]
+2023-08-15T10:39:35.109Z [Modules] Installing updates...
+2023-08-15T10:39:35.110Z [Modules] Installing discord_voice@3 from /home/devilunraveled/.config/discord/0.0.28/modules/pending/discord_voice-3.zip
+2023-08-15T10:39:35.852Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-08-15T10:39:35.855Z [Modules] Host is up to date.
+2023-08-15T10:39:35.855Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-15T10:39:35.859Z [Modules] No module updates available.
+2023-08-15T10:39:39.150Z [Modules] Host is up to date.
+2023-08-15T10:39:39.151Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-15T10:39:39.154Z [Modules] No module updates available.
+2023-08-16T17:50:19.623Z [Modules] Modules initializing
+2023-08-16T17:50:19.624Z [Modules] Distribution: remote
+2023-08-16T17:50:19.624Z [Modules] Host updates: disabled
+2023-08-16T17:50:19.624Z [Modules] Module updates: enabled
+2023-08-16T17:50:19.624Z [Modules] Module install path: /home/devilunraveled/.config/discord/0.0.28/modules
+2023-08-16T17:50:19.624Z [Modules] Module installed file path: /home/devilunraveled/.config/discord/0.0.28/modules/installed.json
+2023-08-16T17:50:19.624Z [Modules] Module download path: /home/devilunraveled/.config/discord/0.0.28/modules/pending
+2023-08-16T17:50:19.804Z [Modules] No updates to install
+2023-08-16T17:50:19.804Z [Modules] Host is up to date.
+2023-08-16T17:50:19.805Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-16T17:50:20.000Z [Modules] No module updates available.
+2023-08-16T17:50:22.847Z [Modules] Host is up to date.
+2023-08-16T17:50:22.847Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-16T17:50:22.850Z [Modules] No module updates available.
+2023-08-17T11:38:33.078Z [Modules] Modules initializing
+2023-08-17T11:38:33.079Z [Modules] Distribution: remote
+2023-08-17T11:38:33.079Z [Modules] Host updates: disabled
+2023-08-17T11:38:33.079Z [Modules] Module updates: enabled
+2023-08-17T11:38:33.080Z [Modules] Module install path: /home/devilunraveled/.config/discord/0.0.28/modules
+2023-08-17T11:38:33.080Z [Modules] Module installed file path: /home/devilunraveled/.config/discord/0.0.28/modules/installed.json
+2023-08-17T11:38:33.080Z [Modules] Module download path: /home/devilunraveled/.config/discord/0.0.28/modules/pending
+2023-08-17T11:38:33.286Z [Modules] No updates to install
+2023-08-17T11:38:33.287Z [Modules] Host is up to date.
+2023-08-17T11:38:33.287Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-17T11:38:33.486Z [Modules] No module updates available.
+2023-08-17T11:38:37.015Z [Modules] Host is up to date.
+2023-08-17T11:38:37.015Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-17T11:38:37.018Z [Modules] No module updates available.
+2023-08-17T12:38:37.019Z [Modules] Host is up to date.
+2023-08-17T12:38:37.020Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-17T12:38:37.174Z [Modules] No module updates available.
+2023-08-17T13:38:37.019Z [Modules] Host is up to date.
+2023-08-17T13:38:37.020Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-17T13:38:37.171Z [Modules] No module updates available.
+2023-08-17T14:38:37.017Z [Modules] Host is up to date.
+2023-08-17T14:38:37.017Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-17T14:38:37.165Z [Modules] No module updates available.
+2023-08-20T12:15:30.431Z [Modules] Modules initializing
+2023-08-20T12:15:30.431Z [Modules] Distribution: remote
+2023-08-20T12:15:30.431Z [Modules] Host updates: disabled
+2023-08-20T12:15:30.432Z [Modules] Module updates: enabled
+2023-08-20T12:15:30.432Z [Modules] Module install path: /home/devilunraveled/.config/discord/0.0.28/modules
+2023-08-20T12:15:30.432Z [Modules] Module installed file path: /home/devilunraveled/.config/discord/0.0.28/modules/installed.json
+2023-08-20T12:15:30.432Z [Modules] Module download path: /home/devilunraveled/.config/discord/0.0.28/modules/pending
+2023-08-20T12:15:30.612Z [Modules] No updates to install
+2023-08-20T12:15:30.613Z [Modules] Host is up to date.
+2023-08-20T12:15:30.613Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-20T12:15:30.827Z [Modules] No module updates available.
+2023-08-20T12:15:34.262Z [Modules] Host is up to date.
+2023-08-20T12:15:34.262Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-20T12:15:34.265Z [Modules] No module updates available.
+2023-08-20T13:15:34.264Z [Modules] Host is up to date.
+2023-08-20T13:15:34.264Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-20T13:15:34.513Z [Modules] No module updates available.
+2023-08-20T14:15:34.265Z [Modules] Host is up to date.
+2023-08-20T14:15:34.265Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-08-20T14:15:34.452Z [Modules] No module updates available.
