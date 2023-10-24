@@ -1,0 +1,10 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Genius/bilateralexamples" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/AutomatedNegotiation" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,349 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="AutomatedNegotiation" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/Team8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#Logistic#0" />
+                <element signature="e#6768#6769#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/utility/AbstractUtilitySpace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/Domain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="28" selection-start-line="6" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/issue/Issue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/boaframework/SortedOutcomeSpace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="CLASS">
+      <summary usageCount="12" lastUsed="1696229516367" />
+    </fileType>
+    <fileType name="JAVA">
+      <summary usageCount="46" lastUsed="1696236203371" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Integer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>int</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/Main.java" />
+      <option value="$PROJECT_DIR$/src/KindaRandom.java" />
+      <option value="$PROJECT_DIR$/src/Team8.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="46" lastUsage="1696236203371" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AutomatedNegotiation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/devilunraveled/IdeaProjects/AutomatedNegotiation}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedNegotiation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/devilunraveled/IdeaProjects/AutomatedNegotiation}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/devilunraveled/IdeaProjects/AutomatedNegotiation/.idea}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedNegotiation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/devilunraveled/IdeaProjects/AutomatedNegotiation}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/devilunraveled/IdeaProjects/AutomatedNegotiation/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Application.Unnamed" />
+    </history>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2866424" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.33034873" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="Database" order="1" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25" />
+      <window_info anchor="right" id="github.copilotToolWindow" order="4" weight="0.3297817" />
+      <window_info anchor="right" id="Web Inspector" order="5" weight="0.25" />
+      <unified_weights bottom="0.33034873" left="0.2866424" right="0.3297817" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>github.copilotToolWindow</value>
+      <value>Problems View</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="79" width="1024" height="833" key="#Project_Structure" timestamp="1694516961262">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="443" y="79" width="1024" height="833" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1694516961262" />
+    <state x="433" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1694517038226">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="433" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1694517038226" />
+    <state x="692" y="238" width="525" height="406" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1694517094783">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="692" y="238" width="525" height="406" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1694517094783" />
+    <state x="693" y="249" width="524" height="492" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1696230992429">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="693" y="249" width="524" height="492" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1696230992429" />
+    <state x="743" y="151" width="733" height="472" key="FileChooserDialogImpl" timestamp="1696228298601">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="151" width="733" height="472" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1696228298601" />
+    <state x="550" y="240" width="810" height="511" key="NewModule_or_Project.wizard" timestamp="1696228304302">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="550" y="240" width="810" height="511" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1696228304302" />
+    <state x="449" y="136" key="SettingsEditor" timestamp="1696235043531">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="449" y="136" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1696235043531" />
+    <state x="960" y="-20" width="962" height="1079" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1696230072195">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="960" y="-20" width="962" height="1079" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1696230072195" />
+    <state x="623" y="209" width="744" height="710" key="search.everywhere.popup" timestamp="1696235102784">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="209" width="744" height="710" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1696235102784" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Genius/bilateralexamples/RandomBidderExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Genius/bilateralexamples/boacomponents/BestBid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Genius/bilateralexamples/BoaPartyExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/parties/NegotiationInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/Deadline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Regressor.java" />
+    <entry file="file://$PROJECT_DIR$/src/AutoBot.class" />
+    <entry file="file://$PROJECT_DIR$/src/Team8.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KindaRandom.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-338">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logistic.java" />
+    <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/boaframework/SortedOutcomeSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/parties/NegotiationParty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1010">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/parties/AbstractNegotiationParty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/issue/Issue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/utility/AbstractUtilitySpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Genius/genius-9.1.13.jar!/genius/core/Domain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="28" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Team8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Logistic#0" />
+            <element signature="e#6768#6769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AutomatedNegotiation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>genius-9.1.13</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

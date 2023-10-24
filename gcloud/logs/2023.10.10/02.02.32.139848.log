@@ -1,0 +1,32 @@
+2023-10-10 02:02:32,150 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2023-10-10 02:02:32,152 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances']
+2023-10-10 02:02:32,300 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances', 'create']
+2023-10-10 02:02:32,394 DEBUG    root            Running [gcloud.compute.instances.create] with arguments: [--boot-disk-size: "536870912000", --image-family: "tf-1-15", --image-project: "ml-images", --machine-type: "n1-highmem-8", --maintenance-policy: "TERMINATE", --restart-on-failure: "True", --zone: "asia-south1-b", INSTANCE_NAMES:1: "['samples']"]
+2023-10-10 02:02:32,411 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2023-10-10 02:02:33,088 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/pegasus-401519/zones/asia-south1-b?alt=json HTTP/1.1" 200 None
+2023-10-10 02:02:33,099 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2023-10-10 02:02:33,647 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/pegasus-401519?alt=json HTTP/1.1" 200 None
+2023-10-10 02:02:33,663 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2023-10-10 02:02:35,768 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /compute/v1/projects/pegasus-401519/zones/asia-south1-b/instances?alt=json HTTP/1.1" 404 None
+2023-10-10 02:02:35,772 DEBUG    root            Chosen display Format:list[title="Could not fetch resource:",always-display-title]
+2023-10-10 02:02:35,773 DEBUG    root            (gcloud.compute.instances.create) Could not fetch resource:
+ - The resource 'projects/ml-images/global/images/family/tf-1-15' was not found
+Traceback (most recent call last):
+  File "/home/devilunraveled/GoogleCloud/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/home/devilunraveled/GoogleCloud/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/home/devilunraveled/GoogleCloud/google-cloud-sdk/lib/surface/compute/instances/create.py", line 699, in Run
+    return compute_client.MakeRequests(requests)
+  File "/home/devilunraveled/GoogleCloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/client_adapter.py", line 156, in MakeRequests
+    utils.RaiseToolException(
+  File "/home/devilunraveled/GoogleCloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 139, in RaiseToolException
+    RaiseException(problems, calliope_exceptions.ToolException, error_message)
+  File "/home/devilunraveled/GoogleCloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 148, in RaiseException
+    raise exception(
+googlecloudsdk.calliope.exceptions.ToolException: Could not fetch resource:
+ - The resource 'projects/ml-images/global/images/family/tf-1-15' was not found
+
+2023-10-10 02:02:35,775 ERROR    root            (gcloud.compute.instances.create) Could not fetch resource:
+ - The resource 'projects/ml-images/global/images/family/tf-1-15' was not found
+

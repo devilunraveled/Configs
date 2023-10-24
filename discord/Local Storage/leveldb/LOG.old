@@ -1,6 +1,6 @@
-2023/08/20-17:45:30.418 68f Reusing MANIFEST /home/devilunraveled/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2023/08/20-17:45:30.420 68f Recovering log #66
-2023/08/20-17:45:30.421 68f Reusing old log /home/devilunraveled/.config/discord/Local Storage/leveldb/000066.log 
-2023/08/20-17:47:31.022 79d Level-0 table #70: started
-2023/08/20-17:47:31.036 79d Level-0 table #70: 1848221 bytes OK
-2023/08/20-17:47:31.041 79d Delete type=0 #66
+2023/10/21-23:26:51.343 2bd7 Reusing MANIFEST /home/devilunraveled/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/10/21-23:26:51.343 2bd7 Recovering log #219
+2023/10/21-23:26:51.343 2bd7 Reusing old log /home/devilunraveled/.config/discord/Local Storage/leveldb/000219.log 
+2023/10/21-23:33:29.818 4df8 Level-0 table #223: started
+2023/10/21-23:33:29.852 4df8 Level-0 table #223: 4020199 bytes OK
+2023/10/21-23:33:29.858 4df8 Delete type=0 #219

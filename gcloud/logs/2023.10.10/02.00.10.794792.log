@@ -1,0 +1,11 @@
+2023-10-10 02:00:10,804 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2023-10-10 02:00:10,806 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances']
+2023-10-10 02:00:11,157 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances', 'create']
+2023-10-10 02:00:11,275 DEBUG    root            Running [gcloud.compute.instances.create] with arguments: [INSTANCE_NAMES:1: "['sample']"]
+2023-10-10 02:00:11,285 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2023-10-10 02:00:11,750 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/pegasus-401519/zones?alt=json&maxResults=500 HTTP/1.1" 200 None
+2023-10-10 02:00:11,997 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

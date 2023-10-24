@@ -1,0 +1,93 @@
+2023-10-10 01:15:26,188 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2023-10-10 01:15:26,189 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'install']
+2023-10-10 01:15:26,190 DEBUG    root            Running [gcloud.components.install] with arguments: [COMPONENT-IDS:1: "['app-engine-go']"]
+2023-10-10 01:15:26,193 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-10-10 01:15:26,333 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-v449.0.0.json HTTP/1.1" 200 209942
+2023-10-10 01:15:26,443 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,444 INFO     ___FILE_ONLY___ 
+Your current Google Cloud CLI version is: 449.0.0
+
+2023-10-10 01:15:26,444 INFO     ___FILE_ONLY___ Installing components from version: 449.0.0
+
+2023-10-10 01:15:26,444 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,445 DEBUG    root            Chosen display Format:table[box,title="These components will be removed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-10-10 01:15:26,446 DEBUG    root            Chosen display Format:table[box,title="These components will be updated."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-10-10 01:15:26,447 DEBUG    root            Chosen display Format:table[box,title="These components will be installed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ ┌───────────────────────────────────────────────────┐
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ │        These components will be installed.        │
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ ├──────────────────────────────┬─────────┬──────────┤
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ │             Name             │ Version │   Size   │
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ ├──────────────────────────────┼─────────┼──────────┤
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ App Engine Go Extensions    
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___  1.9.75
+2023-10-10 01:15:26,451 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___  4.5 MiB
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ │
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ Cloud Datastore Emulator    
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___   2.3.1
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ 36.2 MiB
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ │
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ gRPC Python library         
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___  1.20.0
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___  2.1 MiB
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,452 INFO     ___FILE_ONLY___ │
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___ gcloud app Python Extensions
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___ 1.9.106
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___ │ 
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___  8.4 MiB
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___  
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___ │
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___ └──────────────────────────────┴─────────┴──────────┘
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,453 INFO     ___FILE_ONLY___ 
+
+2023-10-10 01:15:26,456 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-10-10 01:15:26,588 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/RELEASE_NOTES HTTP/1.1" 200 1085080
+2023-10-10 01:15:26,763 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2023-10-10 01:15:32,675 DEBUG    root            Chosen display Format:none
+2023-10-10 01:15:32,676 INFO     root            Display format: "none"

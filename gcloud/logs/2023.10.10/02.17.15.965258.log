@@ -1,0 +1,104 @@
+2023-10-10 02:17:15,975 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2023-10-10 02:17:15,976 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances']
+2023-10-10 02:17:16,133 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances', 'create']
+2023-10-10 02:17:16,216 DEBUG    root            Running [gcloud.compute.instances.create] with arguments: [--boot-disk-size: "536870912000", --image-family: "tf-1-15-5", --image-project: "ml-images", --machine-type: "n1-highmem-8", --maintenance-policy: "TERMINATE", --restart-on-failure: "True", --zone: "asia-southeast1-c", INSTANCE_NAMES:1: "['samples']"]
+2023-10-10 02:17:16,231 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2023-10-10 02:17:16,742 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/pegasus-401519/zones/asia-southeast1-c?alt=json HTTP/1.1" 200 None
+2023-10-10 02:17:16,752 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2023-10-10 02:17:17,226 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/pegasus-401519?alt=json HTTP/1.1" 200 None
+2023-10-10 02:17:17,239 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2023-10-10 02:17:23,640 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /compute/v1/projects/pegasus-401519/zones/asia-southeast1-c/instances?alt=json HTTP/1.1" 200 None
+2023-10-10 02:17:23,645 DEBUG    root            Operations to inspect: [(<Operation
+ id: 3644394523918456884
+ insertTime: '2023-10-09T13:47:23.511-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1696884437339-6074eb21ccdc2-bac93ecd-d748eb4f'
+ operationType: 'insert'
+ progress: 0
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/pegasus-401519/zones/asia-southeast1-c/operations/operation-1696884437339-6074eb21ccdc2-bac93ecd-d748eb4f'
+ status: StatusValueValuesEnum(PENDING, 1)
+ targetId: 7847804657744861241
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/pegasus-401519/zones/asia-southeast1-c/instances/samples'
+ user: 'hardiksharmah73@gmail.com'
+ warnings: []
+ zone: 'https://www.googleapis.com/compute/v1/projects/pegasus-401519/zones/asia-southeast1-c'>, 3)]
+2023-10-10 02:17:23,648 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2023-10-10 02:17:37,375 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /compute/v1/projects/pegasus-401519/zones/asia-southeast1-c/operations/operation-1696884437339-6074eb21ccdc2-bac93ecd-d748eb4f/wait?alt=json HTTP/1.1" 200 None
+2023-10-10 02:17:37,380 DEBUG    root            Operations to inspect: [(<Operation
+ endTime: '2023-10-09T13:47:37.266-07:00'
+ id: 3644394523918456884
+ insertTime: '2023-10-09T13:47:23.511-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1696884437339-6074eb21ccdc2-bac93ecd-d748eb4f'
+ operationType: 'insert'
+ progress: 100
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/pegasus-401519/zones/asia-southeast1-c/operations/operation-1696884437339-6074eb21ccdc2-bac93ecd-d748eb4f'
+ startTime: '2023-10-09T13:47:23.746-07:00'
+ status: StatusValueValuesEnum(DONE, 0)
+ targetId: 7847804657744861241
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/pegasus-401519/zones/asia-southeast1-c/instances/samples'
+ user: 'hardiksharmah73@gmail.com'
+ warnings: [<WarningsValueListEntry
+ code: CodeValueValuesEnum(DISK_SIZE_LARGER_THAN_IMAGE_SIZE, 3)
+ data: [<DataValueListEntry
+ key: 'disk_size_gb'
+ value: '500'>, <DataValueListEntry
+ key: 'image_size_gb'
+ value: '10'>]
+ message: "Disk size: '500 GB' is larger than image size: '10 GB'. You might need to resize the root repartition manually if the operating system does not support automatic resizing. See https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_pd for details.">]
+ zone: 'https://www.googleapis.com/compute/v1/projects/pegasus-401519/zones/asia-southeast1-c'>, 3)]
+2023-10-10 02:17:37,381 INFO     ___FILE_ONLY___ Created [https://www.googleapis.com/compute/v1/projects/pegasus-401519/zones/asia-southeast1-c/instances/samples].
+
+2023-10-10 02:17:37,384 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2023-10-10 02:17:37,606 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/pegasus-401519/zones/asia-southeast1-c/instances/samples?alt=json HTTP/1.1" 200 None
+2023-10-10 02:17:37,611 DEBUG    root            Chosen display Format:list[title="Some requests generated warnings:",always-display-title]
+2023-10-10 02:17:37,611 WARNING  root            Some requests generated warnings:
+ - Disk size: '500 GB' is larger than image size: '10 GB'. You might need to resize the root repartition manually if the operating system does not support automatic resizing. See https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_pd for details.
+
+2023-10-10 02:17:37,611 DEBUG    root            Chosen display Format:    table(
+      name,
+      zone.basename(),
+      machineType.machine_type().basename(),
+      scheduling.preemptible.yesno(yes=true, no=''),
+      networkInterfaces[].networkIP.notnull().list():label=INTERNAL_IP,
+      networkInterfaces[].accessConfigs[0].natIP.notnull().list()      :label=EXTERNAL_IP,
+      status
+    )
+2023-10-10 02:17:37,613 INFO     root            Display format: "    table(
+      name,
+      zone.basename(),
+      machineType.machine_type().basename(),
+      scheduling.preemptible.yesno(yes=true, no=''),
+      networkInterfaces[].networkIP.notnull().list():label=INTERNAL_IP,
+      networkInterfaces[].accessConfigs[0].natIP.notnull().list()      :label=EXTERNAL_IP,
+      status
+    )"
+2023-10-10 02:17:37,638 INFO     root            cache collection=compute.instances api_version=v1 params=['project', 'zone', 'instance']
+2023-10-10 02:17:37,762 INFO     ___FILE_ONLY___ NAME
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___      
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ ZONE
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___                
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ MACHINE_TYPE
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___   
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ PREEMPTIBLE
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___   
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ INTERNAL_IP
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___   
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ EXTERNAL_IP
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___     
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ STATUS
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ 
+
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ samples
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___   
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ asia-southeast1-c
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___   
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ n1-highmem-8
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___                
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ 10.148.0.2
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___    
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ 34.142.153.94
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___   
+2023-10-10 02:17:37,763 INFO     ___FILE_ONLY___ RUNNING
+2023-10-10 02:17:37,764 INFO     ___FILE_ONLY___ 
+

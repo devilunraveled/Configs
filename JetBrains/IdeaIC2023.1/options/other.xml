@@ -1,24 +1,63 @@
 <application>
   <component name="NotRoamableUiSettings">
     <option name="fontScale" value="1.5" />
-    <option name="fontSize" value="18.0" />
+    <option name="fontSize" value="14.0" />
     <option name="presentationModeIdeScale" value="1.75" />
   </component>
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
     "CWM_LOGGING_VERSION": "1",
+    "FindSplitterProportion": "0.32964224",
+    "MarketplacePluginsSearchHistory": "copilot",
+    "NewProjectWizard.generateOnboardingTips": "true",
+    "NewProjectWizard.gitState": "false",
+    "NextRunPlatformUpdateBuild": "IC-231.9392.1",
+    "NextRunPlatformUpdateVersion": "2023.1.5",
     "NonModalCommitCustomization.IsApplied": "true",
+    "RunOnceActivity.se.text.search": "true",
+    "appcds.runOnSecondStart": "IC-231.9225.16-d386f883afed38958e401f147d375d1945a45a789cef2a0acd3d5311c3f86685",
     "ask.about.ctrl.y.shortcut.v2": "true",
     "bundled.plugins.list.saved.version": "IC-232.8660.185",
+    "com.intellij.history.integration.ui.views.FileHistoryDialog.0": "74",
+    "com.intellij.history.integration.ui.views.FileHistoryDialog.1": "800",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "create.project.preferred.importer": "Gradle",
+    "decompiler.legal.notice.accepted": "true",
+    "defaultJdkConfigured": "true",
     "experimental.ui.used.once": "true",
+    "file.gist.reindex.count": "10",
     "fileTypeChangedCounter": "1",
     "fontSizeToResetConsole": "18.0",
     "fontSizeToResetEditor": "18.0",
+    "got.it.tooltip.copilot.inlayGotIt": "1",
+    "got.it.tooltip.reader.mode.got.it": "1",
+    "gotit.previous.run": "IC-231.9225.16",
+    "ide.memory.adjusted": "true",
     "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "231-1.8.21-release-380-IJ9225.16",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last.imported.location": "/home/devilunraveled/IdeaProjects/AutomatedNegotiation/src",
+    "last_opened_file_path": "/home/devilunraveled/IdeaProjects/AutomatedNegotiation/src",
+    "migrate.android.sdk.path.to.roamable.storage": "false",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "onboarding.generation.number": "1",
     "previousColorScheme": "_@user_Dark",
+    "project.wizard.group": "NPW.simple-project",
+    "registry.to.advanced.settings.migration.build": "IC-231.9225.16",
     "tasks.pass.word.conversion.enforced": "true"
   },
   "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/devilunraveled/IdeaProjects/AutomatedNegotiation/src",
+      "/home/devilunraveled/Genius/genius-9.1.13.jar",
+      "/home/devilunraveled/Genius",
+      "/home/devilunraveled/Genius/bilateralexamples",
+      "/home/devilunraveled/Genius/bilateralexamples/BoaPartyExample.java",
+      "/home/devilunraveled/Genius/bilateralexamples/boacomponents/BestBid.java",
+      "/home/devilunraveled/Genius/bilateralexamples/RandomBidderExample.java"
+    ],
     "fileTypeDetectors": [
       "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
       "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
@@ -27,4 +66,10 @@
     ]
   }
 }]]></component>
+  <component name="ShownTips">{
+  &quot;shownTips&quot;: {
+    &quot;Rename&quot;: 1694516829865,
+    &quot;CommentCode&quot;: 1694516821774
+  }
+}</component>
 </application>
