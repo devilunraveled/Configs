@@ -1,0 +1,4 @@
+SQL_HOST = 'localhost'
+SQL_USER = 'dfs'
+SQL_PASSWORD = 'password'
+SQL_DATABASE = 'dfsdata'

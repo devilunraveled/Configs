@@ -15,16 +15,29 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/Genius">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Genius – RandomIncreasingUtilAgent.class [Genius]" projectWorkspaceId="2XGHniMjOtINc0ibQbPCGvV6Aa7">
+              <option name="activationTimestamp" value="1698249163444" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-231.9225.16" />
+              <option name="buildTimestamp" value="1689235882136" />
+              <frame x="-2" y="-20" width="1924" height="1079" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1698248664790" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/IdeaProjects/AutomatedNegotiation">
           <value>
             <RecentProjectMetaInfo frameTitle="AutomatedNegotiation – Team8.java" opened="true" projectWorkspaceId="2VIHkM2WjuSlpzlZcu63B5COKPP">
-              <option name="activationTimestamp" value="1696236525706" />
+              <option name="activationTimestamp" value="1698423137660" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-231.9225.16" />
-              <option name="buildTimestamp" value="1689235880083" />
+              <option name="buildTimestamp" value="1689235909408" />
               <frame x="-2" y="-20" width="1924" height="1079" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1696236203866" />
+              <option name="projectOpenTimestamp" value="1698421732426" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

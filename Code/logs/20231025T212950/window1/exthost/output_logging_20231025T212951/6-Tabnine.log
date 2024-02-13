@@ -1,0 +1,6 @@
+21:29:53 GMT+0530 (India Standard Time) [INFO]: spawning binary with command: /home/devilunraveled/.config/Code/User/globalStorage/tabnine.tabnine-vscode/binaries/4.28.0/x86_64-unknown-linux-musl/TabNine args: --no-lsp=true --client=vscode --client-metadata clientVersion=1.83.1 pluginVersion=3.21.1 t9-vscode-AutoImportEnabled=true t9-vscode-TSAutoImportEnabled=true t9-vscode-JSAutoImportEnabled=true vscode-telemetry-enabled=true vscode-remote=false vscode-extension-kind=1 vscode-theme-name=Solarized Dark vscode-theme-kind=Dark vscode-machine-id=bb04cb15f0c976b0eb948c4e657f94ef4a75e2ed3b5e67ee0795fb943bd6a437 vscode-is-new-app-install=false vscode-session-id=fbd0d571-42a2-48f4-967d-8c066206ee1f1698249590568 vscode-language=en vscode-app-name=Visual Studio Code vscode-beta-channel-enabled=false vscode-status-customization=unknown vscode-inline-api-enabled=true --tls_config insecure=false ide-restart-counter=0 
+
+21:29:53 GMT+0530 (India Standard Time) [DEBUG]: capabilities resolved immediately 
+
+22:49:01 GMT+0530 (India Standard Time) [WARN]: assistant is closing 
+

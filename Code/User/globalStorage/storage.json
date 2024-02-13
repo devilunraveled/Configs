@@ -7,7 +7,7 @@
                 "folderUri": "file:///home/devilunraveled/DASS/Assignment%201"
             },
             {
-                "folderUri": "file:///home/devilunraveled/DASS/Assignment%201/2021101049"
+                "folderUri": "file:///home/devilunraveled/Projects/DUAManager"
             }
         ],
         "emptyWindows": []
@@ -55,6 +55,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/devilunraveled/Projects/DUAManager",
+                                        "path": "/home/devilunraveled/Projects/DUAManager",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Projects/DUAManager"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -192,7 +203,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -202,6 +214,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -240,7 +259,7 @@
                                             },
                                             {
                                                 "id": "workbench.profiles.actions.showProfileContents",
-                                                "label": "Show Contents..."
+                                                "label": "Show Profile Contents"
                                             },
                                             {
                                                 "id": "vscode.menubar.separator"
@@ -269,9 +288,6 @@
                                     }
                                 },
                                 {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.openSettings",
                                     "label": "&&Settings"
                                 },
@@ -286,6 +302,10 @@
                                 {
                                     "id": "workbench.action.openSnippets",
                                     "label": "Configure User Snippets"
+                                },
+                                {
+                                    "id": "workbench.action.tasks.openUserTasks",
+                                    "label": "User Tasks"
                                 },
                                 {
                                     "id": "submenuitem.ThemesSubMenu",
@@ -545,8 +565,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -615,6 +634,10 @@
                                     "checked": true
                                 },
                                 {
+                                    "id": "editor.action.toggleStickyScroll",
+                                    "label": "&&Sticky Scroll"
+                                },
+                                {
                                     "id": "editor.action.toggleRenderWhitespace",
                                     "label": "&&Render Whitespace",
                                     "checked": true
@@ -662,13 +685,6 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -762,11 +778,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
-                    },
-                    {
-                        "id": "editor.action.toggleStickyScroll",
-                        "label": "&&Sticky Scroll"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -774,8 +787,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1101,7 +1113,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1194,8 +1207,8 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "workbench.action.openTwitterUrl",
-                        "label": "&&Join Us on Twitter"
+                        "id": "workbench.action.openYouTubeUrl",
+                        "label": "&&Join Us on YouTube"
                     },
                     {
                         "id": "workbench.action.openRequestFeatureUrl",
@@ -1449,11 +1462,6 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
-            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1467,8 +1475,9 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G",
-                "userSettingsLabel": "ctrl+shift+g"
+                "label": "Ctrl+Shift+G G",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+g g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1693,15 +1702,15 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 614,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/devilunraveled/DASS/Assignment%201/2021101049",
-            "backupPath": "/home/devilunraveled/.config/Code/Backups/fadaa3eb2eed2f26f08668b4391ee509",
+            "folder": "file:///home/devilunraveled/Projects/DUAManager",
+            "backupPath": "/home/devilunraveled/.config/Code/Backups/c68ca86d827f90361dc9c8ad5b412865",
             "uiState": {
                 "mode": 1,
                 "x": -2,
@@ -1722,11 +1731,10 @@
             "file:///home/devilunraveled/Projects/Curate": "__default__profile__",
             "file:///home/devilunraveled/Projects/website": "__default__profile__",
             "file:///home/devilunraveled/Projects/website/TheDen": "__default__profile__",
-            "file:///home/devilunraveled/DASS/Assignment%201/2021101049": "__default__profile__"
+            "file:///home/devilunraveled/DASS/Assignment%201/2021101049": "__default__profile__",
+            "file:///home/devilunraveled/Projects/DUAManager": "__default__profile__"
         },
-        "emptyWindows": {
-            "1690557690899": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true
 }

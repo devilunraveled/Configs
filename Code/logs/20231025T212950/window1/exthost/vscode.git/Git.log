@@ -1,0 +1,18 @@
+2023-10-25 21:29:52.427 [info] Log level: Info
+2023-10-25 21:29:52.427 [info] Validating found git in: "git"
+2023-10-25 21:29:52.427 [info] Using git "2.42.0" from "git"
+2023-10-25 21:29:52.427 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-25 21:29:52.428 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-10-25 21:29:52.437 [info] Open repository: /home/devilunraveled/Projects/DUAManager
+2023-10-25 21:29:52.452 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-25 21:29:52.452 [info] > git config --get commit.template [8ms]
+2023-10-25 21:29:52.465 [info] > git rev-parse --show-toplevel [6ms]
+2023-10-25 21:29:52.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-10-25 21:29:52.477 [info] > git rev-parse --show-toplevel [9ms]
+2023-10-25 21:29:52.768 [info] > git status -z -uall [292ms]
+2023-10-25 21:29:53.113 [info] > git show --textconv :dfs-backend/.env [81ms]
+2023-10-25 21:29:53.113 [info] > git check-ignore -v -z --stdin [29ms]
+2023-10-25 21:29:53.114 [info] > git ls-files --stage -- /home/devilunraveled/Projects/DUAManager/dfs-backend/.env [73ms]
+2023-10-25 21:29:53.116 [info] > git config --get commit.template [165ms]
+2023-10-25 21:29:53.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2023-10-25 21:29:53.232 [info] > git status -z -uall [22ms]

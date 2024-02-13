@@ -1,0 +1,882 @@
+{"level":30,"time":"2023-11-27T17:44:19.506Z","msg":"Profile Service initialized"}
+{"level":30,"time":"2023-11-27T17:44:19.659Z","msg":"preload complete"}
+{"level":30,"time":"2023-11-27T17:44:19.660Z","msg":"@signalapp/libsignal-client Initializing libsignal version:0.32.1 signal_node::logging rust/bridge/node/src/logging.rs:133"}
+{"level":30,"time":"2023-11-27T17:44:19.683Z","msg":"NotificationService initialized"}
+{"level":30,"time":"2023-11-27T17:44:19.689Z","msg":"initializeMessageCounter: picking stored counter"}
+{"level":30,"time":"2023-11-27T17:44:19.689Z","msg":"Our profile key service: initializing"}
+{"level":30,"time":"2023-11-27T17:44:19.689Z","msg":"background page reloaded"}
+{"level":30,"time":"2023-11-27T17:44:19.689Z","msg":"environment: production"}
+{"level":30,"time":"2023-11-27T17:44:19.691Z","msg":"Checking for the existence of IndexedDB data..."}
+{"level":30,"time":"2023-11-27T17:44:19.757Z","msg":"Storage fetch"}
+{"level":40,"time":"2023-11-27T17:44:19.759Z","msg":"SocketManager authenticate was called without credentials"}
+{"level":30,"time":"2023-11-27T17:44:19.759Z","msg":"conversation job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-27T17:44:19.759Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"conversation\""}
+{"level":30,"time":"2023-11-27T17:44:19.759Z","msg":"single proto job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-27T17:44:19.759Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"single proto\""}
+{"level":30,"time":"2023-11-27T17:44:19.760Z","msg":"read sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-27T17:44:19.760Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"read sync\""}
+{"level":30,"time":"2023-11-27T17:44:19.760Z","msg":"view sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-27T17:44:19.760Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view sync\""}
+{"level":30,"time":"2023-11-27T17:44:19.760Z","msg":"view once open sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-27T17:44:19.760Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view once open sync\""}
+{"level":30,"time":"2023-11-27T17:44:19.760Z","msg":"remove storage key job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-27T17:44:19.760Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"remove storage key\""}
+{"level":30,"time":"2023-11-27T17:44:19.760Z","msg":"report spam job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-27T17:44:19.760Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"report spam\""}
+{"level":30,"time":"2023-11-27T17:44:19.760Z","msg":"Initializing MessageReceiver"}
+{"level":30,"time":"2023-11-27T17:44:19.761Z","msg":"Sender certificate service initialized"}
+{"level":30,"time":"2023-11-27T17:44:19.762Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"conversation\""}
+{"level":30,"time":"2023-11-27T17:44:19.763Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"single proto\""}
+{"level":30,"time":"2023-11-27T17:44:19.763Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"read sync\""}
+{"level":30,"time":"2023-11-27T17:44:19.763Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view sync\""}
+{"level":30,"time":"2023-11-27T17:44:19.763Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view once open sync\""}
+{"level":30,"time":"2023-11-27T17:44:19.763Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"remove storage key\""}
+{"level":30,"time":"2023-11-27T17:44:19.763Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"report spam\""}
+{"level":30,"time":"2023-11-27T17:44:19.795Z","msg":"Starting background data migration. Target version: 10"}
+{"level":30,"time":"2023-11-27T17:44:19.801Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2023-11-27T17:44:19.802Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-11-27T17:44:19.806Z","msg":"RetryPlaceholders.constructor: Started with 0 items, lifespan of 3600000"}
+{"level":30,"time":"2023-11-27T17:44:19.806Z","msg":"ConversationController: starting initial fetch"}
+{"level":30,"time":"2023-11-27T17:44:19.807Z","msg":"ConversationController: done with initial fetch"}
+{"level":30,"time":"2023-11-27T17:44:19.818Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2023-11-27T17:44:19.818Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2023-11-27T17:44:19.818Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2023-11-27T17:44:19.818Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2023-11-27T17:44:19.818Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2023-11-27T17:44:19.818Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2023-11-27T17:44:19.819Z","msg":"checkForConflicts: starting..."}
+{"level":30,"time":"2023-11-27T17:44:19.819Z","msg":"checkForConflicts: complete!"}
+{"level":30,"time":"2023-11-27T17:44:19.820Z","msg":"Storage/getItemsState: now preparing copy of items..."}
+{"level":30,"time":"2023-11-27T17:44:19.823Z","msg":"challenge: loading 0 challenges"}
+{"level":30,"time":"2023-11-27T17:44:19.823Z","msg":"Initializing network observer"}
+{"level":30,"time":"2023-11-27T17:44:19.824Z","msg":"BadgeDownloader#checkForFilesToDownload: downloading 0 badge(s)"}
+{"level":30,"time":"2023-11-27T17:44:19.824Z","msg":"Expiration start timestamp cleanup: starting..."}
+{"level":30,"time":"2023-11-27T17:44:19.827Z","msg":"Expiration start timestamp cleanup: Found 0 messages for cleanup"}
+{"level":30,"time":"2023-11-27T17:44:19.827Z","msg":"Expiration start timestamp cleanup: Cancelling update; we don't have our own UUID"}
+{"level":30,"time":"2023-11-27T17:44:19.827Z","msg":"Expiration start timestamp cleanup: complete"}
+{"level":30,"time":"2023-11-27T17:44:19.827Z","msg":"listening for registration events"}
+{"level":30,"time":"2023-11-27T17:44:19.840Z","msg":"Build expires (local): 2024-02-14T00:41:47.000Z"}
+{"level":30,"time":"2023-11-27T17:44:19.884Z","msg":"InstallScreen/getQRCode: race to 10000ms"}
+{"level":40,"time":"2023-11-27T17:44:20.483Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 672ms (attempts v4=1 v6=1)"}
+{"level":40,"time":"2023-11-27T17:44:20.577Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 686ms (attempts v4=1 v6=1)"}
+{"level":30,"time":"2023-11-27T17:44:20.710Z","msg":"SocketManager: connected unauthenticated socket (localPort: 33836)"}
+{"level":30,"time":"2023-11-27T17:44:20.711Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":30,"time":"2023-11-27T17:44:20.801Z","msg":"provisioning socket open"}
+{"level":30,"time":"2023-11-27T17:44:20.846Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-11-27T17:44:20.850Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":50,"time":"2023-11-27T17:44:20.933Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-27T17:44:20.934Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":50,"time":"2023-11-27T17:44:20.935Z","msg":"Top-level unhandled promise rejection: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:88:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:88:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:88:696)\n    at async H ([REDACTED]/resources/app.asar/preload.bundle.js:88:5973)\n    at async Object.te [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:88:7012)\n    at async refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:86:7168)\n    at async Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:86:6061)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:88:867)\n    at H ([REDACTED]/resources/app.asar/preload.bundle.js:88:5979)\n    at Object.te [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:88:7018)\n    at refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:86:7176)\n    at invokeFunc ([REDACTED]/resources/app.asar/preload.bundle.js:3:14228)\n    at leadingEdge ([REDACTED]/resources/app.asar/preload.bundle.js:3:14307)\n    at debounced ([REDACTED]/resources/app.asar/preload.bundle.js:3:14888)\n    at Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:86:6067)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13624\nCaused by: undefined"}
+{"level":30,"time":"2023-11-27T17:44:26.443Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-27T17:44:26.443Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-27T17:44:27.444Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-11-27T17:44:50.803Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:44:50.934Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:45:21.056Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:45:21.151Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:45:51.284Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:45:51.370Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:46:16.341Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-27T17:46:16.341Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-27T17:46:17.342Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2023-11-27T17:46:21.522Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:46:21.589Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:46:23.606Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-27T17:46:23.606Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-27T17:46:24.607Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2023-11-27T17:46:48.559Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-27T17:46:48.560Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-27T17:46:49.560Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-11-27T17:46:51.776Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:46:51.809Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:47:22.031Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:47:22.032Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:47:52.272Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:47:52.273Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:47:56.240Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-27T17:47:56.241Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-27T17:47:57.241Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2023-11-27T17:48:01.251Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-27T17:48:01.252Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-27T17:48:02.252Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2023-11-27T17:48:22.519Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:48:22.519Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:48:52.767Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:48:52.768Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:48:56.190Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-27T17:48:56.191Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-27T17:48:57.191Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":40,"time":"2023-11-27T17:49:19.806Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T17:49:19.808Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T17:49:19.815Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T17:49:20.711Z","msg":"SocketManager: shutting down unauthenticated socket after timeout"}
+{"level":30,"time":"2023-11-27T17:49:20.711Z","msg":"WebSocketResource(unauthenticated).shutdown: no active requests, closing"}
+{"level":30,"time":"2023-11-27T17:49:20.711Z","msg":"WebSocketResource(unauthenticated).close(3000)"}
+{"level":30,"time":"2023-11-27T17:49:20.712Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":40,"time":"2023-11-27T17:49:20.729Z","msg":"WebSocketResource(unauthenticated): Socket closed"}
+{"level":40,"time":"2023-11-27T17:49:21.417Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 668ms (attempts v4=1 v6=1)"}
+{"level":30,"time":"2023-11-27T17:49:21.639Z","msg":"SocketManager: connected unauthenticated socket (localPort: 57340)"}
+{"level":30,"time":"2023-11-27T17:49:22.990Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:49:51.662Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:49:53.215Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:50:08.882Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-27T17:50:08.882Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-27T17:50:09.882Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-11-27T17:50:21.899Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:50:23.439Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:50:52.149Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:50:53.663Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:51:22.379Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:51:23.887Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:51:52.626Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:51:54.111Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:52:22.874Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:52:24.336Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:52:53.124Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:52:54.560Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:53:23.375Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:53:24.784Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:53:53.622Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:53:55.014Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T17:54:19.806Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T17:54:19.808Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T17:54:19.820Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T17:54:23.859Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:54:25.240Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:54:54.105Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:54:55.465Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:55:24.352Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:55:25.689Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:55:54.599Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:55:55.914Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:56:24.849Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:56:26.138Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:56:55.099Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:56:56.362Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:57:25.349Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:57:26.661Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:57:55.598Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:57:56.885Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:58:25.848Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:58:27.109Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:58:56.098Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:58:57.332Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T17:59:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T17:59:19.808Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T17:59:19.821Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T17:59:26.349Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:59:27.557Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:59:56.599Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T17:59:57.781Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:00:26.848Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:00:28.006Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:00:57.099Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:00:58.228Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:01:27.347Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:01:28.452Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:01:57.595Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:01:58.675Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:02:27.868Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:02:28.899Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:02:58.118Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:02:59.122Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:03:28.367Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:03:29.346Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:03:58.618Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:03:59.569Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:04:19.806Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:04:19.808Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:04:19.820Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:04:28.867Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:04:29.792Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:04:59.115Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:05:00.014Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:05:29.362Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:05:30.237Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:05:59.616Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:06:00.460Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:06:29.871Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:06:30.684Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:07:00.120Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:07:00.908Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:07:30.346Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:07:31.132Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:08:00.596Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:08:01.357Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:08:30.845Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:08:31.586Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:09:01.120Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:09:01.834Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:09:19.806Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:09:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:09:19.824Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:09:31.366Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:09:32.059Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:10:01.612Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:10:02.283Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:10:31.855Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:10:32.508Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:11:02.102Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:11:02.731Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:11:32.349Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:11:32.954Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:12:02.597Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:12:03.177Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:12:32.843Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:12:33.401Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:13:03.069Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:13:03.625Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:13:33.299Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:13:33.848Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:14:03.556Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:14:04.073Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:14:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:14:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:14:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:14:33.802Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:14:34.296Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:15:04.049Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:15:04.519Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:15:34.295Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:15:34.742Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:16:04.524Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:16:04.967Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:16:34.773Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:16:35.191Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:17:05.020Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:17:05.414Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:17:35.267Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:17:35.638Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:18:05.515Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:18:05.862Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:18:35.762Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:18:36.085Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:19:05.988Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:19:06.308Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:19:19.808Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:19:19.810Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:19:19.828Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:19:36.236Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:19:36.535Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:20:06.483Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:20:06.758Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:20:36.730Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:20:36.981Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:21:06.979Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:21:07.206Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:21:37.226Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:21:37.429Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:22:07.472Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:22:07.658Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:22:37.720Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:22:37.882Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:23:07.967Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:23:08.104Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:23:38.213Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:23:38.327Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:24:08.460Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:24:08.551Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:24:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:24:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:24:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:24:38.706Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:24:38.775Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:25:08.952Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:25:08.998Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:25:39.200Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:25:39.221Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:26:09.448Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:26:09.448Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:26:39.669Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:26:39.670Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:27:09.916Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:27:09.916Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:27:40.164Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:27:40.165Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:28:10.411Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:28:10.412Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:28:40.658Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:28:40.659Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:29:10.902Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:29:10.903Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:29:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:29:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:29:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:29:41.150Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:29:41.150Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:30:11.395Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:30:11.396Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:30:41.623Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:30:41.624Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:31:11.870Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:31:11.871Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:31:42.117Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:31:42.117Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:32:12.364Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:32:12.365Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:32:42.610Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:32:42.611Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:33:12.857Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:33:12.857Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:33:43.105Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:33:43.106Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:34:13.352Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:34:13.353Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:34:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:34:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:34:19.822Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:34:43.599Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:34:43.600Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:35:13.846Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:35:13.846Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:35:44.094Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:35:44.094Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:36:14.340Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:36:14.341Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:36:44.587Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:36:44.588Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:37:14.834Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:37:14.835Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:37:45.059Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:37:45.059Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:38:15.306Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:38:15.306Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:38:45.526Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:38:45.526Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:39:15.772Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:39:15.773Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:39:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:39:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:39:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:39:46.019Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:39:46.019Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:40:16.266Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:40:16.268Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:40:46.515Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:40:46.515Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:41:16.762Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:41:16.763Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:41:47.009Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:41:47.010Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:42:17.256Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:42:17.257Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:42:47.503Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:42:47.504Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:43:17.750Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:43:17.750Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:43:47.997Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:43:47.998Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:44:18.245Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:44:18.246Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:44:19.806Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:44:19.807Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:44:19.819Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:44:48.492Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:44:48.493Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:45:18.736Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:45:18.736Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:45:48.983Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:45:48.983Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:46:19.219Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:46:19.220Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:46:49.467Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:46:49.467Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:47:19.713Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:47:19.714Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:47:49.961Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:47:49.961Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:48:20.209Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:48:20.209Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:48:50.455Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:48:50.456Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:49:19.806Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:49:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:49:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:49:20.702Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:49:20.703Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:49:50.949Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:49:50.949Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:50:21.195Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:50:21.196Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:50:51.416Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:50:51.418Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:51:21.651Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:51:21.652Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:51:51.873Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:51:51.874Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:52:22.099Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:52:22.099Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:52:52.339Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:52:52.340Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:53:22.585Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:53:22.586Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:53:52.832Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:53:52.833Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:54:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:54:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:54:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:54:23.079Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:54:23.079Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:54:53.298Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:54:53.299Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:55:23.545Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:55:23.546Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:55:53.797Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:55:53.797Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:56:24.045Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:56:24.045Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:56:54.292Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:56:54.292Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:57:24.538Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:57:24.539Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:57:54.785Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:57:54.786Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:58:25.029Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:58:25.029Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:58:55.276Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:58:55.277Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T18:59:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T18:59:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:59:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T18:59:25.523Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:59:25.524Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:59:55.770Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T18:59:55.771Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:00:26.018Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:00:26.018Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:00:56.265Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:00:56.266Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:01:26.512Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:01:26.514Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:01:56.733Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:01:56.734Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:02:26.957Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:02:26.958Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:02:57.202Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:02:57.202Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:03:27.449Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:03:27.449Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:03:57.684Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:03:57.685Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:04:19.806Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:04:19.807Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:04:19.820Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:04:27.914Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:04:27.914Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:04:58.161Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:04:58.162Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:05:28.410Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:05:28.410Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:05:58.629Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:05:58.629Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:06:28.876Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:06:28.877Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:06:59.123Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:06:59.124Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:07:29.372Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:07:29.372Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:07:59.614Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:07:59.614Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:08:29.860Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:08:29.861Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:09:00.107Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:09:00.107Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:09:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:09:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:09:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:09:30.332Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:09:30.332Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:10:00.578Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:10:00.579Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:10:30.826Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:10:30.827Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:11:01.053Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:11:01.053Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:11:31.300Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:11:31.301Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:12:01.546Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:12:01.547Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:12:31.794Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:12:31.794Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:13:02.040Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:13:02.041Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:13:32.287Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:13:32.288Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:14:02.534Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:14:02.535Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:14:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:14:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:14:19.822Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:14:32.781Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:14:32.781Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:15:03.028Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:15:03.029Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:15:33.276Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:15:33.277Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:16:03.524Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:16:03.524Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:16:33.771Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:16:33.772Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:17:04.018Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:17:04.018Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:17:34.236Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:17:34.237Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:18:04.483Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:18:04.483Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:18:34.730Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:18:34.731Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:19:04.977Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:19:04.978Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:19:19.806Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:19:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:19:19.822Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:19:35.195Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:19:35.196Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:20:05.417Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:20:05.418Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:20:35.664Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:20:35.665Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:21:05.911Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:21:05.912Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:21:36.158Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:21:36.159Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:22:06.376Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:22:06.377Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:22:36.624Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:22:36.624Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:23:06.858Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:23:06.859Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:23:37.103Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:23:37.103Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:24:07.348Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:24:07.349Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:24:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:24:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:24:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:24:37.595Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:24:37.596Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:25:07.842Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:25:07.843Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:25:38.090Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:25:38.090Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:26:08.337Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:26:08.337Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:26:38.585Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:26:38.585Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:27:08.831Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:27:08.832Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:27:39.079Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:27:39.080Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:28:09.326Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:28:09.327Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:28:39.559Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:28:39.559Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:29:09.778Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:29:09.779Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:29:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:29:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:29:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:29:40.026Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:29:40.027Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:30:10.272Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:30:10.273Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:30:40.514Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:30:40.514Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:31:10.762Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:31:10.762Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:31:41.008Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:31:41.009Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:32:11.255Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:32:11.255Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:32:41.502Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:32:41.502Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:33:11.748Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:33:11.749Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:33:41.995Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:33:41.995Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:34:12.242Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:34:12.242Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:34:19.806Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:34:19.807Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:34:19.820Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:34:42.489Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:34:42.490Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:35:12.737Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:35:12.738Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:35:42.984Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:35:42.985Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:36:13.202Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:36:13.202Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:36:43.423Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:36:43.424Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:37:13.670Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:37:13.671Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:37:43.917Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:37:43.917Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:38:14.165Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:38:14.166Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:38:44.383Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:38:44.383Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:39:14.630Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:39:14.631Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:39:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:39:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:39:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:39:44.878Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:39:44.879Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:40:15.125Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:40:15.126Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:40:45.372Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:40:45.373Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:41:15.618Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:41:15.619Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:41:45.852Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:41:45.853Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:42:16.098Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:42:16.099Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:42:46.345Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:42:46.346Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:43:16.593Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:43:16.593Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:43:46.838Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:43:46.839Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:44:17.062Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:44:17.062Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:44:19.806Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:44:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:44:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:44:47.291Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:44:47.292Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:45:17.519Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:45:17.519Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:45:47.766Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:45:47.767Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:46:18.001Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:46:18.002Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:46:48.224Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:46:48.225Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:47:18.466Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:47:18.466Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:47:48.712Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:47:48.713Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:48:18.959Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:48:18.960Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:48:49.206Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:48:49.207Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:49:19.447Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:49:19.448Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:49:19.806Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:49:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:49:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:49:49.674Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:49:49.675Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:50:19.921Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:50:19.922Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:50:50.159Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:50:50.160Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:51:20.402Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:51:20.402Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:51:50.648Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:51:50.649Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:52:20.882Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:52:20.883Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:52:51.129Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:52:51.130Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:53:21.377Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:53:21.377Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:53:51.622Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:53:51.622Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:54:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:54:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:54:19.822Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:54:21.839Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:54:21.840Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:54:52.085Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:54:52.085Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:55:22.332Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:55:22.332Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:55:52.553Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:55:52.554Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:56:22.798Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:56:22.799Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:56:53.047Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:56:53.048Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:57:23.295Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:57:23.295Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:57:53.542Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:57:53.542Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:58:23.789Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:58:23.789Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:58:54.035Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:58:54.036Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T19:59:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T19:59:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:59:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T19:59:24.281Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:59:24.282Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:59:54.529Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T19:59:54.529Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:00:24.775Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:00:24.776Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:00:55.022Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:00:55.023Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:01:25.269Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:01:25.270Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:01:55.516Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:01:55.517Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:02:25.763Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:02:25.764Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:02:55.986Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:02:55.986Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:03:26.233Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:03:26.234Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:03:56.481Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:03:56.482Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T20:04:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T20:04:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T20:04:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T20:04:26.731Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:04:26.732Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:04:56.978Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:04:56.978Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:05:27.225Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:05:27.225Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:05:57.465Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:05:57.466Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:06:27.698Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:06:27.699Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:06:57.946Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:06:57.947Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:07:28.168Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:07:28.169Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:07:58.417Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:07:58.417Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:08:28.665Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:08:28.665Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:08:58.911Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:08:58.912Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T20:09:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T20:09:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T20:09:19.823Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T20:09:29.158Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:09:29.158Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:09:59.404Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:09:59.405Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:10:29.652Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:10:29.652Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:10:59.898Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:10:59.899Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:11:30.118Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:11:30.118Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:12:00.365Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:12:00.365Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:12:30.612Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:12:30.612Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:13:00.859Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:13:00.859Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:13:31.105Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:13:31.106Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:14:01.352Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:14:01.352Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T20:14:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T20:14:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T20:14:19.822Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T20:14:31.599Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:14:31.599Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:15:01.832Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:15:01.832Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:15:32.078Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:15:32.078Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:16:02.324Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:16:02.325Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:16:32.570Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:16:32.571Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:17:02.817Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:17:02.818Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:17:33.064Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:17:33.064Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:18:03.305Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:18:03.305Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:18:33.552Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:18:33.552Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:19:03.796Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:19:03.797Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":40,"time":"2023-11-27T20:19:19.807Z","msg":"background/setInterval: Failed to parse integer from desktop.retryRespondMaxAge feature flag Error: retryRespondMaxAge\n    at parseIntOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:20:30367)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:158:13790"}
+{"level":30,"time":"2023-11-27T20:19:19.809Z","msg":"RetryPlaceholders.getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T20:19:19.822Z","msg":"retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2023-11-27T20:19:34.044Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:19:34.044Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:20:04.291Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:20:04.291Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:20:34.511Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:20:34.511Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-27T20:20:45.210Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":30,"time":"2023-11-27T20:20:45.210Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2023-11-27T20:20:45.210Z","msg":"Cycling agent for type undefined-auth"}
+{"level":30,"time":"2023-11-27T20:20:45.211Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-11-27T20:20:45.430Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-27T20:20:45.430Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":40,"time":"2023-11-27T20:20:45.430Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"background/shutdown"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"background/shutdown: shutting down messageReceiver"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"MessageReceiver.stopProcessing"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.894Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"background/shutdown: flushing conversations"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"Sleeper: shutting down, settling 0 in-progress sleep calls"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"Sleeper: sleep tasks settled"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"background/shutdown: shutting down queues"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"StartupQueue: Waiting for 0 tasks to drain"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"conversation job queue: shutdown: stop accepting new work and drain 0 promise queues"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"single proto job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"read sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"view sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"view once open sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"remove storage key job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"report spam job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"conversation job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"single proto job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"read sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"view sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"view once open sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"remove storage key job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"report spam job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"background/shutdown: shutting down conversation queues"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"conversation [REDACTED]111 ([REDACTED]840) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"conversation [REDACTED]111 ([REDACTED]840) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"background/shutdown: all queues shutdown"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"background/shutdown: waiting for all batchers"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.895Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.896Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.896Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.896Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.896Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-27T20:20:45.896Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-11-27T20:20:45.896Z","msg":"waitBatcher#waitForAllWaitBatchers"}
+{"level":30,"time":"2023-11-27T20:20:45.896Z","msg":"background/shutdown: closing the database"}
+{"level":30,"time":"2023-11-27T20:20:45.896Z","msg":"Client.shutdown"}
+{"level":30,"time":"2023-11-27T20:20:45.896Z","msg":"data.shutdown: shutdown requested. 0 jobs outstanding"}
+{"level":30,"time":"2023-11-27T20:20:45.903Z","msg":"NotificationService: clearing notification and updating"}
+{"level":30,"time":"2023-11-27T20:20:45.903Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}

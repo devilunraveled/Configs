@@ -1,0 +1,14 @@
+2024-01-31 20:12:07,213 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2024-01-31 20:12:07,214 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2024-01-31 20:12:07,215 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "hardiksharmah73@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "pegasus-401519"]
+2024-01-31 20:12:07,223 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-01-31 20:12:08,748 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/pegasus-401519?alt=json HTTP/1.1" 200 None
+2024-01-31 20:12:08,750 DEBUG    root            Chosen display Format:default value(name)
+2024-01-31 20:12:08,751 INFO     root            Display format: "default value(name)"
+2024-01-31 20:12:08,751 INFO     ___FILE_ONLY___ PEGASUS
+
+2024-01-31 20:12:08,752 DEBUG    root            Checking for updates...
+2024-01-31 20:12:08,754 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2024-01-31 20:12:09,100 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 214442
+2024-01-31 20:12:09,181 DEBUG    root            Updating notification cache...
+2024-01-31 20:12:09,181 DEBUG    root            Activating notification: [default]

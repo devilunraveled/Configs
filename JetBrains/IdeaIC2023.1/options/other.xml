@@ -1,71 +1,82 @@
 <application>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="Oracle OpenJDK 21.0.1" />
+        <option name="installDir" value="$USER_HOME$/.jdks/openjdk-21.0.1" />
+        <option name="sha256" value="7e80146b2c3f719bf7f56992eb268ad466f8854d5d6ae11805784608e458343f" />
+        <option name="url" value="https://download.java.net/java/GA/jdk21.0.1/415e3f918a1f4062a0074a2794853d0d/12/GPL/openjdk-21.0.1_linux-x64_bin.tar.gz" />
+        <option name="versionText" value="21.0.1" />
+      </installed-jdk>
+    </option>
+  </component>
   <component name="NotRoamableUiSettings">
     <option name="fontScale" value="1.5" />
     <option name="fontSize" value="14.0" />
     <option name="presentationModeIdeScale" value="1.75" />
   </component>
-  <component name="PropertyService"><![CDATA[{
-  "keyToString": {
-    "CWM_LOGGING_VERSION": "1",
-    "FindSplitterProportion": "0.32964224",
-    "MarketplacePluginsSearchHistory": "copilot",
-    "NewProjectWizard.generateOnboardingTips": "true",
-    "NewProjectWizard.gitState": "false",
-    "NextRunPlatformUpdateBuild": "IC-231.9392.1",
-    "NextRunPlatformUpdateVersion": "2023.1.5",
-    "NonModalCommitCustomization.IsApplied": "true",
-    "RunOnceActivity.se.text.search": "true",
-    "appcds.runOnSecondStart": "IC-231.9225.16-d386f883afed38958e401f147d375d1945a45a789cef2a0acd3d5311c3f86685",
-    "ask.about.ctrl.y.shortcut.v2": "true",
-    "bundled.plugins.list.saved.version": "IC-232.8660.185",
-    "com.intellij.history.integration.ui.views.FileHistoryDialog.0": "74",
-    "com.intellij.history.integration.ui.views.FileHistoryDialog.1": "800",
-    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
-    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
-    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
-    "create.project.preferred.importer": "Gradle",
-    "decompiler.legal.notice.accepted": "true",
-    "defaultJdkConfigured": "true",
-    "experimental.ui.used.once": "true",
-    "file.gist.reindex.count": "10",
-    "fileTypeChangedCounter": "1",
-    "fontSizeToResetConsole": "18.0",
-    "fontSizeToResetEditor": "18.0",
-    "got.it.tooltip.copilot.inlayGotIt": "1",
-    "got.it.tooltip.reader.mode.got.it": "1",
-    "gotit.previous.run": "IC-231.9225.16",
-    "ide.memory.adjusted": "true",
-    "input.method.disabler.muted": "true",
-    "installed.kotlin.plugin.version": "231-1.8.21-release-380-IJ9225.16",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last.imported.location": "/home/devilunraveled/IdeaProjects/AutomatedNegotiation/src",
-    "last_opened_file_path": "/home/devilunraveled/IdeaProjects/AutomatedNegotiation/src",
-    "migrate.android.sdk.path.to.roamable.storage": "false",
-    "migrated.non.roamable.values.from.general.settings": "true",
-    "onboarding.generation.number": "1",
-    "previousColorScheme": "_@user_Dark",
-    "project.wizard.group": "NPW.simple-project",
-    "registry.to.advanced.settings.migration.build": "IC-231.9225.16",
-    "tasks.pass.word.conversion.enforced": "true"
+  <component name="PropertyService">{
+  &quot;keyToString&quot;: {
+    &quot;CWM_LOGGING_VERSION&quot;: &quot;1&quot;,
+    &quot;FindSplitterProportion&quot;: &quot;0.32964224&quot;,
+    &quot;MarketplacePluginsSearchHistory&quot;: &quot;copilot&quot;,
+    &quot;NewProjectWizard.generateOnboardingTips&quot;: &quot;true&quot;,
+    &quot;NewProjectWizard.gitState&quot;: &quot;false&quot;,
+    &quot;NextRunPlatformUpdateBuild&quot;: &quot;IC-231.9392.1&quot;,
+    &quot;NextRunPlatformUpdateVersion&quot;: &quot;2023.1.5&quot;,
+    &quot;NonModalCommitCustomization.IsApplied&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.se.text.search&quot;: &quot;true&quot;,
+    &quot;appcds.runOnSecondStart&quot;: &quot;IC-231.9225.16-9815a92aac432433ef101bbb745f1ab8a062226df62caed147bab7d87c9cbc6c&quot;,
+    &quot;ask.about.ctrl.y.shortcut.v2&quot;: &quot;true&quot;,
+    &quot;bundled.plugins.list.saved.version&quot;: &quot;IC-232.8660.185&quot;,
+    &quot;com.intellij.history.integration.ui.views.FileHistoryDialog.0&quot;: &quot;74&quot;,
+    &quot;com.intellij.history.integration.ui.views.FileHistoryDialog.1&quot;: &quot;800&quot;,
+    &quot;com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep&quot;: &quot;IntelliJ&quot;,
+    &quot;com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep&quot;: &quot;Java&quot;,
+    &quot;com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor&quot;: &quot;Sources&quot;,
+    &quot;create.project.preferred.importer&quot;: &quot;Gradle&quot;,
+    &quot;decompiler.legal.notice.accepted&quot;: &quot;true&quot;,
+    &quot;defaultJdkConfigured&quot;: &quot;true&quot;,
+    &quot;experimental.ui.used.once&quot;: &quot;true&quot;,
+    &quot;file.gist.reindex.count&quot;: &quot;10&quot;,
+    &quot;fileTypeChangedCounter&quot;: &quot;1&quot;,
+    &quot;fontSizeToResetConsole&quot;: &quot;18.0&quot;,
+    &quot;fontSizeToResetEditor&quot;: &quot;18.0&quot;,
+    &quot;got.it.tooltip.copilot.inlayGotIt&quot;: &quot;1&quot;,
+    &quot;got.it.tooltip.reader.mode.got.it&quot;: &quot;1&quot;,
+    &quot;gotit.previous.run&quot;: &quot;IC-231.9225.16&quot;,
+    &quot;ide.memory.adjusted&quot;: &quot;true&quot;,
+    &quot;input.method.disabler.muted&quot;: &quot;true&quot;,
+    &quot;installed.kotlin.plugin.version&quot;: &quot;231-1.8.21-release-380-IJ9225.16&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last.imported.location&quot;: &quot;/home/devilunraveled/IdeaProjects/AutomatedNegotiation/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/devilunraveled/IdeaProjects/AutomatedNegotiation/src&quot;,
+    &quot;migrate.android.sdk.path.to.roamable.storage&quot;: &quot;false&quot;,
+    &quot;migrated.non.roamable.values.from.general.settings&quot;: &quot;true&quot;,
+    &quot;onboarding.generation.number&quot;: &quot;1&quot;,
+    &quot;previousColorScheme&quot;: &quot;_@user_Dark&quot;,
+    &quot;project.wizard.group&quot;: &quot;NPW.simple-project&quot;,
+    &quot;registry.to.advanced.settings.migration.build&quot;: &quot;IC-231.9225.16&quot;,
+    &quot;tasks.pass.word.conversion.enforced&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "file.chooser.recent.files": [
-      "/home/devilunraveled/IdeaProjects/AutomatedNegotiation/src",
-      "/home/devilunraveled/Genius/genius-9.1.13.jar",
-      "/home/devilunraveled/Genius",
-      "/home/devilunraveled/Genius/bilateralexamples",
-      "/home/devilunraveled/Genius/bilateralexamples/BoaPartyExample.java",
-      "/home/devilunraveled/Genius/bilateralexamples/boacomponents/BestBid.java",
-      "/home/devilunraveled/Genius/bilateralexamples/RandomBidderExample.java"
+  &quot;keyToStringList&quot;: {
+    &quot;file.chooser.recent.files&quot;: [
+      &quot;/home/devilunraveled/Genius&quot;,
+      &quot;/home/devilunraveled/IdeaProjects/AutomatedNegotiation/src&quot;,
+      &quot;/home/devilunraveled/Genius/genius-9.1.13.jar&quot;,
+      &quot;/home/devilunraveled/Genius/bilateralexamples&quot;,
+      &quot;/home/devilunraveled/Genius/bilateralexamples/BoaPartyExample.java&quot;,
+      &quot;/home/devilunraveled/Genius/bilateralexamples/boacomponents/BestBid.java&quot;,
+      &quot;/home/devilunraveled/Genius/bilateralexamples/RandomBidderExample.java&quot;
     ],
-    "fileTypeDetectors": [
-      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
-      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
-      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
-      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    &quot;fileTypeDetectors&quot;: [
+      &quot;com.intellij.ide.scratch.ScratchFileServiceImpl$Detector&quot;,
+      &quot;com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector&quot;,
+      &quot;com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector&quot;,
+      &quot;org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ShownTips">{
   &quot;shownTips&quot;: {
     &quot;Rename&quot;: 1694516829865,

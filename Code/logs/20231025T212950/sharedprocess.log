@@ -1,0 +1,61 @@
+2023-10-25 21:29:51.707 [info] Deleted uninstalled extension from disk alefragnani.bookmarks /home/devilunraveled/.vscode/extensions/alefragnani.bookmarks-13.4.1
+2023-10-25 21:29:51.711 [info] Deleted uninstalled extension from disk esbenp.prettier-vscode /home/devilunraveled/.vscode/extensions/esbenp.prettier-vscode-9.19.0
+2023-10-25 21:29:51.712 [info] Deleted uninstalled extension from disk tabnine.tabnine-vscode /home/devilunraveled/.vscode/extensions/tabnine.tabnine-vscode-3.6.77
+2023-10-25 21:29:51.713 [info] Deleted uninstalled extension from disk vscode-icons-team.vscode-icons /home/devilunraveled/.vscode/extensions/vscode-icons-team.vscode-icons-12.4.0
+2023-10-25 21:29:51.717 [info] Deleted uninstalled extension from disk vscjava.vscode-gradle /home/devilunraveled/.vscode/extensions/vscjava.vscode-gradle-3.12.7
+2023-10-25 21:29:51.718 [info] Deleted uninstalled extension from disk vscodevim.vim /home/devilunraveled/.vscode/extensions/vscodevim.vim-1.25.2
+2023-10-25 21:29:51.799 [info] Deleted uninstalled extension from disk dart-code.flutter /home/devilunraveled/.vscode/extensions/dart-code.flutter-3.68.0
+2023-10-25 21:29:51.799 [info] Deleted uninstalled extension from disk eamodio.gitlens /home/devilunraveled/.vscode/extensions/eamodio.gitlens-14.1.1
+2023-10-25 21:29:51.799 [info] Deleted uninstalled extension from disk mongodb.mongodb-vscode /home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-1.1.0
+2023-10-25 21:29:51.801 [info] Deleted uninstalled extension from disk dart-code.dart-code /home/devilunraveled/.vscode/extensions/dart-code.dart-code-3.68.1
+2023-10-25 21:29:51.807 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/dart-code.flutter-3.68.0.33f95676.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/dart-code.flutter-3.68.0.33f95676.vsctmp'
+    at s.create (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)
+2023-10-25 21:29:51.886 [info] Deleted uninstalled extension from disk ms-azuretools.vscode-docker /home/devilunraveled/.vscode/extensions/ms-azuretools.vscode-docker-1.26.0
+2023-10-25 21:29:51.886 [info] Deleted uninstalled extension from disk ms-vscode-remote.remote-containers /home/devilunraveled/.vscode/extensions/ms-vscode-remote.remote-containers-0.299.0
+2023-10-25 21:29:51.886 [info] Deleted uninstalled extension from disk formulahendry.code-runner /home/devilunraveled/.vscode/extensions/formulahendry.code-runner-0.12.0
+2023-10-25 21:29:51.887 [info] Deleted uninstalled extension from disk streetsidesoftware.code-spell-checker /home/devilunraveled/.vscode/extensions/streetsidesoftware.code-spell-checker-2.20.5
+2023-10-25 21:29:51.959 [info] Deleted uninstalled extension from disk msjsdiag.vscode-react-native /home/devilunraveled/.vscode/extensions/msjsdiag.vscode-react-native-1.11.1
+2023-10-25 21:29:55.560 [info] Getting Manifest... vscjava.vscode-gradle
+2023-10-25 21:29:55.627 [info] Installing extension: vscjava.vscode-gradle
+2023-10-25 21:30:05.538 [info] Extension signature is verified: vscjava.vscode-gradle
+2023-10-25 21:30:06.129 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/vscjava.vscode-gradle-3.13.2: vscjava.vscode-gradle
+2023-10-25 21:30:06.135 [info] Renamed to /home/devilunraveled/.vscode/extensions/vscjava.vscode-gradle-3.13.2
+2023-10-25 21:30:06.136 [info] Extracting extension completed. vscjava.vscode-gradle
+2023-10-25 21:30:06.145 [info] Extension installed successfully: vscjava.vscode-gradle
+2023-10-25 21:30:06.148 [info] Marked extension as uninstalled vscjava.vscode-gradle-3.13.1
+2023-10-25 21:30:06.219 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at s.create (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)
+2023-10-25 21:30:57.762 [info] Uninstalling extension from the profile: tabnine.tabnine-vscode@3.21.1 vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2023-10-25 21:30:57.822 [info] Marked extension as uninstalled tabnine.tabnine-vscode-3.21.1
+2023-10-25 21:30:57.890 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at s.create (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)
+2023-10-25 21:30:58.125 [info] Successfully uninstalled extension from the profile tabnine.tabnine-vscode@3.21.1 vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2023-10-25 21:31:11.766 [info] Getting Manifest... codeium.codeium
+2023-10-25 21:31:11.776 [info] Installing extension: codeium.codeium
+2023-10-25 21:31:13.449 [info] Extension signature is verified: codeium.codeium
+2023-10-25 21:31:13.515 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/codeium.codeium-1.4.2: codeium.codeium
+2023-10-25 21:31:13.521 [info] Renamed to /home/devilunraveled/.vscode/extensions/codeium.codeium-1.4.2
+2023-10-25 21:31:13.522 [info] Extracting extension completed. codeium.codeium
+2023-10-25 21:31:13.533 [info] Extension installed successfully: codeium.codeium
+2023-10-25 21:31:13.602 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at s.create (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/var/lib/snapd/snap/code/143/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)

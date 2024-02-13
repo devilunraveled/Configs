@@ -1,3 +1,5 @@
-2023/10/01-13:47:40.830 3 Reusing MANIFEST /home/devilunraveled/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2023/10/01-13:47:40.831 3 Recovering log #144
-2023/10/01-13:47:40.832 3 Reusing old log /home/devilunraveled/.config/google-chrome/Default/Local Storage/leveldb/000144.log 
+2024/01/14-19:11:36.651 3 Reusing MANIFEST /home/devilunraveled/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/01/14-19:11:36.652 3 Recovering log #147
+2024/01/14-19:11:36.652 3 Reusing old log /home/devilunraveled/.config/google-chrome/Default/Local Storage/leveldb/000147.log 
+2024/01/14-19:13:41.324 4 Level-0 table #151: started
+2024/01/14-19:13:41.333 4 Level-0 table #151: 22790 bytes OK
