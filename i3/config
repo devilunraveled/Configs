@@ -341,8 +341,10 @@ set_from_resource $term_color15    color15
 
 
 bar {
+    mode invisible
     position bottom
 }
+
 
 
 ## Last used config for i3status bar

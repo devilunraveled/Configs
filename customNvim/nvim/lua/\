@@ -1,0 +1,27 @@
+local opt = vim.opt
+local wo = vim.wo
+
+-- Indenting
+opt.expandtab = true
+opt.shiftwidth = 4
+opt.smartindent = true
+opt.tabstop = 4
+
+wo.relativenumber = true
+
+
+-- Adding Codeium to status line.
+-- Define a function to set the statusline with Codeium status
+local function set_codeium_status()
+    local codeium_status = vim.fn["codeium#GetStatusString"]()
+
+    -- Set the statusline for the current window
+    vim.api.nvim_win_set_option(0, 'statusline', '%{CodeiumStatus}' .. codeium_status)
+end
+
+-- Automatically update the statusline when entering normal mode
+vim.cmd('autocmd InsertEnter,WinEnter,BufWinEnter * setlocal statusline=%{CodeiumStatus}')
+vim.cmd('autocmd InsertLeave,WinLeave,BufWinLeave * lua set_codeium_status()')
+
+-- Call the function initially to set the statusline
+set_codeium_status()

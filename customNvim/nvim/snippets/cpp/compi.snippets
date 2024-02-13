@@ -1,0 +1,108 @@
+# compi
+
+snippet compi
+    
+    /* Streams */
+    #include <iostream>
+    #include <sstream>
+
+    /* Data Structures */
+    #include <vector>
+    #include <string>
+    #include <stack>
+    #include <queue>
+    #include <deque>
+    #include <map>
+    #include <unordered_map>
+    #include <set>
+    #include <bitset>
+
+    /* Implementations */
+    #include <algorithm>
+    #include <utility>
+    #include <functional>
+    #include <limits>
+    #include <iterator>
+
+    /* Math */
+    #include <cmath>
+    #include <numeric>
+
+    /* C Libs */
+    #include <time.h>
+    #include <assert.h>
+
+    /* Important Macros */
+    #define deb(val) cout << #val << " = " << val <<'\n'
+
+    using namespace std;
+
+    using ll = long long int;
+    using pii = pair<int,int>;
+    using pll = pair<ll,ll>;
+
+    template<typename T>
+    using matrix = vector< vector<T>>;
+
+    const ll LARGEST_LL = numeric_limits<ll>::max();
+    const ll SMALLEST_LL = numeric_limits<ll>::min();
+    const int LARGEST_INT = numeric_limits<int>::max();
+    const int SMALLEST_INT = numeric_limits<int>::max();
+
+    void solve(){
+        int n;
+        cin >> n;
+        
+		$1
+
+        return;
+    }
+
+
+    int main( int argc, char** argv ){
+        // FAST-IO
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+
+        int tt = 1;
+        cin >> tt;
+
+        while( tt-- ){
+            solve();
+        }
+
+        return 0;
+    }
+
+
+# start
+snippet start
+     #include<bits/stdc++.h>
+     using namespace std; $1
+
+# driver
+snippet driver
+	#ifdef LEET
+    int main( int argc, char** argv ){
+        // FAST-IO
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+
+        int tt = 1;
+        // cin >> tt;
+
+        while( tt-- ){
+            int n;
+			cin >> n;
+
+			vector<int> a(n);
+			for ( auto &i : a )cin >> i;
+
+			Solution s;
+			
+			$1
+        }
+
+        return 0;
+    }
+	#endif
