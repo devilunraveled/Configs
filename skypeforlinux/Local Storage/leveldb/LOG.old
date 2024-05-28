@@ -1,0 +1,29 @@
+2024/02/16-20:43:40.137 2d0d Creating DB /home/devilunraveled/.config/skypeforlinux/Local Storage/leveldb since it was missing.
+2024/02/16-20:43:40.147 2d0d Reusing MANIFEST /home/devilunraveled/.config/skypeforlinux/Local Storage/leveldb/MANIFEST-000001
+2024/02/16-20:46:16.228 32ae Level-0 table #5: started
+2024/02/16-20:46:16.240 32ae Level-0 table #5: 115763 bytes OK
+2024/02/16-20:46:16.244 32ae Delete type=0 #3
+2024/02/16-20:49:40.327 39cc Level-0 table #7: started
+2024/02/16-20:49:40.342 39cc Level-0 table #7: 81323 bytes OK
+2024/02/16-20:49:40.347 39cc Delete type=0 #4
+2024/02/16-21:43:54.572 af01 Level-0 table #9: started
+2024/02/16-21:43:54.584 af01 Level-0 table #9: 130182 bytes OK
+2024/02/16-21:43:54.588 af01 Delete type=0 #6
+2024/02/16-23:43:50.260 1bc69 Level-0 table #11: started
+2024/02/16-23:43:50.272 1bc69 Level-0 table #11: 129782 bytes OK
+2024/02/16-23:43:50.276 1bc69 Delete type=0 #8
+2024/02/17-00:43:51.610 2c243 Level-0 table #13: started
+2024/02/17-00:43:51.624 2c243 Level-0 table #13: 128814 bytes OK
+2024/02/17-00:43:51.627 2c243 Delete type=0 #10
+2024/02/17-01:43:53.208 3decd Level-0 table #15: started
+2024/02/17-01:43:53.222 3decd Level-0 table #15: 128722 bytes OK
+2024/02/17-01:43:53.227 3decd Delete type=0 #12
+2024/02/17-01:43:53.227 3decd Compacting 4@0 + 1@1 files
+2024/02/17-01:43:53.235 3decd Generated table #16@0: 22 keys, 210266 bytes
+2024/02/17-01:43:53.235 3decd Compacted 4@0 + 1@1 files => 210266 bytes
+2024/02/17-01:43:53.239 3decd compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/02/17-01:43:53.239 3decd Delete type=2 #7
+2024/02/17-01:43:53.239 3decd Delete type=2 #11
+2024/02/17-01:43:53.239 3decd Delete type=2 #9
+2024/02/17-01:43:53.239 3decd Delete type=2 #15
+2024/02/17-01:43:53.239 3decd Delete type=2 #13

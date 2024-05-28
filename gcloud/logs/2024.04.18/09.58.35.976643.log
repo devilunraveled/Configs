@@ -1,0 +1,7 @@
+2024-04-18 09:58:35,977 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2024-04-18 09:58:35,978 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2024-04-18 09:58:35,979 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "hardiksharmah73@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "pegasus-401519"]
+2024-04-18 09:58:35,993 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-04-18 09:58:35,994 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-04-18 09:58:36,368 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-04-18 09:58:36,400 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443

@@ -1,0 +1,9 @@
+2024-04-09 15:56:26,067 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2024-04-09 15:56:26,069 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2024-04-09 15:56:26,070 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "hardiksharmah73@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "pegasus-401519"]
+2024-04-09 15:56:26,101 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-04-09 15:56:27,573 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/pegasus-401519?alt=json HTTP/1.1" 200 None
+2024-04-09 15:56:27,576 DEBUG    root            Chosen display Format:default value(name)
+2024-04-09 15:56:27,582 INFO     root            Display format: "default value(name)"
+2024-04-09 15:56:27,583 INFO     ___FILE_ONLY___ PEGASUS
+

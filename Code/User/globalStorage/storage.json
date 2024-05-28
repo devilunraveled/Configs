@@ -7,7 +7,7 @@
                 "folderUri": "file:///home/devilunraveled/DASS/Assignment%201"
             },
             {
-                "folderUri": "file:///home/devilunraveled/Projects/DUAManager"
+                "folderUri": "file:///home/devilunraveled/College/Sem6/IntroToNLP/Project/WordSenseDisambiguation"
             }
         ],
         "emptyWindows": []
@@ -50,11 +50,21 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/devilunraveled/College/Sem6/IntroToNLP/Project/WordSenseDisambiguation",
+                                        "path": "/home/devilunraveled/College/Sem6/IntroToNLP/Project/WordSenseDisambiguation",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/College/Sem6/IntroToNLP/Project/WordSenseDisambiguation"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -170,7 +180,7 @@
                                 },
                                 {
                                     "id": "workbench.action.clearRecentFiles",
-                                    "label": "&&Clear Recently Opened"
+                                    "label": "&&Clear Recently Opened..."
                                 }
                             ]
                         }
@@ -387,6 +397,22 @@
                         "label": "&&Copy"
                     },
                     {
+                        "id": "submenuitem.MenubarCopy",
+                        "label": "Copy As",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlToClipboard",
+                                    "label": "Copy Remote File URL"
+                                },
+                                {
+                                    "id": "gitlens.copyRemoteFileUrlFrom",
+                                    "label": "Copy Remote File URL From..."
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "id": "editor.action.clipboardPasteAction",
                         "label": "&&Paste"
                     },
@@ -559,13 +585,12 @@
                                     "checked": true
                                 },
                                 {
-                                    "id": "workbench.action.toggleActivityBarVisibility",
-                                    "label": "&&Activity Bar",
-                                    "checked": true
-                                },
-                                {
                                     "id": "workbench.action.togglePanel",
                                     "label": "&&Panel"
+                                },
+                                {
+                                    "id": "toggle.toggleCustomTitleBar",
+                                    "label": "Custom Title Bar"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -573,6 +598,31 @@
                                 {
                                     "id": "workbench.action.toggleSidebarPosition",
                                     "label": "&&Move Primary Side Bar Right"
+                                },
+                                {
+                                    "id": "submenuitem.ActivityBarPositionMenu",
+                                    "label": "Activity Bar Position",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.activityBarLocation.default",
+                                                "label": "&&Default",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.top",
+                                                "label": "&&Top"
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.bottom",
+                                                "label": "&&Bottom"
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.hide",
+                                                "label": "&&Hidden"
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
                                     "id": "submenuitem.PanelPositionMenu",
@@ -621,6 +671,48 @@
                                     }
                                 },
                                 {
+                                    "id": "submenuitem.EditorTabsBarShowTabsSubmenu",
+                                    "label": "Tab Bar",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.showMultipleEditorTabs",
+                                                "label": "Multiple Tabs",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.showEditorTab",
+                                                "label": "Single Tab"
+                                            },
+                                            {
+                                                "id": "workbench.action.hideEditorTabs",
+                                                "label": "Hidden"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "submenuitem.EditorActionsPositionSubmenu",
+                                    "label": "Editor Actions Position",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.editorActionsDefault",
+                                                "label": "Tab Bar",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.editorActionsTitleBar",
+                                                "label": "Title Bar"
+                                            },
+                                            {
+                                                "id": "workbench.action.hideEditorActions",
+                                                "label": "Hidden"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -630,12 +722,13 @@
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
-                                    "label": "&&Breadcrumbs",
+                                    "label": "Toggle &&Breadcrumbs",
                                     "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
-                                    "label": "&&Sticky Scroll"
+                                    "label": "&&Sticky Scroll",
+                                    "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleRenderWhitespace",
@@ -685,6 +778,24 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.moveEditorToNewWindow",
+                                    "label": "&&Move Editor into New Window"
+                                },
+                                {
+                                    "id": "workbench.action.copyEditorToNewWindow",
+                                    "label": "&&Copy Editor into New Window"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -778,8 +889,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -787,7 +897,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1077,6 +1188,10 @@
                                 {
                                     "id": "editor.debug.action.addLogPoint",
                                     "label": "&&Logpoint..."
+                                },
+                                {
+                                    "id": "editor.debug.action.triggerByBreakpoint",
+                                    "label": "&&Triggered Breakpoint..."
                                 }
                             ]
                         }
@@ -1462,6 +1577,16 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
+            "workbench.action.copyEditorToNewWindow": {
+                "label": "Ctrl+K O",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k o"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1709,14 +1834,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/devilunraveled/Projects/DUAManager",
-            "backupPath": "/home/devilunraveled/.config/Code/Backups/c68ca86d827f90361dc9c8ad5b412865",
+            "folder": "file:///home/devilunraveled/College/Sem6/IntroToNLP/Project/WordSenseDisambiguation",
+            "backupPath": "/home/devilunraveled/.config/Code/Backups/80cb8c6159123b0c60b297825bcf173a",
             "uiState": {
                 "mode": 1,
-                "x": -2,
-                "y": -2,
-                "width": 1924,
-                "height": 1061
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
             }
         },
         "openedWindows": []
@@ -1732,9 +1857,11 @@
             "file:///home/devilunraveled/Projects/website": "__default__profile__",
             "file:///home/devilunraveled/Projects/website/TheDen": "__default__profile__",
             "file:///home/devilunraveled/DASS/Assignment%201/2021101049": "__default__profile__",
-            "file:///home/devilunraveled/Projects/DUAManager": "__default__profile__"
+            "file:///home/devilunraveled/Projects/DUAManager": "__default__profile__",
+            "file:///home/devilunraveled/College/Sem6/IntroToNLP/Project/WordSenseDisambiguation": "__default__profile__"
         },
         "emptyWindows": {}
     },
-    "profileAssociationsMigration": true
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": ""
 }

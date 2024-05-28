@@ -1,4 +1,0 @@
-2024-02-04 00:20:15,924 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
-2024-02-04 00:20:15,925 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
-2024-02-04 00:20:15,927 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "hardiksharmah73@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "pegasus-401519"]
-2024-02-04 00:20:15,934 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443

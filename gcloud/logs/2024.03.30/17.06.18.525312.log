@@ -1,0 +1,15 @@
+2024-03-30 17:06:18,526 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2024-03-30 17:06:18,527 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2024-03-30 17:06:18,528 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "hardiksharmah73@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "pegasus-401519"]
+2024-03-30 17:06:18,539 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-03-30 17:06:18,541 DEBUG    root            Caught socket error, retrying: HTTPSConnectionPool(host='cloudresourcemanager.googleapis.com', port=443): Max retries exceeded with url: /v1/projects/pegasus-401519?alt=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa84f213a00>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-30 17:06:18,541 DEBUG    root            Retrying request to url https://cloudresourcemanager.googleapis.com/v1/projects/pegasus-401519?alt=json after exception HTTPSConnectionPool(host='cloudresourcemanager.googleapis.com', port=443): Max retries exceeded with url: /v1/projects/pegasus-401519?alt=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa84f213a00>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-30 17:06:20,293 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-03-30 17:06:20,295 DEBUG    root            Caught socket error, retrying: HTTPSConnectionPool(host='cloudresourcemanager.googleapis.com', port=443): Max retries exceeded with url: /v1/projects/pegasus-401519?alt=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa84f213a30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-30 17:06:20,295 DEBUG    root            Retrying request to url https://cloudresourcemanager.googleapis.com/v1/projects/pegasus-401519?alt=json after exception HTTPSConnectionPool(host='cloudresourcemanager.googleapis.com', port=443): Max retries exceeded with url: /v1/projects/pegasus-401519?alt=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa84f213a30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2024-03-30 17:06:24,137 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-03-30 17:06:28,121 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/pegasus-401519?alt=json HTTP/1.1" 200 None
+2024-03-30 17:06:28,123 DEBUG    root            Chosen display Format:default value(name)
+2024-03-30 17:06:28,123 INFO     root            Display format: "default value(name)"
+2024-03-30 17:06:28,123 INFO     ___FILE_ONLY___ PEGASUS
+

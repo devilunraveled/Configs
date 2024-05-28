@@ -1,0 +1,8 @@
+[2024-05-04 03:02:38.322] [info] Logseq App(0.10.9) Starting... 
+[2024-05-04 03:02:38.329] [info] restore proxy settings {:type "system"}
+[2024-05-04 03:02:38.329] [info] set proxy to {:type "system"}
+[2024-05-04 03:02:40.480] [debug] :electron.handler/watch-dir {:path "/home/devilunraveled/.logseq/config"}
+[2024-05-04 03:02:50.970] [info] :electron.handler/open-dir open folder selection dialog
+[2024-05-04 03:03:09.063] [debug] :electron.handler/open-dir {:path "/home/devilunraveled/Personal"}
+[2024-05-04 03:03:09.138] [debug] :electron.handler/watch-dir {:path "/home/devilunraveled/Personal"}
+[2024-05-04 03:17:07.499] [debug] window-all-closed Quitting...

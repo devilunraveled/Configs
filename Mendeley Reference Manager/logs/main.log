@@ -9691,3 +9691,479 @@
 [2024-02-03 12:16:15.025] [info]  [authFlow - refreshToken- renderer] Get Token undefined
 [2024-02-03 12:16:16.039] [info]  [authFlow - refreshToken- renderer] Get Token undefined
 [2024-02-03 12:16:16.528] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:43.569] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-02-15 21:02:43.676] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:43.677] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-15 21:02:43.697] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.301] [error] [authFlow - renderer] refreshing access token Error: Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-02-15 21:02:44.315] [error] [authFlow - renderer] refreshing access token Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-02-15 21:02:44.316] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.321] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.322] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-15 21:02:44.323] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.323] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.323] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.324] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.324] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.324] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.325] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.325] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.325] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.326] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.326] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.326] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.327] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.327] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.327] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.547] [error] [authFlow - renderer] refreshing access token Error: Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-02-15 21:02:44.549] [error] [authFlow - renderer] refreshing access token Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-02-15 21:02:44.550] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:02:44.555] [error] [sign-in] Error: ERR_ABORTED (-3) loading 'https://www.mendeley.com/sign/out/'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:77333)
+    at EventEmitter.navigationListener (node:electron/js2c/browser_init:2:77639)
+    at EventEmitter.emit (node:events:513:28)
+[2024-02-15 21:03:33.922] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:33.926] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-15 21:03:34.536] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-02-15 21:03:34.537] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.398] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.399] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.399] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.400] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.400] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.400] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.401] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.401] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.401] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.401] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.401] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.402] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.402] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.402] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.402] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.402] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.833] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:35.834] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:36.208] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-02-15 21:03:36.277] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:36.303] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:50.069] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:50.356] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:50.641] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:51.577] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:56.295] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:03:58.796] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:04:00.296] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:04:02.796] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:04:03.294] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 21:04:03.794] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.906] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.907] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.908] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.909] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.909] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.909] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.909] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.910] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.910] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.910] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.910] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.910] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.911] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.911] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.912] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:34.912] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:35.874] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-15 23:03:36.115] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-02-15 23:03:36.116] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.123] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-15 23:03:36.384] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-02-15 23:03:36.385] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.443] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-15 23:03:36.651] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.651] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.652] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.660] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-02-15 23:03:36.660] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.698] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.699] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.699] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.700] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.700] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.715] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-15 23:03:36.890] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.891] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.891] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:36.931] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-02-15 23:03:36.931] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:37.077] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:03:37.280] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:42:08.303] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:42:09.796] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:42:34.295] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:42:38.302] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:44:33.302] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.949] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.950] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.951] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.951] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.951] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.951] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.952] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.952] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.952] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.952] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.953] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.953] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.953] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.953] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.954] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:22.954] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:46:23.779] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:47:41.908] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:47:43.298] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:47:43.504] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:47:47.285] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:47:48.070] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:47:52.231] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:47:53.008] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:47:57.319] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:47:58.131] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:47:59.437] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:48:00.215] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:48:01.298] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:48:51.773] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:48:52.562] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:06.320] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:13.301] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:16.335] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:18.801] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:19.299] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:20.794] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:22.300] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:26.798] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:27.805] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:35.798] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:36.297] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:38.317] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:41.802] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:53:50.801] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:54:37.296] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:54:55.802] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:54:59.804] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:55:12.303] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:03.842] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:04.067] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:04.332] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:05.110] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:07.798] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:10.300] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:20.801] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:21.801] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:22.802] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:25.299] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:29.720] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:29.934] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:30.206] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:30.454] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:30.994] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:33.303] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:56:40.799] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:57:55.836] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:58:01.794] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:58:06.797] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:58:25.840] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:58:28.346] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:58:28.577] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:58:28.829] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-15 23:58:29.598] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:02:34.327] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:03:15.803] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:05:33.321] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:06:20.720] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:06:21.522] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:06:41.322] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:06:41.793] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:07:09.322] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:07:09.796] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:07:11.294] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:13:26.349] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:13:27.726] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:21:42.324] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:33:16.298] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:33:53.320] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:33:59.797] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:34:04.797] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:36:04.668] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:36:06.016] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:37:07.503] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:37:08.832] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:38:09.313] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:39:47.296] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:39:48.473] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.965] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.967] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.967] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.967] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.967] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.967] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.967] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.968] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.968] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.968] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.968] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.968] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.968] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.968] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.968] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:29.969] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:41:30.980] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:42:29.378] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:42:30.125] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:37.329] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:42.803] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:45.804] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:46.801] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:47.295] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:48.298] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:48.798] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:49.305] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:54.145] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:54.474] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:54.694] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:54.966] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:55.248] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:55.586] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:44:55.791] [info]  [authFlow - refreshToken- renderer] Get Token undefined
+[2024-02-16 00:45:09.381] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-16 12:43:32.820] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-16 12:43:33.055] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-02-16 12:43:34.707] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-02-16 13:54:04.753] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-02-16 13:54:04.825] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-16 13:54:05.473] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-02-17 11:45:54.750] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-02-17 11:45:54.902] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-17 11:45:55.124] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-02-18 00:08:46.816] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-02-18 00:08:46.896] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-02-18 00:08:47.493] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-02-18 00:09:11.561] [debug] [authFlow - main] Retrieving access token from cache
+[2024-02-18 00:09:11.562] [debug] [authFlow - refreshToken - main] Refreshing access token
+[2024-02-18 00:09:11.563] [debug] [authFlow - refreshToken - main] Getting token from auth flow
+[2024-02-18 00:09:11.773] [debug] [authFlow - main] Retrieving access token from cache
+[2024-02-18 00:09:12.527] [info]  Getting file from s3 7bb29ba1-8015-24d7-56aa-71209786c884
+[2024-02-18 00:09:15.604] [info]  File downloaded: {
+  fileId: '7bb29ba1-8015-24d7-56aa-71209786c884',
+  downloaded: true,
+  error: false
+}
+[2024-03-18 20:04:47.552] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-03-18 20:04:47.703] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-03-18 20:04:47.934] [error] [authFlow - renderer] refreshing access token Error: Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-03-18 20:04:47.951] [error] [authFlow - renderer] refreshing access token Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-03-18 20:04:47.959] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-03-18 20:04:48.174] [error] [authFlow - renderer] refreshing access token Error: Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-03-18 20:04:48.176] [error] [authFlow - renderer] refreshing access token Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-03-18 20:04:48.182] [error] [sign-in] Error: ERR_ABORTED (-3) loading 'https://www.mendeley.com/sign/out/'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:77333)
+    at EventEmitter.navigationListener (node:electron/js2c/browser_init:2:77639)
+    at EventEmitter.emit (node:events:513:28)
+[2024-03-21 14:20:44.243] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-03-21 14:20:44.890] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-03-21 14:20:48.479] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-03-21 14:21:22.227] [debug] [authFlow - main] Retrieving access token from cache
+[2024-03-21 14:21:22.229] [debug] [authFlow - refreshToken - main] Refreshing access token
+[2024-03-21 14:21:22.230] [debug] [authFlow - refreshToken - main] Getting token from auth flow
+[2024-03-21 14:21:22.455] [debug] [authFlow - main] Retrieving access token from cache
+[2024-03-21 14:21:23.816] [info]  Getting file from s3 0e24d376-b7e6-f3f9-61ba-71f89ee20314
+[2024-03-21 14:21:26.515] [info]  File downloaded: {
+  fileId: '0e24d376-b7e6-f3f9-61ba-71f89ee20314',
+  downloaded: true,
+  error: false
+}
+[2024-03-21 16:20:48.997] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-03-21 16:20:49.216] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-03-21 16:20:49.252] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-03-21 16:20:49.487] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-03-21 16:20:49.505] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-03-21 16:20:49.724] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-03-21 16:20:49.785] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-03-21 16:20:50.003] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-03-25 20:59:40.258] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-03-25 20:59:40.484] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-03-25 20:59:42.403] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-03-25 22:20:02.675] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-04 11:35:00.749] [error] An error occurred whilst upgrading [
+  'Error: net::ERR_ADDRESS_UNREACHABLE\n' +
+    '    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49386)\n' +
+    '    at SimpleURLLoaderWrapper.emit (node:events:513:28)',
+  'Cannot check for updates: Error: net::ERR_ADDRESS_UNREACHABLE\n' +
+    '    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49386)\n' +
+    '    at SimpleURLLoaderWrapper.emit (node:events:513:28)'
+]
+[2024-04-04 11:35:00.792] [error] Unhandled Exception Error: net::ERR_ADDRESS_UNREACHABLE
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:49386)
+    at SimpleURLLoaderWrapper.emit (node:events:513:28)
+[2024-04-04 11:35:02.455] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-04 11:35:02.673] [error] [authFlow - renderer] refreshing access token Error: Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-04-04 11:35:02.674] [error] [authFlow - renderer] refreshing access token Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-04-04 11:35:02.680] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-04 11:35:02.900] [error] [authFlow - renderer] refreshing access token Error: Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-04-04 11:35:02.902] [error] [authFlow - renderer] refreshing access token Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-04-04 11:35:02.909] [error] [sign-in] Error: ERR_ABORTED (-3) loading 'https://www.mendeley.com/sign/out/'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:77333)
+    at EventEmitter.navigationListener (node:electron/js2c/browser_init:2:77639)
+    at EventEmitter.emit (node:events:513:28)
+[2024-04-04 11:46:09.933] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-04 11:46:10.573] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-04 11:46:12.251] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-04-04 11:47:06.915] [debug] [authFlow - main] Retrieving access token from cache
+[2024-04-04 11:47:06.915] [debug] [authFlow - refreshToken - main] Refreshing access token
+[2024-04-04 11:47:06.916] [debug] [authFlow - refreshToken - main] Getting token from auth flow
+[2024-04-04 11:47:07.141] [debug] [authFlow - main] Retrieving access token from cache
+[2024-04-04 11:47:07.900] [info]  Getting file from s3 4e61a8d8-d731-9a27-2d60-4b6a5d1ae65c
+[2024-04-04 11:47:10.923] [info]  File downloaded: {
+  fileId: '4e61a8d8-d731-9a27-2d60-4b6a5d1ae65c',
+  downloaded: true,
+  error: false
+}
+[2024-04-04 11:59:37.247] [debug] [authFlow - main] Retrieving access token from cache
+[2024-04-04 11:59:37.940] [info]  Getting file from s3 054ba1ae-8005-49a5-1ff7-9dbd9d80a3e4
+[2024-04-04 11:59:40.067] [info]  File downloaded: {
+  fileId: '054ba1ae-8005-49a5-1ff7-9dbd9d80a3e4',
+  downloaded: true,
+  error: false
+}
+[2024-04-04 13:28:46.998] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-04-04 13:28:47.417] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-04 13:28:48.057] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-04 14:59:30.182] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-04-04 14:59:30.339] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-04 14:59:30.664] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-04 16:59:31.912] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-04 16:59:32.185] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-04 16:59:32.243] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-04 16:59:32.514] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-09 14:53:53.269] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-04-09 14:53:53.688] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-09 14:53:54.102] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-09 16:53:55.544] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-09 16:53:55.765] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-09 16:53:55.767] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-09 16:53:55.993] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-09 19:22:01.798] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-09 19:22:02.037] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-09 19:22:02.140] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-09 19:22:02.380] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-09 21:22:19.657] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-09 21:22:19.884] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-09 21:22:19.975] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-09 21:22:20.203] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-19 00:09:54.749] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-04-19 00:09:54.969] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-19 00:09:55.241] [error] [authFlow - renderer] refreshing access token Error: Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-04-19 00:09:55.256] [error] [authFlow - renderer] refreshing access token Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-04-19 00:09:55.269] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-19 00:09:55.642] [error] [authFlow - renderer] refreshing access token Error: Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-04-19 00:09:55.644] [error] [authFlow - renderer] refreshing access token Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-04-19 00:09:55.651] [error] [sign-in] Error: ERR_ABORTED (-3) loading 'https://www.mendeley.com/sign/out/'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:77333)
+    at EventEmitter.navigationListener (node:electron/js2c/browser_init:2:77639)
+    at EventEmitter.emit (node:events:513:28)
+[2024-04-19 00:10:52.058] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-19 00:10:52.718] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-19 00:10:54.757] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-04-19 02:01:39.971] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-19 02:01:40.629] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-19 02:01:42.123] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-04-20 16:46:47.181] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-20 16:46:47.469] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-20 16:46:49.774] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-04-20 18:46:48.491] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-20 18:46:48.774] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-20 18:46:48.780] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-20 18:46:49.078] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-20 18:46:49.232] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-20 18:46:49.516] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-21 23:00:57.946] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-04-21 23:00:58.776] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-04-21 23:00:59.093] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-04-21 23:03:09.293] [debug] [authFlow - main] Retrieving access token from cache
+[2024-04-21 23:03:09.293] [debug] [authFlow - refreshToken - main] Refreshing access token
+[2024-04-21 23:03:09.294] [debug] [authFlow - refreshToken - main] Getting token from auth flow
+[2024-04-21 23:03:09.771] [debug] [authFlow - main] Retrieving access token from cache
+[2024-04-21 23:03:12.391] [info]  Getting file from s3 72bf3ac1-777a-ae77-4978-001de1711cb0
+[2024-04-21 23:03:29.457] [info]  File downloaded: {
+  fileId: '72bf3ac1-777a-ae77-4978-001de1711cb0',
+  downloaded: true,
+  error: false
+}
+[2024-05-04 02:59:35.158] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-05-04 02:59:35.281] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-04 02:59:35.944] [error] [authFlow - renderer] refreshing access token Error: Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-05-04 02:59:35.960] [info]  [authFlow - authenticate - renderer] - call re authentication undefined
+[2024-05-04 02:59:35.969] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-04 02:59:36.187] [error] [authFlow - renderer] refreshing access token Error: Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-05-04 02:59:36.189] [info]  [authFlow - authenticate - renderer] - call re authentication undefined
+[2024-05-04 02:59:36.195] [error] [sign-in] Error: ERR_ABORTED (-3) loading 'https://www.mendeley.com/sign/out/'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:77333)
+    at EventEmitter.navigationListener (node:electron/js2c/browser_init:2:77639)
+    at EventEmitter.emit (node:events:513:28)
+[2024-05-04 16:54:59.558] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-04 16:55:00.431] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-04 16:55:02.116] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-05-04 18:05:47.712] [error] [sign-in] Error: ERR_FAILED (-2) loading 'https://www.mendeley.com/reference-manager-desktop/'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:77333)
+    at EventEmitter.stopLoadingListener (node:electron/js2c/browser_init:2:77708)
+    at EventEmitter.emit (node:events:513:28)
+[2024-05-04 18:05:47.741] [error] Unhandled Exception UnhandledRejection TypeError: Object has been destroyed
+    at _.loadURL (node:electron/js2c/browser_init:2:78406)
+    at _.loadFile (node:electron/js2c/browser_init:2:77111)
+    at e (/tmp/.mount_MendelpaC3Df/resources/app.asar/dist/main.js:2:803379)
+    at async /tmp/.mount_MendelpaC3Df/resources/app.asar/dist/main.js:2:803457
+[2024-05-06 14:05:35.860] [debug] [authFlow - main] Retrieving access token from cache
+[2024-05-06 14:05:35.871] [debug] [authFlow - refreshToken - main] Refreshing access token
+[2024-05-06 14:05:35.872] [debug] [authFlow - refreshToken - main] Getting token from auth flow
+[2024-05-06 14:05:36.102] [debug] [authFlow - main] Retrieving access token from cache
+[2024-05-06 14:05:38.290] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-06 14:05:38.586] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-06 14:05:40.215] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-05-06 14:05:40.217] [error] Unhandled Exception TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:387:5)
+    at validateString (node:internal/validators:121:11)
+    at Object.join (node:path:1172:7)
+    at wn (/tmp/.mount_MendelyqvDe5/resources/app.asar/dist/main.js:2:791682)
+    at t.project (/tmp/.mount_MendelyqvDe5/resources/app.asar/dist/main.js:2:791908)
+    at t._tryNext (/tmp/.mount_MendelyqvDe5/resources/app.asar/dist/main.js:2:778667)
+    at t._next (/tmp/.mount_MendelyqvDe5/resources/app.asar/dist/main.js:2:778569)
+    at t.next (/tmp/.mount_MendelyqvDe5/resources/app.asar/dist/main.js:2:748956)
+    at t._next (/tmp/.mount_MendelyqvDe5/resources/app.asar/dist/main.js:2:782805)
+    at t.next (/tmp/.mount_MendelyqvDe5/resources/app.asar/dist/main.js:2:748956)
+[2024-05-06 16:05:39.748] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-06 16:05:39.969] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-06 16:05:40.065] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-06 16:05:40.282] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-07 17:51:06.339] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-05-07 17:51:06.770] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-07 17:51:07.016] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-07 19:20:04.171] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-05-07 19:20:04.292] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-07 19:20:05.024] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-07 21:20:05.871] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-07 21:20:06.112] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-07 21:20:06.121] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-07 21:20:06.366] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-07 21:20:06.417] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-07 21:20:06.660] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-07 23:20:06.702] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-07 23:20:06.990] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-08 17:44:41.009] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-05-08 17:44:41.117] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-08 17:44:41.361] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-09 03:01:33.327] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-05-09 03:01:33.526] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-09 03:01:33.763] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-05-09 16:01:42.384] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-05-09 16:01:42.507] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-05-09 16:01:42.752] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined

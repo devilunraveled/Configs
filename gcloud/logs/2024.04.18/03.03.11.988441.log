@@ -1,0 +1,12 @@
+2024-04-18 03:03:11,989 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2024-04-18 03:03:11,990 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2024-04-18 03:03:11,991 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "hardiksharmah73@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "pegasus-401519"]
+2024-04-18 03:03:12,051 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-04-18 03:03:12,053 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-04-18 03:03:12,334 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-04-18 03:03:12,357 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-04-18 03:03:13,743 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/pegasus-401519?alt=json HTTP/1.1" 200 None
+2024-04-18 03:03:13,745 DEBUG    root            Chosen display Format:default value(name)
+2024-04-18 03:03:13,746 INFO     root            Display format: "default value(name)"
+2024-04-18 03:03:13,746 INFO     ___FILE_ONLY___ PEGASUS
+

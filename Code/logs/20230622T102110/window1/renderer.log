@@ -1,4 +1,0 @@
-2023-06-22 10:21:11.630 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-06-22 10:21:14.513 [info] [perf] Render performance baseline is 129ms
-2023-06-22 10:21:15.597 [error] [Extension Host] (node:10945) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `exe --trace-deprecation ...` to show where the warning was created)

@@ -1,0 +1,86 @@
+[Calendar]
+Default Calendar=-1
+
+[CollectionTreeView]
+Expansion=
+HorizontalScroll=0
+VerticalScroll=0
+
+[EmoticonRecentUsed]
+Recents=
+
+[General]
+CalendarFilters=
+Current Filter=
+Current View=Agenda
+Range Mode=1
+
+[GlobalCollectionSelection]
+Current=x-1
+Selection=c10
+
+[GlobalCollectionView]
+Expansion=
+HorizontalScroll=0
+VerticalScroll=0
+
+[Internal Settings]
+DefaultResourceColorSeed=4
+EventTemplates=LectureTemplate
+
+[KOrganizer Geometry]
+Separator1=782,1138
+Separator2=256,0,330,383
+
+[MainWindow]
+1920x1080 screen: Height=1053
+1920x1080 screen: Width=1924
+1920x1080 screen: XPosition=-2
+1920x1080 screen: YPosition=-2
+DP-4=DP-4
+State=AAAA/wAAAAD9AAAAAAAAB4QAAAPRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAQAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAJABrAG8AcgBnAGEAbgBpAHoAZQByAF8AdABvAG8AbABiAGEAcgEAAAHx/////wAAAAAAAAAAAAAAIABzAGMAaABlAGQAdQBsAGUAXwB0AG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAAAAAAcAGYAaQBsAHQAZQByAF8AdABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Migratekde4]
+Version=1
+
+[Settings]
+DateNavigatorVisible=true
+EventViewerVisible=true
+ResourceViewVisible=true
+TodoViewVisible=false
+
+[Sidebar Todo View]
+ColumnOrder=0,1,2,3,4,5,6,7,8,9
+ColumnVisibility=true,false,false,false,true,true,false,false,false,false
+ColumnWidths=85,0,0,0,89,83,0,0,0,0
+SortAscending=1
+SortColumn=0
+
+[Timescale]
+Timescale Timezones=
+
+[Todo View]
+ColumnOrder=0,1,2,3,4,5,6,7,8,9
+ColumnVisibility=true,false,true,true,true,true,true,false,false,false
+ColumnWidths=1474,0,73,85,89,83,100,0,0,0
+SortAscending=0
+SortColumn=0
+
+[TodoTreeViewState]
+Current=x-1
+Expansion=
+HorizontalScroll=0
+Selection=
+VerticalScroll=0
+
+[TodoTreeViewStateS]
+Current=x-1
+Expansion=
+HorizontalScroll=0
+Selection=
+VerticalScroll=0
+
+[Views]
+Separator AgendaView=139,811
+ShownDatesCount=1

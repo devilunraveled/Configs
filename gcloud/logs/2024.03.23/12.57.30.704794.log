@@ -1,0 +1,3 @@
+2024-03-23 12:57:30,705 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2024-03-23 12:57:30,706 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2024-03-23 12:57:30,707 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "hardiksharmah73@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "pegasus-401519"]

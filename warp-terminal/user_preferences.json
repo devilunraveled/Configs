@@ -1,0 +1,15 @@
+{
+  "prefs": {
+    "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"BlockSelect\"},{\"Action\":\"WarpAI\"},{\"Hint\":\"CreateBlock\"},{\"Action\":\"CommandSearch\"},{\"Action\":\"AiCommandSearch\"}]",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "ChangelogVersions": "{\"v0.2024.03.05.08.02.stable_01\":true}",
+    "DismissedWarpAIWarmWelcome": "true",
+    "Theme": "\"CyberWave\"",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "Shortcuts": "true",
+    "AutosuggestionAcceptedCount": "2",
+    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":17,\"next_refresh_time\":\"2024-03-15T18:47:09.628065Z\"}",
+    "ExperimentId": "bbed90c6-8072-43ec-84b9-7b6713afb558",
+    "AliasExpansionBannerSeen": "true"
+  }
+}

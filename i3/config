@@ -43,6 +43,8 @@ bindsym $mod+Shift+q kill
 ################################################################################################
 
 exec --no-startup-id volumeicon
+exec --no-startup-id /home/devilunraveled/.local/bin/chargeNotify.sh
+exec --no-startup-id autorandr -l default
 bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet

@@ -1,6 +1,0 @@
-2023-06-22 10:21:12.229 [info] Running tunnel CLI
-2023-06-22 10:21:12.229 [info] status Spawning: /var/lib/snapd/snap/code/132/usr/share/code/bin/code-tunnel tunnel status
-2023-06-22 10:21:12.258 [info] no tunnel process is currently running
-
-2023-06-22 10:21:12.259 [info] status exit(11011): + 1 
-2023-06-22 10:21:12.259 [info] No other tunnel running

@@ -1,0 +1,9 @@
+2024/05/04-18:14:25.121 bb9 Reusing MANIFEST /home/devilunraveled/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2024/05/04-18:14:25.130 bb9 Recovering log #3
+2024/05/04-18:14:25.131 bb9 Reusing old log /home/devilunraveled/.config/obsidian/Local Storage/leveldb/000003.log 
+2024/05/04-18:41:25.336 bb9 Level-0 table #5: started
+2024/05/04-18:41:25.347 bb9 Level-0 table #5: 9155 bytes OK
+2024/05/04-18:41:25.351 bb9 Delete type=0 #3
+2024/05/05-01:38:16.220 bb9 Level-0 table #7: started
+2024/05/05-01:38:16.234 bb9 Level-0 table #7: 9101 bytes OK
+2024/05/05-01:38:16.238 bb9 Delete type=0 #4

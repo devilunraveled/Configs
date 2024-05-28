@@ -1,0 +1,60 @@
+2024-05-08 12:52:19.874 [INFO]: No proxy settings found
+2024-05-08 12:52:20.002 [INFO]: Creating manager directory: /tmp/5ef7ef53-454b-423b-8812-cc589abb8c19/codeium/manager
+2024-05-08 12:52:20.276 [INFO]: Using cached LS with valid crc32: /home/devilunraveled/.vscode/extensions/codeium.codeium-1.4.2/dist/a3052dba993afbbe90c01c0591b1f5dc198b5158/language_server_linux_x64
+2024-05-08 12:52:20.281 [INFO]: Language server started
+2024-05-08 12:52:20.415 [INFO]: [Language Server (stderr)]:
+I0508 12:52:20.414499  9510 main.go:507] Release 1.4.1 (a3052dba993afbbe90c01c0591b1f5dc198b5158)
+I0508 12:52:20.414557  9510 main.go:521] Starting language server manager with pid 9510
+2024-05-08 12:52:20.415 [INFO]: [Language Server (stderr)]:
+I0508 12:52:20.414619  9510 main.go:110] Manager acquired its lock file /tmp/5ef7ef53-454b-423b-8812-cc589abb8c19/codeium/manager/locks/manager.lock
+I0508 12:52:20.414966  9510 main.go:248] Waiting for random port file in /tmp/5ef7ef53-454b-423b-8812-cc589abb8c19/codeium/manager/child_random_port_1715152940414675859_8975485272811242212 to be created
+2024-05-08 12:52:20.544 [INFO]: [Language Server (stderr)]:
+I0508 12:52:20.543345  9533 main.go:515] Starting language server process with pid 9533
+2024-05-08 12:52:20.562 [INFO]: [Language Server (stderr)]:
+I0508 12:52:20.561885  9533 proxy.go:93] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0508 12:52:20.561912  9533 proxy.go:93] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0508 12:52:20.561948  9533 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-05-08 12:52:21.595 [INFO]: [Language Server (stderr)]:
+I0508 12:52:21.594498  9533 api_server_client.go:125] Successfully dialed proxy
+2024-05-08 12:52:21.595 [INFO]: [Language Server (stderr)]:
+I0508 12:52:21.594720  9533 server.go:418] Successfully created API server client
+I0508 12:52:21.594731  9533 api_server_client.go:125] Successfully dialed proxy
+I0508 12:52:21.594847  9533 server.go:424] Successfully created API streaming client
+2024-05-08 12:52:21.623 [INFO]: [Language Server (stderr)]:
+I0508 12:52:21.622881  9533 server.go:433] Successfully initialized tokenizer
+I0508 12:52:21.622926  9533 unleash.go:62] Initializing Unleash with production environment
+2024-05-08 12:52:22.450 [INFO]: [Language Server (stderr)]:
+I0508 12:52:22.450142  9533 unleash.go:77] Successfully initialized unleash
+2024-05-08 12:52:22.466 [INFO]: [Language Server (stderr)]:
+I0508 12:52:22.466182  9533 server.go:509] Successfully created completion provider
+I0508 12:52:22.466211  9533 server.go:540] Child process attempting to acquire lock file /tmp/5ef7ef53-454b-423b-8812-cc589abb8c19/codeium/manager/locks/child_lock_1715152940414703516_8125650621964951777
+I0508 12:52:22.466254  9533 server.go:550] Child process acquired lock file /tmp/5ef7ef53-454b-423b-8812-cc589abb8c19/codeium/manager/locks/child_lock_1715152940414703516_8125650621964951777
+2024-05-08 12:52:22.466 [INFO]: [Language Server (stderr)]:
+I0508 12:52:22.466759  9533 server.go:207] Language server will attempt to listen on host 127.0.0.1
+2024-05-08 12:52:22.467 [INFO]: [Language Server (stderr)]:
+I0508 12:52:22.466937  9533 server.go:251] Language server listening on random port at 37709
+I0508 12:52:22.466950  9533 server.go:253] LSP listening on random port at 39525
+2024-05-08 12:52:22.467 [INFO]: [Language Server (stderr)]:
+I0508 12:52:22.467151  9533 lsp.go:385] Force added workspace folder file:///codeium/codeium_repo
+I0508 12:52:22.467391  9533 web_server.go:150] Chat Web Server listening at ws://127.0.0.1:42001
+2024-05-08 12:52:22.522 [INFO]: [Language Server (stdout)]:
+39525
+2024-05-08 12:52:22.522 [INFO]: [Language Server (stderr)]:
+I0508 12:52:22.521670  9510 main.go:284] Language server manager found random server port 37709
+I0508 12:52:22.521715  9510 main.go:285] Language server manager found random lsp port 39525
+I0508 12:52:22.521733  9510 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:37709
+2024-05-08 12:52:22.534 [INFO]: [Language Server (stderr)]:
+I0508 12:52:22.534259  9510 main.go:163] Fixing language server port at 37709
+I0508 12:52:22.534279  9510 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:37709
+2024-05-08 12:52:22.599 [INFO]: Found language server running on port 37709
+2024-05-08 12:52:22.630 [INFO]: Downloaded binary: /home/devilunraveled/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-05-08 12:52:22.643 [INFO]: [Language Server (stderr)]:
+I0508 12:52:22.638921  9533 server.go:1517] Skipped changelog download for version 1.4.2
+2024-05-08 12:52:22.644 [INFO]: [Language Server (stderr)]:
+I0508 12:52:22.643297  9533 lsp.go:203] Analyzing workspace files for /home/devilunraveled/College/Sem6/IntroToNLP/Project/WordSenseDisambiguation/
+2024-05-08 12:52:22.670 [WARN]: User not logged in
+2024-05-08 12:52:53.177 [INFO]: Disposing language server process
+2024-05-08 12:52:53.177 [INFO]: Deleting manager directory: /tmp/5ef7ef53-454b-423b-8812-cc589abb8c19/codeium/manager
+2024-05-08 12:52:53.178 [INFO]: Successfully disposed language server
+2024-05-08 12:52:53.208 [INFO]: [Language Server (stderr)]:
+W0508 12:52:53.177318  9510 main.go:114] Language server manager got signal terminated, shutting down
