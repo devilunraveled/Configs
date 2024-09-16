@@ -142,23 +142,25 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-set $ws1 1
+set $ws1 "Mail"
 set $ws2 2
 set $ws3 3
 set $ws4 4
 set $ws5 5
 set $ws6 6
-set $ws7 7
-set $ws8 8
+set $ws7 "Discord"
+set $ws8 "Super"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
+bindsym $mod+Shift+o workspace $ws1
 bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
+bindsym $mod+d workspace $ws7
 bindsym $mod+8 workspace $ws8
 
 # Move focused container to workspace
@@ -297,14 +299,15 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
-exec_always --no-startup-id polybar devilunraveled
+exec_always --no-startup-id polybar primary
+exec_always --no-startup-id polybar secondary
 
 # exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb
 # exec --no-startup-id  conky -c /home/devilunraveled/.config/conky/conky.conf
 # exec --no-startup-id start_conky_green
 # exec --no-startup-id start_conky_grey
-exec --no-startup-id xautolock -time 10 -locker blurlock
+exec --no-startup-id xautolock -time 100 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
@@ -343,6 +346,7 @@ set_from_resource $term_color15    color15
 
 
 bar {
+    tray_output secondary
     mode invisible
     position bottom
 }
@@ -413,7 +417,7 @@ bindsym $mod+m bar mode toggle
 
 # Set inner/outer gaps
 gaps inner 0
-gaps outer -2
+gaps outer 0
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>

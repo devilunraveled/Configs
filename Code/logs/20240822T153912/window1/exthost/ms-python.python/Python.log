@@ -1,0 +1,6 @@
+2024-08-22 15:39:14.985 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-08-22 15:39:14.985 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-08-22 15:39:14.985 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-08-22 15:39:14.985 [info] Experiment 'pythonTestAdapter' is active
+2024-08-22 15:39:14.987 [info] VS Code was launched from an activated environment: 'dip', selecting it as the interpreter for workspace.
+2024-08-22 15:39:16.058 [info] Starting Pylance language server.

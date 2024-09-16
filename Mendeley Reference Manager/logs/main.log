@@ -10167,3 +10167,19 @@
 [2024-05-09 16:01:42.384] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
 [2024-05-09 16:01:42.507] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
 [2024-05-09 16:01:42.752] [info]  [authFlow - refreshToken - renderer] - Success getting new token undefined
+[2024-08-14 20:28:23.182] [info]  [LIBRARY_PROMPT]: Reading prompt data from prompts.json
+[2024-08-14 20:28:23.354] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-08-14 20:28:24.050] [error] [authFlow - renderer] refreshing access token Error: Unexpected token 'B', "Bad Request" is not valid JSON
+[2024-08-14 20:28:24.062] [info]  [authFlow - authenticate - renderer] - call re authentication undefined
+[2024-08-14 20:28:24.068] [info]  [authFlow - refreshToken - renderer] Refreshing access token undefined
+[2024-08-14 20:28:24.078] [error] [authFlow - renderer] refreshing access token Error: Failed to fetch
+[2024-08-14 20:28:24.079] [info]  [authFlow - authenticate - renderer] - call re authentication undefined
+[2024-08-14 20:28:24.584] [error] [sign-in] Error: ERR_FAILED (-2) loading 'https://www.mendeley.com/reference-manager-desktop/'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:77333)
+    at EventEmitter.stopLoadingListener (node:electron/js2c/browser_init:2:77708)
+    at EventEmitter.emit (node:events:513:28)
+[2024-08-14 20:28:24.586] [error] Unhandled Exception UnhandledRejection TypeError: Object has been destroyed
+    at _.loadURL (node:electron/js2c/browser_init:2:78406)
+    at _.loadFile (node:electron/js2c/browser_init:2:77111)
+    at e (/tmp/.mount_MendelPQodUC/resources/app.asar/dist/main.js:2:803379)
+    at async /tmp/.mount_MendelPQodUC/resources/app.asar/dist/main.js:2:803457

@@ -296,3 +296,85 @@
 2024-05-08 12:14:54 Success.
 2024-05-08 12:14:54 Latest version is 1.5.12
 2024-05-08 12:14:54 App is up to date.
+2024-06-22 14:51:11 Loading main app package /usr/lib/obsidian/obsidian.asar
+2024-06-22 14:51:11 Checking for update using Github
+2024-06-22 14:51:12 Success.
+2024-06-22 14:51:12 Latest version is 1.6.3
+2024-06-22 14:51:12 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.3/obsidian-1.6.3.asar.gz
+2024-06-22 14:51:15 Verifying hash & signature. Size= 8794449
+2024-06-22 14:51:15 Saving file
+2024-06-22 14:51:15 Update complete.
+2024-06-22 19:00:05 Loading updated app package /home/devilunraveled/.config/obsidian/obsidian-1.6.3.asar
+2024-06-22 19:00:05 Checking for update using Github
+2024-06-22 19:00:06 Success.
+2024-06-22 19:00:06 Latest version is 1.6.3
+2024-06-22 19:00:06 App is up to date.
+2024-07-23 12:53:07 Loading updated app package /home/devilunraveled/.config/obsidian/obsidian-1.6.3.asar
+2024-07-23 12:53:07 Checking for update using Github
+2024-07-23 12:53:07 Success.
+2024-07-23 12:53:07 Latest version is 1.6.7
+2024-07-23 12:53:07 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/obsidian-1.6.7.asar.gz
+2024-07-23 12:53:09 Verifying hash & signature. Size= 7993245
+2024-07-23 12:53:09 Saving file
+2024-07-23 12:53:09 Update complete.
+2024-07-23 14:44:37 Checking for update using Github
+2024-07-23 14:44:37 Success.
+2024-07-23 14:44:37 Latest version is 1.6.7
+2024-07-23 14:44:37 An update is already downloaded.
+2024-07-23 15:44:39 Checking for update using Github
+2024-07-23 15:44:39 Success.
+2024-07-23 15:44:39 Latest version is 1.6.7
+2024-07-23 15:44:39 An update is already downloaded.
+2024-07-24 14:22:42 Loading updated app package /home/devilunraveled/.config/obsidian/obsidian-1.6.7.asar
+2024-07-24 14:22:42 Checking for update using Github
+2024-07-24 14:22:42 Success.
+2024-07-24 14:22:42 Latest version is 1.6.7
+2024-07-24 14:22:42 App is up to date.
+2024-07-24 15:22:42 Checking for update using Github
+2024-07-24 15:22:42 Success.
+2024-07-24 15:22:42 Latest version is 1.6.7
+2024-07-24 15:22:42 App is up to date.
+2024-07-24 16:22:42 Checking for update using Github
+2024-07-24 16:22:42 Success.
+2024-07-24 16:22:42 Latest version is 1.6.7
+2024-07-24 16:22:42 App is up to date.
+2024-07-29 12:40:01 Loading updated app package /home/devilunraveled/.config/obsidian/obsidian-1.6.7.asar
+2024-07-29 12:40:02 Checking for update using Github
+2024-07-29 12:40:02 Success.
+2024-07-29 12:40:02 Latest version is 1.6.7
+2024-07-29 12:40:02 App is up to date.
+2024-07-29 13:40:01 Checking for update using Github
+2024-07-29 13:40:02 Success.
+2024-07-29 13:40:02 Latest version is 1.6.7
+2024-07-29 13:40:02 App is up to date.
+2024-07-29 16:43:26 Checking for update using Github
+2024-07-29 16:43:26 Success.
+2024-07-29 16:43:26 Latest version is 1.6.7
+2024-07-29 16:43:26 App is up to date.
+2024-08-06 03:40:08 Loading updated app package /home/devilunraveled/.config/obsidian/obsidian-1.6.7.asar
+2024-08-06 03:40:08 Checking for update using Github
+2024-08-06 03:40:08 Success.
+2024-08-06 03:40:08 Latest version is 1.6.7
+2024-08-06 03:40:08 App is up to date.
+2024-08-06 04:40:08 Checking for update using Github
+2024-08-06 04:40:09 Success.
+2024-08-06 04:40:09 Latest version is 1.6.7
+2024-08-06 04:40:09 App is up to date.
+2024-08-06 05:40:08 Checking for update using Github
+2024-08-06 05:40:08 Success.
+2024-08-06 05:40:08 Latest version is 1.6.7
+2024-08-06 05:40:08 App is up to date.
+2024-08-06 06:40:08 Checking for update using Github
+2024-08-06 06:40:09 Success.
+2024-08-06 06:40:09 Latest version is 1.6.7
+2024-08-06 06:40:09 App is up to date.
+2024-09-13 16:14:56 Loading main app package /usr/lib/obsidian/obsidian.asar
+2024-09-13 16:14:56 Checking for update using Github
+2024-09-13 16:14:56 Success.
+2024-09-13 16:14:56 Latest version is 1.6.7
+2024-09-13 16:14:56 App is up to date.
+2024-09-13 16:15:50 Loading main app package /usr/lib/obsidian/obsidian.asar
+2024-09-13 16:15:50 Checking for update using Github
+2024-09-13 16:15:50 Success.
+2024-09-13 16:15:50 Latest version is 1.6.7
+2024-09-13 16:15:50 App is up to date.

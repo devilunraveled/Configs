@@ -1,0 +1,55 @@
+(VSCode) 2024-08-30 11:47:15.853 [INFO]: No proxy settings found
+(VSCode) 2024-08-30 11:47:16.843 [INFO]: Creating manager directory: /tmp/3fc3c858-c120-4487-b9c6-a04fac584cb9/codeium/manager
+(VSCode) 2024-08-30 11:47:17.108 [INFO]: Using cached LS with valid crc32: /home/devilunraveled/.vscode/extensions/codeium.codeium-1.12.6/dist/380c7c9c022eebd0772a9eca3800839b5b4db78c/language_server_linux_x64
+(VSCode) 2024-08-30 11:47:17.114 [INFO]: Language server started
+2024/08/30 11:47:17 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0830 11:47:17.237550 85677 main.go:415] [Logging] Initialized the logger
+I0830 11:47:17.237606 85677 main.go:512] Setting GOMAXPROCS to 16
+I0830 11:47:17.237708 85677 main.go:614] Release 1.12.6 (380c7c9c022eebd0772a9eca3800839b5b4db78c)
+I0830 11:47:17.237723 85677 main.go:672] Starting language server manager with pid 85677
+I0830 11:47:17.237799 85677 main.go:118] Manager acquired its lock file /tmp/3fc3c858-c120-4487-b9c6-a04fac584cb9/codeium/manager/locks/manager.lock
+I0830 11:47:17.238279 85677 main.go:257] Waiting for random port file in /tmp/3fc3c858-c120-4487-b9c6-a04fac584cb9/codeium/manager/child_random_port_1724998637237882913_3801273609973882394 to be created
+2024/08/30 11:47:17 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0830 11:47:17.371259 85695 main.go:415] [Logging] Initialized the logger
+I0830 11:47:17.371305 85695 main.go:512] Setting GOMAXPROCS to 4
+I0830 11:47:17.371462 85695 main.go:666] Starting language server process with pid 85695
+I0830 11:47:17.371478 85695 server.go:161] Language server will attempt to listen on host 127.0.0.1
+I0830 11:47:17.371594 85695 server.go:168] Language server listening on random port at 38219
+I0830 11:47:17.371652 85695 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0830 11:47:17.371670 85695 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0830 11:47:17.371694 85695 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+I0830 11:47:18.167369 85695 unleash.go:91] Initializing Unleash
+I0830 11:47:18.940585 85695 unleash.go:111] Successfully initialized Unleash
+E0830 11:47:18.947252 85695 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+I0830 11:47:18.947510 85695 server.go:363] Successfully created API server client
+I0830 11:47:18.974371 85695 server.go:372] Successfully initialized tokenizer
+E0830 11:47:18.974714 85695 context_module.go:367] unable to get default pinned context guideline: open /home/devilunraveled/.codeium/codeium_settings.yaml: no such file or directory
+I0830 11:47:18.974796 85695 server.go:485] Local search is enabled, will index local files.
+I0830 11:47:18.974810 85695 server.go:489] Using 4 indexer workers
+I0830 11:47:18.982321 85695 sqlite_faiss_db_client.go:70] Using database at /home/devilunraveled/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0830 11:47:18.993167 85695 sqlite_faiss_db_client.go:84] Successfully created embedding search database in 10ms
+I0830 11:47:18.993388 85695 indexer.go:215] Using 4 embed workers
+I0830 11:47:18.993422 85695 search_provider.go:269] Successfully created and started indexer
+I0830 11:47:18.993444 85695 search_provider.go:299] Successfully created embedding search provider with db client: &{0xc00265a580 0xc001b748c0}
+I0830 11:47:19.030296 85695 server.go:564] Successfully created completion provider
+I0830 11:47:19.030343 85695 server.go:614] Child process attempting to acquire lock file /tmp/3fc3c858-c120-4487-b9c6-a04fac584cb9/codeium/manager/locks/child_lock_1724998637237932151_5747938715440723462
+I0830 11:47:19.030389 85695 server.go:622] Child process acquired lock file /tmp/3fc3c858-c120-4487-b9c6-a04fac584cb9/codeium/manager/locks/child_lock_1724998637237932151_5747938715440723462
+I0830 11:47:19.033359 85695 server.go:188] LSP listening on random port at 44373
+I0830 11:47:19.033720 85695 web_server.go:240] Chat Web Server listening at ws://127.0.0.1:35705
+44373
+I0830 11:47:19.049962 85677 main.go:293] Language server manager found random server port 38219
+I0830 11:47:19.049990 85677 main.go:294] Language server manager found random lsp port 44373
+I0830 11:47:19.050001 85677 main.go:301] Language server manager attempting to connect to language server at 127.0.0.1:38219
+I0830 11:47:19.066195 85677 main.go:172] Fixing language server port at 38219
+I0830 11:47:19.066214 85677 main.go:352] Language server manager successfully connected to new language server at 127.0.0.1:38219
+(VSCode) 2024-08-30 11:47:19.126 [INFO]: Found language server running on port 38219
+I0830 11:47:19.136762 85695 utils.go:185] Analyzing workspace files for /home/devilunraveled/Projects/BTP/EncDecApp/
+I0830 11:47:19.136790 85695 utils.go:245] Done analyzing workspace files for /home/devilunraveled/Projects/BTP/EncDecApp/
+I0830 11:47:19.136798 85695 lsp.go:208] Found 0 files in workspace /home/devilunraveled/Projects/BTP/EncDecApp/
+I0830 11:47:19.136806 85695 lsp.go:232] Adding workspace listener for [0xc001205810]
+I0830 11:47:19.136822 85695 indexing_listener.go:238] Add workspace event with uid 1 for workspace /home/devilunraveled/Projects/BTP/EncDecApp/
+I0830 11:47:19.136985 85695 indexing_listener.go:297] Done enqueue workspace with uid 1
+I0830 11:47:19.251605 85695 rpcs_miscellaneous.go:323] University version is up to date.
+I0830 11:47:19.255059 85695 rpcs_miscellaneous.go:205] Downloading changelog from https://exafunction.github.io/public/changelog/1.12.md
+I0830 11:47:19.276352 85695 rpcs_miscellaneous.go:209] No changelog found at https://exafunction.github.io/public/changelog/1.12.md
+(VSCode) 2024-08-30 11:47:51.276 [ERROR]: Canceled

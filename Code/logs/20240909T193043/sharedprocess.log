@@ -1,0 +1,28 @@
+2024-09-09 19:30:47.182 [info] Deleted uninstalled extension from disk dart-code.flutter /home/devilunraveled/.vscode/extensions/dart-code.flutter-3.94.0
+2024-09-09 19:30:47.183 [info] Deleted uninstalled extension from disk eamodio.gitlens /home/devilunraveled/.vscode/extensions/eamodio.gitlens-15.3.1
+2024-09-09 19:30:47.257 [info] Deleted uninstalled extension from disk mongodb.mongodb-vscode /home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-1.8.0
+2024-09-09 19:30:47.262 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/dart-code.flutter-3.94.0.-2fed6b23.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/dart-code.flutter-3.94.0.-2fed6b23.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-09-09 19:30:47.281 [info] Deleted uninstalled extension from disk dart-code.dart-code /home/devilunraveled/.vscode/extensions/dart-code.dart-code-3.94.0
+2024-09-09 19:30:47.282 [info] Deleted uninstalled extension from disk ms-vscode-remote.remote-containers /home/devilunraveled/.vscode/extensions/ms-vscode-remote.remote-containers-0.380.0
+2024-09-09 19:30:47.312 [info] Deleted uninstalled extension from disk ms-toolsai.jupyter /home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64
+2024-09-09 19:30:47.417 [info] Deleted uninstalled extension from disk ms-python.python /home/devilunraveled/.vscode/extensions/ms-python.python-2024.12.3-linux-x64
+2024-09-09 19:30:52.910 [info] Getting Manifest... vscodevim.vim
+2024-09-09 19:30:53.057 [info] Installing extension: vscodevim.vim {"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-09 19:30:54.558 [info] Extension signature verification result for vscodevim.vim: Success. Executed: true. Duration: 767ms.
+2024-09-09 19:30:54.599 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/vscodevim.vim-1.28.1: vscodevim.vim
+2024-09-09 19:30:54.606 [info] Renamed to /home/devilunraveled/.vscode/extensions/vscodevim.vim-1.28.1
+2024-09-09 19:30:54.628 [info] Marked extension as uninstalled vscodevim.vim-1.28.0
+2024-09-09 19:30:54.637 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-09-09 19:30:54.687 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)

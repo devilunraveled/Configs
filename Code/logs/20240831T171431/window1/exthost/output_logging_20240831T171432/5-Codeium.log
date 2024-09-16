@@ -1,0 +1,226 @@
+(VSCode) 2024-08-31 17:14:34.454 [INFO]: No proxy settings found
+(VSCode) 2024-08-31 17:14:38.537 [INFO]: Creating manager directory: /tmp/275cabe6-f1d5-47cc-be88-70cb7aa4110c/codeium/manager
+(VSCode) 2024-08-31 17:14:38.827 [INFO]: Using cached LS with valid crc32: /home/devilunraveled/.vscode/extensions/codeium.codeium-1.14.12/dist/cee2c2c314ffa41c66be177dd11f9f894805e383/language_server_linux_x64
+(VSCode) 2024-08-31 17:14:38.834 [INFO]: Language server started
+2024/08/31 17:14:38 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0831 17:14:38.966227  7015 main.go:416] [Logging] Initialized the logger
+I0831 17:14:38.966273  7015 main.go:524] LS MANAGER: Setting GOMAXPROCS to 16
+I0831 17:14:38.966373  7015 main.go:631] LS MANAGER: Release 1.14.12 (cee2c2c314ffa41c66be177dd11f9f894805e383)
+I0831 17:14:38.966409  7015 main.go:708] LS MANAGER: Starting language server manager with pid 7015
+I0831 17:14:38.966478  7015 main.go:119] LS MANAGER: Manager acquired its lock file /tmp/275cabe6-f1d5-47cc-be88-70cb7aa4110c/codeium/manager/locks/manager.lock
+I0831 17:14:38.966931  7015 main.go:258] LS MANAGER: Waiting for random port file in /tmp/275cabe6-f1d5-47cc-be88-70cb7aa4110c/codeium/manager/child_random_port_1725104678966567161_3914065675394272458 to be created
+2024/08/31 17:14:39 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0831 17:14:39.092647  7033 main.go:416] [Logging] Initialized the logger
+I0831 17:14:39.092697  7033 main.go:524] Setting GOMAXPROCS to 4
+I0831 17:14:39.092854  7033 main.go:702] Starting language server process with pid 7033
+I0831 17:14:39.092871  7033 server.go:167] Language server will attempt to listen on host 127.0.0.1
+I0831 17:14:39.093014  7033 server.go:174] Language server listening on random port at 39923
+I0831 17:14:39.093083  7033 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0831 17:14:39.093115  7033 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0831 17:14:39.093131  7033 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+I0831 17:14:40.963795  7033 unleash.go:93] Initializing Unleash
+I0831 17:14:42.593657  7033 unleash.go:113] Successfully initialized Unleash
+E0831 17:14:42.601736  7033 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+I0831 17:14:42.602007  7033 server.go:371] Successfully created API server client
+I0831 17:14:42.627283  7033 server.go:380] Successfully initialized tokenizer
+E0831 17:14:42.627660  7033 context_module.go:374] unable to get default pinned context guideline: open /home/devilunraveled/.codeium/codeium_settings.yaml: no such file or directory
+I0831 17:14:42.635394  7033 server.go:493] Local search is enabled, will index local files.
+I0831 17:14:42.635420  7033 server.go:497] Using 4 indexer workers
+I0831 17:14:42.635736  7033 sqlite_faiss_db_client.go:70] Using database at /home/devilunraveled/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0831 17:14:42.637865  7033 sqlite_faiss_db_client.go:84] Successfully created embedding search database in 2ms
+I0831 17:14:42.638041  7033 indexer.go:215] Using 4 embed workers
+I0831 17:14:42.638081  7033 search_provider.go:269] Successfully created and started indexer
+I0831 17:14:42.638100  7033 search_provider.go:299] Successfully created embedding search provider with db client: &{0xc00190a640 0xc0017b19e0}
+I0831 17:14:43.359313  7033 server.go:572] Successfully created completion provider
+I0831 17:14:43.359384  7033 server.go:622] Child process attempting to acquire lock file /tmp/275cabe6-f1d5-47cc-be88-70cb7aa4110c/codeium/manager/locks/child_lock_1725104678966610043_7551379450767619026
+I0831 17:14:43.359435  7033 server.go:630] Child process acquired lock file /tmp/275cabe6-f1d5-47cc-be88-70cb7aa4110c/codeium/manager/locks/child_lock_1725104678966610043_7551379450767619026
+I0831 17:14:43.362715  7033 server.go:194] LSP listening on random port at 41259
+I0831 17:14:43.363485  7033 web_server.go:240] Chat Web Server listening at ws://127.0.0.1:42477
+41259
+I0831 17:14:43.399959  7015 main.go:294] LS MANAGER: Language server manager found random server port 39923
+I0831 17:14:43.399992  7015 main.go:295] LS MANAGER: Language server manager found random lsp port 41259
+I0831 17:14:43.400005  7015 main.go:302] LS MANAGER: Language server manager attempting to connect to language server at 127.0.0.1:39923
+I0831 17:14:43.419427  7015 main.go:173] LS MANAGER: Fixing language server port at 39923
+I0831 17:14:43.419449  7015 main.go:353] LS MANAGER: Language server manager successfully connected to new language server at 127.0.0.1:39923
+(VSCode) 2024-08-31 17:14:43.462 [INFO]: Found language server running on port 39923
+I0831 17:14:43.689541  7033 rpcs_miscellaneous.go:323] University version is up to date.
+I0831 17:14:43.692466  7033 rpcs_miscellaneous.go:205] Downloading changelog from https://exafunction.github.io/public/changelog/1.14.md
+I0831 17:14:43.715886  7033 rpcs_miscellaneous.go:209] No changelog found at https://exafunction.github.io/public/changelog/1.14.md
+(VSCode) 2024-08-31 17:15:44.683 [INFO]: Completion request was cancelled by token (909.99ms)
+(VSCode) 2024-08-31 17:16:26.428 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:27.165 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:27.356 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:27.515 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:27.777 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:27.897 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:28.009 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:32.047 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:32.184 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:32.617 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:32.826 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:32.928 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:33.266 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:33.342 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:33.978 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:34.066 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:34.214 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:34.297 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:34.603 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:34.708 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:35.034 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:35.129 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:35.672 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:35.860 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:36.129 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:36.217 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:36.350 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:36.592 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:36.733 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:36.969 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:37.033 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:37.124 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:37.320 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:37.425 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:37.900 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:38.067 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:38.676 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:39.099 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:39.185 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:39.678 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:39.865 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:39.936 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:40.005 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:40.153 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:40.750 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:40.889 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:41.326 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:41.491 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:41.631 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:42.139 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:42.356 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:42.655 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:42.929 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:43.054 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:43.340 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:43.498 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:43.758 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:44.036 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:44.192 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:44.813 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:45.103 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:45.371 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:45.948 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:46.059 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:46.385 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:46.521 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:47.223 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:47.518 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:47.578 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:47.828 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:47.969 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:48.082 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:48.291 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:48.442 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:48.883 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:49.064 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:49.300 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:49.450 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:49.591 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:49.655 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:50.139 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:50.373 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:50.436 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:50.605 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:50.769 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:50.836 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:50.935 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:51.056 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:51.404 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:52.088 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:52.172 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:54.286 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:54.553 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:55.014 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:55.374 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:55.799 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:56.004 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:56.077 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:56.196 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:56.310 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:56.424 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:56.516 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:56.633 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:56.952 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:57.064 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:57.152 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:57.263 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:57.336 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:57.408 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:57.719 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:58.432 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:58.607 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:58.988 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:59.139 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:59.227 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:16:59.582 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:00.319 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:01.863 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:02.031 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:02.216 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:02.336 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:02.779 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:03.009 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:03.081 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:03.217 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:03.313 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:03.817 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:04.061 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:04.197 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:04.784 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:05.144 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:06.032 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:06.091 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:07.028 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:07.107 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:07.228 [INFO]: Codeium is not enabled for the current document.
+(VSCode) 2024-08-31 17:17:07.350 [INFO]: Codeium is not enabled for the current document.
+I0831 17:19:43.556595  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":52170424,"heap_inuse":58417152,"heap_released":13246464,"heap_sys":86360064,"total_alloc":181125208,"stack_inuse":1572864,"sys":97673496,"num_goroutine":53},"proc":{"virt_size":2859448,"pss":311895}}
+I0831 17:24:43.814170  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":44442232,"heap_inuse":50872320,"heap_released":24387584,"heap_sys":86343680,"total_alloc":213452504,"stack_inuse":1605632,"sys":97673496,"num_goroutine":53},"proc":{"virt_size":2859448,"pss":301275}}
+I0831 17:29:43.506556  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":50625512,"heap_inuse":56467456,"heap_released":24584192,"heap_sys":86441984,"total_alloc":245597176,"stack_inuse":1507328,"sys":97673496,"num_goroutine":53},"proc":{"virt_size":2859448,"pss":301133}}
+I0831 17:34:43.703358  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":44336304,"heap_inuse":50716672,"heap_released":24584192,"heap_sys":86441984,"total_alloc":277940936,"stack_inuse":1507328,"sys":97673496,"num_goroutine":53},"proc":{"virt_size":2859448,"pss":301241}}
+I0831 17:39:43.422558  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":50558104,"heap_inuse":56311808,"heap_released":24584192,"heap_sys":86441984,"total_alloc":309954432,"stack_inuse":1507328,"sys":97673496,"num_goroutine":53},"proc":{"virt_size":2859448,"pss":301253}}
+I0831 17:44:43.615469  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":44398824,"heap_inuse":50790400,"heap_released":24584192,"heap_sys":86441984,"total_alloc":342019512,"stack_inuse":1507328,"sys":97673496,"num_goroutine":45},"proc":{"virt_size":2859448,"pss":301282}}
+I0831 17:49:43.798081  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":50109784,"heap_inuse":55975936,"heap_released":25370624,"heap_sys":86507520,"total_alloc":373929856,"stack_inuse":1441792,"sys":97673496,"num_goroutine":45},"proc":{"virt_size":2859448,"pss":300601}}
+I0831 17:54:43.535968  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43931424,"heap_inuse":50323456,"heap_released":25370624,"heap_sys":86507520,"total_alloc":405839336,"stack_inuse":1441792,"sys":97673496,"num_goroutine":45},"proc":{"virt_size":2859448,"pss":300541}}
+I0831 17:59:43.751694  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":50159240,"heap_inuse":55992320,"heap_released":25370624,"heap_sys":86507520,"total_alloc":437792272,"stack_inuse":1441792,"sys":97673496,"num_goroutine":45},"proc":{"virt_size":2859448,"pss":326645}}
+I0831 18:04:43.536365  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43909352,"heap_inuse":50413568,"heap_released":25370624,"heap_sys":86507520,"total_alloc":469729008,"stack_inuse":1441792,"sys":97673496,"num_goroutine":45},"proc":{"virt_size":2859448,"pss":327977}}
+(VSCode) 2024-08-31 18:09:33.897 [INFO]: Completion request was cancelled by token (477.68ms)
+(VSCode) 2024-08-31 18:09:34.485 [INFO]: Completion request was cancelled by token (536.83ms)
+(VSCode) 2024-08-31 18:09:34.647 [INFO]: Completion request was cancelled by token (111.54ms)
+(VSCode) 2024-08-31 18:09:34.771 [INFO]: Completion request was cancelled by token (74.28ms)
+(VSCode) 2024-08-31 18:09:35.385 [INFO]: Completion request was cancelled by token (562.73ms)
+(VSCode) 2024-08-31 18:09:35.563 [INFO]: Completion request was cancelled by token (128.28ms)
+(VSCode) 2024-08-31 18:09:35.848 [INFO]: Completion request was cancelled by token (235.39ms)
+(VSCode) 2024-08-31 18:09:36.035 [INFO]: Completion request was cancelled by token (136.88ms)
+(VSCode) 2024-08-31 18:09:36.767 [INFO]: Completion request succeeded (681.37ms)
+(VSCode) 2024-08-31 18:09:36.770 [INFO]: Generated 1 completion
+(VSCode) 2024-08-31 18:09:36.771 [INFO]: provideInlineCompletionItems request succeeded (686.02ms)
+I0831 18:09:43.832397  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":77437072,"heap_inuse":81633280,"heap_released":4464640,"heap_sys":86179840,"total_alloc":556554984,"stack_inuse":1474560,"sys":97673496,"num_goroutine":51},"proc":{"virt_size":2859448,"pss":328857}}
+(VSCode) 2024-08-31 18:11:49.246 [INFO]: Completion request succeeded (974.41ms)
+(VSCode) 2024-08-31 18:11:49.248 [INFO]: Generated 2 completions
+(VSCode) 2024-08-31 18:11:49.249 [INFO]: provideInlineCompletionItems request succeeded (977.33ms)
+(VSCode) 2024-08-31 18:11:51.421 [INFO]: Completion request was cancelled by token (444.82ms)
+(VSCode) 2024-08-31 18:11:51.477 [INFO]: Completion request succeeded (6.6ms)
+(VSCode) 2024-08-31 18:11:51.479 [INFO]: Generated 2 completions
+(VSCode) 2024-08-31 18:11:51.480 [INFO]: provideInlineCompletionItems request succeeded (9.53ms)
+(VSCode) 2024-08-31 18:11:51.708 [INFO]: Completion request succeeded (7.66ms)
+(VSCode) 2024-08-31 18:11:51.709 [INFO]: Generated 1 completion
+(VSCode) 2024-08-31 18:11:51.710 [INFO]: provideInlineCompletionItems request succeeded (10.06ms)
+I0831 18:14:43.601937  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":66479880,"heap_inuse":73515008,"heap_released":4382720,"heap_sys":98844672,"total_alloc":606977520,"stack_inuse":1441792,"sys":110256408,"num_goroutine":47},"proc":{"virt_size":2859448,"pss":339217}}
+I0831 18:19:43.481666  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":47206848,"heap_inuse":54927360,"heap_released":34594816,"heap_sys":99123200,"total_alloc":639245928,"stack_inuse":1409024,"sys":110256408,"num_goroutine":47},"proc":{"virt_size":2859448,"pss":309721}}
+I0831 18:24:43.783619  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":53477688,"heap_inuse":60071936,"heap_released":33570816,"heap_sys":99090432,"total_alloc":671461608,"stack_inuse":1441792,"sys":110256408,"num_goroutine":47},"proc":{"virt_size":2859448,"pss":310808}}
+I0831 18:29:43.644270  7033 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":47284384,"heap_inuse":54984704,"heap_released":33554432,"heap_sys":99090432,"total_alloc":703441256,"stack_inuse":1441792,"sys":110256408,"num_goroutine":47},"proc":{"virt_size":2859448,"pss":310824}}
+(VSCode) 2024-08-31 18:31:11.373 [INFO]: Disposing language server process
+(VSCode) 2024-08-31 18:31:11.373 [INFO]: Deleting manager directory: /tmp/275cabe6-f1d5-47cc-be88-70cb7aa4110c/codeium/manager
+(VSCode) 2024-08-31 18:31:11.374 [INFO]: Successfully disposed language server
+W0831 18:31:11.373395  7015 main.go:123] LS MANAGER: Language server manager got signal terminated, shutting down

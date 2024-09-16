@@ -1,3 +1,2 @@
-2024/05/09-03:01:30.837 f8f9f Reusing MANIFEST /home/devilunraveled/.config/Mendeley Reference Manager/Service Worker/Database/MANIFEST-000001
-2024/05/09-03:01:30.837 f8f9f Recovering log #3
-2024/05/09-03:01:30.838 f8f9f Reusing old log /home/devilunraveled/.config/Mendeley Reference Manager/Service Worker/Database/000003.log 
+2024/08/14-20:28:24.098 12ec Creating DB /home/devilunraveled/.config/Mendeley Reference Manager/Service Worker/Database__tmp_for_rebuild since it was missing.
+2024/08/14-20:28:24.107 12ec Reusing MANIFEST /home/devilunraveled/.config/Mendeley Reference Manager/Service Worker/Database__tmp_for_rebuild/MANIFEST-000001

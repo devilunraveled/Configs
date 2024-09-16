@@ -1,0 +1,8 @@
+2024-08-22 15:39:14.672 [info] Deleted uninstalled extension from disk eamodio.gitlens /home/devilunraveled/.vscode/extensions/eamodio.gitlens-15.3.0
+2024-08-22 15:39:14.845 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/eamodio.gitlens-15.3.0.-46d4b569.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/eamodio.gitlens-15.3.0.-46d4b569.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)

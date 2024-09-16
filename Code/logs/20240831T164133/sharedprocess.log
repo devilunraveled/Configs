@@ -1,0 +1,11 @@
+2024-08-31 16:41:35.462 [info] Deleted uninstalled extension from disk vscodevim.vim /home/devilunraveled/.vscode/extensions/vscodevim.vim-1.27.3
+2024-08-31 16:41:35.475 [info] Deleted uninstalled extension from disk codeium.codeium /home/devilunraveled/.vscode/extensions/codeium.codeium-1.12.6
+2024-08-31 16:41:35.524 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/codeium.codeium-1.12.6.1817646b.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/codeium.codeium-1.12.6.1817646b.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-31 16:41:35.643 [info] Deleted uninstalled extension from disk mongodb.mongodb-vscode /home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-1.7.0
+2024-08-31 16:41:35.770 [info] Deleted uninstalled extension from disk ms-python.vscode-pylance /home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.1

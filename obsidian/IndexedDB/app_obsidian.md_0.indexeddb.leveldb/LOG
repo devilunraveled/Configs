@@ -1,3 +1,6 @@
-2024/05/08-17:44:55.873 5bb80 Reusing MANIFEST /home/devilunraveled/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2024/05/08-17:44:55.873 5bb80 Recovering log #11
-2024/05/08-17:44:55.913 5bb80 Reusing old log /home/devilunraveled/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000011.log 
+2024/09/13-21:45:50.910 7edc Reusing MANIFEST /home/devilunraveled/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/13-21:45:50.911 7edc Recovering log #15
+2024/09/13-21:45:50.944 7edc Reusing old log /home/devilunraveled/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000015.log 
+2024/09/13-21:56:10.796 7edc Level-0 table #20: started
+2024/09/13-21:56:10.824 7edc Level-0 table #20: 1300918 bytes OK
+2024/09/13-21:56:10.830 7edc Delete type=0 #15

@@ -1,0 +1,252 @@
+[2024-08-11 00:30:39.477] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-08-11 00:30:39.881] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-08-11 00:30:40.725] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-08-11 01:10:22.854] [info]  close, isQuiting: undefined
+[2024-08-11 01:10:22.864] [info]  Actions to wait for  [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT', 'SYNC_BEFORE_CLOSE_ID' ]
+[2024-08-11 01:10:22.866] [info]  BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT [ 'SYNC_BEFORE_CLOSE_ID' ]
+[2024-08-11 01:10:25.453] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID []
+[2024-08-11 01:10:25.453] [info]  close, isQuiting: undefined
+[2024-08-11 01:10:25.454] [info]  close, isQuiting: true
+[2024-08-11 01:10:25.472] [info]  Quit after all windows being closed
+[2024-08-11 11:03:23.550] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-08-11 11:03:23.979] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-08-11 11:03:24.814] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-08-11 16:11:31.746] [info]  close, isQuiting: undefined
+[2024-08-11 16:11:31.756] [info]  Actions to wait for  [ 'SYNC_BEFORE_CLOSE_ID', 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-08-11 16:11:41.522] [info]  close, isQuiting: undefined
+[2024-08-11 16:11:41.523] [info]  Actions to wait for  [ 'SYNC_BEFORE_CLOSE_ID', 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-08-11 16:11:42.845] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-08-11 16:11:44.706] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-08-11 16:11:57.761] [info]  close, isQuiting: true
+[2024-08-11 17:37:19.220] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-08-11 17:37:19.628] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-08-11 17:37:20.415] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-08-11 18:38:40.574] [warn]  getSettingsCb no callbacks left
+[2024-08-11 20:55:05.635] [warn]  getSettingsCb no callbacks left
+[2024-08-11 22:06:43.412] [warn]  getSettingsCb no callbacks left
+[2024-08-11 22:39:35.449] [warn]  getSettingsCb no callbacks left
+[2024-08-11 22:52:04.675] [info]  close, isQuiting: undefined
+[2024-08-11 22:52:04.676] [info]  Actions to wait for  [ 'SYNC_BEFORE_CLOSE_ID', 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-08-11 22:52:12.649] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-08-12 01:02:20.184] [info]  close, isQuiting: true
+[2024-08-12 14:24:42.221] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-08-12 14:24:42.624] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-08-12 14:24:43.418] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-08-12 20:28:13.184] [warn]  getSettingsCb no callbacks left
+[2024-08-12 22:39:35.022] [info]  close, isQuiting: undefined
+[2024-08-12 22:39:35.023] [info]  Actions to wait for  [ 'SYNC_BEFORE_CLOSE_ID', 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-08-12 22:39:35.025] [info]  BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT [ 'SYNC_BEFORE_CLOSE_ID' ]
+[2024-08-12 22:39:39.170] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID []
+[2024-08-12 22:39:39.171] [info]  close, isQuiting: undefined
+[2024-08-12 22:39:39.171] [info]  close, isQuiting: true
+[2024-08-12 22:39:39.190] [info]  Quit after all windows being closed
+[2024-08-12 22:39:42.761] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-08-12 22:39:43.175] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-08-12 22:39:43.976] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-08-12 22:40:15.381] [info]  close, isQuiting: true
+[2024-08-13 09:41:43.265] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-08-13 09:41:43.680] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-08-13 09:41:44.481] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-08-13 10:26:45.169] [warn]  getSettingsCb no callbacks left
+[2024-08-13 10:33:46.574] [warn]  getSettingsCb no callbacks left
+[2024-08-13 11:39:35.530] [warn]  getSettingsCb no callbacks left
+[2024-08-13 13:03:07.110] [warn]  getSettingsCb no callbacks left
+[2024-08-13 14:11:10.587] [info]  close, isQuiting: undefined
+[2024-08-13 14:11:10.588] [info]  Actions to wait for  [ 'SYNC_BEFORE_CLOSE_ID', 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-08-13 14:11:11.728] [info]  BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT [ 'SYNC_BEFORE_CLOSE_ID' ]
+[2024-08-13 14:11:11.736] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID []
+[2024-08-13 14:11:11.736] [info]  close, isQuiting: undefined
+[2024-08-13 14:11:11.739] [info]  close, isQuiting: true
+[2024-08-13 14:11:13.271] [info]  Quit after all windows being closed
+[2024-08-15 18:19:08.679] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-08-15 18:19:09.093] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-08-15 18:19:09.893] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-08-15 18:26:02.638] [info]  close, isQuiting: undefined
+[2024-08-20 11:52:13.317] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-08-20 11:52:13.750] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-08-20 11:52:14.578] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-08-20 15:28:11.100] [info]  close, isQuiting: undefined
+[2024-08-20 15:28:11.213] [info]  !crashed, reason: clean-exit, exitCode = 0
+[2024-08-23 12:03:22.555] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-08-23 12:03:22.976] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-08-23 12:03:23.799] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-08-23 12:34:29.547] [warn]  getSettingsCb no callbacks left
+[2024-08-23 14:32:41.032] [info]  close, isQuiting: undefined
+[2024-08-30 12:41:14.932] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-08-30 12:41:15.346] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-08-30 12:41:16.159] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-08-30 12:44:50.373] [info]  close, isQuiting: undefined
+[2024-08-30 12:44:53.901] [info]  close, isQuiting: undefined
+[2024-08-30 12:45:10.439] [info]  Actions to wait for  [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT', 'SYNC_BEFORE_CLOSE_ID' ]
+[2024-08-30 12:45:10.439] [info]  Actions to wait for  [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT', 'SYNC_BEFORE_CLOSE_ID' ]
+[2024-08-30 12:45:10.440] [warn]  getSettingsCb no callbacks left
+[2024-08-30 12:45:14.949] [info]  BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT [ 'SYNC_BEFORE_CLOSE_ID' ]
+[2024-08-30 12:45:16.240] [warn]  getSettingsCb no callbacks left
+[2024-08-30 12:45:20.943] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID []
+[2024-08-30 12:45:20.944] [info]  close, isQuiting: undefined
+[2024-08-30 12:45:24.277] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID []
+[2024-08-30 12:45:24.278] [info]  close, isQuiting: undefined
+[2024-08-30 12:45:24.286] [info]  close, isQuiting: true
+[2024-08-30 12:45:24.286] [info]  close, isQuiting: true
+[2024-08-30 12:45:24.306] [info]  Quit after all windows being closed
+[2024-08-30 12:45:46.533] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-08-30 12:45:46.947] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-08-30 12:45:47.776] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-08-30 19:46:31.016] [warn]  getSettingsCb no callbacks left
+[2024-08-30 21:17:51.450] [warn]  getSettingsCb no callbacks left
+[2024-08-30 22:51:24.708] [warn]  getSettingsCb no callbacks left
+[2024-08-30 22:51:31.799] [info]  close, isQuiting: undefined
+[2024-08-30 22:51:31.800] [info]  Actions to wait for  [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT', 'SYNC_BEFORE_CLOSE_ID' ]
+[2024-08-30 22:51:32.514] [info]  BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT [ 'SYNC_BEFORE_CLOSE_ID' ]
+[2024-08-30 22:51:35.679] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID []
+[2024-08-30 22:51:35.680] [info]  close, isQuiting: undefined
+[2024-08-30 22:51:35.681] [info]  close, isQuiting: true
+[2024-08-30 22:51:35.720] [info]  Quit after all windows being closed
+[2024-09-01 18:36:57.413] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-09-01 18:36:57.849] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-09-01 18:36:58.675] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-09-01 18:56:24.739] [info]  ERR: Sync error while loading file from super-productivity/MAIN.json
+[2024-09-01 18:56:24.739] [error] Error: ENOENT: no such file or directory, open 'super-productivity/MAIN.json'
+    at Object.readFileUtf8 (node:internal/fs/sync:25:18)
+    at readFileSync (node:fs:441:19)
+    at t.readFileSync (node:electron/js2c/node_init:2:9771)
+    at /tmp/.mount_superPtQkYYa/resources/app.asar/electron/local-file-sync.js:44:49
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78397)
+    at WebContents.emit (node:events:514:28)
+[2024-09-01 18:56:29.211] [info]  ERR: Sync error while writing to super-productivity/ARCHIVE.json
+[2024-09-01 18:56:29.212] [error] Error: ENOENT: no such file or directory, open 'super-productivity/ARCHIVE.json'
+    at Object.open (node:internal/fs/sync:78:18)
+    at Object.openSync (node:fs:565:17)
+    at Object.func [as openSync] (node:electron/js2c/node_init:2:2214)
+    at writeFileSync (node:fs:2288:35)
+    at /tmp/.mount_superPtQkYYa/resources/app.asar/electron/local-file-sync.js:14:36
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78397)
+    at WebContents.emit (node:events:514:28)
+[2024-09-01 18:56:29.223] [info]  ERR: Sync error while writing to super-productivity/MAIN.json
+[2024-09-01 18:56:29.223] [error] Error: ENOENT: no such file or directory, open 'super-productivity/MAIN.json'
+    at Object.open (node:internal/fs/sync:78:18)
+    at Object.openSync (node:fs:565:17)
+    at Object.func [as openSync] (node:electron/js2c/node_init:2:2214)
+    at writeFileSync (node:fs:2288:35)
+    at /tmp/.mount_superPtQkYYa/resources/app.asar/electron/local-file-sync.js:14:36
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78397)
+    at WebContents.emit (node:events:514:28)
+[2024-09-01 18:57:40.913] [info]  ERR: Sync error while loading file from ~/superProd//MAIN.json
+[2024-09-01 18:57:40.914] [error] Error: ENOENT: no such file or directory, open '~/superProd//MAIN.json'
+    at Object.readFileUtf8 (node:internal/fs/sync:25:18)
+    at readFileSync (node:fs:441:19)
+    at t.readFileSync (node:electron/js2c/node_init:2:9771)
+    at /tmp/.mount_superPtQkYYa/resources/app.asar/electron/local-file-sync.js:44:49
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78397)
+    at WebContents.emit (node:events:514:28)
+[2024-09-01 18:57:42.894] [info]  ERR: Sync error while writing to ~/superProd//ARCHIVE.json
+[2024-09-01 18:57:42.894] [error] Error: ENOENT: no such file or directory, open '~/superProd//ARCHIVE.json'
+    at Object.open (node:internal/fs/sync:78:18)
+    at Object.openSync (node:fs:565:17)
+    at Object.func [as openSync] (node:electron/js2c/node_init:2:2214)
+    at writeFileSync (node:fs:2288:35)
+    at /tmp/.mount_superPtQkYYa/resources/app.asar/electron/local-file-sync.js:14:36
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78397)
+    at WebContents.emit (node:events:514:28)
+[2024-09-01 18:57:42.895] [info]  ERR: Sync error while writing to ~/superProd//MAIN.json
+[2024-09-01 18:57:42.895] [error] Error: ENOENT: no such file or directory, open '~/superProd//MAIN.json'
+    at Object.open (node:internal/fs/sync:78:18)
+    at Object.openSync (node:fs:565:17)
+    at Object.func [as openSync] (node:electron/js2c/node_init:2:2214)
+    at writeFileSync (node:fs:2288:35)
+    at /tmp/.mount_superPtQkYYa/resources/app.asar/electron/local-file-sync.js:14:36
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78397)
+    at WebContents.emit (node:events:514:28)
+[2024-09-01 21:48:48.296] [info]  !crashed, reason: killed, exitCode = 9
+[2024-09-01 22:26:48.842] [info]  close, isQuiting: undefined
+[2024-09-04 14:39:32.456] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-09-04 14:39:32.889] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-09-04 14:39:33.676] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-09-04 15:44:53.175] [info]  close, isQuiting: undefined
+[2024-09-04 15:44:53.176] [info]  Actions to wait for  [ 'SYNC_BEFORE_CLOSE_ID', 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-09-04 15:44:54.465] [info]  BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT [ 'SYNC_BEFORE_CLOSE_ID' ]
+[2024-09-04 15:44:56.712] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID []
+[2024-09-04 15:44:56.713] [info]  close, isQuiting: undefined
+[2024-09-04 15:44:56.714] [info]  close, isQuiting: true
+[2024-09-04 15:44:56.724] [info]  Quit after all windows being closed
+[2024-09-04 16:12:56.389] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-09-04 16:12:56.797] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-09-04 16:12:57.613] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-09-04 17:17:11.442] [info]  close, isQuiting: undefined
+[2024-09-04 17:17:11.443] [info]  Actions to wait for  [ 'SYNC_BEFORE_CLOSE_ID', 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-09-04 17:17:16.820] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-09-04 21:08:57.340] [warn]  getSettingsCb no callbacks left
+[2024-09-04 21:57:40.781] [warn]  getSettingsCb no callbacks left
+[2024-09-04 22:13:35.017] [warn]  getSettingsCb no callbacks left
+[2024-09-04 22:27:29.581] [warn]  getSettingsCb no callbacks left
+[2024-09-04 23:04:38.556] [info]  close, isQuiting: undefined
+[2024-09-04 23:04:38.557] [info]  Actions to wait for  [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-09-04 23:04:39.851] [info]  BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT []
+[2024-09-04 23:04:39.852] [info]  close, isQuiting: undefined
+[2024-09-04 23:04:39.853] [info]  close, isQuiting: true
+[2024-09-04 23:04:39.864] [info]  Quit after all windows being closed
+[2024-09-06 13:15:22.618] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-09-06 13:15:23.039] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-09-06 13:15:23.848] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-09-06 14:05:12.382] [warn]  getSettingsCb no callbacks left
+[2024-09-06 14:56:42.389] [warn]  getSettingsCb no callbacks left
+[2024-09-06 17:41:41.562] [warn]  getSettingsCb no callbacks left
+[2024-09-07 00:29:01.191] [warn]  getSettingsCb no callbacks left
+[2024-09-07 00:40:14.278] [warn]  getSettingsCb no callbacks left
+[2024-09-07 00:57:40.606] [warn]  getSettingsCb no callbacks left
+[2024-09-07 01:59:09.301] [warn]  getSettingsCb no callbacks left
+[2024-09-07 02:08:45.886] [info]  close, isQuiting: undefined
+[2024-09-07 02:08:45.889] [info]  Actions to wait for  [ 'SYNC_BEFORE_CLOSE_ID', 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-09-07 02:08:49.564] [info]  close, isQuiting: undefined
+[2024-09-07 02:08:49.566] [info]  Actions to wait for  [ 'SYNC_BEFORE_CLOSE_ID', 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2024-09-07 02:08:51.725] [info]  BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT [ 'SYNC_BEFORE_CLOSE_ID' ]
+[2024-09-07 02:08:51.747] [info]  BEFORE_CLOSE_DONE SYNC_BEFORE_CLOSE_ID []
+[2024-09-07 02:08:51.748] [info]  close, isQuiting: undefined
+[2024-09-07 02:08:51.751] [info]  close, isQuiting: true
+[2024-09-07 02:08:51.788] [info]  Quit after all windows being closed
+[2024-09-07 14:42:08.323] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-09-07 14:42:08.876] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-09-07 14:42:09.823] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-09-07 16:58:15.182] [info]  close, isQuiting: undefined
+[2024-09-08 17:50:18.608] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-09-08 17:50:19.023] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-09-08 17:50:19.810] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-09-08 18:28:06.611] [warn]  getSettingsCb no callbacks left
+[2024-09-08 18:54:42.252] [warn]  getSettingsCb no callbacks left
+[2024-09-08 19:20:59.381] [warn]  getSettingsCb no callbacks left
+[2024-09-09 01:10:36.061] [info]  close, isQuiting: undefined
+[2024-09-09 10:55:42.884] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-09-09 10:55:43.296] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-09-09 10:55:44.107] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-09-09 20:51:52.224] [warn]  getSettingsCb no callbacks left
+[2024-09-09 21:41:44.102] [warn]  getSettingsCb no callbacks left
+[2024-09-09 23:08:44.301] [warn]  getSettingsCb no callbacks left
+[2024-09-09 23:32:40.070] [warn]  getSettingsCb no callbacks left
+[2024-09-10 00:05:31.143] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-09-10 00:05:31.567] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-09-10 00:05:32.369] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-09-10 00:31:17.222] [warn]  getSettingsCb no callbacks left
+[2024-09-10 01:29:44.475] [warn]  getSettingsCb no callbacks left
+[2024-09-10 01:56:39.863] [warn]  getSettingsCb no callbacks left
+[2024-09-10 02:34:17.462] [info]  close, isQuiting: undefined
+[2024-09-13 00:46:05.849] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-09-13 00:46:06.266] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-09-13 00:46:07.078] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-09-13 02:04:18.569] [warn]  getSettingsCb no callbacks left
+[2024-09-13 02:28:15.145] [info]  close, isQuiting: undefined
+[2024-09-14 13:25:36.053] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2024-09-14 13:25:36.491] [info]  Saving backups to /home/devilunraveled/.config/superProductivity/backups
+[2024-09-14 13:25:37.333] [info]  No custom styles detected at /home/devilunraveled/.config/superProductivity/styles.css
+[2024-09-14 15:44:34.845] [warn]  getSettingsCb no callbacks left
+[2024-09-14 17:43:05.908] [warn]  getSettingsCb no callbacks left
+[2024-09-14 18:25:21.751] [warn]  getSettingsCb no callbacks left
+[2024-09-14 18:25:43.619] [warn]  getSettingsCb no callbacks left
+[2024-09-14 18:28:33.971] [warn]  getSettingsCb no callbacks left
+[2024-09-14 18:28:51.530] [warn]  getSettingsCb no callbacks left
+[2024-09-14 18:29:04.969] [warn]  getSettingsCb no callbacks left
+[2024-09-14 18:29:35.758] [warn]  getSettingsCb no callbacks left
+[2024-09-14 18:32:19.987] [warn]  getSettingsCb no callbacks left
+[2024-09-14 18:33:15.160] [warn]  getSettingsCb no callbacks left
+[2024-09-14 18:40:09.526] [warn]  getSettingsCb no callbacks left
+[2024-09-14 19:18:32.375] [warn]  getSettingsCb no callbacks left
+[2024-09-14 20:38:46.824] [warn]  getSettingsCb no callbacks left

@@ -1,0 +1,3 @@
+[submodule "neovide/xournalpp"]
+	path = neovide/xournalpp
+	url = https://github.com/dracula/xournalpp.git

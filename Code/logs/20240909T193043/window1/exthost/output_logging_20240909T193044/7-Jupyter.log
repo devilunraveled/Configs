@@ -1,0 +1,95 @@
+Visual Studio Code (1.93.0, undefined, desktop)
+Jupyter Extension Version: 2024.8.0.
+Python Extension Version: 2024.14.0.
+Pylance Extension Version: 2024.8.2.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.8.0
+No workspace folder opened.
+19:30:47.880 [info] Starting Kernel (Python Path: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python, Pyenv, 3.12.2) for '~/Projects/BTP/EncDecApp/main.ipynb' (disableUI=true)
+19:30:48.376 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -m pip list
+19:30:48.394 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+19:30:48.406 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3365bc29b17b3edb5074f8a8663b2cbbca03df909.json
+    > cwd: ~/Projects/BTP/EncDecApp
+19:30:49.717 [info] Kernel successfully started
+19:30:50.303 [warn] Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd03199278cb6cbef168566c72c9f3a2d56d82573f2e235dadbf333921fec027330./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+19:30:50.304 [warn] Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd03199278cb6cbef168566c72c9f3a2d56d82573f2e235dadbf333921fec027330./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+19:30:51.307 [warn] Disposing old controller startUsingLocalKernelSpec:'.neuralpostagging./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+19:30:51.308 [warn] Disposing old controller startUsingLocalKernelSpec:'.neuralpostagging./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+19:35:23.925 [info] Starting Kernel (Python Path: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python, Pyenv, 3.12.2) for '~/DeleteAsap/Q1.ipynb' (disableUI=false)
+19:35:23.941 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+19:35:23.964 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v3ec54df56ef97cc9730e8386b19fdb42fba47ca2b.json
+    > cwd: ~/DeleteAsap
+19:35:24.698 [info] Kernel successfully started
+19:35:24.717 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/pythonFiles/printJupyterDataDir.py
+19:35:24.892 [warn] Cell completed with errors iu [Error]: No module named 'nltk'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'nltk'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[1], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mnltk\x1B[39;00m\n' +
+      "\x1B[1;32m      2\x1B[0m nltk\x1B[38;5;241m.\x1B[39mdownload(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mpunkt\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'nltk'"
+  ]
+}
+19:35:24.895 [warn] Cancel all remaining cells due to cancellation or failure in execution
+19:35:27.910 [warn] Cell completed with errors iu [Error]: No module named 'nltk'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'nltk'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[2], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mnltk\x1B[39;00m\n' +
+      "\x1B[1;32m      2\x1B[0m nltk\x1B[38;5;241m.\x1B[39mdownload(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mpunkt\x1B[39m\x1B[38;5;124m'\x1B[39m)\n",
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'nltk'"
+  ]
+}
+19:35:27.911 [warn] Cancel all remaining cells due to cancellation or failure in execution
+19:35:43.219 [warn] The following kernels use interpreters that are no longer valid or not recognized by Python extension, Kernels startUsingPythonInterpreter:'id=.jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher'(interpreterId='/sbin/python'),startUsingPythonInterpreter:'id=.jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher'(interpreterId='/usr/sbin/python'),startUsingPythonInterpreter:'id=.jvsc74a57bd0de773d07946e591c496b66a7ac59ba243fc9206ead1c40f10ffc179eb8644089./sbin/python3.12./sbin/python3.12.-m#ipykernel_launcher'(interpreterId='/sbin/python3.12'),startUsingPythonInterpreter:'id=.jvsc74a57bd0f8be09674763ae96bc822cfd0e8b52123f99724d4ba7d2c6ee2023f541f3d68e./usr/sbin/python3.12./usr/sbin/python3.12.-m#ipykernel_launcher'(interpreterId='/usr/sbin/python3.12'),startUsingLocalKernelSpec:'id=.neuralpostagging./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher'(interpreterId='~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python') and valid interpreter ids include /home/~/.pyenv/versions/3.11.8/bin/python, /home/~/.pyenv/versions/3.12.2/bin/python, /home/~/.pyenv/versions/3.6.15/bin/python, /home/~/.pyenv/versions/3.7.3/bin/python, /home/~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python, /home/~/.pyenv/versions/3.12.2/envs/diff/bin/python, /home/~/.pyenv/versions/3.12.2/envs/dip/bin/python, /home/~/.pyenv/versions/3.12.2/envs/elmo/bin/python, /home/~/.pyenv/versions/3.12.2/envs/gsmn/bin/python, /home/~/.pyenv/versions/3.7.3/envs/myEnvUMHQA/bin/python, /home/~/.pyenv/versions/3.12.2/envs/nlp/bin/python, /home/~/.pyenv/versions/3.6.15/envs/serf/bin/python, /home/~/.pyenv/versions/3.12.2/envs/tdl/bin/python, /home/~/.pyenv/versions/3.6.15/envs/venv/bin/python, /home/~/.pyenv/versions/3.12.2/envs/wordvectorization/bin/python, /bin/python, /sbin/python3, /usr/bin/python, /usr/sbin/python3, /home/~/anaconda3/bin/python, /home/~/anaconda3/envs/pytorch/bin/python, /home/~/miniconda3/bin/python, /home/~/miniconda3/envs/d2l/bin/python, /home/~/miniconda3/envs/vEmbedKGQA/bin/python, /home/~/.pyenv/versions/3.12.2/envs/anlp/bin/python, /home/~/.pyenv/versions/3.12.2/envs/mlops/bin/python, /home/~/.pyenv/versions/anlp/bin/python, /home/~/.pyenv/versions/venv/bin/python, /home/~/.pyenv/versions/serf/bin/python, /home/~/.pyenv/versions/gsmn/bin/python, /home/~/.pyenv/versions/diff/bin/python, /home/~/.pyenv/versions/mlops/bin/python, /home/~/.pyenv/versions/UnsupervisedQAG/bin/python, /home/~/.pyenv/versions/tdl/bin/python, /home/~/.pyenv/versions/myEnvUMHQA/bin/python, /home/~/.pyenv/versions/dip/bin/python, /home/~/.pyenv/versions/elmo/bin/python, /home/~/.pyenv/versions/wordvectorization/bin/python, /home/~/.pyenv/versions/nlp/bin/python
+19:35:43.220 [warn] Disposing old controller startUsingLocalKernelSpec:'.neuralpostagging./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+19:35:43.220 [warn] Disposing old controller startUsingLocalKernelSpec:'.neuralpostagging./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+19:35:43.261 [info] Disposing kernel .jvsc74a57bd06239182b044a261cbbd6739ab6bcaab727537a8c1641d136aa59a80bf26e012a./home/~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/python./home/~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/python.-m#ipykernel_launcher for notebook ~/DeleteAsap/Q1.ipynb due to selection of another kernel or closing of the notebook
+19:35:43.261 [info] Dispose Kernel '~/DeleteAsap/Q1.ipynb' associated with '~/DeleteAsap/Q1.ipynb'
+19:35:43.278 [info] Starting Kernel (Python Path: ~/.pyenv/versions/3.12.2/envs/anlp/bin/python, Pyenv, 3.12.2) for '~/DeleteAsap/Q1.ipynb' (disableUI=true)
+19:35:43.341 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/anlp/bin/python -m pip list
+19:35:43.351 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/anlp/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+19:35:43.359 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/anlp/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v33f9caf0f770cd2dad3a4b3e74e149f3a8ccc205f.json
+    > cwd: ~/DeleteAsap
+19:35:43.997 [info] Kernel successfully started
+19:35:44.007 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/anlp/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/pythonFiles/printJupyterDataDir.py
+19:35:47.876 [warn] Cell completed with errors iu [Error]: No module named 'progressbar'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'progressbar'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[2], line 15\x1B[0m\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mtorch\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mutils\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mdata\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m DataLoader, Dataset\n' +
+      '\x1B[1;32m     14\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mgensim\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mmodels\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m Word2Vec, KeyedVectors\n' +
+      '\x1B[0;32m---> 15\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mprogressbar\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m ProgressBar, Bar, Percentage, ETA\n',
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'progressbar'"
+  ]
+}
+19:35:47.878 [warn] Cancel all remaining cells due to cancellation or failure in execution
+21:51:29.282 [info] Dispose Kernel '~/Projects/BTP/EncDecApp/main.ipynb' associated with '~/Projects/BTP/EncDecApp/main.ipynb'
+21:51:29.293 [info] Dispose Kernel '~/DeleteAsap/Q1.ipynb' associated with '~/DeleteAsap/Q1.ipynb'
+21:51:29.293 [info] Dispose Kernel '~/DeleteAsap/Q1.ipynb' associated with '~/DeleteAsap/Q1.ipynb'
+21:51:29.377 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v33f9caf0f770cd2dad3a4b3e74e149f3a8ccc205f.json for pid 1124190 Canceled (FileSystemError): Canceled
+    at Function.e (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7311)
+    at Object.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3977)
+    at Jc.delete (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/dist/extension.node.js:239:15273)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/dist/extension.node.js:303:469 {
+  code: 'Unknown'
+}
+21:51:29.379 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v3365bc29b17b3edb5074f8a8663b2cbbca03df909.json for pid 1103012 Canceled (FileSystemError): Canceled
+    at Function.e (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7311)
+    at Object.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3977)
+    at Jc.delete (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/dist/extension.node.js:239:15273)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/dist/extension.node.js:303:469 {
+  code: 'Unknown'
+}

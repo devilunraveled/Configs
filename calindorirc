@@ -1,0 +1,8 @@
+[general]
+activeCalendar=personal
+calendars=personal
+
+[personal]
+file=/home/devilunraveled/.local/share/calindori/calindori_personal.ics
+ownerEmail=
+ownerName=

@@ -1,0 +1,39 @@
+2024-09-07 12:29:48.876 [info] 2024-09-07T06:59:48.814Z extension INFO  Activating extension... [
+  {
+    id: 'mongodb.mongodb-vscode',
+    version: '1.8.0',
+    mode: 'Production',
+    kind: 'UI',
+    extensionPath: '/home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-1.8.0',
+    logPath: '/home/devilunraveled/.config/Code/logs/20240907T122840/window1/exthost/mongodb.mongodb-vscode',
+    workspaceStoragePath: undefined,
+    globalStoragePath: '/home/devilunraveled/.config/Code/User/globalStorage/mongodb.mongodb-vscode',
+    defaultConnectionSavingLocation: 'Global',
+    buildInfo: {
+      nodeVersion: 'v20.15.1',
+      runtimePlatform: 'linux',
+      runtimeArch: 'x64'
+    }
+  }
+]
+
+2024-09-07 12:29:48.876 [info] 2024-09-07T06:59:48.822Z telemetry INFO  SegmentKey was found [ { type: 'string' } ]
+
+2024-09-07 12:29:48.876 [info] 2024-09-07T06:59:48.823Z language server controller INFO  Creating MongoDB Language Server... [
+  {
+    extensionPath: '/home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-1.8.0',
+    languageServer: {
+      id: 'mongodbLanguageServer',
+      name: 'MongoDB Language Server',
+      path: '/home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-1.8.0/dist/languageServer.js',
+      documentSelector: '[{"pattern":"**/*.mongodb.js"},{"pattern":"**/*.mongodb"}]'
+    }
+  }
+]
+
+2024-09-07 12:29:48.876 [info] 2024-09-07T06:59:48.831Z telemetry INFO  Segment analytics activated [ { anonymousId: '74d6cac2-09d5-4d14-b710-759e25c6ca60' } ]
+
+2024-09-07 12:29:48.876 [info] 2024-09-07T06:59:48.832Z language server controller INFO  Starting the language server... []
+
+2024-09-07 12:29:49.277 [info] 2024-09-07T06:59:49.277Z language server controller INFO  MongoDBService initialized. Sending default settings... {"extensionPath":"/home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-1.8.0","connectionId":null,"hasConnectionString":false,"hasConnectionOptions":false} []
+

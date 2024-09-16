@@ -1,0 +1,59 @@
+2024-09-14 14:20:15.169 [info] (Client) Pylance async client (2024.8.2) started with python extension (2024.14.0)
+2024-09-14 14:20:15.877 [info] [Info  - 14:20:15] (230516) Server root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-09-14 14:20:15.880 [info] [Info  - 14:20:15] (230516) Experimental Pylance language server 2024.8.2 (pyright version 1.1.373, commit ee424479) starting
+2024-09-14 14:20:15.967 [info] [Info  - 14:20:15] (230516) Starting service instance "<default>"
+2024-09-14 14:20:15.999 [info] [Info  - 14:20:15] (230516) Setting pythonPath for service "<default>": "/home/devilunraveled/.pyenv/versions/3.12.2/envs/anlp/bin/python"
+2024-09-14 14:20:16.000 [info] [Info  - 14:20:16] (230516) Setting environmentName for service "<default>": "3.12.2 (dip venv)"
+2024-09-14 14:20:16.000 [info] [Info  - 14:20:16] (230516) No include entries specified; assuming /<default workspace root>
+2024-09-14 14:20:16.000 [info] [Info  - 14:20:16] (230516) Auto-excluding **/node_modules
+2024-09-14 14:20:16.001 [info] [Info  - 14:20:16] (230516) Auto-excluding **/__pycache__
+2024-09-14 14:20:16.001 [info] [Info  - 14:20:16] (230516) Auto-excluding **/.*
+2024-09-14 14:20:16.036 [info] [Info  - 14:20:16] (230516) Assuming Python version 3.12.2.final.0
+2024-09-14 14:20:16.211 [info] [Error - 14:20:16] (230516) File or directory "/<default workspace root>" does not exist.
+2024-09-14 14:20:16.212 [info] [Info  - 14:20:16] (230516) No source files found.
+2024-09-14 14:20:16.510 [info] [Info  - 14:20:16] (230516) Starting service instance "<default>"
+2024-09-14 14:20:16.526 [info] [Info  - 14:20:16] (230516) Setting pythonPath for service "<default>": "/home/devilunraveled/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python"
+2024-09-14 14:20:16.526 [info] [Info  - 14:20:16] (230516) Setting environmentName for service "<default>": "3.12.2 (dip venv)"
+2024-09-14 14:20:16.527 [info] [Info  - 14:20:16] (230516) No include entries specified; assuming /<default workspace root>
+2024-09-14 14:20:16.527 [info] [Info  - 14:20:16] (230516) Auto-excluding **/node_modules
+2024-09-14 14:20:16.527 [info] [Info  - 14:20:16] (230516) Auto-excluding **/__pycache__
+2024-09-14 14:20:16.527 [info] [Info  - 14:20:16] (230516) Auto-excluding **/.*
+2024-09-14 14:20:16.567 [info] [Info  - 14:20:16] (230516) Assuming Python version 3.12.2.final.0
+2024-09-14 14:20:16.657 [info] [Error - 14:20:16] (230516) File or directory "/<default workspace root>" does not exist.
+2024-09-14 14:20:16.657 [info] [Info  - 14:20:16] (230516) No source files found.
+2024-09-14 14:20:16.716 [info] [Info  - 14:20:16] (230516) Background analysis(1) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-09-14 14:20:16.716 [info] [Info  - 14:20:16] (230516) Background analysis(1) started
+2024-09-14 14:20:17.123 [info] [Info  - 14:20:17] (230516) Background analysis(2) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-09-14 14:20:17.125 [info] [Info  - 14:20:17] (230516) Background analysis(2) started
+2024-09-14 14:20:19.015 [info] [Info  - 14:20:19] (230516) [BG(1)] Long operation: analyzing: file:///home/devilunraveled/DeleteAsap/Q1.ipynb.py#X21sZmlsZQ%3D%3D (2028ms)
+2024-09-14 14:20:19.562 [info] [Info  - 14:20:19] (230516) [BG(2)] Long operation: analyzing: file:///home/devilunraveled/Projects/BTP/EncDecApp/main.ipynb.py#pylancePrefixCell (2288ms)
+2024-09-14 14:20:19.635 [info] [Info  - 14:20:19] (230516) [BG(1)] Long operation: analyzing: file:///home/devilunraveled/DeleteAsap/Q1.ipynb.py#pylancePrefixCell (2892ms)
+2024-09-14 14:22:30.489 [info] (Client) Pylance async client (2024.8.2) started with python extension (2024.14.0)
+2024-09-14 14:22:30.969 [info] [Info  - 14:22:30] (238515) Server root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-09-14 14:22:30.971 [info] [Info  - 14:22:30] (238515) Experimental Pylance language server 2024.8.2 (pyright version 1.1.373, commit ee424479) starting
+2024-09-14 14:22:30.976 [info] [Info  - 14:22:30] (238515) Starting service instance "Assignments"
+2024-09-14 14:22:31.020 [info] [Info  - 14:22:31] (238515) Setting pythonPath for service "Assignments": "/home/devilunraveled/.pyenv/versions/3.12.2/envs/dip/bin/python"
+2024-09-14 14:22:31.020 [info] [Info  - 14:22:31] (238515) Setting environmentName for service "Assignments": "3.12.2 (dip venv)"
+2024-09-14 14:22:31.020 [info] [Info  - 14:22:31] (238515) No include entries specified; assuming /home/devilunraveled/College/Sem7/IRE/Assignments
+2024-09-14 14:22:31.021 [info] [Info  - 14:22:31] (238515) Auto-excluding **/node_modules
+2024-09-14 14:22:31.021 [info] [Info  - 14:22:31] (238515) Auto-excluding **/__pycache__
+2024-09-14 14:22:31.021 [info] [Info  - 14:22:31] (238515) Auto-excluding **/.*
+2024-09-14 14:22:31.062 [info] [Info  - 14:22:31] (238515) Assuming Python version 3.12.2.final.0
+2024-09-14 14:22:31.126 [info] [Info  - 14:22:31] (238515) No source files found.
+2024-09-14 14:22:31.144 [info] [Info  - 14:22:31] (238515) Starting service instance "Assignments"
+2024-09-14 14:22:31.167 [info] [Info  - 14:22:31] (238515) Setting pythonPath for service "Assignments": "/home/devilunraveled/College/Sem7/IRE/Assignments"
+2024-09-14 14:22:31.167 [info] [Info  - 14:22:31] (238515) Setting environmentName for service "Assignments": "3.12.2 (dip venv)"
+2024-09-14 14:22:31.167 [info] [Info  - 14:22:31] (238515) No include entries specified; assuming /home/devilunraveled/College/Sem7/IRE/Assignments
+2024-09-14 14:22:31.167 [info] [Info  - 14:22:31] (238515) Auto-excluding **/node_modules
+2024-09-14 14:22:31.167 [info] [Info  - 14:22:31] (238515) Auto-excluding **/__pycache__
+2024-09-14 14:22:31.167 [info] [Info  - 14:22:31] (238515) Auto-excluding **/.*
+2024-09-14 14:22:31.203 [info] [Info  - 14:22:31] (238515) No source files found.
+2024-09-14 14:22:31.511 [info] [Info  - 14:22:31] (238515) Background analysis(1) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-09-14 14:22:31.515 [info] [Info  - 14:22:31] (238515) Background analysis(1) started
+2024-09-14 14:22:31.674 [info] [Info  - 14:22:31] (238515) Background analysis(2) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-09-14 14:22:31.676 [info] [Info  - 14:22:31] (238515) Background analysis(2) started
+2024-09-14 14:22:31.699 [info] [Info  - 14:22:31] (238515) Indexer background runner(3) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist (index)
+2024-09-14 14:22:31.700 [info] [Info  - 14:22:31] (238515) Indexing(3) started
+2024-09-14 14:22:31.993 [info] [Info  - 14:22:31] (238515) scanned(3) 1 files over 1 exec env
+2024-09-14 14:22:32.109 [info] [Info  - 14:22:32] (238515) indexed(3) 1 files over 1 exec env
+2024-09-14 14:22:32.117 [info] [Info  - 14:22:32] (238515) Indexing finished(3).

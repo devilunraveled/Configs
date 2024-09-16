@@ -1,0 +1,589 @@
+Visual Studio Code (1.92.2, undefined, desktop)
+Jupyter Extension Version: 2024.7.0.
+Python Extension Version: 2024.12.3.
+Pylance Extension Version: 2024.8.2.
+Platform: linux (x64).
+Workspace folder ~/Projects/BTP/EncDecApp, Home = /home/devilunraveled
+11:51:48.412 [warn] No interpreter with path ~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python found in Python API, will convert Uri path to string as Id ~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python
+11:51:48.906 [warn] The following kernels use interpreters that are no longer valid or not recognized by Python extension, Kernels startUsingPythonInterpreter:'id=.jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher'(interpreterId='/sbin/python'),startUsingPythonInterpreter:'id=.jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher'(interpreterId='/usr/sbin/python'),startUsingPythonInterpreter:'id=.jvsc74a57bd0f8be09674763ae96bc822cfd0e8b52123f99724d4ba7d2c6ee2023f541f3d68e./usr/sbin/python3.12./usr/sbin/python3.12.-m#ipykernel_launcher'(interpreterId='/usr/sbin/python3.12'),startUsingPythonInterpreter:'id=.jvsc74a57bd0de773d07946e591c496b66a7ac59ba243fc9206ead1c40f10ffc179eb8644089./sbin/python3.12./sbin/python3.12.-m#ipykernel_launcher'(interpreterId='/sbin/python3.12') and valid interpreter ids include /home/~/.pyenv/versions/3.11.8/bin/python, /home/~/.pyenv/versions/3.12.2/bin/python, /home/~/.pyenv/versions/3.6.15/bin/python, /home/~/.pyenv/versions/3.7.3/bin/python, /home/~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python, /home/~/.pyenv/versions/3.12.2/envs/diff/bin/python, /home/~/.pyenv/versions/3.12.2/envs/dip/bin/python, /home/~/.pyenv/versions/3.12.2/envs/elmo/bin/python, /home/~/.pyenv/versions/3.12.2/envs/gsmn/bin/python, /home/~/.pyenv/versions/3.7.3/envs/myEnvUMHQA/bin/python, /home/~/.pyenv/versions/3.12.2/envs/nlp/bin/python, /home/~/.pyenv/versions/3.6.15/envs/serf/bin/python, /home/~/.pyenv/versions/3.12.2/envs/tdl/bin/python, /home/~/.pyenv/versions/3.6.15/envs/venv/bin/python, /home/~/.pyenv/versions/3.12.2/envs/wordvectorization/bin/python, /bin/python, /sbin/python3, /usr/bin/python, /usr/sbin/python3, /home/~/anaconda3/bin/python, /home/~/anaconda3/envs/pytorch/bin/python, /home/~/miniconda3/bin/python, /home/~/miniconda3/envs/d2l/bin/python, /home/~/miniconda3/envs/vEmbedKGQA/bin/python, /home/~/.pyenv/versions/serf/bin/python, /home/~/.pyenv/versions/gsmn/bin/python, /home/~/.pyenv/versions/tdl/bin/python, /home/~/.pyenv/versions/venv/bin/python, /home/~/.pyenv/versions/diff/bin/python, /home/~/.pyenv/versions/dip/bin/python, /home/~/.pyenv/versions/myEnvUMHQA/bin/python, /home/~/.pyenv/versions/UnsupervisedQAG/bin/python, /home/~/.pyenv/versions/nlp/bin/python, /home/~/.pyenv/versions/elmo/bin/python, /home/~/.pyenv/versions/wordvectorization/bin/python, /home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python
+11:51:59.721 [info] Starting Kernel (Python Path: ~/.pyenv/versions/UnsupervisedQAG/bin/python, Pyenv, 3.12.2) for '~/Projects/BTP/EncDecApp/main.ipynb' (disableUI=true)
+11:51:59.797 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -m pip list
+11:51:59.881 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:51:59.894 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-86641S23l1PM0e1Ke.json
+    > cwd: //home/~/Projects/BTP/EncDecApp
+11:52:00.831 [info] Kernel successfully started
+11:52:00.844 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/pythonFiles/printJupyterDataDir.py
+11:57:21.526 [warn] Cell completed with errors Qd [Error]: If `encoder_model` is not defined as an argument, a `encoder_pretrained_model_name_or_path` has to be defined.
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ValueError',
+  evalue: 'If `encoder_model` is not defined as an argument, a `encoder_pretrained_model_name_or_path` has to be defined.',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mValueError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[3], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mconfig\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m EncoderConfig, ReconstructionDecoderConfig, QAGenerationDecoderConfig\n' +
+      '\x1B[0;32m----> 3\x1B[0m reconstructionModel \x1B[38;5;241m=\x1B[39m \x1B[43mEncoderDecoderModel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mfrom_encoder_decoder_pretrained\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:470\x1B[0m, in \x1B[0;36mEncoderDecoderModel.from_encoder_decoder_pretrained\x1B[0;34m(cls, encoder_pretrained_model_name_or_path, decoder_pretrained_model_name_or_path, *model_args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    468\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m encoder \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[1;32m    469\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m encoder_pretrained_model_name_or_path \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 470\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[1;32m    471\x1B[0m             \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mIf `encoder_model` is not defined as an argument, a `encoder_pretrained_model_name_or_path` has \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    472\x1B[0m             \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mto be defined.\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    473\x1B[0m         )\n' +
+      '\x1B[1;32m    475\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mconfig\x1B[39m\x1B[38;5;124m"\x1B[39m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;129;01min\x1B[39;00m kwargs_encoder:\n' +
+      '\x1B[1;32m    476\x1B[0m         encoder_config, kwargs_encoder \x1B[38;5;241m=\x1B[39m AutoConfig\x1B[38;5;241m.\x1B[39mfrom_pretrained(\n' +
+      '\x1B[1;32m    477\x1B[0m             encoder_pretrained_model_name_or_path, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs_encoder, return_unused_kwargs\x1B[38;5;241m=\x1B[39m\x1B[38;5;28;01mTrue\x1B[39;00m\n' +
+      '\x1B[1;32m    478\x1B[0m         )\n',
+    '\x1B[0;31mValueError\x1B[0m: If `encoder_model` is not defined as an argument, a `encoder_pretrained_model_name_or_path` has to be defined.'
+  ]
+}
+11:58:30.064 [warn] Cell completed with errors Qd [Error]: Unrecognized configuration class <class 'transformers.models.t5.configuration_t5.T5Config'> for this kind of AutoModel: AutoModelForCausalLM.
+Model type should be one of BartConfig, BertConfig, BertGenerationConfig, BigBirdConfig, BigBirdPegasusConfig, BioGptConfig, BlenderbotConfig, BlenderbotSmallConfig, BloomConfig, CamembertConfig, LlamaConfig, CodeGenConfig, CohereConfig, CpmAntConfig, CTRLConfig, Data2VecTextConfig, ElectraConfig, ErnieConfig, FalconConfig, FuyuConfig, GemmaConfig, GitConfig, GPT2Config, GPT2Config, GPTBigCodeConfig, GPTNeoConfig, GPTNeoXConfig, GPTNeoXJapaneseConfig, GPTJConfig, LlamaConfig, MambaConfig, MarianConfig, MBartConfig, MegaConfig, MegatronBertConfig, MistralConfig, MixtralConfig, MptConfig, MusicgenConfig, MusicgenMelodyConfig, MvpConfig, OpenLlamaConfig, OpenAIGPTConfig, OPTConfig, PegasusConfig, PersimmonConfig, PhiConfig, PLBartConfig, ProphetNetConfig, QDQBertConfig, Qwen2Config, ReformerConfig, RemBertConfig, RobertaConfig, RobertaPreLayerNormConfig, RoCBertConfig, RoFormerConfig, RwkvConfig, Speech2Text2Config, StableLmConfig, Starcoder2Config, TransfoXLConfig, TrOCRConfig, WhisperConfig, XGLMConfig, XLMConfig, XLMProphetNetConfig, XLMRobertaConfig, XLMRobertaXLConfig, XLNetConfig, XmodConfig.
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ValueError',
+  evalue: "Unrecognized configuration class <class 'transformers.models.t5.configuration_t5.T5Config'> for this kind of AutoModel: AutoModelForCausalLM.\n" +
+    'Model type should be one of BartConfig, BertConfig, BertGenerationConfig, BigBirdConfig, BigBirdPegasusConfig, BioGptConfig, BlenderbotConfig, BlenderbotSmallConfig, BloomConfig, CamembertConfig, LlamaConfig, CodeGenConfig, CohereConfig, CpmAntConfig, CTRLConfig, Data2VecTextConfig, ElectraConfig, ErnieConfig, FalconConfig, FuyuConfig, GemmaConfig, GitConfig, GPT2Config, GPT2Config, GPTBigCodeConfig, GPTNeoConfig, GPTNeoXConfig, GPTNeoXJapaneseConfig, GPTJConfig, LlamaConfig, MambaConfig, MarianConfig, MBartConfig, MegaConfig, MegatronBertConfig, MistralConfig, MixtralConfig, MptConfig, MusicgenConfig, MusicgenMelodyConfig, MvpConfig, OpenLlamaConfig, OpenAIGPTConfig, OPTConfig, PegasusConfig, PersimmonConfig, PhiConfig, PLBartConfig, ProphetNetConfig, QDQBertConfig, Qwen2Config, ReformerConfig, RemBertConfig, RobertaConfig, RobertaPreLayerNormConfig, RoCBertConfig, RoFormerConfig, RwkvConfig, Speech2Text2Config, StableLmConfig, Starcoder2Config, TransfoXLConfig, TrOCRConfig, WhisperConfig, XGLMConfig, XLMConfig, XLMProphetNetConfig, XLMRobertaConfig, XLMRobertaXLConfig, XLNetConfig, XmodConfig.',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mValueError\x1B[0m                                Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[4], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mconfig\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m EncoderConfig, ReconstructionDecoderConfig, QAGenerationDecoderConfig\n' +
+      '\x1B[0;32m----> 3\x1B[0m reconstructionModel \x1B[38;5;241m=\x1B[39m \x1B[43mEncoderDecoderModel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mfrom_encoder_decoder_pretrained\x1B[49m\x1B[43m(\x1B[49m\x1B[43mEncoderConfig\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mName\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mReconstructionDecoderConfig\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mName\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:525\x1B[0m, in \x1B[0;36mEncoderDecoderModel.from_encoder_decoder_pretrained\x1B[0;34m(cls, encoder_pretrained_model_name_or_path, decoder_pretrained_model_name_or_path, *model_args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    516\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m kwargs_decoder[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mconfig\x1B[39m\x1B[38;5;124m"\x1B[39m]\x1B[38;5;241m.\x1B[39mis_decoder \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mFalse\x1B[39;00m \x1B[38;5;129;01mor\x1B[39;00m kwargs_decoder[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mconfig\x1B[39m\x1B[38;5;124m"\x1B[39m]\x1B[38;5;241m.\x1B[39madd_cross_attention \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mFalse\x1B[39;00m:\n' +
+      '\x1B[1;32m    517\x1B[0m         logger\x1B[38;5;241m.\x1B[39mwarning(\n' +
+      '\x1B[1;32m    518\x1B[0m             \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mDecoder model \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mdecoder_pretrained_model_name_or_path\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m is not initialized as a decoder. \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    519\x1B[0m             \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mIn order to initialize \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mdecoder_pretrained_model_name_or_path\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m as a decoder, \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m    522\x1B[0m             \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m`decoder_config` to `.from_encoder_decoder_pretrained(...)`\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m    523\x1B[0m         )\n' +
+      '\x1B[0;32m--> 525\x1B[0m     decoder \x1B[38;5;241m=\x1B[39m \x1B[43mAutoModelForCausalLM\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mfrom_pretrained\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdecoder_pretrained_model_name_or_path\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs_decoder\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    527\x1B[0m \x1B[38;5;66;03m# instantiate config with corresponding kwargs\x1B[39;00m\n' +
+      '\x1B[1;32m    528\x1B[0m config \x1B[38;5;241m=\x1B[39m EncoderDecoderConfig\x1B[38;5;241m.\x1B[39mfrom_encoder_decoder_configs(encoder\x1B[38;5;241m.\x1B[39mconfig, decoder\x1B[38;5;241m.\x1B[39mconfig, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py:566\x1B[0m, in \x1B[0;36m_BaseAutoModelClass.from_pretrained\x1B[0;34m(cls, pretrained_model_name_or_path, *model_args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    562\x1B[0m     model_class \x1B[38;5;241m=\x1B[39m _get_model_class(config, \x1B[38;5;28mcls\x1B[39m\x1B[38;5;241m.\x1B[39m_model_mapping)\n' +
+      '\x1B[1;32m    563\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m model_class\x1B[38;5;241m.\x1B[39mfrom_pretrained(\n' +
+      '\x1B[1;32m    564\x1B[0m         pretrained_model_name_or_path, \x1B[38;5;241m*\x1B[39mmodel_args, config\x1B[38;5;241m=\x1B[39mconfig, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mhub_kwargs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs\n' +
+      '\x1B[1;32m    565\x1B[0m     )\n' +
+      '\x1B[0;32m--> 566\x1B[0m \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      '\x1B[1;32m    567\x1B[0m     \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mUnrecognized configuration class \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mconfig\x1B[38;5;241m.\x1B[39m\x1B[38;5;18m__class__\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m for this kind of AutoModel: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mcls\x1B[39m\x1B[38;5;241m.\x1B[39m\x1B[38;5;18m__name__\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m.\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[38;5;124m"\x1B[39m\n' +
+      `\x1B[1;32m    568\x1B[0m     \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mModel type should be one of \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m, \x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;241m.\x1B[39mjoin(c\x1B[38;5;241m.\x1B[39m\x1B[38;5;18m__name__\x1B[39m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mfor\x1B[39;00m\x1B[38;5;250m \x1B[39mc\x1B[38;5;250m \x1B[39m\x1B[38;5;129;01min\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28mcls\x1B[39m\x1B[38;5;241m.\x1B[39m_model_mapping\x1B[38;5;241m.\x1B[39mkeys())\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m.\x1B[39m\x1B[38;5;124m"\x1B[39m\n` +
+      '\x1B[1;32m    569\x1B[0m )\n',
+    "\x1B[0;31mValueError\x1B[0m: Unrecognized configuration class <class 'transformers.models.t5.configuration_t5.T5Config'> for this kind of AutoModel: AutoModelForCausalLM.\n" +
+      'Model type should be one of BartConfig, BertConfig, BertGenerationConfig, BigBirdConfig, BigBirdPegasusConfig, BioGptConfig, BlenderbotConfig, BlenderbotSmallConfig, BloomConfig, CamembertConfig, LlamaConfig, CodeGenConfig, CohereConfig, CpmAntConfig, CTRLConfig, Data2VecTextConfig, ElectraConfig, ErnieConfig, FalconConfig, FuyuConfig, GemmaConfig, GitConfig, GPT2Config, GPT2Config, GPTBigCodeConfig, GPTNeoConfig, GPTNeoXConfig, GPTNeoXJapaneseConfig, GPTJConfig, LlamaConfig, MambaConfig, MarianConfig, MBartConfig, MegaConfig, MegatronBertConfig, MistralConfig, MixtralConfig, MptConfig, MusicgenConfig, MusicgenMelodyConfig, MvpConfig, OpenLlamaConfig, OpenAIGPTConfig, OPTConfig, PegasusConfig, PersimmonConfig, PhiConfig, PLBartConfig, ProphetNetConfig, QDQBertConfig, Qwen2Config, ReformerConfig, RemBertConfig, RobertaConfig, RobertaPreLayerNormConfig, RoCBertConfig, RoFormerConfig, RwkvConfig, Speech2Text2Config, StableLmConfig, Starcoder2Config, TransfoXLConfig, TrOCRConfig, WhisperConfig, XGLMConfig, XLMConfig, XLMProphetNetConfig, XLMRobertaConfig, XLMRobertaXLConfig, XLNetConfig, XmodConfig.'
+  ]
+}
+12:01:17.297 [info] Starting debugging with mode 0
+12:01:18.159 [info] Starting debugging with mode 0
+12:01:37.906 [info] Restart requested ~/Projects/BTP/EncDecApp/main.ipynb
+12:01:37.923 [error] Debugging: Could not check for ipykernel 6 Error: Canceled future for execute_request message before replies were done
+    at oi.dispose (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:22379)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:93953
+    at Map.forEach (<anonymous>)
+    at n._clearKernelState (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:93939)
+    at n.dispose (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:87407)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:11001
+    at Xn (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:60:10691)
+    at R_.start (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:10977)
+    at R_.restart (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:10762)
+    at E_.restart (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:282:30367)
+    at YD.restart (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:285:32485)
+    at Function.wrapKernelMethodImpl (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:82121)
+12:01:37.924 [error] Debugging: Could not check for ipykernel 6 Error: Canceled future for execute_request message before replies were done
+    at oi.dispose (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:22379)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:93953
+    at Map.forEach (<anonymous>)
+    at n._clearKernelState (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:93939)
+    at n.dispose (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:87407)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:11001
+    at Xn (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:60:10691)
+    at R_.start (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:10977)
+    at R_.restart (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:10762)
+    at E_.restart (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:282:30367)
+    at YD.restart (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:285:32485)
+    at Function.wrapKernelMethodImpl (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:82121)
+12:01:37.925 [info] Ipykernel check failed: Unknown
+12:01:37.925 [info] Ipykernel check failed: Unknown
+12:01:37.935 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:01:37.965 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-86641s5J6zh6m2Hzu.json
+    > cwd: //home/~/Projects/BTP/EncDecApp
+12:01:38.419 [info] Restarted 0fa22cc9-7ac2-4b19-9611-a86a590c6879
+12:01:38.419 [error] Failed to write data to the kernel channel shell [
+  <Buffer 3c 49 44 53 7c 4d 53 47 3e>,
+  <Buffer 31 32 66 30 37 65 66 39 65 64 37 61 63 65 62 66 33 38 39 64 65 34 66 39 38 32 64 62 33 35 66 34 64 63 30 38 64 66 33 31 64 39 39 65 62 62 64 63 37 35 ... 14 more bytes>,
+  <Buffer 7b 22 64 61 74 65 22 3a 22 32 30 32 34 2d 30 38 2d 33 30 54 30 36 3a 33 30 3a 30 30 2e 30 39 35 5a 22 2c 22 6d 73 67 5f 69 64 22 3a 22 62 64 66 33 35 ... 177 more bytes>,
+  <Buffer 7b 7d>,
+  <Buffer 7b 22 63 65 6c 6c 49 64 22 3a 22 76 73 63 6f 64 65 2d 6e 6f 74 65 62 6f 6f 6b 2d 63 65 6c 6c 3a 2f 68 6f 6d 65 2f 64 65 76 69 6c 75 6e 72 61 76 65 6c ... 54 more bytes>,
+  <Buffer 7b 22 73 69 6c 65 6e 74 22 3a 66 61 6c 73 65 2c 22 73 74 6f 72 65 5f 68 69 73 74 6f 72 79 22 3a 74 72 75 65 2c 22 75 73 65 72 5f 65 78 70 72 65 73 73 ... 141 more bytes>
+] Error: Socket is closed
+    at a.postToSocket (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:8043)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:7787 {
+  errno: 9,
+  code: 'EBADF'
+}
+12:01:59.038 [info] Disposing request as the cell (1) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+12:01:59.038 [info] Disposing request as the cell (1) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+12:01:59.038 [info] Disposing request as the cell (2) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+12:01:59.039 [info] Disposing request as the cell (2) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+12:01:59.039 [info] Dispose Kernel '~/Projects/BTP/EncDecApp/main.ipynb' associated with '~/Projects/BTP/EncDecApp/main.ipynb'
+12:02:02.547 [info] Starting Kernel (Python Path: ~/.pyenv/versions/UnsupervisedQAG/bin/python, Pyenv, 3.12.2) for '~/Projects/BTP/EncDecApp/main.ipynb' (disableUI=true)
+12:02:02.563 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:02:02.596 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-8664158n5y0vy5HTn.json
+    > cwd: //home/~/Projects/BTP/EncDecApp
+12:02:02.619 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -m pip list
+12:02:03.285 [info] Kernel successfully started
+12:12:56.967 [warn] Cell completed with errors Qd [Error]: [Errno 2] No such file or directory: './data/paper1.pkl'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'FileNotFoundError',
+  evalue: "[Errno 2] No such file or directory: './data/paper1.pkl'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mFileNotFoundError\x1B[0m                         Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[8], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28;43mopen\x1B[39;49m\x1B[43m \x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43m./data/paper1.pkl\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43mrb\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m)\x1B[49m \x1B[38;5;28;01mas\x1B[39;00m f:\n" +
+      '\x1B[1;32m      2\x1B[0m     paper \x1B[38;5;241m=\x1B[39m pickle\x1B[38;5;241m.\x1B[39mload(f)\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/IPython/core/interactiveshell.py:324\x1B[0m, in \x1B[0;36m_modified_open\x1B[0;34m(file, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m    317\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m file \x1B[38;5;129;01min\x1B[39;00m {\x1B[38;5;241m0\x1B[39m, \x1B[38;5;241m1\x1B[39m, \x1B[38;5;241m2\x1B[39m}:\n' +
+      '\x1B[1;32m    318\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mValueError\x1B[39;00m(\n' +
+      `\x1B[1;32m    319\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mIPython won\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mt let you open fd=\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mfile\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m by default \x1B[39m\x1B[38;5;124m"\x1B[39m\n` +
+      '\x1B[1;32m    320\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mas it is likely to crash IPython. If you know what you are doing, \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      `\x1B[1;32m    321\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124myou can use builtins\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m open.\x1B[39m\x1B[38;5;124m"\x1B[39m\n` +
+      '\x1B[1;32m    322\x1B[0m     )\n' +
+      '\x1B[0;32m--> 324\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mio_open\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfile\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    "\x1B[0;31mFileNotFoundError\x1B[0m: [Errno 2] No such file or directory: './data/paper1.pkl'"
+  ]
+}
+12:13:11.109 [warn] Cell completed with errors Qd [Error]: No module named 'dataHandler'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'dataHandler'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[9], line 2\x1B[0m\n' +
+      "\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m (\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m./data/paper_1.pkl\x1B[39m\x1B[38;5;124m'\x1B[39m, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mrb\x1B[39m\x1B[38;5;124m'\x1B[39m) \x1B[38;5;28;01mas\x1B[39;00m f:\n" +
+      '\x1B[0;32m----> 2\x1B[0m     paper \x1B[38;5;241m=\x1B[39m \x1B[43mpickle\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mload\x1B[49m\x1B[43m(\x1B[49m\x1B[43mf\x1B[49m\x1B[43m)\x1B[49m\n',
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'dataHandler'"
+  ]
+}
+12:13:23.462 [warn] Cell completed with errors Qd [Error]: No module named 'dataHandler'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'dataHandler'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[11], line 2\x1B[0m\n' +
+      "\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28mopen\x1B[39m (\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m./data/paper_1.pkl\x1B[39m\x1B[38;5;124m'\x1B[39m, \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mrb\x1B[39m\x1B[38;5;124m'\x1B[39m) \x1B[38;5;28;01mas\x1B[39;00m f:\n" +
+      '\x1B[0;32m----> 2\x1B[0m     paper \x1B[38;5;241m=\x1B[39m \x1B[43mpickle\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mload\x1B[49m\x1B[43m(\x1B[49m\x1B[43mf\x1B[49m\x1B[43m)\x1B[49m\n',
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'dataHandler'"
+  ]
+}
+12:36:34.071 [warn] Cell completed with errors Qd [Error]: 'tuple' object has no attribute 'shape'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'tuple' object has no attribute 'shape'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[19], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[43mdataset\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mshape\x1B[49m)\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'tuple' object has no attribute 'shape'"
+  ]
+}
+12:37:13.527 [info] Disposing request as the cell (-1) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+12:37:13.527 [info] Disposing request as the cell (-1) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+12:37:13.527 [info] Disposing request as the cell (-1) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+12:38:54.785 [warn] Cell completed with errors Qd [Error]: No module named 'pandas'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'pandas'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mModuleNotFoundError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[24], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mimport\x1B[39;00m \x1B[38;5;21;01mpandas\x1B[39;00m\n',
+    "\x1B[0;31mModuleNotFoundError\x1B[0m: No module named 'pandas'"
+  ]
+}
+13:44:32.185 [warn] Cell completed with errors Qd [Error]: closing parenthesis ']' does not match opening parenthesis '(' (1655537646.py, line 1)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'SyntaxError',
+  evalue: "closing parenthesis ']' does not match opening parenthesis '(' (1655537646.py, line 1)",
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[30], line 1\x1B[0;36m\x1B[0m\n' +
+      "\x1B[0;31m    print(df['targetQA']])\x1B[0m\n" +
+      '\x1B[0m                        ^\x1B[0m\n' +
+      "\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m closing parenthesis ']' does not match opening parenthesis '('\n"
+  ]
+}
+13:44:49.591 [warn] Cell completed with errors Qd [Error]: 'abstract'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'KeyError',
+  evalue: "'abstract'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/pandas/core/indexes/base.py:3805\x1B[0m, in \x1B[0;36mIndex.get_loc\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   3804\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 3805\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_engine\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mcasted_key\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   3806\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m \x1B[38;5;28;01mas\x1B[39;00m err:\n',
+    'File \x1B[0;32mindex.pyx:167\x1B[0m, in \x1B[0;36mpandas._libs.index.IndexEngine.get_loc\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mindex.pyx:196\x1B[0m, in \x1B[0;36mpandas._libs.index.IndexEngine.get_loc\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mpandas/_libs/hashtable_class_helper.pxi:7081\x1B[0m, in \x1B[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[0;34m()\x1B[0m\n',
+    'File \x1B[0;32mpandas/_libs/hashtable_class_helper.pxi:7089\x1B[0m, in \x1B[0;36mpandas._libs.hashtable.PyObjectHashTable.get_item\x1B[0;34m()\x1B[0m\n',
+    "\x1B[0;31mKeyError\x1B[0m: 'abstract'",
+    '\nThe above exception was the direct cause of the following exception:\n',
+    '\x1B[0;31mKeyError\x1B[0m                                  Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[32], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[43mdf\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43mabstract\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m)\n",
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/pandas/core/frame.py:4102\x1B[0m, in \x1B[0;36mDataFrame.__getitem__\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   4100\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mcolumns\x1B[38;5;241m.\x1B[39mnlevels \x1B[38;5;241m>\x1B[39m \x1B[38;5;241m1\x1B[39m:\n' +
+      '\x1B[1;32m   4101\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_getitem_multilevel(key)\n' +
+      '\x1B[0;32m-> 4102\x1B[0m indexer \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mcolumns\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mget_loc\x1B[49m\x1B[43m(\x1B[49m\x1B[43mkey\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   4103\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m is_integer(indexer):\n' +
+      '\x1B[1;32m   4104\x1B[0m     indexer \x1B[38;5;241m=\x1B[39m [indexer]\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/pandas/core/indexes/base.py:3812\x1B[0m, in \x1B[0;36mIndex.get_loc\x1B[0;34m(self, key)\x1B[0m\n' +
+      '\x1B[1;32m   3807\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28misinstance\x1B[39m(casted_key, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;129;01mor\x1B[39;00m (\n' +
+      '\x1B[1;32m   3808\x1B[0m         \x1B[38;5;28misinstance\x1B[39m(casted_key, abc\x1B[38;5;241m.\x1B[39mIterable)\n' +
+      '\x1B[1;32m   3809\x1B[0m         \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28many\x1B[39m(\x1B[38;5;28misinstance\x1B[39m(x, \x1B[38;5;28mslice\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m casted_key)\n' +
+      '\x1B[1;32m   3810\x1B[0m     ):\n' +
+      '\x1B[1;32m   3811\x1B[0m         \x1B[38;5;28;01mraise\x1B[39;00m InvalidIndexError(key)\n' +
+      '\x1B[0;32m-> 3812\x1B[0m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mKeyError\x1B[39;00m(key) \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01merr\x1B[39;00m\n' +
+      '\x1B[1;32m   3813\x1B[0m \x1B[38;5;28;01mexcept\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m:\n' +
+      '\x1B[1;32m   3814\x1B[0m     \x1B[38;5;66;03m# If we have a listlike key, _check_indexing_error will raise\x1B[39;00m\n' +
+      '\x1B[1;32m   3815\x1B[0m     \x1B[38;5;66;03m#  InvalidIndexError. Otherwise we fall through and re-raise\x1B[39;00m\n' +
+      '\x1B[1;32m   3816\x1B[0m     \x1B[38;5;66;03m#  the TypeError.\x1B[39;00m\n' +
+      '\x1B[1;32m   3817\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_check_indexing_error(key)\n',
+    "\x1B[0;31mKeyError\x1B[0m: 'abstract'"
+  ]
+}
+18:00:40.229 [warn] Cell completed with errors Qd [Error]: cannot import name 'Dataset' from 'datasets' (unknown location)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ImportError',
+  evalue: "cannot import name 'Dataset' from 'datasets' (unknown location)",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mImportError\x1B[0m                               Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[34], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mtransformers\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m EncoderDecoderConfig, EncoderDecoderModel, AutoTokenizer\n' +
+      '\x1B[0;32m----> 2\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mdatasets\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m Dataset\n',
+    "\x1B[0;31mImportError\x1B[0m: cannot import name 'Dataset' from 'datasets' (unknown location)"
+  ]
+}
+18:01:42.579 [warn] Cell completed with errors Qd [Error]: cannot import name 'Dataset' from 'datasets' (unknown location)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ImportError',
+  evalue: "cannot import name 'Dataset' from 'datasets' (unknown location)",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mImportError\x1B[0m                               Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[35], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mtransformers\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m EncoderDecoderConfig, EncoderDecoderModel, AutoTokenizer\n' +
+      '\x1B[0;32m----> 2\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mdatasets\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m Dataset\n',
+    "\x1B[0;31mImportError\x1B[0m: cannot import name 'Dataset' from 'datasets' (unknown location)"
+  ]
+}
+18:01:47.080 [warn] Cell completed with errors Qd [Error]: cannot import name 'Dataset' from 'datasets' (unknown location)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ImportError',
+  evalue: "cannot import name 'Dataset' from 'datasets' (unknown location)",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mImportError\x1B[0m                               Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[37], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mtransformers\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m EncoderDecoderConfig, EncoderDecoderModel, AutoTokenizer\n' +
+      '\x1B[0;32m----> 2\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mdatasets\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m Dataset\n',
+    "\x1B[0;31mImportError\x1B[0m: cannot import name 'Dataset' from 'datasets' (unknown location)"
+  ]
+}
+18:02:06.107 [info] Restart requested ~/Projects/BTP/EncDecApp/main.ipynb
+18:02:06.192 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+18:02:06.200 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-86641uTPrPo87hQfm.json
+    > cwd: //home/~/Projects/BTP/EncDecApp
+18:02:06.820 [info] Restarted 5e7e7688-2992-4d59-940a-99e3911ec41b
+18:02:13.349 [warn] Cell completed with errors Qd [Error]: cannot import name 'Dataset' from 'datasets' (unknown location)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ImportError',
+  evalue: "cannot import name 'Dataset' from 'datasets' (unknown location)",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mImportError\x1B[0m                               Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[1], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mtransformers\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m EncoderDecoderConfig, EncoderDecoderModel, AutoTokenizer\n' +
+      '\x1B[0;32m----> 2\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mdatasets\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m Dataset\n',
+    "\x1B[0;31mImportError\x1B[0m: cannot import name 'Dataset' from 'datasets' (unknown location)"
+  ]
+}
+18:03:45.388 [warn] Cell completed with errors Qd [Error]: expected ':' (616831681.py, line 3)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'SyntaxError',
+  evalue: "expected ':' (616831681.py, line 3)",
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[15], line 3\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    class DatasetForReconstruction\x1B[0m\n' +
+      '\x1B[0m                                  ^\x1B[0m\n' +
+      "\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m expected ':'\n"
+  ]
+}
+18:10:19.259 [info] Too many pending requests 1 for kernel b74840c4-1b08-4cf6-aaa0-9311c1b71f36, waiting for it to be ready.
+18:14:12.759 [warn] Cell completed with errors Qd [Error]: TextEncodeInput must be Union[TextInputSequence, Tuple[InputSequence, InputSequence]]
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: 'TextEncodeInput must be Union[TextInputSequence, Tuple[InputSequence, InputSequence]]',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[17], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m df \x1B[38;5;241m=\x1B[39m \x1B[43mtokenizeData\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdf\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtokenizer\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m512\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[16], line 18\x1B[0m, in \x1B[0;36mtokenizeData\x1B[0;34m(dataFrame, tokenizer, maxLength)\x1B[0m\n' +
+      '\x1B[1;32m      2\x1B[0m inputs \x1B[38;5;241m=\x1B[39m tokenizer\x1B[38;5;241m.\x1B[39mbatch_encode_plus(\n' +
+      "\x1B[1;32m      3\x1B[0m     dataFrame[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124msections\x1B[39m\x1B[38;5;124m'\x1B[39m]\x1B[38;5;241m.\x1B[39mtolist(),\n" +
+      '\x1B[1;32m      4\x1B[0m     max_length \x1B[38;5;241m=\x1B[39m maxLength,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m      7\x1B[0m     return_tensors \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mpt\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      8\x1B[0m )\n' +
+      '\x1B[1;32m     10\x1B[0m summaries \x1B[38;5;241m=\x1B[39m tokenizer\x1B[38;5;241m.\x1B[39mbatch_encode_plus(\n' +
+      "\x1B[1;32m     11\x1B[0m     dataFrame[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mabstracts\x1B[39m\x1B[38;5;124m'\x1B[39m]\x1B[38;5;241m.\x1B[39mtolist(),\n" +
+      '\x1B[1;32m     12\x1B[0m     max_length \x1B[38;5;241m=\x1B[39m maxLength,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     15\x1B[0m     return_tensors \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mpt\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     16\x1B[0m )\n' +
+      '\x1B[0;32m---> 18\x1B[0m expectedQnA \x1B[38;5;241m=\x1B[39m \x1B[43mtokenizer\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mbatch_encode_plus\x1B[49m\x1B[43m(\x1B[49m\n' +
+      "\x1B[1;32m     19\x1B[0m \x1B[43m    \x1B[49m\x1B[43mdataFrame\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43mtargetQA\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mtolist\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\n" +
+      '\x1B[1;32m     20\x1B[0m \x1B[43m    \x1B[49m\x1B[43mmax_length\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mmaxLength\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m     21\x1B[0m \x1B[43m    \x1B[49m\x1B[43mpadding\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;124;43m"\x1B[39;49m\x1B[38;5;124;43mmax_length\x1B[39;49m\x1B[38;5;124;43m"\x1B[39;49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m     22\x1B[0m \x1B[43m    \x1B[49m\x1B[43mtruncation\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m     23\x1B[0m \x1B[43m    \x1B[49m\x1B[43mreturn_tensors\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;124;43m"\x1B[39;49m\x1B[38;5;124;43mpt\x1B[39;49m\x1B[38;5;124;43m"\x1B[39;49m\n' +
+      '\x1B[1;32m     24\x1B[0m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m     26\x1B[0m tokenizedDf \x1B[38;5;241m=\x1B[39m {\n' +
+      '\x1B[1;32m     27\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124minput_ids\x1B[39m\x1B[38;5;124m"\x1B[39m: inputs[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124minput_ids\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[1;32m     28\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mattention_mask\x1B[39m\x1B[38;5;124m"\x1B[39m: inputs[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mattention_mask\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     31\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlabels\x1B[39m\x1B[38;5;124m"\x1B[39m: expectedQnA[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124minput_ids\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     32\x1B[0m }\n' +
+      '\x1B[1;32m     34\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m tokenizedDf\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:3149\x1B[0m, in \x1B[0;36mPreTrainedTokenizerBase.batch_encode_plus\x1B[0;34m(self, batch_text_or_text_pairs, add_special_tokens, padding, truncation, max_length, stride, is_split_into_words, pad_to_multiple_of, return_tensors, return_token_type_ids, return_attention_mask, return_overflowing_tokens, return_special_tokens_mask, return_offsets_mapping, return_length, verbose, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   3139\x1B[0m \x1B[38;5;66;03m# Backward compatibility for 'truncation_strategy', 'pad_to_max_length'\x1B[39;00m\n" +
+      '\x1B[1;32m   3140\x1B[0m padding_strategy, truncation_strategy, max_length, kwargs \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_get_padding_truncation_strategies(\n' +
+      '\x1B[1;32m   3141\x1B[0m     padding\x1B[38;5;241m=\x1B[39mpadding,\n' +
+      '\x1B[1;32m   3142\x1B[0m     truncation\x1B[38;5;241m=\x1B[39mtruncation,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m   3146\x1B[0m     \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs,\n' +
+      '\x1B[1;32m   3147\x1B[0m )\n' +
+      '\x1B[0;32m-> 3149\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_batch_encode_plus\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m   3150\x1B[0m \x1B[43m    \x1B[49m\x1B[43mbatch_text_or_text_pairs\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mbatch_text_or_text_pairs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3151\x1B[0m \x1B[43m    \x1B[49m\x1B[43madd_special_tokens\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43madd_special_tokens\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3152\x1B[0m \x1B[43m    \x1B[49m\x1B[43mpadding_strategy\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mpadding_strategy\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3153\x1B[0m \x1B[43m    \x1B[49m\x1B[43mtruncation_strategy\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mtruncation_strategy\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3154\x1B[0m \x1B[43m    \x1B[49m\x1B[43mmax_length\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mmax_length\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3155\x1B[0m \x1B[43m    \x1B[49m\x1B[43mstride\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mstride\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3156\x1B[0m \x1B[43m    \x1B[49m\x1B[43mis_split_into_words\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mis_split_into_words\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3157\x1B[0m \x1B[43m    \x1B[49m\x1B[43mpad_to_multiple_of\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mpad_to_multiple_of\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3158\x1B[0m \x1B[43m    \x1B[49m\x1B[43mreturn_tensors\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mreturn_tensors\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3159\x1B[0m \x1B[43m    \x1B[49m\x1B[43mreturn_token_type_ids\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mreturn_token_type_ids\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3160\x1B[0m \x1B[43m    \x1B[49m\x1B[43mreturn_attention_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mreturn_attention_mask\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3161\x1B[0m \x1B[43m    \x1B[49m\x1B[43mreturn_overflowing_tokens\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mreturn_overflowing_tokens\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3162\x1B[0m \x1B[43m    \x1B[49m\x1B[43mreturn_special_tokens_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mreturn_special_tokens_mask\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3163\x1B[0m \x1B[43m    \x1B[49m\x1B[43mreturn_offsets_mapping\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mreturn_offsets_mapping\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3164\x1B[0m \x1B[43m    \x1B[49m\x1B[43mreturn_length\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mreturn_length\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3165\x1B[0m \x1B[43m    \x1B[49m\x1B[43mverbose\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mverbose\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3166\x1B[0m \x1B[43m    \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m   3167\x1B[0m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/tokenization_utils_fast.py:504\x1B[0m, in \x1B[0;36mPreTrainedTokenizerFast._batch_encode_plus\x1B[0;34m(self, batch_text_or_text_pairs, add_special_tokens, padding_strategy, truncation_strategy, max_length, stride, is_split_into_words, pad_to_multiple_of, return_tensors, return_token_type_ids, return_attention_mask, return_overflowing_tokens, return_special_tokens_mask, return_offsets_mapping, return_length, verbose)\x1B[0m\n' +
+      '\x1B[1;32m    495\x1B[0m \x1B[38;5;66;03m# Set the truncation and padding strategy and restore the initial configuration\x1B[39;00m\n' +
+      '\x1B[1;32m    496\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mset_truncation_and_padding(\n' +
+      '\x1B[1;32m    497\x1B[0m     padding_strategy\x1B[38;5;241m=\x1B[39mpadding_strategy,\n' +
+      '\x1B[1;32m    498\x1B[0m     truncation_strategy\x1B[38;5;241m=\x1B[39mtruncation_strategy,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m    501\x1B[0m     pad_to_multiple_of\x1B[38;5;241m=\x1B[39mpad_to_multiple_of,\n' +
+      '\x1B[1;32m    502\x1B[0m )\n' +
+      '\x1B[0;32m--> 504\x1B[0m encodings \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_tokenizer\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mencode_batch\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m    505\x1B[0m \x1B[43m    \x1B[49m\x1B[43mbatch_text_or_text_pairs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    506\x1B[0m \x1B[43m    \x1B[49m\x1B[43madd_special_tokens\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43madd_special_tokens\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    507\x1B[0m \x1B[43m    \x1B[49m\x1B[43mis_pretokenized\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mis_split_into_words\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    508\x1B[0m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    510\x1B[0m \x1B[38;5;66;03m# Convert encoding to dict\x1B[39;00m\n' +
+      '\x1B[1;32m    511\x1B[0m \x1B[38;5;66;03m# `Tokens` has type: Tuple[\x1B[39;00m\n' +
+      '\x1B[1;32m    512\x1B[0m \x1B[38;5;66;03m#                       List[Dict[str, List[List[int]]]] or List[Dict[str, 2D-Tensor]],\x1B[39;00m\n' +
+      '\x1B[1;32m    513\x1B[0m \x1B[38;5;66;03m#                       List[EncodingFast]\x1B[39;00m\n' +
+      '\x1B[1;32m    514\x1B[0m \x1B[38;5;66;03m#                    ]\x1B[39;00m\n' +
+      '\x1B[1;32m    515\x1B[0m \x1B[38;5;66;03m# with nested dimensions corresponding to batch, overflows, sequence length\x1B[39;00m\n' +
+      '\x1B[1;32m    516\x1B[0m tokens_and_encodings \x1B[38;5;241m=\x1B[39m [\n' +
+      '\x1B[1;32m    517\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_convert_encoding(\n' +
+      '\x1B[1;32m    518\x1B[0m         encoding\x1B[38;5;241m=\x1B[39mencoding,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m    527\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m encoding \x1B[38;5;129;01min\x1B[39;00m encodings\n' +
+      '\x1B[1;32m    528\x1B[0m ]\n',
+    '\x1B[0;31mTypeError\x1B[0m: TextEncodeInput must be Union[TextInputSequence, Tuple[InputSequence, InputSequence]]'
+  ]
+}
+18:14:54.045 [warn] Cell completed with errors Qd [Error]: 'Series' object has no attribute 'join'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'Series' object has no attribute 'join'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    '\x1B[0;32m/tmp/ipykernel_777581/288288234.py\x1B[0m in \x1B[0;36m?\x1B[0;34m()\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0;31m \x1B[0mdf\x1B[0m \x1B[0;34m=\x1B[0m \x1B[0mtokenizeData\x1B[0m\x1B[0;34m(\x1B[0m\x1B[0mdf\x1B[0m\x1B[0;34m,\x1B[0m \x1B[0mtokenizer\x1B[0m\x1B[0;34m,\x1B[0m \x1B[0;36m512\x1B[0m\x1B[0;34m)\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n' +
+      '\x1B[0m',
+    '\x1B[0;32m/tmp/ipykernel_777581/2409614621.py\x1B[0m in \x1B[0;36m?\x1B[0;34m(dataFrame, tokenizer, maxLength)\x1B[0m\n' +
+      '\x1B[1;32m     15\x1B[0m         \x1B[0mreturn_tensors\x1B[0m \x1B[0;34m=\x1B[0m \x1B[0;34m"pt"\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n' +
+      '\x1B[1;32m     16\x1B[0m     \x1B[0;34m)\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n' +
+      '\x1B[1;32m     17\x1B[0m \x1B[0;34m\x1B[0m\x1B[0m\n' +
+      '\x1B[1;32m     18\x1B[0m     expectedQnA = tokenizer.batch_encode_plus(\n' +
+      "\x1B[0;32m---> 19\x1B[0;31m         \x1B[0mdataFrame\x1B[0m\x1B[0;34m[\x1B[0m\x1B[0;34m'targetQA'\x1B[0m\x1B[0;34m]\x1B[0m\x1B[0;34m.\x1B[0m\x1B[0mjoin\x1B[0m\x1B[0;34m(\x1B[0m\x1B[0;34m' '\x1B[0m\x1B[0;34m)\x1B[0m\x1B[0;34m.\x1B[0m\x1B[0mtolist\x1B[0m\x1B[0;34m(\x1B[0m\x1B[0;34m)\x1B[0m\x1B[0;34m,\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n" +
+      '\x1B[0m\x1B[1;32m     20\x1B[0m         \x1B[0mmax_length\x1B[0m \x1B[0;34m=\x1B[0m \x1B[0mmaxLength\x1B[0m\x1B[0;34m,\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n' +
+      '\x1B[1;32m     21\x1B[0m         \x1B[0mpadding\x1B[0m \x1B[0;34m=\x1B[0m \x1B[0;34m"max_length"\x1B[0m\x1B[0;34m,\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n' +
+      '\x1B[1;32m     22\x1B[0m         \x1B[0mtruncation\x1B[0m \x1B[0;34m=\x1B[0m \x1B[0;32mTrue\x1B[0m\x1B[0;34m,\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n',
+    '\x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/pandas/core/generic.py\x1B[0m in \x1B[0;36m?\x1B[0;34m(self, name)\x1B[0m\n' +
+      '\x1B[1;32m   6295\x1B[0m             \x1B[0;32mand\x1B[0m \x1B[0mname\x1B[0m \x1B[0;32mnot\x1B[0m \x1B[0;32min\x1B[0m \x1B[0mself\x1B[0m\x1B[0;34m.\x1B[0m\x1B[0m_accessors\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n' +
+      '\x1B[1;32m   6296\x1B[0m             \x1B[0;32mand\x1B[0m \x1B[0mself\x1B[0m\x1B[0;34m.\x1B[0m\x1B[0m_info_axis\x1B[0m\x1B[0;34m.\x1B[0m\x1B[0m_can_hold_identifiers_and_holds_name\x1B[0m\x1B[0;34m(\x1B[0m\x1B[0mname\x1B[0m\x1B[0;34m)\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n' +
+      '\x1B[1;32m   6297\x1B[0m         \x1B[0;34m)\x1B[0m\x1B[0;34m:\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n' +
+      '\x1B[1;32m   6298\x1B[0m             \x1B[0;32mreturn\x1B[0m \x1B[0mself\x1B[0m\x1B[0;34m[\x1B[0m\x1B[0mname\x1B[0m\x1B[0;34m]\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n' +
+      '\x1B[0;32m-> 6299\x1B[0;31m         \x1B[0;32mreturn\x1B[0m \x1B[0mobject\x1B[0m\x1B[0;34m.\x1B[0m\x1B[0m__getattribute__\x1B[0m\x1B[0;34m(\x1B[0m\x1B[0mself\x1B[0m\x1B[0;34m,\x1B[0m \x1B[0mname\x1B[0m\x1B[0;34m)\x1B[0m\x1B[0;34m\x1B[0m\x1B[0;34m\x1B[0m\x1B[0m\n' +
+      '\x1B[0m',
+    "\x1B[0;31mAttributeError\x1B[0m: 'Series' object has no attribute 'join'"
+  ]
+}
+18:15:52.358 [warn] Cell completed with errors Qd [Error]: 'list' object has no attribute 'join'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'list' object has no attribute 'join'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[20], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m sections, abstracts, targetQA \x1B[38;5;241m=\x1B[39m dataset\n' +
+      '\x1B[0;32m----> 3\x1B[0m targetQA \x1B[38;5;241m=\x1B[39m [ \x1B[43mx\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mjoin\x1B[49m(\x1B[38;5;124m"\x1B[39m\x1B[38;5;124m, \x1B[39m\x1B[38;5;124m"\x1B[39m) \x1B[38;5;28;01mfor\x1B[39;00m x \x1B[38;5;129;01min\x1B[39;00m targetQA ]\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'list' object has no attribute 'join'"
+  ]
+}
+18:15:52.360 [warn] Cancel all remaining cells due to cancellation or failure in execution
+18:16:18.624 [warn] Cell completed with errors Qd [Error]: 'method' object is not subscriptable
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "'method' object is not subscriptable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[27], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m df \x1B[38;5;241m=\x1B[39m \x1B[43mtokenizeData\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdf\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mtokenizer\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m512\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[26], line 29\x1B[0m, in \x1B[0;36mtokenizeData\x1B[0;34m(dataFrame, tokenizer, maxLength)\x1B[0m\n' +
+      '\x1B[1;32m     10\x1B[0m summaries \x1B[38;5;241m=\x1B[39m tokenizer\x1B[38;5;241m.\x1B[39mbatch_encode_plus(\n' +
+      "\x1B[1;32m     11\x1B[0m     dataFrame[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mabstracts\x1B[39m\x1B[38;5;124m'\x1B[39m]\x1B[38;5;241m.\x1B[39mtolist(),\n" +
+      '\x1B[1;32m     12\x1B[0m     max_length \x1B[38;5;241m=\x1B[39m maxLength,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     15\x1B[0m     return_tensors \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mpt\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     16\x1B[0m )\n' +
+      '\x1B[1;32m     18\x1B[0m expectedQnA \x1B[38;5;241m=\x1B[39m tokenizer\x1B[38;5;241m.\x1B[39mbatch_encode_plus(\n' +
+      "\x1B[1;32m     19\x1B[0m     dataFrame[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mtargetQA\x1B[39m\x1B[38;5;124m'\x1B[39m]\x1B[38;5;241m.\x1B[39mtolist(),\n" +
+      '\x1B[1;32m     20\x1B[0m     max_length \x1B[38;5;241m=\x1B[39m maxLength,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     23\x1B[0m     return_tensors \x1B[38;5;241m=\x1B[39m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mpt\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     24\x1B[0m )\n' +
+      '\x1B[1;32m     26\x1B[0m tokenizedDf \x1B[38;5;241m=\x1B[39m {\n' +
+      '\x1B[1;32m     27\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124minput_ids\x1B[39m\x1B[38;5;124m"\x1B[39m: inputs[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124minput_ids\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[1;32m     28\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mattention_mask\x1B[39m\x1B[38;5;124m"\x1B[39m: inputs[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mattention_mask\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[0;32m---> 29\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mdecoder_input_ids\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;28;43minput\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m"\x1B[39;49m\x1B[38;5;124;43minput_ids\x1B[39;49m\x1B[38;5;124;43m"\x1B[39;49m\x1B[43m]\x1B[49m,\n' +
+      '\x1B[1;32m     30\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mdecoder_attention_mask\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;28minput\x1B[39m[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mattention_mask\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[1;32m     31\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlabels\x1B[39m\x1B[38;5;124m"\x1B[39m: expectedQnA[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124minput_ids\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     32\x1B[0m }\n' +
+      '\x1B[1;32m     34\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m tokenizedDf\n',
+    "\x1B[0;31mTypeError\x1B[0m: 'method' object is not subscriptable"
+  ]
+}
+18:16:18.626 [warn] Cancel all remaining cells due to cancellation or failure in execution
+18:20:52.623 [info] Too many pending requests 1 for kernel b74840c4-1b08-4cf6-aaa0-9311c1b71f36, waiting for it to be ready.
+18:20:57.566 [info] Too many pending requests 1 for kernel b74840c4-1b08-4cf6-aaa0-9311c1b71f36, waiting for it to be ready.
+18:22:44.084 [info] Too many pending requests 1 for kernel b74840c4-1b08-4cf6-aaa0-9311c1b71f36, waiting for it to be ready.
+18:26:55.057 [warn] Cell completed with errors Qd [Error]: parameter without a default follows parameter with a default (3689533992.py, line 1)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'SyntaxError',
+  evalue: 'parameter without a default follows parameter with a default (3689533992.py, line 1)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[66], line 1\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    def trainModel(model, tokenizer, dataset, epochs = 10, learningRate = 1e-4, dataLoader : DataLoader ):\x1B[0m\n' +
+      '\x1B[0m                                                                                ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m parameter without a default follows parameter with a default\n'
+  ]
+}
+18:26:55.062 [warn] Cancel all remaining cells due to cancellation or failure in execution
+18:29:04.906 [warn] Cell completed with errors Qd [Error]: name 'model' is not defined
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'NameError',
+  evalue: "name 'model' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[86], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m trainModel(\x1B[43mmodel\x1B[49m, dataLoader, epochs \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m10\x1B[39m, learningRate \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m1e-4\x1B[39m)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'model' is not defined"
+  ]
+}
+18:29:59.640 [warn] Cell completed with errors Qd [Error]: cannot import name 'EncoderModel' from 'transformers' (/home/~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/__init__.py)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ImportError',
+  evalue: "cannot import name 'EncoderModel' from 'transformers' (/home/~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/__init__.py)",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mImportError\x1B[0m                               Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[87], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mtransformers\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m EncoderModel, AutoTokenizer\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mtorch\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mutils\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mdata\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m Dataset, DataLoader\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mtorch\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01moptim\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m Adam\n',
+    "\x1B[0;31mImportError\x1B[0m: cannot import name 'EncoderModel' from 'transformers' (/home/~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/__init__.py)"
+  ]
+}
+18:30:06.652 [warn] Cell completed with errors Qd [Error]: cannot import name 'EncoderOnlyModel' from 'transformers' (/home/~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/__init__.py)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'ImportError',
+  evalue: "cannot import name 'EncoderOnlyModel' from 'transformers' (/home/~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/__init__.py)",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mImportError\x1B[0m                               Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[88], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mtransformers\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m EncoderOnlyModel, AutoTokenizer\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mtorch\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mutils\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mdata\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m Dataset, DataLoader\n' +
+      '\x1B[1;32m      3\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mtorch\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01moptim\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m Adam\n',
+    "\x1B[0;31mImportError\x1B[0m: cannot import name 'EncoderOnlyModel' from 'transformers' (/home/~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/__init__.py)"
+  ]
+}
+19:20:23.054 [info] Too many pending requests 1 for kernel b74840c4-1b08-4cf6-aaa0-9311c1b71f36, waiting for it to be ready.
+19:21:30.909 [warn] Cell completed with errors Qd [Error]: 'Model' object has no attribute 'train'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'Model' object has no attribute 'train'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[109], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[106], line 2\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mtrainModel\x1B[39m(model, dataLoader, epochs \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m10\x1B[39m, learningRate \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m1e-4\x1B[39m ):\n' +
+      '\x1B[0;32m----> 2\x1B[0m     \x1B[43mmodel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mtrain\x1B[49m()\n' +
+      '\x1B[1;32m      4\x1B[0m     optimizer \x1B[38;5;241m=\x1B[39m Adam(model\x1B[38;5;241m.\x1B[39mparameters(), lr \x1B[38;5;241m=\x1B[39m learningRate)\n' +
+      '\x1B[1;32m      7\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m epoch \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(epochs):\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'Model' object has no attribute 'train'"
+  ]
+}
+19:30:23.913 [warn] Cell completed with errors Qd [Error]: 'Model' object has no attribute 'parameters'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'Model' object has no attribute 'parameters'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[113], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[110], line 2\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mtrainModel\x1B[39m(model, dataLoader, epochs \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m10\x1B[39m, learningRate \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m1e-4\x1B[39m ):\n' +
+      '\x1B[0;32m----> 2\x1B[0m     optimizer \x1B[38;5;241m=\x1B[39m Adam(\x1B[43mmodel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mparameters\x1B[49m(), lr \x1B[38;5;241m=\x1B[39m learningRate)\n' +
+      '\x1B[1;32m      4\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m epoch \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(epochs):\n' +
+      '\x1B[1;32m      5\x1B[0m         totalLoss \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m0\x1B[39m\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'Model' object has no attribute 'parameters'"
+  ]
+}
+20:04:44.348 [info] Dispose Kernel '~/Projects/BTP/EncDecApp/main.ipynb' associated with '~/Projects/BTP/EncDecApp/main.ipynb'
+20:04:44.348 [info] Dispose Kernel '~/Projects/BTP/EncDecApp/main.ipynb' associated with '~/Projects/BTP/EncDecApp/main.ipynb'

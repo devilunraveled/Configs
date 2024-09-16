@@ -1,0 +1,3 @@
+2024-08-31 16:41:33.786 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/devilunraveled/Projects/BTP/EncDecApp/main.ipynb","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-08-31 16:41:33.952 [info] Started local extension host with pid 9927.
+2024-08-31 16:41:37.918 [info] [perf] Render performance baseline is 151ms

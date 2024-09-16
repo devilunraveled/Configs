@@ -1,0 +1,9 @@
+2024/09/13-00:46:06.093 48c3 Reusing MANIFEST /home/devilunraveled/.config/superProductivity/Local Storage/leveldb/MANIFEST-000001
+2024/09/13-00:46:06.121 48c3 Recovering log #265
+2024/09/13-00:46:06.121 48c3 Reusing old log /home/devilunraveled/.config/superProductivity/Local Storage/leveldb/000265.log 
+2024/09/13-01:44:15.108 48c3 Level-0 table #269: started
+2024/09/13-01:44:15.122 48c3 Level-0 table #269: 10609 bytes OK
+2024/09/13-01:44:15.126 48c3 Delete type=0 #265
+2024/09/13-02:05:07.034 48fc Level-0 table #271: started
+2024/09/13-02:05:07.040 48fc Level-0 table #271: 10544 bytes OK
+2024/09/13-02:05:07.047 48fc Delete type=0 #268

@@ -1,2 +1,0 @@
-[2023-07-13 13:44:52.790] getLocalWorkspaceData
-EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/devilunraveled/.gitkraken/workspaces/workspaces.json'

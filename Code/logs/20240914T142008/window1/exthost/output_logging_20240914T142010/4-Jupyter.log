@@ -1,0 +1,38 @@
+Visual Studio Code (1.93.1, undefined, desktop)
+Jupyter Extension Version: 2024.8.0.
+Python Extension Version: 2024.14.0.
+Pylance Extension Version: 2024.8.2.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.8.0
+No workspace folder opened.
+14:20:13.668 [warn] No interpreter with path ~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python found in Python API, will convert Uri path to string as Id ~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python
+14:20:14.407 [info] Starting Kernel (Python Path: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python, Pyenv, 3.12.2) for '~/Projects/BTP/EncDecApp/main.ipynb' (disableUI=true)
+14:20:14.420 [info] Starting Kernel (Python Path: ~/.pyenv/versions/3.12.2/envs/anlp/bin/python, Pyenv, 3.12.2) for '~/DeleteAsap/Q1.ipynb' (disableUI=true)
+14:20:14.794 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:20:14.805 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/anlp/bin/python -m pip list
+14:20:14.814 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -m pip list
+14:20:14.828 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/anlp/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:20:14.841 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v33af29dd5ea7ba2e022dd09e3a08af6f658d90a71.json
+    > cwd: ~/Projects/BTP/EncDecApp
+14:20:14.872 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/anlp/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v30bb36ecc329f2976badf7770bd270473cd6e9887.json
+    > cwd: ~/DeleteAsap
+14:20:16.045 [info] Kernel successfully started
+14:20:16.061 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/anlp/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/pythonFiles/printJupyterDataDir.py
+14:20:16.068 [info] Kernel successfully started
+14:22:08.031 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/pythonFiles/printJupyterDataDir.py
+14:22:24.871 [info] Dispose Kernel '~/Projects/BTP/EncDecApp/main.ipynb' associated with '~/Projects/BTP/EncDecApp/main.ipynb'
+14:22:24.886 [info] Dispose Kernel '~/DeleteAsap/Q1.ipynb' associated with '~/DeleteAsap/Q1.ipynb'
+14:22:24.947 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v30bb36ecc329f2976badf7770bd270473cd6e9887.json for pid 230243 Canceled (FileSystemError): Canceled
+    at Function.e (/var/lib/snapd/snap/code/169/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7311)
+    at Object.stat (/var/lib/snapd/snap/code/169/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3977)
+    at Jc.delete (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/dist/extension.node.js:239:15273)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/dist/extension.node.js:303:469 {
+  code: 'Unknown'
+}
+14:22:24.948 [warn] Failed to delete connection file file:///home/~/.local/share/jupyter/runtime/kernel-v33af29dd5ea7ba2e022dd09e3a08af6f658d90a71.json for pid 230210 Canceled (FileSystemError): Canceled
+    at Function.e (/var/lib/snapd/snap/code/169/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7311)
+    at Object.stat (/var/lib/snapd/snap/code/169/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3977)
+    at Jc.delete (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/dist/extension.node.js:239:15273)
+    at /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64/dist/extension.node.js:303:469 {
+  code: 'Unknown'
+}

@@ -1,0 +1,10 @@
+2024-09-14 14:20:10.069 [info] Started local extension host with pid 229201.
+2024-09-14 14:20:14.271 [info] [perf] Render performance baseline is 145ms
+2024-09-14 14:22:24.811 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/devilunraveled/Projects/BTP/EncDecApp/main.ipynb notebook/jupyter-notebook
+2024-09-14 14:22:24.822 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/devilunraveled/DeleteAsap/Q1.ipynb notebook/jupyter-notebook
+2024-09-14 14:22:26.020 [info] Started local extension host with pid 237477.
+2024-09-14 14:22:29.561 [info] [perf] Render performance baseline is 155ms
+2024-09-14 14:25:48.476 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/devilunraveled/.vscode/extensions/codeium.codeium-1.14.12/dist/extension.js:2:2530968)
+    at listOnTimeout (node:internal/timers:573:17)
+    at processTimers (node:internal/timers:514:7)

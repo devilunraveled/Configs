@@ -1,0 +1,112 @@
+2024-08-31 16:41:36.445 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-08-31 16:41:36.445 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-08-31 16:41:36.445 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-08-31 16:41:36.445 [info] Experiment 'pythonTestAdapter' is active
+2024-08-31 16:41:36.445 [info] Starting Environment refresh
+2024-08-31 16:41:36.445 [info] Searching for interpreters in posix paths locator
+2024-08-31 16:41:36.445 [info] Searching for pyenv environments
+2024-08-31 16:41:36.445 [info] Searching for conda environments
+2024-08-31 16:41:36.445 [info] Searching for global virtual environments
+2024-08-31 16:41:36.445 [info] Searching for custom virtual environments
+2024-08-31 16:41:36.445 [info] Finished searching for custom virtual envs: 83 milliseconds
+2024-08-31 16:41:36.445 [info] > conda info --json
+2024-08-31 16:41:36.445 [info] Python interpreter path: ~/.pyenv/versions/3.12.2/envs/dip/bin/python
+2024-08-31 16:41:36.459 [info] Finished searching for global virtual envs: 135 milliseconds
+2024-08-31 16:41:36.693 [info] > pixi --version
+2024-08-31 16:41:36.693 [error] Error: spawn pixi ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-31 16:41:36.693 [warning] could not find a pixi interpreter for the interpreter at /home/devilunraveled/.pyenv/versions/3.12.2/envs/dip/bin/python
+2024-08-31 16:41:36.767 [info] > ~/.anaconda_backup/bin/conda info --json
+2024-08-31 16:41:36.775 [info] > ~/.conda/bin/conda info --json
+2024-08-31 16:41:36.781 [info] > ~/.condarc/bin/conda info --json
+2024-08-31 16:41:36.788 [info] > ~/anaconda3/bin/conda info --json
+2024-08-31 16:41:36.799 [info] Found: /bin/python --> /bin/python3.12
+2024-08-31 16:41:36.843 [info] > . ~/.pyenv/versions/3.12.2/envs/dip/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariables.py
+2024-08-31 16:41:36.843 [info] shell: zsh
+2024-08-31 16:41:36.844 [info] Found: /bin/python3 --> /bin/python3.12
+2024-08-31 16:41:36.863 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-08-31 16:41:36.914 [info] > ~/.pyenv/versions/3.11.8/bin/python ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariables.py
+2024-08-31 16:41:36.914 [info] shell: zsh
+2024-08-31 16:41:36.973 [info] Prepending environment variable PATH in collection with /home/devilunraveled/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/deactivate/zsh:/home/devilunraveled/.pyenv/versions/3.12.2/envs/dip/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-08-31 16:41:36.973 [info] Setting environment variable VIRTUAL_ENV in collection to /home/devilunraveled/.pyenv/versions/3.12.2/envs/dip {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-08-31 16:41:36.973 [info] Prepending environment variable PS1 in collection with (dip)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-08-31 16:41:36.973 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (dip)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-08-31 16:41:36.973 [info] Send text to terminal: /home/devilunraveled/.pyenv/versions/3.11.8/bin/python /home/devilunraveled/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariablesToFile.py /home/devilunraveled/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/deactivate/zsh/envVars.txt
+2024-08-31 16:41:36.984 [info] > ~/.pyenv/versions/3.11.8/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:36.985 [info] Found: /sbin/python --> /sbin/python3.12
+2024-08-31 16:41:36.988 [info] Found: /sbin/python3 --> /sbin/python3.12
+2024-08-31 16:41:36.988 [info] Found: /sbin/python3.12 --> /sbin/python3.12
+2024-08-31 16:41:36.996 [info] > ~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.013 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2024-08-31 16:41:37.015 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-08-31 16:41:37.020 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-08-31 16:41:37.035 [info] > ~/.pyenv/versions/3.12.2/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.079 [info] > ~/.pyenv/versions/3.6.15/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.087 [info] Found: /usr/sbin/python --> /usr/sbin/python3.12
+2024-08-31 16:41:37.088 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.12
+2024-08-31 16:41:37.088 [info] Found: /usr/sbin/python3.12 --> /usr/sbin/python3.12
+2024-08-31 16:41:37.099 [info] > ~/.pyenv/versions/3.7.3/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.115 [warning] Looking for python binaries within /home/devilunraveled/git-filter-repo failed with [Error: ENOTDIR: not a directory, scandir '/home/devilunraveled/git-filter-repo'] {
+  errno: -20,
+  code: 'ENOTDIR',
+  syscall: 'scandir',
+  path: '/home/devilunraveled/git-filter-repo'
+}
+2024-08-31 16:41:37.164 [info] > ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.184 [info] > ~/.pyenv/versions/3.12.2/envs/diff/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.206 [info] Finished searching for pyenv environments: 883 milliseconds
+2024-08-31 16:41:37.221 [info] > ~/.pyenv/versions/3.12.2/envs/dip/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.238 [info] > ~/.pyenv/versions/3.12.2/envs/elmo/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.261 [info] Finished searching for interpreters in posix paths locator: 939 milliseconds
+2024-08-31 16:41:37.280 [info] > ~/.pyenv/versions/3.12.2/envs/gsmn/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.298 [info] > ~/.pyenv/versions/3.7.3/envs/myEnvUMHQA/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.327 [info] > ~/.pyenv/versions/3.12.2/envs/nlp/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.363 [info] > ~/.pyenv/versions/3.6.15/envs/serf/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.386 [info] > ~/.pyenv/versions/3.12.2/envs/tdl/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.418 [info] > ~/.pyenv/versions/3.6.15/envs/venv/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.451 [info] > ~/.pyenv/versions/3.12.2/envs/wordvectorization/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.484 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.522 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.542 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.581 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:37.928 [info] Starting Pylance language server.
+2024-08-31 16:41:38.413 [info] > ~/anaconda3/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.420 [info] > ~/anaconda3/envs/pytorch/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.422 [info] Finished searching for conda environments: 2098 milliseconds
+2024-08-31 16:41:38.424 [info] Environments refresh paths discovered (event): 2103 milliseconds
+2024-08-31 16:41:38.424 [info] Environments refresh paths discovered: 2103 milliseconds
+2024-08-31 16:41:38.444 [info] > ~/miniconda3/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.463 [info] > ~/miniconda3/envs/d2l/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.477 [info] > ~/miniconda3/envs/vEmbedKGQA/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.519 [info] Environments refresh finished (event): 2198 milliseconds
+2024-08-31 16:41:38.534 [info] Environment refresh took 2213 milliseconds
+2024-08-31 16:41:38.570 [info] > ~/.pyenv/versions/diff/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.578 [info] > ~/.pyenv/versions/serf/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.592 [error] Environment /home/devilunraveled/college/sem6/introtonlp/assignments/neuralpostagging/neuralpostagging/bin/python is missing from native locator
+2024-08-31 16:41:38.623 [info] > ~/.pyenv/versions/tdl/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.639 [info] > ~/.pyenv/versions/gsmn/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.679 [info] > ~/.pyenv/versions/venv/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.709 [info] > ~/.pyenv/versions/elmo/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.725 [info] > ~/.pyenv/versions/myEnvUMHQA/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.754 [info] > ~/.pyenv/versions/dip/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.779 [info] > ~/.pyenv/versions/UnsupervisedQAG/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.796 [info] > ~/.pyenv/versions/nlp/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.821 [info] > ~/.pyenv/versions/wordvectorization/bin/python -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.841 [info] > /sbin/python3.12 -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.869 [info] > /usr/sbin/python3.12 -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.889 [info] > /usr/sbin/python3 -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:41:38.913 [info] > /sbin/python3 -I ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2024-08-31 16:42:27.177 [warning] could not find a pixi interpreter for the interpreter at /home/devilunraveled/.pyenv/versions/UnsupervisedQAG/bin/python
+2024-08-31 16:42:27.219 [warning] could not find a pixi interpreter for the interpreter at /home/devilunraveled/.pyenv/versions/UnsupervisedQAG/bin/python
+2024-08-31 16:42:27.243 [info] > . ~/.pyenv/versions/UnsupervisedQAG/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariables.py
+2024-08-31 16:42:27.243 [info] shell: bash
+2024-08-31 16:42:27.252 [info] > . ~/.pyenv/versions/UnsupervisedQAG/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python_files/printEnvVariables.py
+2024-08-31 16:42:27.252 [info] shell: bash

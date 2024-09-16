@@ -1,0 +1,104 @@
+2024-08-30 11:48:54.992 [info] (Client) Pylance async client (2024.8.2) started with python extension (2024.12.3)
+2024-08-30 11:48:55.422 [info] [Info  - 11:48:55] (89284) Server root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-08-30 11:48:55.422 [info] [Info  - 11:48:55] (89284) Experimental Pylance language server 2024.8.2 (pyright version 1.1.373, commit ee424479) starting
+2024-08-30 11:48:55.422 [info] [Info  - 11:48:55] (89284) Starting service instance "EncDecApp"
+2024-08-30 11:48:55.462 [info] [Info  - 11:48:55] (89284) Setting pythonPath for service "EncDecApp": "/home/devilunraveled/.pyenv/versions/3.12.2/envs/dip/bin/python"
+2024-08-30 11:48:55.462 [info] [Info  - 11:48:55] (89284) Setting environmentName for service "EncDecApp": "3.12.2 (dip venv)"
+2024-08-30 11:48:55.462 [info] [Info  - 11:48:55] (89284) No include entries specified; assuming /home/devilunraveled/Projects/BTP/EncDecApp
+2024-08-30 11:48:55.462 [info] [Info  - 11:48:55] (89284) Auto-excluding **/node_modules
+2024-08-30 11:48:55.462 [info] [Info  - 11:48:55] (89284) Auto-excluding **/__pycache__
+2024-08-30 11:48:55.462 [info] [Info  - 11:48:55] (89284) Auto-excluding **/.*
+2024-08-30 11:48:55.492 [info] [Info  - 11:48:55] (89284) Assuming Python version 3.12.2.final.0
+2024-08-30 11:48:55.560 [info] [Info  - 11:48:55] (89284) No source files found.
+2024-08-30 11:48:55.898 [info] [Info  - 11:48:55] (89284) Background analysis(1) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-08-30 11:48:55.899 [info] [Info  - 11:48:55] (89284) Background analysis(1) started
+2024-08-30 11:48:56.047 [info] [Info  - 11:48:56] (89284) Indexer background runner(2) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist (index)
+2024-08-30 11:48:56.047 [info] [Info  - 11:48:56] (89284) Indexing(2) started
+2024-08-30 11:48:56.552 [info] [Info  - 11:48:56] (89284) scanned(2) 216 files over 1 exec env
+2024-08-30 11:48:58.360 [info] [Info  - 11:48:58] (89284) indexed(2) 158 files over 1 exec env
+2024-08-30 11:48:58.419 [info] [Info  - 11:48:58] (89284) Indexing finished(2).
+2024-08-30 11:51:45.405 [info] [Info  - 11:51:45] Server process exited successfully
+2024-08-30 11:51:46.111 [info] (Client) Pylance async client (2024.8.2) started with python extension (2024.12.3)
+2024-08-30 11:51:46.539 [info] [Info  - 11:51:46] (94680) Server root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-08-30 11:51:46.540 [info] [Info  - 11:51:46] (94680) Experimental Pylance language server 2024.8.2 (pyright version 1.1.373, commit ee424479) starting
+2024-08-30 11:51:46.545 [info] [Info  - 11:51:46] (94680) Starting service instance "EncDecApp"
+2024-08-30 11:51:46.581 [info] [Info  - 11:51:46] (94680) Setting pythonPath for service "EncDecApp": "/home/devilunraveled/.pyenv/versions/3.12.2/envs/dip/bin/python"
+2024-08-30 11:51:46.581 [info] [Info  - 11:51:46] (94680) Setting environmentName for service "EncDecApp": "3.12.2 (dip venv)"
+2024-08-30 11:51:46.581 [info] [Info  - 11:51:46] (94680) No include entries specified; assuming /home/devilunraveled/Projects/BTP/EncDecApp
+2024-08-30 11:51:46.582 [info] [Info  - 11:51:46] (94680) Auto-excluding **/node_modules
+2024-08-30 11:51:46.582 [info] [Info  - 11:51:46] (94680) Auto-excluding **/__pycache__
+2024-08-30 11:51:46.582 [info] [Info  - 11:51:46] (94680) Auto-excluding **/.*
+2024-08-30 11:51:46.608 [info] [Info  - 11:51:46] (94680) Assuming Python version 3.12.2.final.0
+2024-08-30 11:51:46.662 [info] [Info  - 11:51:46] (94680) No source files found.
+2024-08-30 11:51:46.935 [info] [Info  - 11:51:46] (94680) Background analysis(1) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-08-30 11:51:46.937 [info] [Info  - 11:51:46] (94680) Background analysis(1) started
+2024-08-30 11:51:59.805 [info] [Info  - 11:51:59] (94680) Starting service instance "EncDecApp"
+2024-08-30 11:51:59.854 [info] [Info  - 11:51:59] (94680) Setting pythonPath for service "EncDecApp": "/home/devilunraveled/.pyenv/versions/UnsupervisedQAG/bin/python"
+2024-08-30 11:51:59.854 [info] [Info  - 11:51:59] (94680) Setting environmentName for service "EncDecApp": "3.12.2 (dip venv)"
+2024-08-30 11:51:59.855 [info] [Info  - 11:51:59] (94680) No include entries specified; assuming /home/devilunraveled/Projects/BTP/EncDecApp
+2024-08-30 11:51:59.855 [info] [Info  - 11:51:59] (94680) Auto-excluding **/node_modules
+2024-08-30 11:51:59.855 [info] [Info  - 11:51:59] (94680) Auto-excluding **/__pycache__
+2024-08-30 11:51:59.855 [info] [Info  - 11:51:59] (94680) Auto-excluding **/.*
+2024-08-30 11:51:59.910 [info] [Info  - 11:51:59] (94680) Assuming Python version 3.12.2.final.0
+2024-08-30 11:52:00.062 [info] [Info  - 11:52:00] (94680) No source files found.
+2024-08-30 11:52:00.366 [info] [Info  - 11:52:00] (94680) Background analysis(2) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-08-30 11:52:00.368 [info] [Info  - 11:52:00] (94680) Background analysis(2) started
+2024-08-30 11:52:00.472 [info] [Info  - 11:52:00] (94680) Indexer background runner(3) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist (index)
+2024-08-30 11:52:00.472 [info] [Info  - 11:52:00] (94680) Indexing(3) started
+2024-08-30 11:52:00.951 [info] [Info  - 11:52:00] (94680) scanned(3) 214 files over 1 exec env
+2024-08-30 11:52:02.436 [info] [Info  - 11:52:02] (94680) indexed(3) 155 files over 1 exec env
+2024-08-30 11:52:02.494 [info] [Info  - 11:52:02] (94680) Indexing finished(3).
+2024-08-30 11:52:44.078 [info] [Info  - 11:52:44] (94680) Starting service instance "<default>"
+2024-08-30 11:52:44.094 [info] [Info  - 11:52:44] (94680) Setting pythonPath for service "<default>": "/home/devilunraveled/.pyenv/versions/3.12.2/envs/dip/bin/python"
+2024-08-30 11:52:44.094 [info] [Info  - 11:52:44] (94680) Setting environmentName for service "<default>": "3.12.2 (dip venv)"
+2024-08-30 11:52:44.094 [info] [Info  - 11:52:44] (94680) No include entries specified; assuming /<default workspace root>
+2024-08-30 11:52:44.094 [info] [Info  - 11:52:44] (94680) Auto-excluding **/node_modules
+2024-08-30 11:52:44.094 [info] [Info  - 11:52:44] (94680) Auto-excluding **/__pycache__
+2024-08-30 11:52:44.094 [info] [Info  - 11:52:44] (94680) Auto-excluding **/.*
+2024-08-30 11:52:44.120 [info] [Info  - 11:52:44] (94680) Assuming Python version 3.12.2.final.0
+2024-08-30 11:52:44.161 [info] [Error - 11:52:44] (94680) File or directory "/<default workspace root>" does not exist.
+2024-08-30 11:52:44.162 [info] [Info  - 11:52:44] (94680) No source files found.
+2024-08-30 11:52:44.452 [info] [Info  - 11:52:44] (94680) Background analysis(4) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-08-30 11:52:44.454 [info] [Info  - 11:52:44] (94680) Background analysis(4) started
+2024-08-30 11:54:26.801 [info] [Info  - 11:54:26] (94680) Indexer background runner(5) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist (index)
+2024-08-30 11:54:26.801 [info] [Info  - 11:54:26] (94680) Indexing(5) started
+2024-08-30 11:54:27.132 [info] [Info  - 11:54:27] (94680) scanned(5) 216 files over 1 exec env
+2024-08-30 11:54:28.295 [info] [Info  - 11:54:28] (94680) indexed(5) 158 files over 1 exec env
+2024-08-30 11:54:28.347 [info] [Info  - 11:54:28] (94680) Indexing finished(5).
+2024-08-30 11:54:42.071 [info] [Info  - 11:54:42] (94680) Found 4 source files
+2024-08-30 11:54:42.323 [info] [Info  - 11:54:42] (94680) Found 1 source file
+2024-08-30 11:59:55.135 [info] [Info  - 11:59:55] (94680) Indexer background runner(6) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist (refresh)
+2024-08-30 11:59:55.136 [info] [Info  - 11:59:55] (94680) Indexing(6) started
+2024-08-30 11:59:55.463 [info] [Info  - 11:59:55] (94680) scanned(6) 219 files over 1 exec env
+2024-08-30 11:59:56.599 [info] [Info  - 11:59:56] (94680) indexed(6) 159 files over 1 exec env
+2024-08-30 11:59:56.657 [info] [Info  - 11:59:56] (94680) Indexing finished(6).
+2024-08-30 12:02:02.573 [info] [Info  - 12:02:02] (94680) Starting service instance "EncDecApp"
+2024-08-30 12:02:02.620 [info] [Info  - 12:02:02] (94680) Setting pythonPath for service "EncDecApp": "/home/devilunraveled/.pyenv/versions/UnsupervisedQAG/bin/python"
+2024-08-30 12:02:02.620 [info] [Info  - 12:02:02] (94680) Setting environmentName for service "EncDecApp": "3.12.2 (dip venv)"
+2024-08-30 12:02:02.620 [info] [Info  - 12:02:02] (94680) No include entries specified; assuming /home/devilunraveled/Projects/BTP/EncDecApp
+2024-08-30 12:02:02.620 [info] [Info  - 12:02:02] (94680) Auto-excluding **/node_modules
+2024-08-30 12:02:02.620 [info] [Info  - 12:02:02] (94680) Auto-excluding **/__pycache__
+2024-08-30 12:02:02.620 [info] [Info  - 12:02:02] (94680) Auto-excluding **/.*
+2024-08-30 12:02:02.665 [info] [Info  - 12:02:02] (94680) Assuming Python version 3.12.2.final.0
+2024-08-30 12:02:02.764 [info] [Info  - 12:02:02] (94680) Found 1 source file
+2024-08-30 12:02:03.100 [info] [Info  - 12:02:03] (94680) Background analysis(7) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-08-30 12:02:03.102 [info] [Info  - 12:02:03] (94680) Background analysis(7) started
+2024-08-30 12:02:03.388 [info] [Info  - 12:02:03] (94680) Indexer background runner(8) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist (index)
+2024-08-30 12:02:03.388 [info] [Info  - 12:02:03] (94680) Indexing(8) started
+2024-08-30 12:02:03.713 [info] [Info  - 12:02:03] (94680) scanned(8) 214 files over 1 exec env
+2024-08-30 12:02:03.942 [info] [Info  - 12:02:03] (94680) indexed(8) 155 files over 1 exec env
+2024-08-30 12:02:04.005 [info] [Info  - 12:02:04] (94680) Indexing finished(8).
+2024-08-30 12:08:34.666 [info] [Info  - 12:08:34] (94680) Found 2 source files
+2024-08-30 12:08:34.696 [info] [Info  - 12:08:34] (94680) Found 7 source files
+2024-08-30 12:08:46.596 [info] [Info  - 12:08:46] (94680) Found 1 source file
+2024-08-30 12:08:46.625 [info] [Info  - 12:08:46] (94680) Found 6 source files
+2024-08-30 12:32:10.827 [info] [Info  - 12:32:10] (94680) Found 13 source files
+2024-08-30 12:32:10.861 [info] [Info  - 12:32:10] (94680) Found 19 source files
+2024-08-30 18:08:08.528 [info] [Error - 18:08:08] Request completionItem/resolve failed.
+2024-08-30 18:08:08.536 [info]   Message: Request completionItem/resolve failed with message: Maximum call stack size exceeded
+  Code: -32603 
+2024-08-30 19:06:38.962 [info] [Info  - 19:06:38] (94680) Indexer background runner(9) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist (refresh)
+2024-08-30 19:06:38.962 [info] [Info  - 19:06:38] (94680) Indexing(9) started
+2024-08-30 19:06:39.538 [info] [Info  - 19:06:39] (94680) scanned(9) 235 files over 1 exec env
+2024-08-30 19:06:40.071 [info] [Info  - 19:06:40] (94680) indexed(9) 171 files over 1 exec env
+2024-08-30 19:06:40.125 [info] [Info  - 19:06:40] (94680) Indexing finished(9).

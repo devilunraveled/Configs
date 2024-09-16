@@ -1,0 +1,30 @@
+[2024-08-30 06:17:52.709] [     51ms] [/home/devilunraveled/Projects/BTP/EncDecApp] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-08-30 06:18:22.110] [     10ms] [/home/devilunraveled/.vscode] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-08-30 06:24:41.725] [     11ms] [/home/devilunraveled/Projects/BTP/EncDecApp] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-08-30 06:38:38.114] [     13ms] [/home/devilunraveled/Projects/BTP/EncDecApp] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-08-30 13:34:58.247] [     10ms] [/home/devilunraveled/Projects/BTP/EncDecApp/.vscode] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+

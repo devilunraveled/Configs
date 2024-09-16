@@ -1,0 +1,26 @@
+2024-08-31 17:14:35.944 [info] (Client) Pylance async client (2024.8.2) started with python extension (2024.12.3)
+2024-08-31 17:14:36.452 [info] [Info  - 17:14:36] (5682) Server root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-08-31 17:14:36.455 [info] [Info  - 17:14:36] (5682) Experimental Pylance language server 2024.8.2 (pyright version 1.1.373, commit ee424479) starting
+2024-08-31 17:14:36.479 [info] [Info  - 17:14:36] (5682) Starting service instance "<default>"
+2024-08-31 17:14:36.498 [info] [Info  - 17:14:36] (5682) Setting pythonPath for service "<default>": "/home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist"
+2024-08-31 17:14:36.498 [info] [Info  - 17:14:36] (5682) Setting environmentName for service "<default>": "3.12.2 (dip venv)"
+2024-08-31 17:14:36.499 [info] [Info  - 17:14:36] (5682) No include entries specified; assuming /<default workspace root>
+2024-08-31 17:14:36.499 [info] [Info  - 17:14:36] (5682) Auto-excluding **/node_modules
+2024-08-31 17:14:36.499 [info] [Info  - 17:14:36] (5682) Auto-excluding **/__pycache__
+2024-08-31 17:14:36.500 [info] [Info  - 17:14:36] (5682) Auto-excluding **/.*
+2024-08-31 17:14:36.557 [info] [Error - 17:14:36] (5682) File or directory "/<default workspace root>" does not exist.
+2024-08-31 17:14:36.557 [info] [Info  - 17:14:36] (5682) No source files found.
+2024-08-31 17:14:36.929 [info] [Info  - 17:14:36] (5682) Background analysis(1) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-08-31 17:14:36.930 [info] [Info  - 17:14:36] (5682) Background analysis(1) started
+2024-08-31 17:15:06.152 [info] [Info  - 17:15:06] (5682) Starting service instance "<default>"
+2024-08-31 17:15:06.165 [info] [Info  - 17:15:06] (5682) Setting pythonPath for service "<default>": "/home/devilunraveled/.pyenv/versions/3.12.2/envs/dip/bin/python"
+2024-08-31 17:15:06.165 [info] [Info  - 17:15:06] (5682) Setting environmentName for service "<default>": "3.12.2 (dip venv)"
+2024-08-31 17:15:06.165 [info] [Info  - 17:15:06] (5682) No include entries specified; assuming /<default workspace root>
+2024-08-31 17:15:06.165 [info] [Info  - 17:15:06] (5682) Auto-excluding **/node_modules
+2024-08-31 17:15:06.166 [info] [Info  - 17:15:06] (5682) Auto-excluding **/__pycache__
+2024-08-31 17:15:06.166 [info] [Info  - 17:15:06] (5682) Auto-excluding **/.*
+2024-08-31 17:15:06.192 [info] [Info  - 17:15:06] (5682) Assuming Python version 3.12.2.final.0
+2024-08-31 17:15:06.256 [info] [Error - 17:15:06] (5682) File or directory "/<default workspace root>" does not exist.
+2024-08-31 17:15:06.260 [info] [Info  - 17:15:06] (5682) No source files found.
+2024-08-31 17:15:06.542 [info] [Info  - 17:15:06] (5682) Background analysis(2) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2/dist
+2024-08-31 17:15:06.544 [info] [Info  - 17:15:06] (5682) Background analysis(2) started

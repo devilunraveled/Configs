@@ -1,0 +1,120 @@
+Visual Studio Code (1.93.0, undefined, desktop)
+Jupyter Extension Version: 2024.7.0.
+Python Extension Version: 2024.12.3.
+Pylance Extension Version: 2024.8.2.
+Platform: linux (x64).
+No workspace folder opened.
+12:28:44.555 [warn] No interpreter with path ~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python found in Python API, will convert Uri path to string as Id ~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python
+12:29:04.149 [warn] The following kernels use interpreters that are no longer valid or not recognized by Python extension, Kernels startUsingPythonInterpreter:'id=.jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher'(interpreterId='/sbin/python'),startUsingPythonInterpreter:'id=.jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher'(interpreterId='/usr/sbin/python'),startUsingPythonInterpreter:'id=.jvsc74a57bd0f8be09674763ae96bc822cfd0e8b52123f99724d4ba7d2c6ee2023f541f3d68e./usr/sbin/python3.12./usr/sbin/python3.12.-m#ipykernel_launcher'(interpreterId='/usr/sbin/python3.12'),startUsingPythonInterpreter:'id=.jvsc74a57bd0de773d07946e591c496b66a7ac59ba243fc9206ead1c40f10ffc179eb8644089./sbin/python3.12./sbin/python3.12.-m#ipykernel_launcher'(interpreterId='/sbin/python3.12') and valid interpreter ids include /home/~/.pyenv/versions/3.11.8/bin/python, /home/~/.pyenv/versions/3.12.2/bin/python, /home/~/.pyenv/versions/3.6.15/bin/python, /home/~/.pyenv/versions/3.7.3/bin/python, /home/~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python, /home/~/.pyenv/versions/3.12.2/envs/diff/bin/python, /home/~/.pyenv/versions/3.12.2/envs/dip/bin/python, /home/~/.pyenv/versions/3.12.2/envs/elmo/bin/python, /home/~/.pyenv/versions/3.12.2/envs/gsmn/bin/python, /home/~/.pyenv/versions/3.7.3/envs/myEnvUMHQA/bin/python, /home/~/.pyenv/versions/3.12.2/envs/nlp/bin/python, /home/~/.pyenv/versions/3.6.15/envs/serf/bin/python, /home/~/.pyenv/versions/3.12.2/envs/tdl/bin/python, /home/~/.pyenv/versions/3.6.15/envs/venv/bin/python, /home/~/.pyenv/versions/3.12.2/envs/wordvectorization/bin/python, /bin/python, /sbin/python3, /usr/bin/python, /usr/sbin/python3, /home/~/anaconda3/bin/python, /home/~/anaconda3/envs/pytorch/bin/python, /home/~/miniconda3/bin/python, /home/~/miniconda3/envs/d2l/bin/python, /home/~/miniconda3/envs/vEmbedKGQA/bin/python, /home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python, /home/~/.pyenv/versions/3.12.2/envs/anlp/bin/python, /home/~/.pyenv/versions/3.12.2/envs/mlops/bin/python, /home/~/.pyenv/versions/diff/bin/python, /home/~/.pyenv/versions/tdl/bin/python, /home/~/.pyenv/versions/venv/bin/python, /home/~/.pyenv/versions/serf/bin/python, /home/~/.pyenv/versions/mlops/bin/python, /home/~/.pyenv/versions/dip/bin/python, /home/~/.pyenv/versions/gsmn/bin/python, /home/~/.pyenv/versions/myEnvUMHQA/bin/python, /home/~/.pyenv/versions/UnsupervisedQAG/bin/python, /home/~/.pyenv/versions/elmo/bin/python, /home/~/.pyenv/versions/anlp/bin/python, /home/~/.pyenv/versions/wordvectorization/bin/python, /home/~/.pyenv/versions/nlp/bin/python
+12:29:04.207 [info] Starting Kernel (Python Path: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python, Pyenv, 3.12.2) for '~/Projects/BTP/EncDecApp/main.ipynb' (disableUI=true)
+12:29:04.261 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -m pip list
+12:29:04.273 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:29:04.281 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-17905035q3coBEk0VV4.json
+    > cwd: ~/Projects/BTP/EncDecApp
+12:29:05.004 [info] Kernel successfully started
+12:29:05.015 [info] Process Execution: ~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/pythonFiles/printJupyterDataDir.py
+12:29:18.329 [warn] Cell completed with errors Qd [Error]: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 5.78 GiB of which 28.38 MiB is free. Process 1643935 has 336.00 MiB memory in use. Including non-PyTorch memory, this process has 4.40 GiB memory in use. Of the allocated memory 3.99 GiB is allocated by PyTorch, and 278.77 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'OutOfMemoryError',
+  evalue: 'CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 5.78 GiB of which 28.38 MiB is free. Process 1643935 has 336.00 MiB memory in use. Including non-PyTorch memory, this process has 4.40 GiB memory in use. Of the allocated memory 3.99 GiB is allocated by PyTorch, and 278.77 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mOutOfMemoryError\x1B[0m                          Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[20], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[17], line 20\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m     16\x1B[0m optimizer\x1B[38;5;241m.\x1B[39mzero_grad()\n' +
+      '\x1B[1;32m     18\x1B[0m encoder_outputs, encoder_hidden \x1B[38;5;241m=\x1B[39m model\x1B[38;5;241m.\x1B[39mencoder(input_ids \x1B[38;5;241m=\x1B[39m input_ids)\n' +
+      '\x1B[0;32m---> 20\x1B[0m reconstructionLoss \x1B[38;5;241m=\x1B[39m \x1B[43mmodel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mreconstructionDecoder\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m     21\x1B[0m \x1B[43m    \x1B[49m\x1B[43minput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43moutput_ids\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m     22\x1B[0m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m     24\x1B[0m loss \x1B[38;5;241m=\x1B[39m reconstructionLoss\n' +
+      '\x1B[1;32m     25\x1B[0m totalLoss \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m loss\n',
+    'File \x1B[0;32m~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:888\x1B[0m, in \x1B[0;36mGPT2Model.forward\x1B[0;34m(self, input_ids, past_key_values, attention_mask, token_type_ids, position_ids, head_mask, inputs_embeds, encoder_hidden_states, encoder_attention_mask, use_cache, output_attentions, output_hidden_states, return_dict)\x1B[0m\n' +
+      '\x1B[1;32m    876\x1B[0m     outputs \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_gradient_checkpointing_func(\n' +
+      '\x1B[1;32m    877\x1B[0m         block\x1B[38;5;241m.\x1B[39m\x1B[38;5;21m__call__\x1B[39m,\n' +
+      '\x1B[1;32m    878\x1B[0m         hidden_states,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m    885\x1B[0m         output_attentions,\n' +
+      '\x1B[1;32m    886\x1B[0m     )\n' +
+      '\x1B[1;32m    887\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 888\x1B[0m     outputs \x1B[38;5;241m=\x1B[39m \x1B[43mblock\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m    889\x1B[0m \x1B[43m        \x1B[49m\x1B[43mhidden_states\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    890\x1B[0m \x1B[43m        \x1B[49m\x1B[43mlayer_past\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mlayer_past\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    891\x1B[0m \x1B[43m        \x1B[49m\x1B[43mattention_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mattention_mask\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    892\x1B[0m \x1B[43m        \x1B[49m\x1B[43mhead_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mhead_mask\x1B[49m\x1B[43m[\x1B[49m\x1B[43mi\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    893\x1B[0m \x1B[43m        \x1B[49m\x1B[43mencoder_hidden_states\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mencoder_hidden_states\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    894\x1B[0m \x1B[43m        \x1B[49m\x1B[43mencoder_attention_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mencoder_attention_mask\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    895\x1B[0m \x1B[43m        \x1B[49m\x1B[43muse_cache\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43muse_cache\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    896\x1B[0m \x1B[43m        \x1B[49m\x1B[43moutput_attentions\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43moutput_attentions\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    897\x1B[0m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    899\x1B[0m hidden_states \x1B[38;5;241m=\x1B[39m outputs[\x1B[38;5;241m0\x1B[39m]\n' +
+      '\x1B[1;32m    900\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m use_cache \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mTrue\x1B[39;00m:\n',
+    'File \x1B[0;32m~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:390\x1B[0m, in \x1B[0;36mGPT2Block.forward\x1B[0;34m(self, hidden_states, layer_past, attention_mask, head_mask, encoder_hidden_states, encoder_attention_mask, use_cache, output_attentions)\x1B[0m\n' +
+      '\x1B[1;32m    388\x1B[0m residual \x1B[38;5;241m=\x1B[39m hidden_states\n' +
+      '\x1B[1;32m    389\x1B[0m hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mln_1(hidden_states)\n' +
+      '\x1B[0;32m--> 390\x1B[0m attn_outputs \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mattn\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m    391\x1B[0m \x1B[43m    \x1B[49m\x1B[43mhidden_states\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    392\x1B[0m \x1B[43m    \x1B[49m\x1B[43mlayer_past\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mlayer_past\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    393\x1B[0m \x1B[43m    \x1B[49m\x1B[43mattention_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mattention_mask\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    394\x1B[0m \x1B[43m    \x1B[49m\x1B[43mhead_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mhead_mask\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    395\x1B[0m \x1B[43m    \x1B[49m\x1B[43muse_cache\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43muse_cache\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    396\x1B[0m \x1B[43m    \x1B[49m\x1B[43moutput_attentions\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43moutput_attentions\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    397\x1B[0m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    398\x1B[0m attn_output \x1B[38;5;241m=\x1B[39m attn_outputs[\x1B[38;5;241m0\x1B[39m]  \x1B[38;5;66;03m# output_attn: a, present, (attentions)\x1B[39;00m\n' +
+      '\x1B[1;32m    399\x1B[0m outputs \x1B[38;5;241m=\x1B[39m attn_outputs[\x1B[38;5;241m1\x1B[39m:]\n',
+    'File \x1B[0;32m~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:331\x1B[0m, in \x1B[0;36mGPT2Attention.forward\x1B[0;34m(self, hidden_states, layer_past, attention_mask, head_mask, encoder_hidden_states, encoder_attention_mask, use_cache, output_attentions)\x1B[0m\n' +
+      '\x1B[1;32m    329\x1B[0m     attn_output, attn_weights \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_upcast_and_reordered_attn(query, key, value, attention_mask, head_mask)\n' +
+      '\x1B[1;32m    330\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 331\x1B[0m     attn_output, attn_weights \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_attn\x1B[49m\x1B[43m(\x1B[49m\x1B[43mquery\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mkey\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mvalue\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mattention_mask\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mhead_mask\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    333\x1B[0m attn_output \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_merge_heads(attn_output, \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mnum_heads, \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mhead_dim)\n' +
+      '\x1B[1;32m    334\x1B[0m attn_output \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mc_proj(attn_output)\n',
+    'File \x1B[0;32m~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:183\x1B[0m, in \x1B[0;36mGPT2Attention._attn\x1B[0;34m(self, query, key, value, attention_mask, head_mask)\x1B[0m\n' +
+      '\x1B[1;32m    182\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21m_attn\x1B[39m(\x1B[38;5;28mself\x1B[39m, query, key, value, attention_mask\x1B[38;5;241m=\x1B[39m\x1B[38;5;28;01mNone\x1B[39;00m, head_mask\x1B[38;5;241m=\x1B[39m\x1B[38;5;28;01mNone\x1B[39;00m):\n' +
+      '\x1B[0;32m--> 183\x1B[0m     attn_weights \x1B[38;5;241m=\x1B[39m \x1B[43mtorch\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mmatmul\x1B[49m\x1B[43m(\x1B[49m\x1B[43mquery\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mkey\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mtranspose\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m-\x1B[39;49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m-\x1B[39;49m\x1B[38;5;241;43m2\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    185\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mscale_attn_weights:\n' +
+      '\x1B[1;32m    186\x1B[0m         attn_weights \x1B[38;5;241m=\x1B[39m attn_weights \x1B[38;5;241m/\x1B[39m torch\x1B[38;5;241m.\x1B[39mfull(\n' +
+      '\x1B[1;32m    187\x1B[0m             [], value\x1B[38;5;241m.\x1B[39msize(\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m) \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39m \x1B[38;5;241m0.5\x1B[39m, dtype\x1B[38;5;241m=\x1B[39mattn_weights\x1B[38;5;241m.\x1B[39mdtype, device\x1B[38;5;241m=\x1B[39mattn_weights\x1B[38;5;241m.\x1B[39mdevice\n' +
+      '\x1B[1;32m    188\x1B[0m         )\n',
+    '\x1B[0;31mOutOfMemoryError\x1B[0m: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 5.78 GiB of which 28.38 MiB is free. Process 1643935 has 336.00 MiB memory in use. Including non-PyTorch memory, this process has 4.40 GiB memory in use. Of the allocated memory 3.99 GiB is allocated by PyTorch, and 278.77 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)'
+  ]
+}

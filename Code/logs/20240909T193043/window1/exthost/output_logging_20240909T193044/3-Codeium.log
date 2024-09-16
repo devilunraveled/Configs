@@ -1,0 +1,94 @@
+(VSCode) 2024-09-09 19:30:45.829 [INFO]: No proxy settings found
+(VSCode) 2024-09-09 19:30:49.349 [INFO]: Creating manager directory: /tmp/ecc18a76-9846-47b4-8a45-c1379760763e/codeium/manager
+(VSCode) 2024-09-09 19:30:50.954 [INFO]: Using cached LS with valid crc32: /home/devilunraveled/.vscode/extensions/codeium.codeium-1.14.12/dist/cee2c2c314ffa41c66be177dd11f9f894805e383/language_server_linux_x64
+(VSCode) 2024-09-09 19:30:50.963 [INFO]: Language server started
+2024/09/09 19:30:51 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0909 19:30:51.158742 1104824 main.go:416] [Logging] Initialized the logger
+I0909 19:30:51.158816 1104824 main.go:524] LS MANAGER: Setting GOMAXPROCS to 16
+I0909 19:30:51.158955 1104824 main.go:631] LS MANAGER: Release 1.14.12 (cee2c2c314ffa41c66be177dd11f9f894805e383)
+I0909 19:30:51.158975 1104824 main.go:708] LS MANAGER: Starting language server manager with pid 1104824
+I0909 19:30:51.159068 1104824 main.go:119] LS MANAGER: Manager acquired its lock file /tmp/ecc18a76-9846-47b4-8a45-c1379760763e/codeium/manager/locks/manager.lock
+I0909 19:30:51.159658 1104824 main.go:258] LS MANAGER: Waiting for random port file in /tmp/ecc18a76-9846-47b4-8a45-c1379760763e/codeium/manager/child_random_port_1725890451159176465_1762055538023524807 to be created
+2024/09/09 19:30:51 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0909 19:30:51.318425 1104840 main.go:416] [Logging] Initialized the logger
+I0909 19:30:51.318505 1104840 main.go:524] Setting GOMAXPROCS to 4
+I0909 19:30:51.318709 1104840 main.go:702] Starting language server process with pid 1104840
+I0909 19:30:51.318741 1104840 server.go:167] Language server will attempt to listen on host 127.0.0.1
+I0909 19:30:51.318914 1104840 server.go:174] Language server listening on random port at 46363
+I0909 19:30:51.318989 1104840 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0909 19:30:51.319010 1104840 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0909 19:30:51.319027 1104840 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+I0909 19:30:52.111230 1104840 unleash.go:93] Initializing Unleash
+I0909 19:30:52.889857 1104840 unleash.go:113] Successfully initialized Unleash
+E0909 19:30:52.899492 1104840 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+I0909 19:30:52.899790 1104840 server.go:371] Successfully created API server client
+I0909 19:30:52.927276 1104840 server.go:380] Successfully initialized tokenizer
+E0909 19:30:52.927639 1104840 context_module.go:374] unable to get default pinned context guideline: open /home/devilunraveled/.codeium/codeium_settings.yaml: no such file or directory
+I0909 19:30:52.928404 1104840 server.go:493] Local search is enabled, will index local files.
+I0909 19:30:52.928418 1104840 server.go:497] Using 4 indexer workers
+I0909 19:30:52.928637 1104840 sqlite_faiss_db_client.go:70] Using database at /home/devilunraveled/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0909 19:30:52.930306 1104840 sqlite_faiss_db_client.go:84] Successfully created embedding search database in 1ms
+I0909 19:30:52.930557 1104840 indexer.go:215] Using 4 embed workers
+I0909 19:30:52.930599 1104840 search_provider.go:269] Successfully created and started indexer
+I0909 19:30:52.930634 1104840 search_provider.go:299] Successfully created embedding search provider with db client: &{0xc001981400 0xc002a97ea0}
+I0909 19:30:53.638807 1104840 server.go:572] Successfully created completion provider
+I0909 19:30:53.638866 1104840 server.go:622] Child process attempting to acquire lock file /tmp/ecc18a76-9846-47b4-8a45-c1379760763e/codeium/manager/locks/child_lock_1725890451159223818_7702236856821166001
+I0909 19:30:53.638912 1104840 server.go:630] Child process acquired lock file /tmp/ecc18a76-9846-47b4-8a45-c1379760763e/codeium/manager/locks/child_lock_1725890451159223818_7702236856821166001
+I0909 19:30:53.642605 1104840 server.go:194] LSP listening on random port at 34283
+I0909 19:30:53.642989 1104840 web_server.go:240] Chat Web Server listening at ws://127.0.0.1:46129
+34283
+I0909 19:30:53.676341 1104824 main.go:294] LS MANAGER: Language server manager found random server port 46363
+I0909 19:30:53.676369 1104824 main.go:295] LS MANAGER: Language server manager found random lsp port 34283
+I0909 19:30:53.676383 1104824 main.go:302] LS MANAGER: Language server manager attempting to connect to language server at 127.0.0.1:46363
+I0909 19:30:53.692609 1104824 main.go:173] LS MANAGER: Fixing language server port at 46363
+I0909 19:30:53.692631 1104824 main.go:353] LS MANAGER: Language server manager successfully connected to new language server at 127.0.0.1:46363
+(VSCode) 2024-09-09 19:30:53.695 [INFO]: Found language server running on port 46363
+I0909 19:30:53.841453 1104840 rpcs_miscellaneous.go:323] University version is up to date.
+I0909 19:30:53.844176 1104840 rpcs_miscellaneous.go:205] Downloading changelog from https://exafunction.github.io/public/changelog/1.14.md
+I0909 19:30:53.861148 1104840 rpcs_miscellaneous.go:209] No changelog found at https://exafunction.github.io/public/changelog/1.14.md
+(VSCode) 2024-09-09 19:35:10.215 [INFO]: Completion request was cancelled by token (419.67ms)
+(VSCode) 2024-09-09 19:35:11.390 [INFO]: Completion request was cancelled by token (93.01ms)
+(VSCode) 2024-09-09 19:35:11.963 [INFO]: Completion request succeeded (524.45ms)
+(VSCode) 2024-09-09 19:35:11.965 [INFO]: Generated 1 completion
+(VSCode) 2024-09-09 19:35:11.966 [INFO]: provideInlineCompletionItems request succeeded (527.43ms)
+(VSCode) 2024-09-09 19:35:12.605 [INFO]: Completion request was cancelled by token (49.25ms)
+(VSCode) 2024-09-09 19:35:14.257 [INFO]: Completion request was cancelled by token (105.73ms)
+(VSCode) 2024-09-09 19:35:14.894 [INFO]: Completion request was cancelled by token (579.87ms)
+(VSCode) 2024-09-09 19:35:15.194 [INFO]: Completion request was cancelled by token (250.63ms)
+(VSCode) 2024-09-09 19:35:15.526 [INFO]: Completion request was cancelled by token (282.55ms)
+(VSCode) 2024-09-09 19:35:15.656 [INFO]: Completion request was cancelled by token (79.6ms)
+(VSCode) 2024-09-09 19:35:16.436 [INFO]: Completion request succeeded (731.63ms)
+(VSCode) 2024-09-09 19:35:16.437 [INFO]: No completions were generated
+(VSCode) 2024-09-09 19:35:16.438 [INFO]: provideInlineCompletionItems request succeeded (733.08ms)
+I0909 19:35:53.853849 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":58898200,"heap_inuse":65609728,"heap_released":1736704,"heap_sys":78036992,"total_alloc":186394104,"stack_inuse":1245184,"sys":89219352,"num_goroutine":60},"proc":{"virt_size":2787212,"pss":314312}}
+I0909 19:40:54.086446 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":51039312,"heap_inuse":56287232,"heap_released":16064512,"heap_sys":78217216,"total_alloc":218078760,"stack_inuse":1310720,"sys":89219352,"num_goroutine":54},"proc":{"virt_size":2787212,"pss":300177}}
+I0909 19:45:53.770222 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43945280,"heap_inuse":50307072,"heap_released":16064512,"heap_sys":78249984,"total_alloc":247305928,"stack_inuse":1310720,"sys":89219352,"num_goroutine":54},"proc":{"virt_size":2787212,"pss":300281}}
+I0909 19:50:53.983834 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":51226128,"heap_inuse":56410112,"heap_released":17555456,"heap_sys":78184448,"total_alloc":279121400,"stack_inuse":1343488,"sys":89219352,"num_goroutine":54},"proc":{"virt_size":2787212,"pss":298989}}
+I0909 19:55:53.720599 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43963248,"heap_inuse":50241536,"heap_released":17031168,"heap_sys":78217216,"total_alloc":307553360,"stack_inuse":1343488,"sys":89219352,"num_goroutine":55},"proc":{"virt_size":2787212,"pss":299529}}
+I0909 20:00:53.951236 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":49533328,"heap_inuse":54616064,"heap_released":17031168,"heap_sys":78249984,"total_alloc":337798520,"stack_inuse":1310720,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":299521}}
+I0909 20:05:53.712919 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43682096,"heap_inuse":50077696,"heap_released":17031168,"heap_sys":78249984,"total_alloc":366072520,"stack_inuse":1310720,"sys":89219352,"num_goroutine":47},"proc":{"virt_size":2787212,"pss":299553}}
+I0909 20:10:53.937034 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":49140216,"heap_inuse":54165504,"heap_released":17031168,"heap_sys":78249984,"total_alloc":394428712,"stack_inuse":1310720,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":299553}}
+I0909 20:15:53.653102 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43573800,"heap_inuse":49897472,"heap_released":17031168,"heap_sys":78217216,"total_alloc":424160192,"stack_inuse":1343488,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":299561}}
+I0909 20:20:53.893458 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":49112416,"heap_inuse":54288384,"heap_released":17031168,"heap_sys":78282752,"total_alloc":452418248,"stack_inuse":1277952,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":299573}}
+I0909 20:25:54.117384 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43665352,"heap_inuse":50003968,"heap_released":17031168,"heap_sys":78217216,"total_alloc":480645136,"stack_inuse":1343488,"sys":89219352,"num_goroutine":47},"proc":{"virt_size":2787212,"pss":299581}}
+I0909 20:30:53.850354 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":49035128,"heap_inuse":54173696,"heap_released":17031168,"heap_sys":78282752,"total_alloc":508904976,"stack_inuse":1277952,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":299597}}
+I0909 20:35:54.056614 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43587760,"heap_inuse":49922048,"heap_released":17031168,"heap_sys":78249984,"total_alloc":537439856,"stack_inuse":1310720,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":299601}}
+I0909 20:40:53.771914 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":48987816,"heap_inuse":54099968,"heap_released":17031168,"heap_sys":78249984,"total_alloc":565619808,"stack_inuse":1310720,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":299601}}
+I0909 20:45:53.995884 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43538096,"heap_inuse":49963008,"heap_released":17031168,"heap_sys":78217216,"total_alloc":593990208,"stack_inuse":1343488,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":299613}}
+I0909 20:50:53.698170 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":49011256,"heap_inuse":54099968,"heap_released":17031168,"heap_sys":78184448,"total_alloc":622183328,"stack_inuse":1376256,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":299613}}
+I0909 20:55:53.894467 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43539392,"heap_inuse":49938432,"heap_released":17031168,"heap_sys":78249984,"total_alloc":652075128,"stack_inuse":1310720,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":299612}}
+I0909 21:00:54.099431 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":48915560,"heap_inuse":54050816,"heap_released":17031168,"heap_sys":78217216,"total_alloc":680338008,"stack_inuse":1343488,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":299623}}
+I0909 21:05:53.801897 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43454400,"heap_inuse":49922048,"heap_released":17031168,"heap_sys":78217216,"total_alloc":708584656,"stack_inuse":1343488,"sys":89219352,"num_goroutine":47},"proc":{"virt_size":2787212,"pss":314527}}
+I0909 21:10:54.006192 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":49742920,"heap_inuse":54861824,"heap_released":18718720,"heap_sys":78200832,"total_alloc":739261024,"stack_inuse":1343488,"sys":89219352,"num_goroutine":47},"proc":{"virt_size":2787212,"pss":314676}}
+I0909 21:15:53.734933 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43436072,"heap_inuse":49913856,"heap_released":18055168,"heap_sys":78249984,"total_alloc":767561936,"stack_inuse":1310720,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":315107}}
+I0909 21:20:53.953324 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":52087656,"heap_inuse":57229312,"heap_released":16744448,"heap_sys":78184448,"total_alloc":800588640,"stack_inuse":1310720,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":315739}}
+I0909 21:25:53.659567 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43367144,"heap_inuse":49840128,"heap_released":16171008,"heap_sys":78249984,"total_alloc":834395144,"stack_inuse":1310720,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":315651}}
+I0909 21:30:53.876728 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":49006608,"heap_inuse":54124544,"heap_released":16891904,"heap_sys":78217216,"total_alloc":862731384,"stack_inuse":1343488,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":314947}}
+I0909 21:35:54.067496 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":45046832,"heap_inuse":51380224,"heap_released":18178048,"heap_sys":78217216,"total_alloc":894378504,"stack_inuse":1310720,"sys":89219352,"num_goroutine":47},"proc":{"virt_size":2787212,"pss":313695}}
+I0909 21:40:53.774860 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":48803032,"heap_inuse":53944320,"heap_released":16769024,"heap_sys":78217216,"total_alloc":924206296,"stack_inuse":1343488,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":315063}}
+I0909 21:45:53.983713 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":43315120,"heap_inuse":49799168,"heap_released":16965632,"heap_sys":78217216,"total_alloc":952374896,"stack_inuse":1343488,"sys":89219352,"num_goroutine":47},"proc":{"virt_size":2787212,"pss":314869}}
+I0909 21:50:53.672374 1104840 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":48798728,"heap_inuse":53960704,"heap_released":16965632,"heap_sys":78217216,"total_alloc":980623320,"stack_inuse":1343488,"sys":89219352,"num_goroutine":46},"proc":{"virt_size":2787212,"pss":312519}}
+(VSCode) 2024-09-09 21:51:29.263 [INFO]: Disposing language server process
+(VSCode) 2024-09-09 21:51:29.263 [INFO]: Deleting manager directory: /tmp/ecc18a76-9846-47b4-8a45-c1379760763e/codeium/manager
+(VSCode) 2024-09-09 21:51:29.268 [INFO]: Successfully disposed language server
+W0909 21:51:29.263942 1104824 main.go:123] LS MANAGER: Language server manager got signal terminated, shutting down

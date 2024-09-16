@@ -1,0 +1,52 @@
+2024-08-22 15:39:14.985 [info] Starting Python Locator /home/devilunraveled/.vscode/extensions/ms-python.python-2024.12.3-linux-x64/python-env-tools/bin/pet server
+2024-08-22 15:39:14.999 [info] Discovered manager: (Pyenv) /home/devilunraveled/.pyenv/bin/pyenv
+2024-08-22 15:39:15.000 [info] Discovered env: /home/devilunraveled/.pyenv/versions/3.7.3/bin/python
+2024-08-22 15:39:15.001 [info] Discovered env: /home/devilunraveled/.pyenv/versions/3.11.8/bin/python
+2024-08-22 15:39:15.001 [info] Discovered env: /home/devilunraveled/.pyenv/versions/3.6.15/bin/python
+2024-08-22 15:39:15.002 [info] Discovered env: /home/devilunraveled/.pyenv/versions/venv/bin/python
+2024-08-22 15:39:15.002 [info] Discovered env: /home/devilunraveled/.pyenv/versions/UnsupervisedQAG/bin/python
+2024-08-22 15:39:15.003 [info] Discovered env: /home/devilunraveled/.pyenv/versions/dip/bin/python
+2024-08-22 15:39:15.003 [info] Discovered env: /home/devilunraveled/.pyenv/versions/diff/bin/python
+2024-08-22 15:39:15.003 [info] Discovered env: /home/devilunraveled/.pyenv/versions/3.12.2/bin/python
+2024-08-22 15:39:15.004 [info] Discovered env: /home/devilunraveled/.pyenv/versions/myEnvUMHQA/bin/python
+2024-08-22 15:39:15.004 [info] Discovered env: /home/devilunraveled/.pyenv/versions/serf/bin/python
+2024-08-22 15:39:15.004 [info] Discovered env: /home/devilunraveled/.pyenv/versions/gsmn/bin/python
+2024-08-22 15:39:15.005 [info] Discovered env: /home/devilunraveled/.pyenv/versions/elmo/bin/python
+2024-08-22 15:39:15.005 [info] Discovered env: /home/devilunraveled/.pyenv/versions/tdl/bin/python
+2024-08-22 15:39:15.005 [info] Discovered env: /home/devilunraveled/.pyenv/versions/nlp/bin/python
+2024-08-22 15:39:15.005 [info] Discovered env: /home/devilunraveled/.pyenv/versions/wordvectorization/bin/python
+2024-08-22 15:39:15.005 [info] Discovered manager: (Conda) /home/devilunraveled/anaconda3/bin/conda
+2024-08-22 15:39:15.005 [info] Discovered env: /home/devilunraveled/anaconda3/envs/pytorch/bin/python
+2024-08-22 15:39:15.054 [info] Discovered manager: (Conda) /home/devilunraveled/miniconda3/bin/conda
+2024-08-22 15:39:15.065 [info] Discovered env: /home/devilunraveled/miniconda3/envs/d2l/bin/python
+2024-08-22 15:39:15.065 [info] Discovered env: /home/devilunraveled/miniconda3/envs/vEmbedKGQA/bin/python
+2024-08-22 15:39:15.066 [info] Discovered env: /home/devilunraveled/miniconda3/bin/python
+2024-08-22 15:39:15.095 [info] Discovered env: /home/devilunraveled/anaconda3/bin/python
+2024-08-22 15:39:15.313 [info] Discovered env: /bin/python
+2024-08-22 15:39:15.316 [info] Discovered env: /usr/bin/python
+2024-08-22 15:39:15.318 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.12.4.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2024-08-22 15:39:15.318 [info] Discovered env: /usr/sbin/python
+2024-08-22 15:39:15.319 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.12.4.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2024-08-22 15:39:15.319 [info] Discovered env: /sbin/python
+2024-08-22 15:39:15.319 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.12.4.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2024-08-22 15:39:15.319 [info] Discovered env: /usr/sbin/python3
+2024-08-22 15:39:15.319 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.12.4.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2024-08-22 15:39:15.320 [info] Discovered env: /sbin/python3
+2024-08-22 15:39:15.320 [info] Env ("/usr/sbin/python3.12") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.12", prefix: "/usr", version: "3.12.4.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.12"]) } and reported as Some(GlobalPaths)
+2024-08-22 15:39:15.320 [info] Discovered env: /usr/sbin/python3.12
+2024-08-22 15:39:15.320 [info] Env ("/sbin/python3.12") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.12", prefix: "/usr", version: "3.12.4.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.12"]) } and reported as Some(GlobalPaths)
+2024-08-22 15:39:15.320 [info] Discovered env: /sbin/python3.12
+2024-08-22 15:39:15.321 [info] Locator Conda took 199.273449ms
+2024-08-22 15:39:15.321 [info] Locator Homebrew took 3.686649ms
+2024-08-22 15:39:15.322 [info] Locator LinuxGlobal took 222.793171ms
+2024-08-22 15:39:15.322 [info] Locator PipEnv took 138.565µs
+2024-08-22 15:39:15.322 [info] Locator Poetry took 292.356µs
+2024-08-22 15:39:15.322 [info] Locator PyEnv took 29.29777ms
+2024-08-22 15:39:15.322 [info] Locator Venv took 15.295µs
+2024-08-22 15:39:15.322 [info] Locator VirtualEnv took 18.648µs
+2024-08-22 15:39:15.322 [info] Locator VirtualEnvWrapper took 77.663µs
+2024-08-22 15:39:15.322 [info] Locator GlobalVirtualEnvs took 441.258µs
+2024-08-22 15:39:15.322 [info] Locator Locators took 223.63909ms
+2024-08-22 15:39:15.322 [info] Locator Path took 506.205677ms
+2024-08-22 15:39:15.323 [info] Locator Workspaces took 2.305µs
+2024-08-22 15:39:15.323 [info] Refresh completed in 506ms

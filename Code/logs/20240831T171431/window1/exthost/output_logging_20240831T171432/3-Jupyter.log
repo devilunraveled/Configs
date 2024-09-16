@@ -1,0 +1,10 @@
+Visual Studio Code (1.92.2, undefined, desktop)
+Jupyter Extension Version: 2024.7.0.
+Python Extension Version: 2024.12.3.
+Pylance Extension Version: 2024.8.2.
+Platform: linux (x64).
+No workspace folder opened.
+17:14:37.017 [warn] Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd03199278cb6cbef168566c72c9f3a2d56d82573f2e235dadbf333921fec027330./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+17:14:37.018 [warn] Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd03199278cb6cbef168566c72c9f3a2d56d82573f2e235dadbf333921fec027330./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+17:14:38.022 [warn] Disposing old controller startUsingLocalKernelSpec:'.neuralpostagging./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+17:14:38.023 [warn] Disposing old controller startUsingLocalKernelSpec:'.neuralpostagging./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher (Interactive)' for view = 'interactive'

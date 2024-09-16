@@ -1,0 +1,11 @@
+Visual Studio Code (1.93.1, undefined, desktop)
+Jupyter Extension Version: 2024.8.1.
+Python Extension Version: 2024.14.1.
+Pylance Extension Version: 2024.9.1.
+Platform: linux (x64).
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.8.1
+Workspace folder ~/College/Sem7/IRE/Assignments, Home = /home/devilunraveled
+22:22:34.095 [info] Deleting old temp dir /home/~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2024.8.0
+22:22:38.341 [warn] Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd03199278cb6cbef168566c72c9f3a2d56d82573f2e235dadbf333921fec027330./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+22:22:38.342 [warn] Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd03199278cb6cbef168566c72c9f3a2d56d82573f2e235dadbf333921fec027330./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python./home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/python.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+22:22:38.368 [warn] No interpreter with path ~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python found in Python API, will convert Uri path to string as Id ~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python

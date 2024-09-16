@@ -1,0 +1,81 @@
+2024/09/14-13:25:36.310 2bda Reusing MANIFEST /home/devilunraveled/.config/superProductivity/Local Storage/leveldb/MANIFEST-000001
+2024/09/14-13:25:36.341 2bda Recovering log #270
+2024/09/14-13:25:36.341 2bda Reusing old log /home/devilunraveled/.config/superProductivity/Local Storage/leveldb/000270.log 
+2024/09/14-15:42:32.564 2bda Level-0 table #274: started
+2024/09/14-15:42:32.599 2bda Level-0 table #274: 10712 bytes OK
+2024/09/14-15:42:32.603 2bda Delete type=0 #270
+2024/09/14-15:42:32.606 2bda Compacting 4@0 + 1@1 files
+2024/09/14-15:42:32.612 2bda Generated table #275@0: 6 keys, 1047 bytes
+2024/09/14-15:42:32.612 2bda Compacted 4@0 + 1@1 files => 1047 bytes
+2024/09/14-15:42:32.615 2bda compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/14-15:42:32.616 2bda Delete type=2 #269
+2024/09/14-15:42:32.616 2bda Delete type=2 #274
+2024/09/14-15:42:32.616 2bda Delete type=2 #271
+2024/09/14-15:42:32.616 2bda Delete type=2 #266
+2024/09/14-15:42:32.616 2bda Delete type=2 #264
+2024/09/14-15:58:59.188 2bda Level-0 table #277: started
+2024/09/14-15:58:59.193 2bda Level-0 table #277: 10737 bytes OK
+2024/09/14-15:58:59.197 2bda Delete type=0 #273
+2024/09/14-16:04:04.228 2bda Level-0 table #279: started
+2024/09/14-16:04:04.240 2bda Level-0 table #279: 10446 bytes OK
+2024/09/14-16:04:04.244 2bda Delete type=0 #276
+2024/09/14-16:22:37.285 2bda Level-0 table #281: started
+2024/09/14-16:22:37.296 2bda Level-0 table #281: 10458 bytes OK
+2024/09/14-16:22:37.300 2bda Delete type=0 #278
+2024/09/14-17:13:37.283 2c0f Level-0 table #283: started
+2024/09/14-17:13:37.289 2c0f Level-0 table #283: 10980 bytes OK
+2024/09/14-17:13:37.296 2c0f Delete type=0 #280
+2024/09/14-17:13:37.296 2c0f Compacting 4@0 + 1@1 files
+2024/09/14-17:13:37.300 2c0f Generated table #284@0: 6 keys, 829 bytes
+2024/09/14-17:13:37.300 2c0f Compacted 4@0 + 1@1 files => 829 bytes
+2024/09/14-17:13:37.304 2c0f compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/14-17:13:37.304 2c0f Delete type=2 #275
+2024/09/14-17:13:37.304 2c0f Delete type=2 #277
+2024/09/14-17:13:37.304 2c0f Delete type=2 #279
+2024/09/14-17:13:37.304 2c0f Delete type=2 #283
+2024/09/14-17:13:37.304 2c0f Delete type=2 #281
+2024/09/14-18:00:37.285 2c0f Level-0 table #286: started
+2024/09/14-18:00:37.291 2c0f Level-0 table #286: 10091 bytes OK
+2024/09/14-18:00:37.295 2c0f Delete type=0 #282
+2024/09/14-18:49:37.293 2bda Level-0 table #288: started
+2024/09/14-18:49:37.296 2bda Level-0 table #288: 11302 bytes OK
+2024/09/14-18:49:37.300 2bda Delete type=0 #285
+2024/09/14-19:36:37.285 2bda Level-0 table #290: started
+2024/09/14-19:36:37.288 2bda Level-0 table #290: 9145 bytes OK
+2024/09/14-19:36:37.292 2bda Delete type=0 #287
+2024/09/14-20:23:37.292 2bda Level-0 table #292: started
+2024/09/14-20:23:37.296 2bda Level-0 table #292: 10078 bytes OK
+2024/09/14-20:23:37.300 2bda Delete type=0 #289
+2024/09/14-20:23:37.300 2bda Compacting 4@0 + 1@1 files
+2024/09/14-20:23:37.304 2bda Generated table #293@0: 6 keys, 902 bytes
+2024/09/14-20:23:37.304 2bda Compacted 4@0 + 1@1 files => 902 bytes
+2024/09/14-20:23:37.308 2bda compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/14-20:23:37.308 2bda Delete type=2 #284
+2024/09/14-20:23:37.308 2bda Delete type=2 #290
+2024/09/14-20:23:37.308 2bda Delete type=2 #288
+2024/09/14-20:23:37.308 2bda Delete type=2 #286
+2024/09/14-20:23:37.308 2bda Delete type=2 #292
+2024/09/14-21:11:37.293 2bda Level-0 table #295: started
+2024/09/14-21:11:37.296 2bda Level-0 table #295: 9153 bytes OK
+2024/09/14-21:11:37.300 2bda Delete type=0 #291
+2024/09/14-21:58:37.284 2bda Level-0 table #297: started
+2024/09/14-21:58:37.295 2bda Level-0 table #297: 8140 bytes OK
+2024/09/14-21:58:37.299 2bda Delete type=0 #294
+2024/09/14-22:45:37.290 2bda Level-0 table #299: started
+2024/09/14-22:45:37.316 2bda Level-0 table #299: 8168 bytes OK
+2024/09/14-22:45:37.320 2bda Delete type=0 #296
+2024/09/14-23:32:37.286 2bda Level-0 table #301: started
+2024/09/14-23:32:37.296 2bda Level-0 table #301: 8159 bytes OK
+2024/09/14-23:32:37.301 2bda Delete type=0 #298
+2024/09/14-23:32:37.302 2bda Compacting 4@0 + 1@1 files
+2024/09/14-23:32:37.306 2bda Generated table #302@0: 6 keys, 903 bytes
+2024/09/14-23:32:37.306 2bda Compacted 4@0 + 1@1 files => 903 bytes
+2024/09/14-23:32:37.310 2bda compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/14-23:32:37.310 2bda Delete type=2 #297
+2024/09/14-23:32:37.310 2bda Delete type=2 #299
+2024/09/14-23:32:37.310 2bda Delete type=2 #293
+2024/09/14-23:32:37.310 2bda Delete type=2 #301
+2024/09/14-23:32:37.310 2bda Delete type=2 #295
+2024/09/15-00:19:37.283 2bda Level-0 table #304: started
+2024/09/15-00:19:37.293 2bda Level-0 table #304: 8124 bytes OK
+2024/09/15-00:19:37.297 2bda Delete type=0 #300

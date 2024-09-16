@@ -13,5 +13,6 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "tabnine.experimentalAutoImports": true
+    "tabnine.experimentalAutoImports": true,
+    "python.defaultInterpreterPath": "/home/devilunraveled/.pyenv/versions/3.12.2/envs/dip"
 }

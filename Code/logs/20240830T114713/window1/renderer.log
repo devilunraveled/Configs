@@ -1,0 +1,82 @@
+2024-08-30 11:47:14.231 [info] Started local extension host with pid 85483.
+2024-08-30 11:47:17.029 [info] [perf] Render performance baseline is 136ms
+2024-08-30 11:47:51.371 [info] Started local extension host with pid 86641.
+2024-08-30 12:01:37.938 [error] [Extension Host] error 12:01:37.924: Jupyter Extension: Debugging: Could not check for ipykernel 6 Error: Canceled future for execute_request message before replies were done
+    at oi.dispose (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:22379)
+    at /home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:93953
+    at Map.forEach (<anonymous>)
+    at n._clearKernelState (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:93939)
+    at n.dispose (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:87407)
+    at /home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:11001
+    at Xn (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:60:10691)
+    at R_.start (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:10977)
+    at R_.restart (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:10762)
+    at E_.restart (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:282:30367)
+    at YD.restart (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:285:32485)
+    at Function.wrapKernelMethodImpl (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:82121)
+2024-08-30 12:01:37.939 [error] [Extension Host] error 12:01:37.925: Jupyter Extension: Debugging: Could not check for ipykernel 6 Error: Canceled future for execute_request message before replies were done
+    at oi.dispose (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:22379)
+    at /home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:93953
+    at Map.forEach (<anonymous>)
+    at n._clearKernelState (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:93939)
+    at n.dispose (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/node_modules/@jupyterlab/services/lib/kernel/nonSerializingKernel.js:11:87407)
+    at /home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:11001
+    at Xn (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:60:10691)
+    at R_.start (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:10977)
+    at R_.restart (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:10762)
+    at E_.restart (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:282:30367)
+    at YD.restart (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:285:32485)
+    at Function.wrapKernelMethodImpl (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:82121)
+2024-08-30 12:01:38.420 [error] [Extension Host] error 12:01:38.420: Jupyter Extension: Failed to write data to the kernel channel shell [
+  <Buffer 3c 49 44 53 7c 4d 53 47 3e>,
+  <Buffer 31 32 66 30 37 65 66 39 65 64 37 61 63 65 62 66 33 38 39 64 65 34 66 39 38 32 64 62 33 35 66 34 64 63 30 38 64 66 33 31 64 39 39 65 62 62 64 63 37 35 ... 14 more bytes>,
+  <Buffer 7b 22 64 61 74 65 22 3a 22 32 30 32 34 2d 30 38 2d 33 30 54 30 36 3a 33 30 3a 30 30 2e 30 39 35 5a 22 2c 22 6d 73 67 5f 69 64 22 3a 22 62 64 66 33 35 ... 177 more bytes>,
+  <Buffer 7b 7d>,
+  <Buffer 7b 22 63 65 6c 6c 49 64 22 3a 22 76 73 63 6f 64 65 2d 6e 6f 74 65 62 6f 6f 6b 2d 63 65 6c 6c 3a 2f 68 6f 6d 65 2f 64 65 76 69 6c 75 6e 72 61 76 65 6c ... 54 more bytes>,
+  <Buffer 7b 22 73 69 6c 65 6e 74 22 3a 66 61 6c 73 65 2c 22 73 74 6f 72 65 5f 68 69 73 74 6f 72 79 22 3a 74 72 75 65 2c 22 75 73 65 72 5f 65 78 70 72 65 73 73 ... 141 more bytes>
+] Error: Socket is closed
+    at a.postToSocket (/home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:8043)
+    at /home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:304:7787 {
+  errno: 9,
+  code: 'EBADF'
+}
+2024-08-30 12:36:20.334 [error] Error: Notebook too large to backup
+    at r.snapshot (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:59744)
+    at async D.backup (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:48721)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2431:6231
+2024-08-30 12:36:26.275 [error] Error: Notebook too large to backup
+    at r.snapshot (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:59744)
+    at async D.backup (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:48721)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2431:6231
+2024-08-30 12:36:47.399 [error] Error: Notebook too large to backup
+    at r.snapshot (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:59744)
+    at async D.backup (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:48721)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2431:6231
+2024-08-30 12:36:55.206 [error] Error: Notebook too large to backup
+    at r.snapshot (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:59744)
+    at async D.backup (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:48721)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2431:6231
+2024-08-30 12:37:33.136 [error] Error: Notebook too large to backup
+    at r.snapshot (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:59744)
+    at async D.backup (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:48721)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2431:6231
+2024-08-30 12:37:39.939 [error] Error: Notebook too large to backup
+    at r.snapshot (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:59744)
+    at async D.backup (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:48721)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2431:6231
+2024-08-30 12:37:42.728 [error] Error: Notebook too large to backup
+    at r.snapshot (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:59744)
+    at async D.backup (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:48721)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2431:6231
+2024-08-30 12:37:46.312 [error] Error: Notebook too large to backup
+    at r.snapshot (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:59744)
+    at async D.backup (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:48721)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2431:6231
+2024-08-30 12:37:47.543 [error] Error: Notebook too large to backup
+    at r.snapshot (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:59744)
+    at async D.backup (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:48721)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2431:6231
+2024-08-30 12:37:50.529 [error] Error: Notebook too large to backup
+    at r.snapshot (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:59744)
+    at async D.backup (vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2450:48721)
+    at async vscode-file://vscode-app/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2431:6231

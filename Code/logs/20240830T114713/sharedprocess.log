@@ -1,0 +1,125 @@
+2024-08-30 11:47:20.123 [info] Getting Manifest... codeium.codeium
+2024-08-30 11:47:20.124 [info] Getting Manifest... mongodb.mongodb-vscode
+2024-08-30 11:47:20.125 [info] Getting Manifest... ms-python.vscode-pylance
+2024-08-30 11:47:20.125 [info] Getting Manifest... vscodevim.vim
+2024-08-30 11:47:20.227 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-08-30 11:47:20.228 [info] Installing extension: codeium.codeium {"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-08-30 11:47:20.260 [info] Installing extension: vscodevim.vim {"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-08-30 11:47:20.260 [info] Installing extension: mongodb.mongodb-vscode {"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-08-30 11:47:21.228 [info] Getting Manifest... ms-python.python
+2024-08-30 11:47:22.263 [info] Extension signature verification result for vscodevim.vim: Success. Executed: true. Duration: 939ms.
+2024-08-30 11:47:22.301 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/vscodevim.vim-1.28.0: vscodevim.vim
+2024-08-30 11:47:22.307 [info] Renamed to /home/devilunraveled/.vscode/extensions/vscodevim.vim-1.28.0
+2024-08-30 11:47:22.320 [info] Marked extension as uninstalled vscodevim.vim-1.27.3
+2024-08-30 11:47:22.334 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-08-30 11:47:22.391 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-30 11:47:22.986 [info] Extension signature verification result for codeium.codeium: Success. Executed: true. Duration: 600ms.
+2024-08-30 11:47:23.085 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/codeium.codeium-1.14.12: codeium.codeium
+2024-08-30 11:47:23.090 [info] Renamed to /home/devilunraveled/.vscode/extensions/codeium.codeium-1.14.12
+2024-08-30 11:47:23.105 [info] Marked extension as uninstalled codeium.codeium-1.12.6
+2024-08-30 11:47:23.113 [info] Extension installed successfully: codeium.codeium vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-08-30 11:47:23.170 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-30 11:47:24.748 [info] Extension signature verification result for mongodb.mongodb-vscode: Success. Executed: true. Duration: 642ms.
+2024-08-30 11:47:25.004 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-1.8.0: mongodb.mongodb-vscode
+2024-08-30 11:47:25.009 [info] Renamed to /home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-1.8.0
+2024-08-30 11:47:25.026 [info] Marked extension as uninstalled mongodb.mongodb-vscode-1.7.0
+2024-08-30 11:47:25.036 [info] Extension installed successfully: mongodb.mongodb-vscode vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-08-30 11:47:25.089 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-30 11:47:27.338 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 656ms.
+2024-08-30 11:47:31.117 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2: ms-python.vscode-pylance
+2024-08-30 11:47:31.130 [info] Renamed to /home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.8.2
+2024-08-30 11:47:31.166 [info] Marked extension as uninstalled ms-python.vscode-pylance-2024.8.1
+2024-08-30 11:47:31.169 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-08-30 11:47:31.217 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-30 11:51:36.269 [info] Getting Manifest... ms-python.python
+2024-08-30 11:51:36.275 [info] Installing extension: ms-python.python {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true},"pinned":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-08-30 11:51:36.393 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-08-30 11:51:36.439 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-30 11:51:40.544 [info] Getting Manifest... ms-toolsai.jupyter
+2024-08-30 11:51:40.550 [info] Installing extension: ms-toolsai.jupyter {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-08-30 11:51:40.898 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2024-08-30 11:51:40.977 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2024-08-30 11:51:40.999 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2024-08-30 11:51:41.023 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2024-08-30 11:51:41.086 [info] Installing extension: ms-toolsai.jupyter-keymap {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-08-30 11:51:41.086 [info] Installing extension: ms-toolsai.jupyter-renderers {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-08-30 11:51:41.086 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-08-30 11:51:41.086 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-08-30 11:51:42.253 [info] Extension signature verification result for ms-toolsai.jupyter-keymap: Success. Executed: true. Duration: 624ms.
+2024-08-30 11:51:42.266 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.2: ms-toolsai.jupyter-keymap
+2024-08-30 11:51:42.278 [info] Renamed to /home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.2
+2024-08-30 11:51:42.359 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-30 11:51:42.592 [info] Extension signature verification result for ms-toolsai.vscode-jupyter-cell-tags: Success. Executed: true. Duration: 602ms.
+2024-08-30 11:51:42.614 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9: ms-toolsai.vscode-jupyter-cell-tags
+2024-08-30 11:51:42.626 [info] Renamed to /home/devilunraveled/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9
+2024-08-30 11:51:42.706 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-30 11:51:42.735 [info] Extension signature verification result for ms-toolsai.vscode-jupyter-slideshow: Success. Executed: true. Duration: 613ms.
+2024-08-30 11:51:42.754 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6: ms-toolsai.vscode-jupyter-slideshow
+2024-08-30 11:51:42.766 [info] Renamed to /home/devilunraveled/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6
+2024-08-30 11:51:44.779 [info] Extension signature verification result for ms-toolsai.jupyter: Success. Executed: true. Duration: 839ms.
+2024-08-30 11:51:45.007 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64: ms-toolsai.jupyter
+2024-08-30 11:51:45.024 [info] Renamed to /home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64
+2024-08-30 11:51:45.061 [info] Extension signature verification result for ms-toolsai.jupyter-renderers: Success. Executed: true. Duration: 665ms.
+2024-08-30 11:51:45.106 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-30 11:51:45.267 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.19: ms-toolsai.jupyter-renderers
+2024-08-30 11:51:45.281 [info] Renamed to /home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.19
+2024-08-30 11:51:45.315 [info] Extension installed successfully: ms-toolsai.jupyter-keymap vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-08-30 11:51:45.315 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-08-30 11:51:45.315 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-08-30 11:51:45.315 [info] Extension installed successfully: ms-toolsai.jupyter vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-08-30 11:51:45.315 [info] Extension installed successfully: ms-toolsai.jupyter-renderers vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-08-30 11:51:45.362 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/var/lib/snapd/snap/code/167/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)

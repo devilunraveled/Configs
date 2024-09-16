@@ -32,6 +32,6 @@ exit 1
 
 :forwardcall
 set ELECTRON_RUN_AS_NODE=1
-"%VSCODE_PATH%" --ms-enable-electron-run-as-node "%REMOTE_CONTAINERS_PATH%\dev-containers-user-cli\\cli.js" %*
+"%VSCODE_PATH%" "%REMOTE_CONTAINERS_PATH%\dev-containers-user-cli\\cli.js" %*
 
 endlocal

@@ -1,0 +1,120 @@
+(VSCode) 2024-09-14 22:22:35.229 [INFO]: No proxy settings found
+(VSCode) 2024-09-14 22:22:38.143 [INFO]: Creating manager directory: /tmp/048a2bdd-d73b-44e9-8f7f-64f4e024a40d/codeium/manager
+(VSCode) 2024-09-14 22:22:39.081 [INFO]: Using cached LS with valid crc32: /home/devilunraveled/.vscode/extensions/codeium.codeium-1.14.12/dist/cee2c2c314ffa41c66be177dd11f9f894805e383/language_server_linux_x64
+(VSCode) 2024-09-14 22:22:39.091 [INFO]: Language server started
+2024/09/14 22:22:39 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0914 22:22:39.371413 2857359 main.go:416] [Logging] Initialized the logger
+I0914 22:22:39.372026 2857359 main.go:524] LS MANAGER: Setting GOMAXPROCS to 16
+I0914 22:22:39.372547 2857359 main.go:631] LS MANAGER: Release 1.14.12 (cee2c2c314ffa41c66be177dd11f9f894805e383)
+I0914 22:22:39.372567 2857359 main.go:708] LS MANAGER: Starting language server manager with pid 2857359
+I0914 22:22:39.372643 2857359 main.go:119] LS MANAGER: Manager acquired its lock file /tmp/048a2bdd-d73b-44e9-8f7f-64f4e024a40d/codeium/manager/locks/manager.lock
+I0914 22:22:39.373429 2857359 main.go:258] LS MANAGER: Waiting for random port file in /tmp/048a2bdd-d73b-44e9-8f7f-64f4e024a40d/codeium/manager/child_random_port_1726332759372989559_8479008511150672371 to be created
+2024/09/14 22:22:39 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0914 22:22:39.539641 2857380 main.go:416] [Logging] Initialized the logger
+I0914 22:22:39.539688 2857380 main.go:524] Setting GOMAXPROCS to 4
+I0914 22:22:39.540052 2857380 main.go:702] Starting language server process with pid 2857380
+I0914 22:22:39.540190 2857380 server.go:167] Language server will attempt to listen on host 127.0.0.1
+I0914 22:22:39.540663 2857380 server.go:174] Language server listening on random port at 43815
+I0914 22:22:39.541466 2857380 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0914 22:22:39.541697 2857380 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0914 22:22:39.541717 2857380 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+I0914 22:22:40.395560 2857380 unleash.go:93] Initializing Unleash
+I0914 22:22:41.171671 2857380 unleash.go:113] Successfully initialized Unleash
+E0914 22:22:41.179991 2857380 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+I0914 22:22:41.181296 2857380 server.go:371] Successfully created API server client
+I0914 22:22:41.216777 2857380 server.go:380] Successfully initialized tokenizer
+E0914 22:22:41.217402 2857380 context_module.go:374] unable to get default pinned context guideline: open /home/devilunraveled/.codeium/codeium_settings.yaml: no such file or directory
+I0914 22:22:41.218522 2857380 server.go:493] Local search is enabled, will index local files.
+I0914 22:22:41.218538 2857380 server.go:497] Using 4 indexer workers
+I0914 22:22:41.219537 2857380 sqlite_faiss_db_client.go:70] Using database at /home/devilunraveled/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0914 22:22:41.230308 2857380 sqlite_faiss_db_client.go:84] Successfully created embedding search database in 10ms
+I0914 22:22:41.230961 2857380 indexer.go:215] Using 4 embed workers
+I0914 22:22:41.231136 2857380 search_provider.go:269] Successfully created and started indexer
+I0914 22:22:41.231178 2857380 search_provider.go:299] Successfully created embedding search provider with db client: &{0xc001cb5f40 0xc001c856c0}
+I0914 22:22:42.504940 2857380 server.go:572] Successfully created completion provider
+I0914 22:22:42.504991 2857380 server.go:622] Child process attempting to acquire lock file /tmp/048a2bdd-d73b-44e9-8f7f-64f4e024a40d/codeium/manager/locks/child_lock_1726332759373053115_6072581673233661898
+I0914 22:22:42.505032 2857380 server.go:630] Child process acquired lock file /tmp/048a2bdd-d73b-44e9-8f7f-64f4e024a40d/codeium/manager/locks/child_lock_1726332759373053115_6072581673233661898
+I0914 22:22:42.509061 2857380 server.go:194] LSP listening on random port at 37631
+I0914 22:22:42.509359 2857380 web_server.go:240] Chat Web Server listening at ws://127.0.0.1:42851
+37631
+I0914 22:22:42.583667 2857359 main.go:294] LS MANAGER: Language server manager found random server port 43815
+I0914 22:22:42.583700 2857359 main.go:295] LS MANAGER: Language server manager found random lsp port 37631
+I0914 22:22:42.583713 2857359 main.go:302] LS MANAGER: Language server manager attempting to connect to language server at 127.0.0.1:43815
+I0914 22:22:42.603684 2857359 main.go:173] LS MANAGER: Fixing language server port at 43815
+I0914 22:22:42.603719 2857359 main.go:353] LS MANAGER: Language server manager successfully connected to new language server at 127.0.0.1:43815
+(VSCode) 2024-09-14 22:22:42.701 [INFO]: Found language server running on port 43815
+I0914 22:22:46.344499 2857380 utils.go:315] Analyzing workspace files for /home/devilunraveled/College/Sem7/IRE/Assignments
+I0914 22:22:46.344600 2857380 utils.go:366] Done analyzing workspace files for /home/devilunraveled/College/Sem7/IRE/Assignments
+I0914 22:22:46.344747 2857380 workspace_manager.go:246] Found 2 files in workspace file:///home/devilunraveled/College/Sem7/IRE/Assignments
+I0914 22:22:46.352243 2857380 workspace_manager.go:276] Adding workspace listener for [0xc001313b20]
+I0914 22:22:46.352290 2857380 indexing_listener.go:238] Add workspace event with uid 1 for workspace /home/devilunraveled/College/Sem7/IRE/Assignments/
+I0914 22:22:46.352473 2857380 indexing_listener.go:297] Done enqueue workspace with uid 1
+I0914 22:22:46.361053 2857380 lazy_model.go:32] Successfully created faiss index
+I0914 22:22:50.346654 2857380 rpcs_miscellaneous.go:323] University version is up to date.
+I0914 22:22:50.349518 2857380 rpcs_miscellaneous.go:205] Downloading changelog from https://exafunction.github.io/public/changelog/1.14.md
+I0914 22:22:50.367089 2857380 rpcs_miscellaneous.go:209] No changelog found at https://exafunction.github.io/public/changelog/1.14.md
+I0914 22:27:42.778045 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 22:27:42.785993 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":41998704,"heap_inuse":47349760,"heap_released":23560192,"heap_sys":82444288,"total_alloc":427886528,"stack_inuse":1310720,"sys":94396696,"num_goroutine":51},"proc":{"virt_size":2848676,"pss":246269}}
+I0914 22:32:42.923351 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 22:32:42.932320 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":49255112,"heap_inuse":53968896,"heap_released":24461312,"heap_sys":82411520,"total_alloc":459208680,"stack_inuse":1310720,"sys":94396696,"num_goroutine":51},"proc":{"virt_size":2848676,"pss":245538}}
+I0914 22:37:42.548865 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 22:37:42.556262 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":42070864,"heap_inuse":47423488,"heap_released":25042944,"heap_sys":82378752,"total_alloc":489141312,"stack_inuse":1376256,"sys":94396696,"num_goroutine":51},"proc":{"virt_size":2848676,"pss":245078}}
+I0914 22:42:42.673042 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 22:42:42.682352 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":50168024,"heap_inuse":54935552,"heap_released":24379392,"heap_sys":82264064,"total_alloc":521422584,"stack_inuse":1441792,"sys":94396696,"num_goroutine":51},"proc":{"virt_size":2848676,"pss":245708}}
+I0914 22:47:42.830178 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 22:47:42.837387 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":42995128,"heap_inuse":48381952,"heap_released":26263552,"heap_sys":82329600,"total_alloc":554574912,"stack_inuse":1409024,"sys":94396696,"num_goroutine":52},"proc":{"virt_size":2848676,"pss":243887}}
+I0914 22:52:42.958420 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 22:52:42.969340 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":50949816,"heap_inuse":55697408,"heap_released":25100288,"heap_sys":82214912,"total_alloc":589945344,"stack_inuse":1474560,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":245112}}
+I0914 22:57:42.591754 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 22:57:42.601805 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":41610464,"heap_inuse":47046656,"heap_released":25182208,"heap_sys":82313216,"total_alloc":623495184,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":236669}}
+I0914 23:02:42.718973 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:02:42.725803 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":47293120,"heap_inuse":51945472,"heap_released":25182208,"heap_sys":82247680,"total_alloc":653949320,"stack_inuse":1507328,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":236739}}
+I0914 23:07:42.846089 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:07:42.852843 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":44923272,"heap_inuse":50356224,"heap_released":25370624,"heap_sys":82214912,"total_alloc":690848808,"stack_inuse":1474560,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":236265}}
+I0914 23:12:42.980596 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:12:42.987694 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":48872672,"heap_inuse":53510144,"heap_released":26148864,"heap_sys":82214912,"total_alloc":722832976,"stack_inuse":1507328,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":234559}}
+I0914 23:17:42.583962 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:17:42.591136 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":41548632,"heap_inuse":47013888,"heap_released":24616960,"heap_sys":82313216,"total_alloc":753105056,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":233456}}
+I0914 23:22:42.713460 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:22:42.720494 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":47113296,"heap_inuse":51806208,"heap_released":24616960,"heap_sys":82313216,"total_alloc":781880360,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":233456}}
+I0914 23:27:42.834826 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:27:42.841556 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":44867168,"heap_inuse":50331648,"heap_released":25288704,"heap_sys":82182144,"total_alloc":815788592,"stack_inuse":1507328,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":233275}}
+I0914 23:32:42.942683 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:32:42.950185 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":47186800,"heap_inuse":51838976,"heap_released":24641536,"heap_sys":82313216,"total_alloc":844515000,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":233858}}
+I0914 23:37:42.578990 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:37:42.586368 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":44021176,"heap_inuse":49553408,"heap_released":25321472,"heap_sys":82231296,"total_alloc":880457480,"stack_inuse":1474560,"sys":94396696,"num_goroutine":44},"proc":{"virt_size":2848676,"pss":233182}}
+I0914 23:42:42.708686 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:42:42.716335 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":48818432,"heap_inuse":53403648,"heap_released":26632192,"heap_sys":82280448,"total_alloc":912437232,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":231833}}
+I0914 23:47:42.844806 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:47:42.851953 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":41598016,"heap_inuse":47120384,"heap_released":25944064,"heap_sys":82345984,"total_alloc":946978544,"stack_inuse":1409024,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":232487}}
+I0914 23:52:42.966577 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:52:42.973266 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":49523928,"heap_inuse":54181888,"heap_released":25944064,"heap_sys":82264064,"total_alloc":979709040,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":232486}}
+I0914 23:57:42.589528 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0914 23:57:42.596898 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":41526160,"heap_inuse":47063040,"heap_released":26968064,"heap_sys":82345984,"total_alloc":1011525656,"stack_inuse":1409024,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":231491}}
+I0915 00:02:42.713096 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0915 00:02:42.719923 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":47155448,"heap_inuse":51773440,"heap_released":26968064,"heap_sys":82313216,"total_alloc":1041912224,"stack_inuse":1441792,"sys":94396696,"num_goroutine":44},"proc":{"virt_size":2848676,"pss":231495}}
+I0915 00:07:42.835505 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0915 00:07:42.843351 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":42284656,"heap_inuse":47841280,"heap_released":26836992,"heap_sys":82296832,"total_alloc":1074562296,"stack_inuse":1441792,"sys":94396696,"num_goroutine":44},"proc":{"virt_size":2848676,"pss":231613}}
+I0915 00:12:42.952801 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0915 00:12:42.960866 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":47121000,"heap_inuse":51699712,"heap_released":25452544,"heap_sys":82313216,"total_alloc":1105052000,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":232951}}
+I0915 00:17:42.584539 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0915 00:17:42.591730 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":41534512,"heap_inuse":47112192,"heap_released":24616960,"heap_sys":82345984,"total_alloc":1137791360,"stack_inuse":1409024,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":233757}}
+I0915 00:22:42.693323 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0915 00:22:42.700185 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":46946616,"heap_inuse":51585024,"heap_released":24748032,"heap_sys":82313216,"total_alloc":1166380720,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":233638}}
+I0915 00:27:42.821984 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0915 00:27:42.829824 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":42307808,"heap_inuse":47833088,"heap_released":27271168,"heap_sys":82296832,"total_alloc":1200314080,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":231185}}
+I0915 00:32:42.950832 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0915 00:32:42.957484 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":47075416,"heap_inuse":51691520,"heap_released":26607616,"heap_sys":82313216,"total_alloc":1230627384,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":231839}}
+I0915 00:37:42.588899 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0915 00:37:42.595903 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":39863016,"heap_inuse":45506560,"heap_released":26533888,"heap_sys":82345984,"total_alloc":1263476504,"stack_inuse":1441792,"sys":94396696,"num_goroutine":44},"proc":{"virt_size":2848676,"pss":231912}}
+I0915 00:42:42.709928 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0915 00:42:42.716652 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":45502840,"heap_inuse":50094080,"heap_released":26533888,"heap_sys":82345984,"total_alloc":1292290112,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":231918}}
+I0915 00:47:42.838008 2857380 rpcs_miscellaneous.go:113] Indexer stats: database:{local_sqlite_faiss:{faiss_state_stats:{embedding_source:EMBEDDING_SOURCE_CODE_CONTEXT_ITEM workspace:"/home/devilunraveled/College" item_count:91} total_item_count:91 quantized:true}}
+I0915 00:47:42.845227 2857380 rpcs_miscellaneous.go:120] Memory stats: {"runtime":{"alloc":41391432,"heap_inuse":47063040,"heap_released":26533888,"heap_sys":82313216,"total_alloc":1322516304,"stack_inuse":1441792,"sys":94396696,"num_goroutine":43},"proc":{"virt_size":2848676,"pss":231913}}
+(VSCode) 2024-09-15 00:49:29.830 [INFO]: Disposing language server process
+(VSCode) 2024-09-15 00:49:29.831 [INFO]: Deleting manager directory: /tmp/048a2bdd-d73b-44e9-8f7f-64f4e024a40d/codeium/manager
+(VSCode) 2024-09-15 00:49:29.834 [INFO]: Successfully disposed language server
+W0915 00:49:29.831313 2857359 main.go:123] LS MANAGER: Language server manager got signal terminated, shutting down
+E0915 00:49:29.922526 2857359 main.go:367] LS MANAGER: Failed to acquire lock on /tmp/048a2bdd-d73b-44e9-8f7f-64f4e024a40d/codeium/manager/locks/child_lock_1726332759373053115_6072581673233661898: open /tmp/048a2bdd-d73b-44e9-8f7f-64f4e024a40d/codeium/manager/locks/child_lock_1726332759373053115_6072581673233661898: no such file or directory
+I0915 00:49:29.924298 2857380 server.go:732] Exit requested on language server process 2857380
+I0915 00:49:29.924610 2857380 server.go:709] Language server shutting down

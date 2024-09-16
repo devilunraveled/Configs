@@ -1,0 +1,18 @@
+2024-09-07 12:28:40.555 [info] update#setState idle
+2024-09-07 12:29:10.563 [info] update#setState checking for updates
+2024-09-07 12:29:10.566 [info] update#setState idle
+2024-09-07 12:30:13.491 [error] ptyHost terminated unexpectedly with code 15
+2024-09-07 12:30:13.495 [warning] [UtilityProcess type: ptyHost, pid: 1790860]: unable to kill the process
+2024-09-07 12:30:13.509 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-09-07 12:30:13.510 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 1790567]: crashed with code 15 and reason 'killed'
+2024-09-07 12:30:13.522 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)
+2024-09-07 12:30:13.733 [error] [UtilityProcess type: shared-process, pid: 1790566]: crashed with code 15 and reason 'killed'
+2024-09-07 12:30:13.761 [info] Extension host with pid 1790503 exited with code: 15, signal: unknown.
+2024-09-07 12:30:13.762 [error] [UtilityProcess id: 1, type: extensionHost, pid: 1790503]: crashed with code 15 and reason 'killed'
+2024-09-07 12:30:19.683 [error] [uncaught exception in main]: TypeError: Object has been destroyed
+2024-09-07 12:30:19.683 [error] TypeError: Object has been destroyed
+    at /var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/electron-main/main.js:117:89409
+    at App.he (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/electron-main/main.js:39:32031)
+    at App.emit (node:events:531:35)
+    at BrowserWindow.<anonymous> (node:electron/js2c/browser_init:2:11864)
+    at BrowserWindow.emit (node:events:531:35)

@@ -1,0 +1,101 @@
+2024-09-07 12:28:51.238 [info] Getting Manifest... dart-code.dart-code
+2024-09-07 12:28:51.239 [info] Getting Manifest... dart-code.flutter
+2024-09-07 12:28:51.240 [info] Getting Manifest... eamodio.gitlens
+2024-09-07 12:28:51.240 [info] Getting Manifest... mongodb.mongodb-vscode
+2024-09-07 12:28:51.241 [info] Getting Manifest... ms-python.python
+2024-09-07 12:28:51.242 [info] Getting Manifest... ms-toolsai.jupyter
+2024-09-07 12:28:51.242 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2024-09-07 12:28:51.342 [info] Installing extension: ms-vscode-remote.remote-containers {"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-07 12:28:51.343 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-07 12:28:51.347 [info] Installing extension: mongodb.mongodb-vscode {"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-07 12:28:51.360 [info] Installing extension: eamodio.gitlens {"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-07 12:28:51.381 [info] Installing extension: ms-toolsai.jupyter {"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-07 12:28:51.404 [info] Installing extension: dart-code.flutter {"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-07 12:28:51.405 [info] Installing extension: dart-code.dart-code {"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json","path":"/home/devilunraveled/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-07 12:28:52.300 [info] Getting Manifest... dart-code.dart-code
+2024-09-07 12:28:52.335 [info] Waiting for already requested installing extension dart-code.dart-code dart-code.flutter vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-09-07 12:28:55.574 [info] Extension signature verification result for dart-code.flutter: Success. Executed: true. Duration: 711ms.
+2024-09-07 12:28:55.588 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/dart-code.flutter-3.96.0: dart-code.flutter
+2024-09-07 12:28:55.593 [info] Renamed to /home/devilunraveled/.vscode/extensions/dart-code.flutter-3.96.0
+2024-09-07 12:28:55.605 [info] Marked extension as uninstalled dart-code.flutter-3.94.0
+2024-09-07 12:28:55.676 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-09-07 12:28:57.658 [info] Extension signature verification result for ms-vscode-remote.remote-containers: Success. Executed: true. Duration: 1010ms.
+2024-09-07 12:28:57.782 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/ms-vscode-remote.remote-containers-0.384.0: ms-vscode-remote.remote-containers
+2024-09-07 12:28:57.796 [info] Renamed to /home/devilunraveled/.vscode/extensions/ms-vscode-remote.remote-containers-0.384.0
+2024-09-07 12:28:57.817 [info] Marked extension as uninstalled ms-vscode-remote.remote-containers-0.380.0
+2024-09-07 12:28:57.822 [info] Extension installed successfully: ms-vscode-remote.remote-containers vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-09-07 12:28:57.838 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-09-07 12:28:58.772 [info] Extension signature verification result for ms-toolsai.jupyter: Success. Executed: true. Duration: 701ms.
+2024-09-07 12:28:58.987 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64: ms-toolsai.jupyter
+2024-09-07 12:28:59.002 [info] Renamed to /home/devilunraveled/.vscode/extensions/ms-toolsai.jupyter-2024.8.0-linux-x64
+2024-09-07 12:28:59.029 [info] Marked extension as uninstalled ms-toolsai.jupyter-2024.7.0-linux-x64
+2024-09-07 12:28:59.032 [info] Extension installed successfully: ms-toolsai.jupyter vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-09-07 12:28:59.083 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-09-07 12:29:00.826 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 714ms.
+2024-09-07 12:29:01.078 [info] Extension signature verification result for mongodb.mongodb-vscode: Success. Executed: true. Duration: 698ms.
+2024-09-07 12:29:01.423 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-1.8.1: mongodb.mongodb-vscode
+2024-09-07 12:29:01.443 [info] Renamed to /home/devilunraveled/.vscode/extensions/mongodb.mongodb-vscode-1.8.1
+2024-09-07 12:29:01.468 [info] Marked extension as uninstalled mongodb.mongodb-vscode-1.8.0
+2024-09-07 12:29:01.477 [info] Extension installed successfully: mongodb.mongodb-vscode vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-09-07 12:29:01.524 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-09-07 12:29:01.554 [info] Extension signature verification result for eamodio.gitlens: Success. Executed: true. Duration: 656ms.
+2024-09-07 12:29:01.948 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/eamodio.gitlens-15.4.0: eamodio.gitlens
+2024-09-07 12:29:01.974 [info] Renamed to /home/devilunraveled/.vscode/extensions/eamodio.gitlens-15.4.0
+2024-09-07 12:29:02.005 [info] Marked extension as uninstalled eamodio.gitlens-15.3.1
+2024-09-07 12:29:02.019 [info] Extension installed successfully: eamodio.gitlens vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-09-07 12:29:02.056 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-09-07 12:29:02.455 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/ms-python.python-2024.14.0-linux-x64: ms-python.python
+2024-09-07 12:29:02.464 [info] Renamed to /home/devilunraveled/.vscode/extensions/ms-python.python-2024.14.0-linux-x64
+2024-09-07 12:29:02.503 [info] Marked extension as uninstalled ms-python.python-2024.12.3-linux-x64
+2024-09-07 12:29:02.506 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-09-07 12:29:02.543 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-09-07 12:29:04.288 [info] Extension signature verification result for dart-code.dart-code: Success. Executed: true. Duration: 779ms.
+2024-09-07 12:29:14.027 [info] Extracted extension to file:///home/devilunraveled/.vscode/extensions/dart-code.dart-code-3.96.0: dart-code.dart-code
+2024-09-07 12:29:14.034 [info] Renamed to /home/devilunraveled/.vscode/extensions/dart-code.dart-code-3.96.0
+2024-09-07 12:29:14.061 [info] Marked extension as uninstalled dart-code.dart-code-3.94.0
+2024-09-07 12:29:14.071 [info] Extension installed successfully: dart-code.dart-code vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-09-07 12:29:14.071 [info] Finished waiting for already requested installing extension dart-code.dart-code dart-code.flutter vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-09-07 12:29:14.071 [info] Extension installed successfully: dart-code.flutter vscode-userdata:/home/devilunraveled/.vscode/extensions/extensions.json
+2024-09-07 12:29:14.117 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/devilunraveled/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/var/lib/snapd/snap/code/168/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)

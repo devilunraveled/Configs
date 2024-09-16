@@ -1,2 +1,4 @@
-2023/08/03-13:42:00.803 18b9 Creating DB /home/devilunraveled/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
-2023/08/03-13:42:00.812 18b9 Reusing MANIFEST /home/devilunraveled/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/31-21:12:23.149 1709e Reusing MANIFEST /home/devilunraveled/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/31-21:12:23.149 1709e Recovering log #18
+2024/07/31-21:12:23.150 1709e Reusing old log /home/devilunraveled/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000018.log 
+2024/07/31-21:12:23.150 1709e Delete type=2 #17

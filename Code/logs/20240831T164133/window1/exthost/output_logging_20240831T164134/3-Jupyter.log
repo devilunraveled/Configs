@@ -1,0 +1,632 @@
+Visual Studio Code (1.92.2, undefined, desktop)
+Jupyter Extension Version: 2024.7.0.
+Python Extension Version: 2024.12.3.
+Pylance Extension Version: 2024.8.2.
+Platform: linux (x64).
+No workspace folder opened.
+16:41:36.325 [warn] No interpreter with path ~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python found in Python API, will convert Uri path to string as Id ~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python
+16:42:27.169 [warn] The following kernels use interpreters that are no longer valid or not recognized by Python extension, Kernels startUsingPythonInterpreter:'id=.jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher'(interpreterId='/sbin/python'),startUsingPythonInterpreter:'id=.jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher'(interpreterId='/usr/sbin/python'),startUsingPythonInterpreter:'id=.jvsc74a57bd0de773d07946e591c496b66a7ac59ba243fc9206ead1c40f10ffc179eb8644089./sbin/python3.12./sbin/python3.12.-m#ipykernel_launcher'(interpreterId='/sbin/python3.12'),startUsingPythonInterpreter:'id=.jvsc74a57bd0f8be09674763ae96bc822cfd0e8b52123f99724d4ba7d2c6ee2023f541f3d68e./usr/sbin/python3.12./usr/sbin/python3.12.-m#ipykernel_launcher'(interpreterId='/usr/sbin/python3.12') and valid interpreter ids include /home/~/.pyenv/versions/3.11.8/bin/python, /home/~/.pyenv/versions/3.12.2/bin/python, /home/~/.pyenv/versions/3.6.15/bin/python, /home/~/.pyenv/versions/3.7.3/bin/python, /home/~/.pyenv/versions/3.12.2/envs/UnsupervisedQAG/bin/python, /home/~/.pyenv/versions/3.12.2/envs/diff/bin/python, /home/~/.pyenv/versions/3.12.2/envs/dip/bin/python, /home/~/.pyenv/versions/3.12.2/envs/elmo/bin/python, /home/~/.pyenv/versions/3.12.2/envs/gsmn/bin/python, /home/~/.pyenv/versions/3.7.3/envs/myEnvUMHQA/bin/python, /home/~/.pyenv/versions/3.12.2/envs/nlp/bin/python, /home/~/.pyenv/versions/3.6.15/envs/serf/bin/python, /home/~/.pyenv/versions/3.12.2/envs/tdl/bin/python, /home/~/.pyenv/versions/3.6.15/envs/venv/bin/python, /home/~/.pyenv/versions/3.12.2/envs/wordvectorization/bin/python, /bin/python, /sbin/python3, /usr/bin/python, /usr/sbin/python3, /home/~/anaconda3/bin/python, /home/~/anaconda3/envs/pytorch/bin/python, /home/~/miniconda3/bin/python, /home/~/miniconda3/envs/d2l/bin/python, /home/~/miniconda3/envs/vEmbedKGQA/bin/python, /home/~/College/Sem6/IntroToNLP/Assignments/NeuralPOSTagging/neuralPosTagging/bin/python, /home/~/.pyenv/versions/diff/bin/python, /home/~/.pyenv/versions/serf/bin/python, /home/~/.pyenv/versions/tdl/bin/python, /home/~/.pyenv/versions/gsmn/bin/python, /home/~/.pyenv/versions/venv/bin/python, /home/~/.pyenv/versions/elmo/bin/python, /home/~/.pyenv/versions/myEnvUMHQA/bin/python, /home/~/.pyenv/versions/dip/bin/python, /home/~/.pyenv/versions/UnsupervisedQAG/bin/python, /home/~/.pyenv/versions/nlp/bin/python, /home/~/.pyenv/versions/wordvectorization/bin/python
+16:42:27.210 [info] Starting Kernel (Python Path: ~/.pyenv/versions/UnsupervisedQAG/bin/python, Pyenv, 3.12.2) for '~/Projects/BTP/EncDecApp/main.ipynb' (disableUI=true)
+16:42:27.274 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -m pip list
+16:42:27.282 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+16:42:27.289 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-9927cBD4qP38dPd1.json
+    > cwd: ~/Projects/BTP/EncDecApp
+16:42:27.986 [info] Kernel successfully started
+16:42:28.000 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/pythonFiles/printJupyterDataDir.py
+16:42:35.951 [warn] Cell completed with errors Qd [Error]: 'Model' object has no attribute 'train'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'Model' object has no attribute 'train'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[21], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[18], line 2\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mtrainModel\x1B[39m(model, dataLoader, epochs \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m10\x1B[39m, learningRate \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m1e-4\x1B[39m ):\n' +
+      '\x1B[0;32m----> 2\x1B[0m     \x1B[43mmodel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mtrain\x1B[49m()\n' +
+      '\x1B[1;32m      4\x1B[0m     optimizer \x1B[38;5;241m=\x1B[39m Adam(model\x1B[38;5;241m.\x1B[39mparameters(), lr \x1B[38;5;241m=\x1B[39m learningRate)\n' +
+      '\x1B[1;32m      7\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m epoch \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(epochs):\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'Model' object has no attribute 'train'"
+  ]
+}
+16:42:52.657 [warn] Cell completed with errors Qd [Error]: 'Model' object has no attribute 'parameters'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'Model' object has no attribute 'parameters'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[25], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[22], line 3\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mtrainModel\x1B[39m(model, dataLoader, epochs \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m10\x1B[39m, learningRate \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m1e-4\x1B[39m ):\n' +
+      '\x1B[0;32m----> 3\x1B[0m     optimizer \x1B[38;5;241m=\x1B[39m Adam(\x1B[43mmodel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mparameters\x1B[49m(), lr \x1B[38;5;241m=\x1B[39m learningRate)\n' +
+      '\x1B[1;32m      6\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m epoch \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(epochs):\n' +
+      '\x1B[1;32m      7\x1B[0m         totalLoss \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m0\x1B[39m\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'Model' object has no attribute 'parameters'"
+  ]
+}
+16:43:40.582 [warn] Cell completed with errors Qd [Error]: '_GeneratorContextManager' object is not iterable
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "'_GeneratorContextManager' object is not iterable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[29], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[26], line 10\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m      7\x1B[0m totalLoss \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m0\x1B[39m\n' +
+      '\x1B[1;32m      8\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mEpoch \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mepoch\x1B[38;5;241m+\x1B[39m\x1B[38;5;241m1\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m/\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mepochs\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[0;32m---> 10\x1B[0m \x1B[43m\x1B[49m\x1B[38;5;28;43;01mfor\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;129;43;01min\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[43malive_bar\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mforce_tty\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;28;43;01mTrue\x1B[39;49;00m\x1B[43m)\x1B[49m\x1B[43m:\x1B[49m\n' +
+      "\x1B[1;32m     11\x1B[0m \x1B[43m    \x1B[49m\x1B[43minput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43minput_ids\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mto\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdevice\x1B[49m\x1B[43m)\x1B[49m\n" +
+      "\x1B[1;32m     12\x1B[0m \x1B[43m    \x1B[49m\x1B[43moutput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43mdecoder_input_ids\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mto\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdevice\x1B[49m\x1B[43m)\x1B[49m\n",
+    "\x1B[0;31mTypeError\x1B[0m: '_GeneratorContextManager' object is not iterable"
+  ]
+}
+16:44:21.936 [warn] Cell completed with errors Qd [Error]: 'DatasetForReconstruction' object has no attribute 'input_ids'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'DatasetForReconstruction' object has no attribute 'input_ids'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[33], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[30], line 10\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m      7\x1B[0m totalLoss \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m0\x1B[39m\n' +
+      '\x1B[1;32m      8\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mEpoch \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mepoch\x1B[38;5;241m+\x1B[39m\x1B[38;5;241m1\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m/\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mepochs\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[0;32m---> 10\x1B[0m \x1B[43m\x1B[49m\x1B[38;5;28;43;01mfor\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;129;43;01min\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m:\x1B[49m\n' +
+      "\x1B[1;32m     11\x1B[0m \x1B[43m    \x1B[49m\x1B[43minput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43minput_ids\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mto\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdevice\x1B[49m\x1B[43m)\x1B[49m\n" +
+      "\x1B[1;32m     12\x1B[0m \x1B[43m    \x1B[49m\x1B[43moutput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43mdecoder_input_ids\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mto\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdevice\x1B[49m\x1B[43m)\x1B[49m\n",
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/dataloader.py:631\x1B[0m, in \x1B[0;36m_BaseDataLoaderIter.__next__\x1B[0;34m(self)\x1B[0m\n' +
+      '\x1B[1;32m    628\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_sampler_iter \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[1;32m    629\x1B[0m     \x1B[38;5;66;03m# TODO(https://github.com/pytorch/pytorch/issues/76750)\x1B[39;00m\n' +
+      '\x1B[1;32m    630\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_reset()  \x1B[38;5;66;03m# type: ignore[call-arg]\x1B[39;00m\n' +
+      '\x1B[0;32m--> 631\x1B[0m data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_next_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    632\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_num_yielded \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m \x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[1;32m    633\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_dataset_kind \x1B[38;5;241m==\x1B[39m _DatasetKind\x1B[38;5;241m.\x1B[39mIterable \x1B[38;5;129;01mand\x1B[39;00m \\\n' +
+      '\x1B[1;32m    634\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_IterableDataset_len_called \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;129;01mand\x1B[39;00m \\\n' +
+      '\x1B[1;32m    635\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_num_yielded \x1B[38;5;241m>\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_IterableDataset_len_called:\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/dataloader.py:675\x1B[0m, in \x1B[0;36m_SingleProcessDataLoaderIter._next_data\x1B[0;34m(self)\x1B[0m\n' +
+      '\x1B[1;32m    673\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21m_next_data\x1B[39m(\x1B[38;5;28mself\x1B[39m):\n' +
+      '\x1B[1;32m    674\x1B[0m     index \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_next_index()  \x1B[38;5;66;03m# may raise StopIteration\x1B[39;00m\n' +
+      '\x1B[0;32m--> 675\x1B[0m     data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_dataset_fetcher\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mfetch\x1B[49m\x1B[43m(\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m)\x1B[49m  \x1B[38;5;66;03m# may raise StopIteration\x1B[39;00m\n' +
+      '\x1B[1;32m    676\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_pin_memory:\n' +
+      '\x1B[1;32m    677\x1B[0m         data \x1B[38;5;241m=\x1B[39m _utils\x1B[38;5;241m.\x1B[39mpin_memory\x1B[38;5;241m.\x1B[39mpin_memory(data, \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_pin_memory_device)\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py:51\x1B[0m, in \x1B[0;36m_MapDatasetFetcher.fetch\x1B[0;34m(self, possibly_batched_index)\x1B[0m\n' +
+      '\x1B[1;32m     49\x1B[0m         data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdataset\x1B[38;5;241m.\x1B[39m__getitems__(possibly_batched_index)\n' +
+      '\x1B[1;32m     50\x1B[0m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m---> 51\x1B[0m         data \x1B[38;5;241m=\x1B[39m [\x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mdataset\x1B[49m\x1B[43m[\x1B[49m\x1B[43midx\x1B[49m\x1B[43m]\x1B[49m \x1B[38;5;28;01mfor\x1B[39;00m idx \x1B[38;5;129;01min\x1B[39;00m possibly_batched_index]\n' +
+      '\x1B[1;32m     52\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[1;32m     53\x1B[0m     data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdataset[possibly_batched_index]\n',
+    'Cell \x1B[0;32mIn[16], line 12\x1B[0m, in \x1B[0;36mDatasetForReconstruction.__getitem__\x1B[0;34m(self, index)\x1B[0m\n' +
+      '\x1B[1;32m     10\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21m__getitem__\x1B[39m(\x1B[38;5;28mself\x1B[39m, index):\n' +
+      '\x1B[1;32m     11\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      "\x1B[0;32m---> 12\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124minput_ids\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43minput_ids\x1B[49m[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong),\n" +
+      "\x1B[1;32m     13\x1B[0m         \x1B[38;5;66;03m# 'attention_mask' : torch.tensor(self.attention_mask[index], dtype=torch.long),\x1B[39;00m\n" +
+      "\x1B[1;32m     14\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mdecoder_input_ids\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdecoder_input_ids[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong),\n" +
+      "\x1B[1;32m     15\x1B[0m         \x1B[38;5;66;03m# 'decoder_attention_mask' : torch.tensor(self.decoder_attention_mask[index], dtype=torch.long),\x1B[39;00m\n" +
+      "\x1B[1;32m     16\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mlabels\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mlabels[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong)\n" +
+      '\x1B[1;32m     17\x1B[0m     }\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'DatasetForReconstruction' object has no attribute 'input_ids'"
+  ]
+}
+16:46:11.308 [warn] Cell completed with errors Qd [Error]: 'DatasetForReconstruction' object has no attribute 'input_ids'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'DatasetForReconstruction' object has no attribute 'input_ids'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[37], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[34], line 10\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m      7\x1B[0m totalLoss \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m0\x1B[39m\n' +
+      '\x1B[1;32m      8\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mEpoch \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mepoch\x1B[38;5;241m+\x1B[39m\x1B[38;5;241m1\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m/\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mepochs\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[0;32m---> 10\x1B[0m \x1B[43m\x1B[49m\x1B[38;5;28;43;01mfor\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;129;43;01min\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m:\x1B[49m\n' +
+      '\x1B[1;32m     11\x1B[0m \x1B[43m    \x1B[49m\x1B[38;5;28;43mprint\x1B[39;49m\x1B[43m(\x1B[49m\x1B[38;5;28;43mtype\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43mlen\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mkeys\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m)\x1B[49m\n' +
+      "\x1B[1;32m     12\x1B[0m \x1B[43m    \x1B[49m\x1B[43minput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43minput_ids\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mto\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdevice\x1B[49m\x1B[43m)\x1B[49m\n",
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/dataloader.py:631\x1B[0m, in \x1B[0;36m_BaseDataLoaderIter.__next__\x1B[0;34m(self)\x1B[0m\n' +
+      '\x1B[1;32m    628\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_sampler_iter \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[1;32m    629\x1B[0m     \x1B[38;5;66;03m# TODO(https://github.com/pytorch/pytorch/issues/76750)\x1B[39;00m\n' +
+      '\x1B[1;32m    630\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_reset()  \x1B[38;5;66;03m# type: ignore[call-arg]\x1B[39;00m\n' +
+      '\x1B[0;32m--> 631\x1B[0m data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_next_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    632\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_num_yielded \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m \x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[1;32m    633\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_dataset_kind \x1B[38;5;241m==\x1B[39m _DatasetKind\x1B[38;5;241m.\x1B[39mIterable \x1B[38;5;129;01mand\x1B[39;00m \\\n' +
+      '\x1B[1;32m    634\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_IterableDataset_len_called \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;129;01mand\x1B[39;00m \\\n' +
+      '\x1B[1;32m    635\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_num_yielded \x1B[38;5;241m>\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_IterableDataset_len_called:\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/dataloader.py:675\x1B[0m, in \x1B[0;36m_SingleProcessDataLoaderIter._next_data\x1B[0;34m(self)\x1B[0m\n' +
+      '\x1B[1;32m    673\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21m_next_data\x1B[39m(\x1B[38;5;28mself\x1B[39m):\n' +
+      '\x1B[1;32m    674\x1B[0m     index \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_next_index()  \x1B[38;5;66;03m# may raise StopIteration\x1B[39;00m\n' +
+      '\x1B[0;32m--> 675\x1B[0m     data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_dataset_fetcher\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mfetch\x1B[49m\x1B[43m(\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m)\x1B[49m  \x1B[38;5;66;03m# may raise StopIteration\x1B[39;00m\n' +
+      '\x1B[1;32m    676\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_pin_memory:\n' +
+      '\x1B[1;32m    677\x1B[0m         data \x1B[38;5;241m=\x1B[39m _utils\x1B[38;5;241m.\x1B[39mpin_memory\x1B[38;5;241m.\x1B[39mpin_memory(data, \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_pin_memory_device)\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py:51\x1B[0m, in \x1B[0;36m_MapDatasetFetcher.fetch\x1B[0;34m(self, possibly_batched_index)\x1B[0m\n' +
+      '\x1B[1;32m     49\x1B[0m         data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdataset\x1B[38;5;241m.\x1B[39m__getitems__(possibly_batched_index)\n' +
+      '\x1B[1;32m     50\x1B[0m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m---> 51\x1B[0m         data \x1B[38;5;241m=\x1B[39m [\x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mdataset\x1B[49m\x1B[43m[\x1B[49m\x1B[43midx\x1B[49m\x1B[43m]\x1B[49m \x1B[38;5;28;01mfor\x1B[39;00m idx \x1B[38;5;129;01min\x1B[39;00m possibly_batched_index]\n' +
+      '\x1B[1;32m     52\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[1;32m     53\x1B[0m     data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdataset[possibly_batched_index]\n',
+    'Cell \x1B[0;32mIn[16], line 12\x1B[0m, in \x1B[0;36mDatasetForReconstruction.__getitem__\x1B[0;34m(self, index)\x1B[0m\n' +
+      '\x1B[1;32m     10\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21m__getitem__\x1B[39m(\x1B[38;5;28mself\x1B[39m, index):\n' +
+      '\x1B[1;32m     11\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      "\x1B[0;32m---> 12\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124minput_ids\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43minput_ids\x1B[49m[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong),\n" +
+      "\x1B[1;32m     13\x1B[0m         \x1B[38;5;66;03m# 'attention_mask' : torch.tensor(self.attention_mask[index], dtype=torch.long),\x1B[39;00m\n" +
+      "\x1B[1;32m     14\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mdecoder_input_ids\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdecoder_input_ids[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong),\n" +
+      "\x1B[1;32m     15\x1B[0m         \x1B[38;5;66;03m# 'decoder_attention_mask' : torch.tensor(self.decoder_attention_mask[index], dtype=torch.long),\x1B[39;00m\n" +
+      "\x1B[1;32m     16\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mlabels\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mlabels[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong)\n" +
+      '\x1B[1;32m     17\x1B[0m     }\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'DatasetForReconstruction' object has no attribute 'input_ids'"
+  ]
+}
+16:46:32.195 [warn] Cell completed with errors Qd [Error]: 'DatasetForReconstruction' object has no attribute 'input_ids'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'DatasetForReconstruction' object has no attribute 'input_ids'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[39], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[34], line 10\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m      7\x1B[0m totalLoss \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m0\x1B[39m\n' +
+      '\x1B[1;32m      8\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mEpoch \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mepoch\x1B[38;5;241m+\x1B[39m\x1B[38;5;241m1\x1B[39m\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m/\x1B[39m\x1B[38;5;132;01m{\x1B[39;00mepochs\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m"\x1B[39m)\n' +
+      '\x1B[0;32m---> 10\x1B[0m \x1B[43m\x1B[49m\x1B[38;5;28;43;01mfor\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;129;43;01min\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m:\x1B[49m\n' +
+      '\x1B[1;32m     11\x1B[0m \x1B[43m    \x1B[49m\x1B[38;5;28;43mprint\x1B[39;49m\x1B[43m(\x1B[49m\x1B[38;5;28;43mtype\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43mlen\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m)\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mkeys\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\x1B[43m)\x1B[49m\n' +
+      "\x1B[1;32m     12\x1B[0m \x1B[43m    \x1B[49m\x1B[43minput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mbatch\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[38;5;124;43minput_ids\x1B[39;49m\x1B[38;5;124;43m'\x1B[39;49m\x1B[43m]\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mto\x1B[49m\x1B[43m(\x1B[49m\x1B[43mdevice\x1B[49m\x1B[43m)\x1B[49m\n",
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/dataloader.py:631\x1B[0m, in \x1B[0;36m_BaseDataLoaderIter.__next__\x1B[0;34m(self)\x1B[0m\n' +
+      '\x1B[1;32m    628\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_sampler_iter \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[1;32m    629\x1B[0m     \x1B[38;5;66;03m# TODO(https://github.com/pytorch/pytorch/issues/76750)\x1B[39;00m\n' +
+      '\x1B[1;32m    630\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_reset()  \x1B[38;5;66;03m# type: ignore[call-arg]\x1B[39;00m\n' +
+      '\x1B[0;32m--> 631\x1B[0m data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_next_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    632\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_num_yielded \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m \x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[1;32m    633\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_dataset_kind \x1B[38;5;241m==\x1B[39m _DatasetKind\x1B[38;5;241m.\x1B[39mIterable \x1B[38;5;129;01mand\x1B[39;00m \\\n' +
+      '\x1B[1;32m    634\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_IterableDataset_len_called \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;129;01mand\x1B[39;00m \\\n' +
+      '\x1B[1;32m    635\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_num_yielded \x1B[38;5;241m>\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_IterableDataset_len_called:\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/dataloader.py:675\x1B[0m, in \x1B[0;36m_SingleProcessDataLoaderIter._next_data\x1B[0;34m(self)\x1B[0m\n' +
+      '\x1B[1;32m    673\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21m_next_data\x1B[39m(\x1B[38;5;28mself\x1B[39m):\n' +
+      '\x1B[1;32m    674\x1B[0m     index \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_next_index()  \x1B[38;5;66;03m# may raise StopIteration\x1B[39;00m\n' +
+      '\x1B[0;32m--> 675\x1B[0m     data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_dataset_fetcher\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mfetch\x1B[49m\x1B[43m(\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m)\x1B[49m  \x1B[38;5;66;03m# may raise StopIteration\x1B[39;00m\n' +
+      '\x1B[1;32m    676\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_pin_memory:\n' +
+      '\x1B[1;32m    677\x1B[0m         data \x1B[38;5;241m=\x1B[39m _utils\x1B[38;5;241m.\x1B[39mpin_memory\x1B[38;5;241m.\x1B[39mpin_memory(data, \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_pin_memory_device)\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py:51\x1B[0m, in \x1B[0;36m_MapDatasetFetcher.fetch\x1B[0;34m(self, possibly_batched_index)\x1B[0m\n' +
+      '\x1B[1;32m     49\x1B[0m         data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdataset\x1B[38;5;241m.\x1B[39m__getitems__(possibly_batched_index)\n' +
+      '\x1B[1;32m     50\x1B[0m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m---> 51\x1B[0m         data \x1B[38;5;241m=\x1B[39m [\x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mdataset\x1B[49m\x1B[43m[\x1B[49m\x1B[43midx\x1B[49m\x1B[43m]\x1B[49m \x1B[38;5;28;01mfor\x1B[39;00m idx \x1B[38;5;129;01min\x1B[39;00m possibly_batched_index]\n' +
+      '\x1B[1;32m     52\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[1;32m     53\x1B[0m     data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdataset[possibly_batched_index]\n',
+    'Cell \x1B[0;32mIn[16], line 12\x1B[0m, in \x1B[0;36mDatasetForReconstruction.__getitem__\x1B[0;34m(self, index)\x1B[0m\n' +
+      '\x1B[1;32m     10\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21m__getitem__\x1B[39m(\x1B[38;5;28mself\x1B[39m, index):\n' +
+      '\x1B[1;32m     11\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      "\x1B[0;32m---> 12\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124minput_ids\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43minput_ids\x1B[49m[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong),\n" +
+      "\x1B[1;32m     13\x1B[0m         \x1B[38;5;66;03m# 'attention_mask' : torch.tensor(self.attention_mask[index], dtype=torch.long),\x1B[39;00m\n" +
+      "\x1B[1;32m     14\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mdecoder_input_ids\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdecoder_input_ids[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong),\n" +
+      "\x1B[1;32m     15\x1B[0m         \x1B[38;5;66;03m# 'decoder_attention_mask' : torch.tensor(self.decoder_attention_mask[index], dtype=torch.long),\x1B[39;00m\n" +
+      "\x1B[1;32m     16\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mlabels\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mlabels[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong)\n" +
+      '\x1B[1;32m     17\x1B[0m     }\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'DatasetForReconstruction' object has no attribute 'input_ids'"
+  ]
+}
+16:46:49.879 [warn] Cell completed with errors Qd [Error]: 'DatasetForReconstruction' object has no attribute 'input_ids'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'DatasetForReconstruction' object has no attribute 'input_ids'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[40], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;66;03m## Training.\x1B[39;00m\n' +
+      '\x1B[1;32m      2\x1B[0m dataLoader \x1B[38;5;241m=\x1B[39m DataLoader(dataset, batch_size \x1B[38;5;241m=\x1B[39m \x1B[38;5;241m8\x1B[39m)\n' +
+      '\x1B[0;32m----> 3\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[43m[\x1B[49m\x1B[43mdata\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43;01mfor\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[43mdata\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;129;43;01min\x1B[39;49;00m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m]\x1B[49m)\n' +
+      '\x1B[1;32m      4\x1B[0m model \x1B[38;5;241m=\x1B[39m Model(encoder \x1B[38;5;241m=\x1B[39m encoder, reconstructionDecoder \x1B[38;5;241m=\x1B[39m reconstructionDecoder, qAGenerationDecoder \x1B[38;5;241m=\x1B[39m qAGenerationDecoder)\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/dataloader.py:631\x1B[0m, in \x1B[0;36m_BaseDataLoaderIter.__next__\x1B[0;34m(self)\x1B[0m\n' +
+      '\x1B[1;32m    628\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_sampler_iter \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[1;32m    629\x1B[0m     \x1B[38;5;66;03m# TODO(https://github.com/pytorch/pytorch/issues/76750)\x1B[39;00m\n' +
+      '\x1B[1;32m    630\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_reset()  \x1B[38;5;66;03m# type: ignore[call-arg]\x1B[39;00m\n' +
+      '\x1B[0;32m--> 631\x1B[0m data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_next_data\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    632\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_num_yielded \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m \x1B[38;5;241m1\x1B[39m\n' +
+      '\x1B[1;32m    633\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_dataset_kind \x1B[38;5;241m==\x1B[39m _DatasetKind\x1B[38;5;241m.\x1B[39mIterable \x1B[38;5;129;01mand\x1B[39;00m \\\n' +
+      '\x1B[1;32m    634\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_IterableDataset_len_called \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;129;01mand\x1B[39;00m \\\n' +
+      '\x1B[1;32m    635\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_num_yielded \x1B[38;5;241m>\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_IterableDataset_len_called:\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/dataloader.py:675\x1B[0m, in \x1B[0;36m_SingleProcessDataLoaderIter._next_data\x1B[0;34m(self)\x1B[0m\n' +
+      '\x1B[1;32m    673\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21m_next_data\x1B[39m(\x1B[38;5;28mself\x1B[39m):\n' +
+      '\x1B[1;32m    674\x1B[0m     index \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_next_index()  \x1B[38;5;66;03m# may raise StopIteration\x1B[39;00m\n' +
+      '\x1B[0;32m--> 675\x1B[0m     data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_dataset_fetcher\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mfetch\x1B[49m\x1B[43m(\x1B[49m\x1B[43mindex\x1B[49m\x1B[43m)\x1B[49m  \x1B[38;5;66;03m# may raise StopIteration\x1B[39;00m\n' +
+      '\x1B[1;32m    676\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_pin_memory:\n' +
+      '\x1B[1;32m    677\x1B[0m         data \x1B[38;5;241m=\x1B[39m _utils\x1B[38;5;241m.\x1B[39mpin_memory\x1B[38;5;241m.\x1B[39mpin_memory(data, \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_pin_memory_device)\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py:51\x1B[0m, in \x1B[0;36m_MapDatasetFetcher.fetch\x1B[0;34m(self, possibly_batched_index)\x1B[0m\n' +
+      '\x1B[1;32m     49\x1B[0m         data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdataset\x1B[38;5;241m.\x1B[39m__getitems__(possibly_batched_index)\n' +
+      '\x1B[1;32m     50\x1B[0m     \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m---> 51\x1B[0m         data \x1B[38;5;241m=\x1B[39m [\x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mdataset\x1B[49m\x1B[43m[\x1B[49m\x1B[43midx\x1B[49m\x1B[43m]\x1B[49m \x1B[38;5;28;01mfor\x1B[39;00m idx \x1B[38;5;129;01min\x1B[39;00m possibly_batched_index]\n' +
+      '\x1B[1;32m     52\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[1;32m     53\x1B[0m     data \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdataset[possibly_batched_index]\n',
+    'Cell \x1B[0;32mIn[16], line 12\x1B[0m, in \x1B[0;36mDatasetForReconstruction.__getitem__\x1B[0;34m(self, index)\x1B[0m\n' +
+      '\x1B[1;32m     10\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21m__getitem__\x1B[39m(\x1B[38;5;28mself\x1B[39m, index):\n' +
+      '\x1B[1;32m     11\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      "\x1B[0;32m---> 12\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124minput_ids\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43minput_ids\x1B[49m[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong),\n" +
+      "\x1B[1;32m     13\x1B[0m         \x1B[38;5;66;03m# 'attention_mask' : torch.tensor(self.attention_mask[index], dtype=torch.long),\x1B[39;00m\n" +
+      "\x1B[1;32m     14\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mdecoder_input_ids\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdecoder_input_ids[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong),\n" +
+      "\x1B[1;32m     15\x1B[0m         \x1B[38;5;66;03m# 'decoder_attention_mask' : torch.tensor(self.decoder_attention_mask[index], dtype=torch.long),\x1B[39;00m\n" +
+      "\x1B[1;32m     16\x1B[0m         \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mlabels\x1B[39m\x1B[38;5;124m'\x1B[39m : torch\x1B[38;5;241m.\x1B[39mtensor(\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mlabels[index], dtype\x1B[38;5;241m=\x1B[39mtorch\x1B[38;5;241m.\x1B[39mlong)\n" +
+      '\x1B[1;32m     17\x1B[0m     }\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'DatasetForReconstruction' object has no attribute 'input_ids'"
+  ]
+}
+16:46:49.881 [warn] Cancel all remaining cells due to cancellation or failure in execution
+16:47:52.798 [warn] Cell completed with errors Qd [Error]: 'Model' object has no attribute 'zero_grad'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'Model' object has no attribute 'zero_grad'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[46], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[43], line 16\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      "\x1B[1;32m     13\x1B[0m output_ids \x1B[38;5;241m=\x1B[39m batch[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mdecoder_input_ids\x1B[39m\x1B[38;5;124m'\x1B[39m]\x1B[38;5;241m.\x1B[39mto(device)\n" +
+      "\x1B[1;32m     14\x1B[0m labels \x1B[38;5;241m=\x1B[39m batch[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mlabels\x1B[39m\x1B[38;5;124m'\x1B[39m]\x1B[38;5;241m.\x1B[39mto(device)\n" +
+      '\x1B[0;32m---> 16\x1B[0m \x1B[43mmodel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mzero_grad\x1B[49m()\n' +
+      '\x1B[1;32m     18\x1B[0m encoder_outputs, encoder_hidden \x1B[38;5;241m=\x1B[39m model\x1B[38;5;241m.\x1B[39mencoder(input_ids \x1B[38;5;241m=\x1B[39m input_ids)\n' +
+      '\x1B[1;32m     20\x1B[0m reconstructionLoss \x1B[38;5;241m=\x1B[39m model\x1B[38;5;241m.\x1B[39mreconstructionDecoder(\n' +
+      '\x1B[1;32m     21\x1B[0m     input_ids \x1B[38;5;241m=\x1B[39m output_ids,\n' +
+      '\x1B[1;32m     22\x1B[0m     encoder_hidden \x1B[38;5;241m=\x1B[39m encoder_hidden,\n' +
+      '\x1B[1;32m     23\x1B[0m     encoder_outputs \x1B[38;5;241m=\x1B[39m encoder_outputs\n' +
+      '\x1B[1;32m     24\x1B[0m )\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'Model' object has no attribute 'zero_grad'"
+  ]
+}
+16:48:12.601 [warn] Cell completed with errors Qd [Error]: GPT2Model.forward() got an unexpected keyword argument 'encoder_hidden'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "GPT2Model.forward() got an unexpected keyword argument 'encoder_hidden'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[50], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[47], line 20\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m     16\x1B[0m optimizer\x1B[38;5;241m.\x1B[39mzero_grad()\n' +
+      '\x1B[1;32m     18\x1B[0m encoder_outputs, encoder_hidden \x1B[38;5;241m=\x1B[39m model\x1B[38;5;241m.\x1B[39mencoder(input_ids \x1B[38;5;241m=\x1B[39m input_ids)\n' +
+      '\x1B[0;32m---> 20\x1B[0m reconstructionLoss \x1B[38;5;241m=\x1B[39m \x1B[43mmodel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mreconstructionDecoder\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m     21\x1B[0m \x1B[43m    \x1B[49m\x1B[43minput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43moutput_ids\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m     22\x1B[0m \x1B[43m    \x1B[49m\x1B[43mencoder_hidden\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mencoder_hidden\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m     23\x1B[0m \x1B[43m    \x1B[49m\x1B[43mencoder_outputs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mencoder_outputs\x1B[49m\n' +
+      '\x1B[1;32m     24\x1B[0m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m     26\x1B[0m qnALoss \x1B[38;5;241m=\x1B[39m model\x1B[38;5;241m.\x1B[39mqaGenerationDecoder(\n' +
+      '\x1B[1;32m     27\x1B[0m     input_ids \x1B[38;5;241m=\x1B[39m labels,\n' +
+      '\x1B[1;32m     28\x1B[0m     encoder_hidden \x1B[38;5;241m=\x1B[39m encoder_hidden,\n' +
+      '\x1B[1;32m     29\x1B[0m     encoder_outputs \x1B[38;5;241m=\x1B[39m encoder_outputs\n' +
+      '\x1B[1;32m     30\x1B[0m )\n' +
+      '\x1B[1;32m     32\x1B[0m loss \x1B[38;5;241m=\x1B[39m reconstructionLoss \x1B[38;5;241m+\x1B[39m qnALoss\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    "\x1B[0;31mTypeError\x1B[0m: GPT2Model.forward() got an unexpected keyword argument 'encoder_hidden'"
+  ]
+}
+16:48:41.074 [warn] Cell completed with errors Qd [Error]: GPT2Model.forward() got an unexpected keyword argument 'encoder_outputs'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'TypeError',
+  evalue: "GPT2Model.forward() got an unexpected keyword argument 'encoder_outputs'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[54], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[51], line 20\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m     16\x1B[0m optimizer\x1B[38;5;241m.\x1B[39mzero_grad()\n' +
+      '\x1B[1;32m     18\x1B[0m encoder_outputs, encoder_hidden \x1B[38;5;241m=\x1B[39m model\x1B[38;5;241m.\x1B[39mencoder(input_ids \x1B[38;5;241m=\x1B[39m input_ids)\n' +
+      '\x1B[0;32m---> 20\x1B[0m reconstructionLoss \x1B[38;5;241m=\x1B[39m \x1B[43mmodel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mreconstructionDecoder\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m     21\x1B[0m \x1B[43m    \x1B[49m\x1B[43minput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43moutput_ids\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m     22\x1B[0m \x1B[43m    \x1B[49m\x1B[43mencoder_outputs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mencoder_outputs\x1B[49m\n' +
+      '\x1B[1;32m     23\x1B[0m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m     25\x1B[0m qnALoss \x1B[38;5;241m=\x1B[39m model\x1B[38;5;241m.\x1B[39mqaGenerationDecoder(\n' +
+      '\x1B[1;32m     26\x1B[0m     input_ids \x1B[38;5;241m=\x1B[39m labels,\n' +
+      '\x1B[1;32m     27\x1B[0m     encoder_outputs \x1B[38;5;241m=\x1B[39m encoder_outputs\n' +
+      '\x1B[1;32m     28\x1B[0m )\n' +
+      '\x1B[1;32m     30\x1B[0m loss \x1B[38;5;241m=\x1B[39m reconstructionLoss \x1B[38;5;241m+\x1B[39m qnALoss\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    "\x1B[0;31mTypeError\x1B[0m: GPT2Model.forward() got an unexpected keyword argument 'encoder_outputs'"
+  ]
+}
+16:49:08.538 [warn] Cell completed with errors Qd [Error]: 'str' object has no attribute 'size'
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'AttributeError',
+  evalue: "'str' object has no attribute 'size'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mAttributeError\x1B[0m                            Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[58], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[55], line 20\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m     16\x1B[0m optimizer\x1B[38;5;241m.\x1B[39mzero_grad()\n' +
+      '\x1B[1;32m     18\x1B[0m encoder_outputs, encoder_hidden \x1B[38;5;241m=\x1B[39m model\x1B[38;5;241m.\x1B[39mencoder(input_ids \x1B[38;5;241m=\x1B[39m input_ids)\n' +
+      '\x1B[0;32m---> 20\x1B[0m reconstructionLoss \x1B[38;5;241m=\x1B[39m \x1B[43mmodel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mreconstructionDecoder\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m     21\x1B[0m \x1B[43m    \x1B[49m\x1B[43minput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mencoder_outputs\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m     22\x1B[0m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m     24\x1B[0m \x1B[38;5;66;03m# qnALoss = model.qaGenerationDecoder(\x1B[39;00m\n' +
+      '\x1B[1;32m     25\x1B[0m \x1B[38;5;66;03m#     input_ids = labels,\x1B[39;00m\n' +
+      '\x1B[1;32m     26\x1B[0m \x1B[38;5;66;03m# )\x1B[39;00m\n' +
+      '\x1B[1;32m     28\x1B[0m loss \x1B[38;5;241m=\x1B[39m reconstructionLoss \x1B[38;5;241m+\x1B[39m qnALoss\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:776\x1B[0m, in \x1B[0;36mGPT2Model.forward\x1B[0;34m(self, input_ids, past_key_values, attention_mask, token_type_ids, position_ids, head_mask, inputs_embeds, encoder_hidden_states, encoder_attention_mask, use_cache, output_attentions, output_hidden_states, return_dict)\x1B[0m\n' +
+      '\x1B[1;32m    774\x1B[0m \x1B[38;5;28;01melif\x1B[39;00m input_ids \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[1;32m    775\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mwarn_if_padding_and_no_attention_mask(input_ids, attention_mask)\n' +
+      '\x1B[0;32m--> 776\x1B[0m     input_shape \x1B[38;5;241m=\x1B[39m \x1B[43minput_ids\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43msize\x1B[49m()\n' +
+      '\x1B[1;32m    777\x1B[0m     input_ids \x1B[38;5;241m=\x1B[39m input_ids\x1B[38;5;241m.\x1B[39mview(\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m, input_shape[\x1B[38;5;241m-\x1B[39m\x1B[38;5;241m1\x1B[39m])\n' +
+      '\x1B[1;32m    778\x1B[0m     batch_size \x1B[38;5;241m=\x1B[39m input_ids\x1B[38;5;241m.\x1B[39mshape[\x1B[38;5;241m0\x1B[39m]\n',
+    "\x1B[0;31mAttributeError\x1B[0m: 'str' object has no attribute 'size'"
+  ]
+}
+16:49:56.633 [warn] Cell completed with errors Qd [Error]: CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 5.78 GiB of which 31.81 MiB is free. Including non-PyTorch memory, this process has 5.22 GiB memory in use. Of the allocated memory 4.76 GiB is allocated by PyTorch, and 338.55 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'OutOfMemoryError',
+  evalue: 'CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 5.78 GiB of which 31.81 MiB is free. Including non-PyTorch memory, this process has 5.22 GiB memory in use. Of the allocated memory 4.76 GiB is allocated by PyTorch, and 338.55 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mOutOfMemoryError\x1B[0m                          Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[62], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[59], line 20\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m     16\x1B[0m optimizer\x1B[38;5;241m.\x1B[39mzero_grad()\n' +
+      '\x1B[1;32m     18\x1B[0m encoder_outputs, encoder_hidden \x1B[38;5;241m=\x1B[39m model\x1B[38;5;241m.\x1B[39mencoder(input_ids \x1B[38;5;241m=\x1B[39m input_ids)\n' +
+      '\x1B[0;32m---> 20\x1B[0m reconstructionLoss \x1B[38;5;241m=\x1B[39m \x1B[43mmodel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mreconstructionDecoder\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m     21\x1B[0m \x1B[43m    \x1B[49m\x1B[43minput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43moutput_ids\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m     22\x1B[0m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m     24\x1B[0m \x1B[38;5;66;03m# qnALoss = model.qaGenerationDecoder(\x1B[39;00m\n' +
+      '\x1B[1;32m     25\x1B[0m \x1B[38;5;66;03m#     input_ids = labels,\x1B[39;00m\n' +
+      '\x1B[1;32m     26\x1B[0m \x1B[38;5;66;03m# )\x1B[39;00m\n' +
+      '\x1B[1;32m     28\x1B[0m loss \x1B[38;5;241m=\x1B[39m reconstructionLoss\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:888\x1B[0m, in \x1B[0;36mGPT2Model.forward\x1B[0;34m(self, input_ids, past_key_values, attention_mask, token_type_ids, position_ids, head_mask, inputs_embeds, encoder_hidden_states, encoder_attention_mask, use_cache, output_attentions, output_hidden_states, return_dict)\x1B[0m\n' +
+      '\x1B[1;32m    876\x1B[0m     outputs \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_gradient_checkpointing_func(\n' +
+      '\x1B[1;32m    877\x1B[0m         block\x1B[38;5;241m.\x1B[39m\x1B[38;5;21m__call__\x1B[39m,\n' +
+      '\x1B[1;32m    878\x1B[0m         hidden_states,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m    885\x1B[0m         output_attentions,\n' +
+      '\x1B[1;32m    886\x1B[0m     )\n' +
+      '\x1B[1;32m    887\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 888\x1B[0m     outputs \x1B[38;5;241m=\x1B[39m \x1B[43mblock\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m    889\x1B[0m \x1B[43m        \x1B[49m\x1B[43mhidden_states\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    890\x1B[0m \x1B[43m        \x1B[49m\x1B[43mlayer_past\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mlayer_past\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    891\x1B[0m \x1B[43m        \x1B[49m\x1B[43mattention_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mattention_mask\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    892\x1B[0m \x1B[43m        \x1B[49m\x1B[43mhead_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mhead_mask\x1B[49m\x1B[43m[\x1B[49m\x1B[43mi\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    893\x1B[0m \x1B[43m        \x1B[49m\x1B[43mencoder_hidden_states\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mencoder_hidden_states\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    894\x1B[0m \x1B[43m        \x1B[49m\x1B[43mencoder_attention_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mencoder_attention_mask\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    895\x1B[0m \x1B[43m        \x1B[49m\x1B[43muse_cache\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43muse_cache\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    896\x1B[0m \x1B[43m        \x1B[49m\x1B[43moutput_attentions\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43moutput_attentions\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    897\x1B[0m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    899\x1B[0m hidden_states \x1B[38;5;241m=\x1B[39m outputs[\x1B[38;5;241m0\x1B[39m]\n' +
+      '\x1B[1;32m    900\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m use_cache \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mTrue\x1B[39;00m:\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:427\x1B[0m, in \x1B[0;36mGPT2Block.forward\x1B[0;34m(self, hidden_states, layer_past, attention_mask, head_mask, encoder_hidden_states, encoder_attention_mask, use_cache, output_attentions)\x1B[0m\n' +
+      '\x1B[1;32m    425\x1B[0m residual \x1B[38;5;241m=\x1B[39m hidden_states\n' +
+      '\x1B[1;32m    426\x1B[0m hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mln_2(hidden_states)\n' +
+      '\x1B[0;32m--> 427\x1B[0m feed_forward_hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mmlp\x1B[49m\x1B[43m(\x1B[49m\x1B[43mhidden_states\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    428\x1B[0m \x1B[38;5;66;03m# residual connection\x1B[39;00m\n' +
+      '\x1B[1;32m    429\x1B[0m hidden_states \x1B[38;5;241m=\x1B[39m residual \x1B[38;5;241m+\x1B[39m feed_forward_hidden_states\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:355\x1B[0m, in \x1B[0;36mGPT2MLP.forward\x1B[0;34m(self, hidden_states)\x1B[0m\n' +
+      '\x1B[1;32m    353\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mforward\x1B[39m(\x1B[38;5;28mself\x1B[39m, hidden_states: Optional[Tuple[torch\x1B[38;5;241m.\x1B[39mFloatTensor]]) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m torch\x1B[38;5;241m.\x1B[39mFloatTensor:\n' +
+      '\x1B[1;32m    354\x1B[0m     hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mc_fc(hidden_states)\n' +
+      '\x1B[0;32m--> 355\x1B[0m     hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mact\x1B[49m\x1B[43m(\x1B[49m\x1B[43mhidden_states\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    356\x1B[0m     hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mc_proj(hidden_states)\n' +
+      '\x1B[1;32m    357\x1B[0m     hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdropout(hidden_states)\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/activations.py:56\x1B[0m, in \x1B[0;36mNewGELUActivation.forward\x1B[0;34m(self, input)\x1B[0m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mforward\x1B[39m(\x1B[38;5;28mself\x1B[39m, \x1B[38;5;28minput\x1B[39m: Tensor) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m Tensor:\n' +
+      '\x1B[0;32m---> 56\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;241m0.5\x1B[39m \x1B[38;5;241m*\x1B[39m \x1B[38;5;28minput\x1B[39m \x1B[38;5;241m*\x1B[39m (\x1B[38;5;241m1.0\x1B[39m \x1B[38;5;241m+\x1B[39m torch\x1B[38;5;241m.\x1B[39mtanh(math\x1B[38;5;241m.\x1B[39msqrt(\x1B[38;5;241m2.0\x1B[39m \x1B[38;5;241m/\x1B[39m math\x1B[38;5;241m.\x1B[39mpi) \x1B[38;5;241m*\x1B[39m (\x1B[38;5;28minput\x1B[39m \x1B[38;5;241m+\x1B[39m \x1B[38;5;241;43m0.044715\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mtorch\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mpow\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;28;43minput\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m3.0\x1B[39;49m\x1B[43m)\x1B[49m)))\n',
+    '\x1B[0;31mOutOfMemoryError\x1B[0m: CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 5.78 GiB of which 31.81 MiB is free. Including non-PyTorch memory, this process has 5.22 GiB memory in use. Of the allocated memory 4.76 GiB is allocated by PyTorch, and 338.55 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)'
+  ]
+}
+16:50:06.139 [info] Restart requested ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:06.163 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+16:50:06.200 [info] Process Execution: ~/.pyenv/versions/UnsupervisedQAG/bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-9927v32j4kLUat2Y.json
+    > cwd: ~/Projects/BTP/EncDecApp
+16:50:06.667 [info] Restarted 73908911-5878-4df3-92d2-82c363870193
+16:50:24.233 [warn] Cell completed with errors Qd [Error]: CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 5.78 GiB of which 14.44 MiB is free. Including non-PyTorch memory, this process has 5.19 GiB memory in use. Of the allocated memory 4.73 GiB is allocated by PyTorch, and 336.67 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+    at n.execute (/home/~/.vscode/extensions/ms-toolsai.jupyter-2024.7.0-linux-x64/dist/extension.node.js:297:4958) {
+  ename: 'OutOfMemoryError',
+  evalue: 'CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 5.78 GiB of which 14.44 MiB is free. Including non-PyTorch memory, this process has 5.19 GiB memory in use. Of the allocated memory 4.73 GiB is allocated by PyTorch, and 336.67 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mOutOfMemoryError\x1B[0m                          Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[21], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[43mtrainModel\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodel\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdataLoader\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mepochs\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m10\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mlearningRate\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[38;5;241;43m1e-4\x1B[39;49m\x1B[43m)\x1B[49m\n',
+    'Cell \x1B[0;32mIn[18], line 20\x1B[0m, in \x1B[0;36mtrainModel\x1B[0;34m(model, dataLoader, epochs, learningRate)\x1B[0m\n' +
+      '\x1B[1;32m     16\x1B[0m optimizer\x1B[38;5;241m.\x1B[39mzero_grad()\n' +
+      '\x1B[1;32m     18\x1B[0m encoder_outputs, encoder_hidden \x1B[38;5;241m=\x1B[39m model\x1B[38;5;241m.\x1B[39mencoder(input_ids \x1B[38;5;241m=\x1B[39m input_ids)\n' +
+      '\x1B[0;32m---> 20\x1B[0m reconstructionLoss \x1B[38;5;241m=\x1B[39m \x1B[43mmodel\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mreconstructionDecoder\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m     21\x1B[0m \x1B[43m    \x1B[49m\x1B[43minput_ids\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43m \x1B[49m\x1B[43moutput_ids\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m     22\x1B[0m \x1B[43m\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m     24\x1B[0m \x1B[38;5;66;03m# qnALoss = model.qaGenerationDecoder(\x1B[39;00m\n' +
+      '\x1B[1;32m     25\x1B[0m \x1B[38;5;66;03m#     input_ids = labels,\x1B[39;00m\n' +
+      '\x1B[1;32m     26\x1B[0m \x1B[38;5;66;03m# )\x1B[39;00m\n' +
+      '\x1B[1;32m     28\x1B[0m loss \x1B[38;5;241m=\x1B[39m reconstructionLoss\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:888\x1B[0m, in \x1B[0;36mGPT2Model.forward\x1B[0;34m(self, input_ids, past_key_values, attention_mask, token_type_ids, position_ids, head_mask, inputs_embeds, encoder_hidden_states, encoder_attention_mask, use_cache, output_attentions, output_hidden_states, return_dict)\x1B[0m\n' +
+      '\x1B[1;32m    876\x1B[0m     outputs \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_gradient_checkpointing_func(\n' +
+      '\x1B[1;32m    877\x1B[0m         block\x1B[38;5;241m.\x1B[39m\x1B[38;5;21m__call__\x1B[39m,\n' +
+      '\x1B[1;32m    878\x1B[0m         hidden_states,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m    885\x1B[0m         output_attentions,\n' +
+      '\x1B[1;32m    886\x1B[0m     )\n' +
+      '\x1B[1;32m    887\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m--> 888\x1B[0m     outputs \x1B[38;5;241m=\x1B[39m \x1B[43mblock\x1B[49m\x1B[43m(\x1B[49m\n' +
+      '\x1B[1;32m    889\x1B[0m \x1B[43m        \x1B[49m\x1B[43mhidden_states\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    890\x1B[0m \x1B[43m        \x1B[49m\x1B[43mlayer_past\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mlayer_past\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    891\x1B[0m \x1B[43m        \x1B[49m\x1B[43mattention_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mattention_mask\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    892\x1B[0m \x1B[43m        \x1B[49m\x1B[43mhead_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mhead_mask\x1B[49m\x1B[43m[\x1B[49m\x1B[43mi\x1B[49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    893\x1B[0m \x1B[43m        \x1B[49m\x1B[43mencoder_hidden_states\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mencoder_hidden_states\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    894\x1B[0m \x1B[43m        \x1B[49m\x1B[43mencoder_attention_mask\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mencoder_attention_mask\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    895\x1B[0m \x1B[43m        \x1B[49m\x1B[43muse_cache\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43muse_cache\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    896\x1B[0m \x1B[43m        \x1B[49m\x1B[43moutput_attentions\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43moutput_attentions\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    897\x1B[0m \x1B[43m    \x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    899\x1B[0m hidden_states \x1B[38;5;241m=\x1B[39m outputs[\x1B[38;5;241m0\x1B[39m]\n' +
+      '\x1B[1;32m    900\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m use_cache \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mTrue\x1B[39;00m:\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:427\x1B[0m, in \x1B[0;36mGPT2Block.forward\x1B[0;34m(self, hidden_states, layer_past, attention_mask, head_mask, encoder_hidden_states, encoder_attention_mask, use_cache, output_attentions)\x1B[0m\n' +
+      '\x1B[1;32m    425\x1B[0m residual \x1B[38;5;241m=\x1B[39m hidden_states\n' +
+      '\x1B[1;32m    426\x1B[0m hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mln_2(hidden_states)\n' +
+      '\x1B[0;32m--> 427\x1B[0m feed_forward_hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mmlp\x1B[49m\x1B[43m(\x1B[49m\x1B[43mhidden_states\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    428\x1B[0m \x1B[38;5;66;03m# residual connection\x1B[39;00m\n' +
+      '\x1B[1;32m    429\x1B[0m hidden_states \x1B[38;5;241m=\x1B[39m residual \x1B[38;5;241m+\x1B[39m feed_forward_hidden_states\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:355\x1B[0m, in \x1B[0;36mGPT2MLP.forward\x1B[0;34m(self, hidden_states)\x1B[0m\n' +
+      '\x1B[1;32m    353\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mforward\x1B[39m(\x1B[38;5;28mself\x1B[39m, hidden_states: Optional[Tuple[torch\x1B[38;5;241m.\x1B[39mFloatTensor]]) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m torch\x1B[38;5;241m.\x1B[39mFloatTensor:\n' +
+      '\x1B[1;32m    354\x1B[0m     hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mc_fc(hidden_states)\n' +
+      '\x1B[0;32m--> 355\x1B[0m     hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mact\x1B[49m\x1B[43m(\x1B[49m\x1B[43mhidden_states\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    356\x1B[0m     hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mc_proj(hidden_states)\n' +
+      '\x1B[1;32m    357\x1B[0m     hidden_states \x1B[38;5;241m=\x1B[39m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdropout(hidden_states)\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1511\x1B[0m, in \x1B[0;36mModule._wrapped_call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      '\x1B[1;32m   1509\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_compiled_call_impl(\x1B[38;5;241m*\x1B[39margs, \x1B[38;5;241m*\x1B[39m\x1B[38;5;241m*\x1B[39mkwargs)  \x1B[38;5;66;03m# type: ignore[misc]\x1B[39;00m\n' +
+      '\x1B[1;32m   1510\x1B[0m \x1B[38;5;28;01melse\x1B[39;00m:\n' +
+      '\x1B[0;32m-> 1511\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_call_impl\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/torch/nn/modules/module.py:1520\x1B[0m, in \x1B[0;36mModule._call_impl\x1B[0;34m(self, *args, **kwargs)\x1B[0m\n' +
+      "\x1B[1;32m   1515\x1B[0m \x1B[38;5;66;03m# If we don't have any hooks, we want to skip the rest of the logic in\x1B[39;00m\n" +
+      '\x1B[1;32m   1516\x1B[0m \x1B[38;5;66;03m# this function, and just call forward.\x1B[39;00m\n' +
+      '\x1B[1;32m   1517\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m (\x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_forward_pre_hooks\n' +
+      '\x1B[1;32m   1518\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_backward_pre_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_backward_hooks\n' +
+      '\x1B[1;32m   1519\x1B[0m         \x1B[38;5;129;01mor\x1B[39;00m _global_forward_hooks \x1B[38;5;129;01mor\x1B[39;00m _global_forward_pre_hooks):\n' +
+      '\x1B[0;32m-> 1520\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[43mforward_call\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43margs\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[38;5;241;43m*\x1B[39;49m\x1B[43mkwargs\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1522\x1B[0m \x1B[38;5;28;01mtry\x1B[39;00m:\n' +
+      '\x1B[1;32m   1523\x1B[0m     result \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m\n',
+    'File \x1B[0;32m~/.pyenv/versions/UnsupervisedQAG/lib/python3.12/site-packages/transformers/activations.py:56\x1B[0m, in \x1B[0;36mNewGELUActivation.forward\x1B[0;34m(self, input)\x1B[0m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mforward\x1B[39m(\x1B[38;5;28mself\x1B[39m, \x1B[38;5;28minput\x1B[39m: Tensor) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m Tensor:\n' +
+      '\x1B[0;32m---> 56\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m \x1B[38;5;241m0.5\x1B[39m \x1B[38;5;241m*\x1B[39m \x1B[38;5;28minput\x1B[39m \x1B[38;5;241m*\x1B[39m (\x1B[38;5;241m1.0\x1B[39m \x1B[38;5;241m+\x1B[39m torch\x1B[38;5;241m.\x1B[39mtanh(math\x1B[38;5;241m.\x1B[39msqrt(\x1B[38;5;241m2.0\x1B[39m \x1B[38;5;241m/\x1B[39m math\x1B[38;5;241m.\x1B[39mpi) \x1B[38;5;241m*\x1B[39m (\x1B[38;5;28minput\x1B[39m \x1B[38;5;241m+\x1B[39m \x1B[38;5;241m0.044715\x1B[39m \x1B[38;5;241m*\x1B[39m \x1B[43mtorch\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mpow\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;28;43minput\x1B[39;49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m3.0\x1B[39;49m\x1B[43m)\x1B[49m)))\n',
+    '\x1B[0;31mOutOfMemoryError\x1B[0m: CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 5.78 GiB of which 14.44 MiB is free. Including non-PyTorch memory, this process has 5.19 GiB memory in use. Of the allocated memory 4.73 GiB is allocated by PyTorch, and 336.67 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)'
+  ]
+}
+16:50:44.475 [info] Disposing request as the cell (21) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:44.475 [info] Disposing request as the cell (21) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:44.475 [info] Disposing request as the cell (21) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:44.475 [info] Disposing request as the cell (21) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:44.475 [info] Disposing request as the cell (21) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:44.475 [info] Disposing request as the cell (21) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:44.476 [info] Disposing request as the cell (21) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:44.476 [info] Disposing request as the cell (21) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:44.476 [info] Disposing request as the cell (21) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:44.476 [info] Disposing request as the cell (21) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:44.476 [info] Disposing request as the cell (21) was deleted ~/Projects/BTP/EncDecApp/main.ipynb
+16:50:44.476 [info] Dispose Kernel '~/Projects/BTP/EncDecApp/main.ipynb' associated with '~/Projects/BTP/EncDecApp/main.ipynb'
+16:50:45.351 [info] Dispose Kernel '~/Projects/BTP/EncDecApp/main.ipynb' associated with '~/Projects/BTP/EncDecApp/main.ipynb'

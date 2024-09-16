@@ -1,0 +1,69 @@
+(VSCode) 2024-09-07 12:28:44.130 [INFO]: No proxy settings found
+(VSCode) 2024-09-07 12:28:47.045 [INFO]: Creating manager directory: /tmp/6703d515-c19a-49de-81e4-20a9abe9c61e/codeium/manager
+(VSCode) 2024-09-07 12:28:47.797 [INFO]: Using cached LS with valid crc32: /home/devilunraveled/.vscode/extensions/codeium.codeium-1.14.12/dist/cee2c2c314ffa41c66be177dd11f9f894805e383/language_server_linux_x64
+(VSCode) 2024-09-07 12:28:47.805 [INFO]: Language server started
+2024/09/07 12:28:47 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0907 12:28:47.949335 1792622 main.go:416] [Logging] Initialized the logger
+I0907 12:28:47.949389 1792622 main.go:524] LS MANAGER: Setting GOMAXPROCS to 16
+I0907 12:28:47.949499 1792622 main.go:631] LS MANAGER: Release 1.14.12 (cee2c2c314ffa41c66be177dd11f9f894805e383)
+I0907 12:28:47.949516 1792622 main.go:708] LS MANAGER: Starting language server manager with pid 1792622
+I0907 12:28:47.949592 1792622 main.go:119] LS MANAGER: Manager acquired its lock file /tmp/6703d515-c19a-49de-81e4-20a9abe9c61e/codeium/manager/locks/manager.lock
+I0907 12:28:47.950041 1792622 main.go:258] LS MANAGER: Waiting for random port file in /tmp/6703d515-c19a-49de-81e4-20a9abe9c61e/codeium/manager/child_random_port_1725692327949670155_5394644510598220875 to be created
+2024/09/07 12:28:48 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0907 12:28:48.092712 1792647 main.go:416] [Logging] Initialized the logger
+I0907 12:28:48.092762 1792647 main.go:524] Setting GOMAXPROCS to 4
+I0907 12:28:48.092936 1792647 main.go:702] Starting language server process with pid 1792647
+I0907 12:28:48.092955 1792647 server.go:167] Language server will attempt to listen on host 127.0.0.1
+I0907 12:28:48.093070 1792647 server.go:174] Language server listening on random port at 43485
+I0907 12:28:48.093131 1792647 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0907 12:28:48.093150 1792647 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0907 12:28:48.093172 1792647 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+I0907 12:28:48.897419 1792647 unleash.go:93] Initializing Unleash
+I0907 12:28:49.687493 1792647 unleash.go:113] Successfully initialized Unleash
+E0907 12:28:49.695895 1792647 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+I0907 12:28:49.696167 1792647 server.go:371] Successfully created API server client
+I0907 12:28:49.725188 1792647 server.go:380] Successfully initialized tokenizer
+E0907 12:28:49.725515 1792647 context_module.go:374] unable to get default pinned context guideline: open /home/devilunraveled/.codeium/codeium_settings.yaml: no such file or directory
+I0907 12:28:49.725734 1792647 server.go:493] Local search is enabled, will index local files.
+I0907 12:28:49.725746 1792647 server.go:497] Using 4 indexer workers
+I0907 12:28:49.725780 1792647 sqlite_faiss_db_client.go:70] Using database at /home/devilunraveled/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0907 12:28:49.734895 1792647 sqlite_faiss_db_client.go:84] Successfully created embedding search database in 9ms
+I0907 12:28:49.735091 1792647 indexer.go:215] Using 4 embed workers
+I0907 12:28:49.735125 1792647 search_provider.go:269] Successfully created and started indexer
+I0907 12:28:49.735150 1792647 search_provider.go:299] Successfully created embedding search provider with db client: &{0xc0015dff40 0xc0019029a0}
+I0907 12:28:50.403848 1792647 server.go:572] Successfully created completion provider
+I0907 12:28:50.403891 1792647 server.go:622] Child process attempting to acquire lock file /tmp/6703d515-c19a-49de-81e4-20a9abe9c61e/codeium/manager/locks/child_lock_1725692327949716390_5455913839288365307
+I0907 12:28:50.403939 1792647 server.go:630] Child process acquired lock file /tmp/6703d515-c19a-49de-81e4-20a9abe9c61e/codeium/manager/locks/child_lock_1725692327949716390_5455913839288365307
+I0907 12:28:50.406933 1792647 server.go:194] LSP listening on random port at 41287
+I0907 12:28:50.407758 1792647 web_server.go:240] Chat Web Server listening at ws://127.0.0.1:38365
+41287
+I0907 12:28:50.465168 1792622 main.go:294] LS MANAGER: Language server manager found random server port 43485
+I0907 12:28:50.465205 1792622 main.go:295] LS MANAGER: Language server manager found random lsp port 41287
+I0907 12:28:50.465219 1792622 main.go:302] LS MANAGER: Language server manager attempting to connect to language server at 127.0.0.1:43485
+I0907 12:28:50.485596 1792622 main.go:173] LS MANAGER: Fixing language server port at 43485
+I0907 12:28:50.485617 1792622 main.go:353] LS MANAGER: Language server manager successfully connected to new language server at 127.0.0.1:43485
+(VSCode) 2024-09-07 12:28:50.516 [INFO]: Found language server running on port 43485
+I0907 12:28:58.148043 1792647 rpcs_miscellaneous.go:323] University version is up to date.
+I0907 12:28:58.150145 1792647 rpcs_miscellaneous.go:205] Downloading changelog from https://exafunction.github.io/public/changelog/1.14.md
+I0907 12:28:58.176570 1792647 rpcs_miscellaneous.go:209] No changelog found at https://exafunction.github.io/public/changelog/1.14.md
+(VSCode) 2024-09-07 12:29:41.661 [INFO]: Completion request was cancelled by token (178.28ms)
+(VSCode) 2024-09-07 12:29:43.792 [INFO]: Completion request was cancelled by token (18.47ms)
+(VSCode) 2024-09-07 12:29:43.876 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-09-07 12:29:43.949 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-09-07 12:29:44.493 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-09-07 12:29:44.582 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-09-07 12:29:44.766 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-09-07 12:29:44.870 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-09-07 12:29:44.934 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-09-07 12:29:45.166 [INFO]: Completion request was cancelled by token (64.03ms)
+(VSCode) 2024-09-07 12:29:45.267 [INFO]: Completion request was cancelled by token (54.04ms)
+(VSCode) 2024-09-07 12:29:45.765 [INFO]: Completion request succeeded (447.89ms)
+(VSCode) 2024-09-07 12:29:45.768 [INFO]: Generated 1 completion
+(VSCode) 2024-09-07 12:29:45.769 [INFO]: provideInlineCompletionItems request succeeded (452.31ms)
+(VSCode) 2024-09-07 12:29:46.159 [INFO]: Completion request succeeded (6.05ms)
+(VSCode) 2024-09-07 12:29:46.163 [INFO]: Generated 1 completion
+(VSCode) 2024-09-07 12:29:46.163 [INFO]: provideInlineCompletionItems request succeeded (10.24ms)
+(VSCode) 2024-09-07 12:29:46.328 [INFO]: Skipping completions because autocomplete is open
+(VSCode) 2024-09-07 12:29:47.205 [INFO]: Completion request succeeded (422.99ms)
+(VSCode) 2024-09-07 12:29:47.207 [INFO]: No completions were generated
+(VSCode) 2024-09-07 12:29:47.207 [INFO]: provideInlineCompletionItems request succeeded (425.3ms)

@@ -1,0 +1,30 @@
+2024-09-14 22:22:36.968 [info] (Client) Pylance async client (2024.9.1) started with python extension (2024.14.1)
+2024-09-14 22:22:37.558 [info] [Info  - 22:22:37] (2856222) Server root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.9.1/dist
+2024-09-14 22:22:37.559 [info] [Info  - 22:22:37] (2856222) Pylance language server 2024.9.1 (pyright version 1.1.378, commit ce64adc1) starting
+2024-09-14 22:22:37.566 [info] [Info  - 22:22:37] (2856222) Starting service instance "Assignments"
+2024-09-14 22:22:37.612 [info] [Error - 22:22:37] (2856222) Error reading settings: TypeError: Cannot set properties of undefined (setting 'strictListInference')
+2024-09-14 22:22:37.621 [info] [Info  - 22:22:37] (2856222) Setting environmentName for service "Assignments": "3.12.2 (dip venv)"
+2024-09-14 22:22:37.622 [info] [Info  - 22:22:37] (2856222) Setting pythonPath for service "Assignments": "/home/devilunraveled/.pyenv/versions/3.12.2/envs/dip/bin/python"
+2024-09-14 22:22:37.622 [info] [Info  - 22:22:37] (2856222) No include entries specified; assuming /home/devilunraveled/College/Sem7/IRE/Assignments
+2024-09-14 22:22:37.623 [info] [Info  - 22:22:37] (2856222) Auto-excluding **/node_modules
+2024-09-14 22:22:37.623 [info] [Info  - 22:22:37] (2856222) Auto-excluding **/__pycache__
+2024-09-14 22:22:37.623 [info] [Info  - 22:22:37] (2856222) Auto-excluding **/.*
+2024-09-14 22:22:37.657 [info] [Info  - 22:22:37] (2856222) Assuming Python version 3.12.2.final.0
+2024-09-14 22:22:37.760 [info] [Info  - 22:22:37] (2856222) No source files found.
+2024-09-14 22:22:37.789 [info] [Info  - 22:22:37] (2856222) Starting service instance "Assignments"
+2024-09-14 22:22:37.812 [info] [Info  - 22:22:37] (2856222) Setting environmentName for service "Assignments": "3.12.2 (dip venv)"
+2024-09-14 22:22:37.812 [info] [Info  - 22:22:37] (2856222) Setting pythonPath for service "Assignments": "/home/devilunraveled/College/Sem7/IRE/Assignments"
+2024-09-14 22:22:37.812 [info] [Info  - 22:22:37] (2856222) No include entries specified; assuming /home/devilunraveled/College/Sem7/IRE/Assignments
+2024-09-14 22:22:37.812 [info] [Info  - 22:22:37] (2856222) Auto-excluding **/node_modules
+2024-09-14 22:22:37.812 [info] [Info  - 22:22:37] (2856222) Auto-excluding **/__pycache__
+2024-09-14 22:22:37.813 [info] [Info  - 22:22:37] (2856222) Auto-excluding **/.*
+2024-09-14 22:22:37.850 [info] [Info  - 22:22:37] (2856222) No source files found.
+2024-09-14 22:22:38.172 [info] [Info  - 22:22:38] (2856222) Background analysis(1) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.9.1/dist
+2024-09-14 22:22:38.172 [info] [Info  - 22:22:38] (2856222) Background analysis(1) started
+2024-09-14 22:22:38.388 [info] [Info  - 22:22:38] (2856222) Background analysis(2) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.9.1/dist
+2024-09-14 22:22:38.393 [info] [Info  - 22:22:38] (2856222) Background analysis(2) started
+2024-09-14 22:22:38.455 [info] [Info  - 22:22:38] (2856222) Indexer background runner(3) root directory: file:///home/devilunraveled/.vscode/extensions/ms-python.vscode-pylance-2024.9.1/dist (index)
+2024-09-14 22:22:38.455 [info] [Info  - 22:22:38] (2856222) Indexing(3) started
+2024-09-14 22:22:38.815 [info] [Info  - 22:22:38] (2856222) scanned(3) 1 files over 1 exec env
+2024-09-14 22:22:39.228 [info] [Info  - 22:22:39] (2856222) indexed(3) 1 files over 1 exec env
+2024-09-14 22:22:39.238 [info] [Info  - 22:22:39] (2856222) Indexing finished(3).
